@@ -49,26 +49,26 @@
 | ProCyon | ProCyon: A multimodal foundation model for protein phenotypes | — | 2024 | bioRxiv:2024.12.10.627665 | bioRxiv | 多模态蛋白质基础模型，整合序列、结构和自然语言数据预测蛋白质表型 |
 | ProSST | ProSST: Protein language modeling with quantized structure and disentangled attention | — | 2024 | bioRxiv:2024.04.15.589672 | bioRxiv | 结合氨基酸序列与量化3D结构信息的蛋白质语言模型 |
 | InstructPLM | InstructPLM: Aligning protein language models to follow protein design instructions | — | 2024 | arXiv:2510.03370 | arXiv | 通过指令微调ESM2，在蛋白质设计任务上超越ESM3 |
-| TAPE | Evaluating Protein Transfer Learning with TAPE | Rao et al. | 2019 | doi:10.1101/676825 | NeurIPS | Benchmark suite with semi-supervised protein embedding models (LSTM, Transformer, ResNet) |
-| UniRep | Unified rational protein engineering with sequence-based deep representation learning | Alley et al. | 2019 | doi:10.1038/s41592-019-0598-1 | Nature Methods | RNN-based protein language model for representation learning |
-| MSA Transformer | MSA Transformer | Rao et al. | 2021 | doi:10.1101/2021.02.12.430858 | ICML 2021 | Transformer over multiple sequence alignments for protein modeling |
-| EVE | Disease variant prediction with deep generative models of evolutionary data | Frazer et al. | 2021 | doi:10.1038/s41586-021-04043-8 | Nature | Evolutionary VAE for variant effect prediction |
-| Tranception | Protein fitness prediction with autoregressive transformers and inference-time retrieval | Notin et al. | 2022 | arXiv:2205.13760 | ICML 2022 | Autoregressive LM with retrieval-time alignment context for fitness prediction |
-| RITA | RITA: a Study on Scaling Up Generative Protein Sequence Models | Hesslow et al. | 2022 | arXiv:2205.05789 | Preprint | Scaling study of autoregressive protein generative models (up to 1.2B params) |
-| PEER | PEER: A Comprehensive and Multi-Task Benchmark for Protein Sequence Understanding | Xu et al. | 2022 | NeurIPS 2022 | NeurIPS | Comprehensive benchmark for protein sequence understanding (includes models) |
-| ProtSSN | Semantical and Geometrical Protein Encoding for Zero-Shot Engineering | — | 2024 | eLife 2024 | eLife | Structure+sequence denoising pretraining for zero-shot protein engineering |
-| ProLLaMA | ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing | Lv et al. | 2024 | arXiv:2402.16445 | IEEE 2025 | Multi-task protein LLM based on LLaMA architecture |
-| ProTrek | ProTrek: Navigating the Protein Universe through Tri-Modal Contrastive Learning | Su et al. | 2024 | doi:10.1038/s41587-025-02836-0 | Nature Biotechnology | Tri-modal (sequence, structure, function) protein model via contrastive learning |
-| ProtWord | ProtWord: A Discrete Protein Language Model for Functional Discovery and De Novo Design | — | 2026 | github | Preprint | 150M-param discrete protein LM for functional discovery |
-| ProtLLM | ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training | — | 2024 | arXiv | Preprint | Interleaved protein-language LLM |
-| ProtHyena | Hyena architecture enables fast and efficient protein language modeling | — | 2024 | doi:10.1002/imo2.45 | iMetaOmics | Fast Hyena-based protein LM |
-| DPLM | Diffusion Language Models Are Versatile Protein Learners | Wang et al. | 2024 | arXiv:2402.18567 | ICML 2024 | Diffusion-based language model for protein sequence generation |
-| PTM-Mamba | PTM-Mamba: a PTM-aware protein language model with bidirectional gated Mamba blocks | — | 2025 | doi:10.1038/s41592-025-02656-9 | Nature Methods | State-space model for PTM-aware protein representation |
-| DeepSequence | Deep generative models of genetic variation capture the effects of mutations | Riesselman et al. | 2018 | doi:10.1038/s41592-018-0138-4 | Nature Methods | VAE over aligned protein families for variant effect |
-| PoET | PoET: A generative model of protein families as sequences-of-sequences | Truong et al. | 2024 | arXiv:2306.06156 | NeurIPS 2024 | Sequences-of-sequences family modeling with retrieval |
-| Prot2Text | Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers | — | 2024 | doi:10.1609/aaai.v38i10.28948 | AAAI 2024 | Protein-to-text multimodal function generation |
-| PAIR | Boosting the predictive power of protein representations with a corpus of text annotations | — | 2025 | doi:10.1038/s42256-025-01088-6 | Nature Machine Intelligence | Text annotations to boost protein representations |
-| MULAN | MULAN: Multimodal protein language model for sequence and structure encoding | — | 2024 | doi:10.1093/bioadv/vbaf117 | Bioinformatics Advances | Multimodal sequence-structure protein encoder |
+| TAPE | Evaluating Protein Transfer Learning with TAPE | Rao et al. | 2019 | doi:10.1101/676825 | NeurIPS | 包含半监督蛋白质嵌入模型（LSTM、Transformer、ResNet）的基准套件，用于迁移学习评估。 |
+| UniRep | Unified rational protein engineering with sequence-based deep representation learning | Alley et al. | 2019 | doi:10.1038/s41592-019-0598-1 | Nature Methods | 基于RNN的蛋白质语言模型，用于统一表征学习和理性蛋白质工程。 |
+| MSA Transformer | MSA Transformer | Rao et al. | 2021 | doi:10.1101/2021.02.12.430858 | ICML 2021 | 在多序列比对上运行的Transformer模型，用于改进蛋白质建模。 |
+| EVE | Disease variant prediction with deep generative models of evolutionary data | Frazer et al. | 2021 | doi:10.1038/s41586-021-04043-8 | Nature | 进化变分自编码器，用于从蛋白质家族数据预测致病遗传变异。 |
+| Tranception | Protein fitness prediction with autoregressive transformers and inference-time retrieval | Notin et al. | 2022 | arXiv:2205.13760 | ICML 2022 | 带检索时比对上下文的自回归语言模型，用于蛋白质适应性预测。 |
+| RITA | RITA: a Study on Scaling Up Generative Protein Sequence Models | Hesslow et al. | 2022 | arXiv:2205.05789 | Preprint | 自回归蛋白质生成模型的缩放研究，参数量达12亿。 |
+| PEER | PEER: A Comprehensive and Multi-Task Benchmark for Protein Sequence Understanding | Xu et al. | 2022 | NeurIPS 2022 | NeurIPS | 综合多任务蛋白质序列理解基准，涵盖功能、定位、结构和互作任务。 |
+| ProtSSN | Semantical and Geometrical Protein Encoding for Zero-Shot Engineering | — | 2024 | eLife 2024 | eLife | 结构加序列去噪预训练框架，用于零样本蛋白质工程。 |
+| ProLLaMA | ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing | Lv et al. | 2024 | arXiv:2402.16445 | IEEE 2025 | 基于LLaMA架构的多任务蛋白质大语言模型，用于多种蛋白质语言处理任务。 |
+| ProTrek | ProTrek: Navigating the Protein Universe through Tri-Modal Contrastive Learning | Su et al. | 2024 | doi:10.1038/s41587-025-02836-0 | Nature Biotechnology | 通过对比学习联合建模序列、结构和功能的三模态蛋白质模型。 |
+| ProtWord | ProtWord: A Discrete Protein Language Model for Functional Discovery and De Novo Design | — | 2026 | github | Preprint | 1.5亿参数的离散蛋白质语言模型，将序列翻译为8,192词元词汇表用于功能发现。 |
+| ProtLLM | ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training | — | 2024 | arXiv | Preprint | 具有动态蛋白质挂载机制的交错蛋白质-语言大语言模型。 |
+| ProtHyena | Hyena architecture enables fast and efficient protein language modeling | — | 2024 | doi:10.1002/imo2.45 | iMetaOmics | 基于Hyena隐式卷积的快速蛋白质语言模型，用于高效序列处理。 |
+| DPLM | Diffusion Language Models Are Versatile Protein Learners | Wang et al. | 2024 | arXiv:2402.18567 | ICML 2024 | 基于扩散的语言模型，用于多功能蛋白质序列生成和理解。 |
+| PTM-Mamba | PTM-Mamba: a PTM-aware protein language model with bidirectional gated Mamba blocks | — | 2025 | doi:10.1038/s41592-025-02656-9 | Nature Methods | 具有双向门控Mamba模块的状态空间模型，用于翻译后修饰感知蛋白质表征。 |
+| DeepSequence | Deep generative models of genetic variation capture the effects of mutations | Riesselman et al. | 2018 | doi:10.1038/s41592-018-0138-4 | Nature Methods | 在比对的蛋白质家族上的变分自编码器，用于预测突变效应。 |
+| PoET | PoET: A generative model of protein families as sequences-of-sequences | Truong et al. | 2024 | arXiv:2306.06156 | NeurIPS 2024 | 具有检索功能的序列的序列家族建模框架，用于蛋白质适应性预测。 |
+| Prot2Text | Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers | — | 2024 | doi:10.1609/aaai.v38i10.28948 | AAAI 2024 | 从结构和序列生成蛋白质功能自然语言描述的多模态模型。 |
+| PAIR | Boosting the predictive power of protein representations with a corpus of text annotations | — | 2025 | doi:10.1038/s42256-025-01088-6 | Nature Machine Intelligence | 通过整合文本标注语料库来增强蛋白质表征的方法。 |
+| MULAN | MULAN: Multimodal protein language model for sequence and structure encoding | — | 2024 | doi:10.1093/bioadv/vbaf117 | Bioinformatics Advances | 联合建模序列和结构信息的多模态蛋白质编码器。 |
 | ProteinSage | ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling | — | 2026 | bioRxiv:2026.03.17.712034 | bioRxiv | 新型蛋白质语言模型，将隐式学习与显式结构约束结合，提升效率和表征质量 |
 | OneProt | OneProt: Towards Multi-Modal Protein Foundation Models | — | 2024/2025 | arXiv:2411.04863 | arXiv | 多模态蛋白质基础模型，整合结构、序列、文本和结合位点数据 |
 | ECNet | ECNet: Evolutionary context-integrated neural network for protein engineering | — | 2022 | doi:10.1038/s41467-022-29076-z | Nature Communications | 进化上下文整合的深度学习框架，用于蛋白质工程和适应性预测 |
@@ -112,16 +112,16 @@
 | FoldFlow | FoldFlow: SE(3) stochastic flow matching for protein backbone generation | — | 2024 | arXiv:2310.02391 | ICLR 2024 | 基于随机流匹配的蛋白质骨架生成模型族 |
 | ProteinGenerator (PG) | Multistate and functional protein design using RoseTTAFold | Sidney Lyayber | 2024 | 10.1038/s41587-024-02395-w | Nature Biotechnology | 基于RoseTTAFold的扩散模型，同时生成蛋白质序列和结构 |
 | SeedProteo | SeedProteo: All-atom protein design | — | 2024 | arXiv:2512.24192 | arXiv | 基于扩散的全原子蛋白质设计模型，整合结构和序列信息 |
-| ESM-IF (ESM-IF1) | Language models generalize beyond natural proteins | Hsu et al. | 2022 | doi:10.1101/2022.12.21.521521 | bioRxiv | Inverse folding model conditioned on backbone structures |
-| EvoDiff | Protein generation with evolutionary diffusion | Alamdari et al. | 2023 | doi:10.1101/2023.09.11.556673 | bioRxiv/Nature Biotechnology | Sequence-based diffusion model for protein generation using evolutionary data |
-| ZymCTRL | ZymCTRL: a conditional language model for the generation of artificial enzymes | Munsamy et al. | 2022 | doi:10.1101/2024.05.03.592223 | bioRxiv | Conditional enzyme language model trained on 37M BRENDA enzyme sequences |
-| PiFold | PiFold: Toward effective and efficient protein inverse folding | Gao et al. | 2023 | doi:10.48550/arXiv.2209.12643 | ICLR 2023 | Efficient inverse folding model with novel PiGNN architecture |
-| LM-Design | Structure-informed language models are protein designers | Zheng et al. | 2023 | doi:10.1101/2023.02.03.526917 | ICML 2023 | Structure-informed language model for protein design |
-| ProteinDT | A text-guided protein design framework | Liu et al. | 2025 | doi:10.1038/s42256-025-01011-z | Nature Machine Intelligence | Text-guided protein generation using multimodal learning |
-| Protpardelle | An all-atom protein generative model | Chu et al. | 2024 | doi:10.1073/pnas.2311500121 | PNAS | All-atom generative protein modeling |
-| Multiflow | Generative Flows on Discrete State-Spaces for Protein Co-Design | Campbell et al. | 2024 | arXiv:2402.04997 | ICML 2024 | Discrete flow matching for sequence-structure co-design |
-| La-Proteina | La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching | — | 2025 | arXiv:2507.09466 | Preprint | Atomistic protein generation via latent flow matching |
-| EvoFlows | Evolutionary Edit-Based Flow-Matching for Protein Engineering | — | 2026 | arXiv:2603.11703 | Preprint | Evolutionary edit-based flow matching for protein engineering |
+| ESM-IF (ESM-IF1) | Language models generalize beyond natural proteins | Hsu et al. | 2022 | doi:10.1101/2022.12.21.521521 | bioRxiv | 基于骨架结构条件化的逆折叠模型，用于生成蛋白质序列。 |
+| EvoDiff | Protein generation with evolutionary diffusion | Alamdari et al. | 2023 | doi:10.1101/2023.09.11.556673 | bioRxiv/Nature Biotechnology | 利用进化数据的基于序列的扩散模型，用于蛋白质生成。 |
+| ZymCTRL | ZymCTRL: a conditional language model for the generation of artificial enzymes | Munsamy et al. | 2022 | doi:10.1101/2024.05.03.592223 | bioRxiv | 在3700万BRENDA酶序列上训练的条件酶语言模型。 |
+| PiFold | PiFold: Toward effective and efficient protein inverse folding | Gao et al. | 2023 | doi:10.48550/arXiv.2209.12643 | ICLR 2023 | 具有新型PiGNN架构的高效逆折叠模型。 |
+| LM-Design | Structure-informed language models are protein designers | Zheng et al. | 2023 | doi:10.1101/2023.02.03.526917 | ICML 2023 | 结合蛋白质语言模型和结构上下文的结构信息引导蛋白质设计语言模型。 |
+| ProteinDT | A text-guided protein design framework | Liu et al. | 2025 | doi:10.1038/s42256-025-01011-z | Nature Machine Intelligence | 使用多模态学习的文本引导蛋白质生成框架。 |
+| Protpardelle | An all-atom protein generative model | Chu et al. | 2024 | doi:10.1073/pnas.2311500121 | PNAS | 全原子生成模型，用于生成包含侧链的完整蛋白质结构。 |
+| Multiflow | Generative Flows on Discrete State-Spaces for Protein Co-Design | Campbell et al. | 2024 | arXiv:2402.04997 | ICML 2024 | 离散流匹配框架，用于序列-结构联合蛋白质协同设计。 |
+| La-Proteina | La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching | — | 2025 | arXiv:2507.09466 | Preprint | 通过部分潜在流匹配的原子级蛋白质生成方法。 |
+| EvoFlows | Evolutionary Edit-Based Flow-Matching for Protein Engineering | — | 2026 | arXiv:2603.11703 | Preprint | 基于进化编辑的流匹配方法，用于定向蛋白质工程。 |
 | Fold2Seq | Fold2Seq: A joint sequence(1D)-fold(3D) embedding-based generative model for protein design | — | 2021 | arXiv:2106.13058 | ICML 2021 | 联合序列-折叠嵌入的蛋白质设计生成模型，从3D结构和1D序列联合学习 |
 | TERMinator | TERMinator: A neural framework for structure-based protein design using tertiary repeating motifs | — | 2022 | doi:10.1038/s41467-022-37051-7 | Nature Communications | 基于三级重复基序的蛋白质设计神经网络框架 |
 | AlphaDesign | AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB | — | 2022 | arXiv:2202.01079 | arXiv | 基于AlphaFoldDB的图蛋白质设计方法和基准测试 |
@@ -192,10 +192,10 @@
 | MP-RNA | MP-RNA: Unleashing multi-species RNA foundation model via calibrated secondary structure prediction | — | 2024 | ACL Anthology | EMNLP 2024 Findings | 多物种RNA基础模型，强调二级结构预测在RNA建模中的重要性 |
 | OmniGenome | Bridging sequence-structure alignment in RNA foundation models | — | 2024 | arXiv:2407.11242 | arXiv | 将RNA序列与二级结构精确对齐的RNA基础模型 |
 | structRFM | A fully open structure-guided RNA foundation model for robust structural and functional inference | — | 2025 | — | Preprint | 完全开源的结构引导RNA基础模型，用于结构和功能推断 |
-| SpliceBERT | SpliceBERT: a pre-trained RNA language model for analyzing vertebrate splicing | Chen et al. | 2024 | doi:10.1101/2023.01.31.526427 | Genome Biology | Pre-trained RNA language model for splicing analysis in vertebrates |
-| PlantRNA-FM | An interpretable RNA foundation model for exploring functional RNA motifs in plants | Yang et al. | 2024 | doi:10.1038/s42256-024-00946-z | Nature Machine Intelligence | Interpretable RNA FM for plant biology, 1,124+ plant species |
-| RNAscope | RNAscope: A comprehensive benchmarking framework for RNA pre-trained language models | — | 2025 | OpenReview | NeurIPS 2025 Workshop | Benchmarking framework evaluating RNA pLMs across 1,253 experiments |
-| AllSplice | Perturbation-aware predictive modeling of RNA splicing using bidirectional transformers | McNally et al. | 2024 | doi:10.1101/2024.03.20.585793 | bioRxiv | Perturbation-aware transformer for RNA splicing prediction |
+| SpliceBERT | SpliceBERT: a pre-trained RNA language model for analyzing vertebrate splicing | Chen et al. | 2024 | doi:10.1101/2023.01.31.526427 | Genome Biology | 专门用于脊椎动物剪接分析的预训练RNA语言模型。 |
+| PlantRNA-FM | An interpretable RNA foundation model for exploring functional RNA motifs in plants | Yang et al. | 2024 | doi:10.1038/s42256-024-00946-z | Nature Machine Intelligence | 用于植物生物学的可解释RNA基础模型，覆盖1,124+种植物。 |
+| RNAscope | RNAscope: A comprehensive benchmarking framework for RNA pre-trained language models | — | 2025 | OpenReview | NeurIPS 2025 Workshop | 跨1,253个实验评估RNA预训练语言模型的综合基准框架。 |
+| AllSplice | Perturbation-aware predictive modeling of RNA splicing using bidirectional transformers | McNally et al. | 2024 | doi:10.1101/2024.03.20.585793 | bioRxiv | 扰动感知双向Transformer，用于RNA剪接预测。 |
 | HydraRNA | HydraRNA: A hybrid architecture based full-length RNA language model | — | 2025 | doi:10.1186/s13059-025-03853-7 | Genome Biology | 混合架构全长RNA语言模型，结合多种架构优势处理全长RNA序列 |
 | EVA-RNA | EVA-RNA: A Scaling Cross-Species Transcriptomic Foundation Model for Immunology & Inflammation | — | 2026 | OpenReview:VcOvSJNgRf | OpenReview | 跨物种转录组基础模型，训练于50万+人鼠样本，专注免疫与炎症研究 |
 | GRNFormer | GRNFormer: A Biologically-Guided Framework for Integrating Gene Regulatory Networks into RNA Foundation Models | — | 2025 | arXiv:2503.01682 | arXiv | 将基因调控网络整合到RNA基础模型的生物学引导框架 |
@@ -209,9 +209,9 @@
 |---------|---------|---------|------|-----------|----------|------|
 | RhoFold+ | Accurate RNA 3D structure prediction using a language model-based deep learning approach | Tao Shen | 2024 | 10.1038/s41592-024-02487-0 | Nature Methods | 基于预训练RNA语言模型的RNA 3D结构预测，在2370万序列上训练 |
 | RhoFold | RhoFold: Fast and accurate RNA 3D structure prediction | — | 2023 | — | CUHK | 基于深度学习的RNA 3D结构预测模型 |
-| RNA-FrameFlow | Flow Matching for de novo 3D RNA Backbone Design | — | 2024 | arXiv:2406.13839 | Preprint | SE(3) flow matching for de novo 3D RNA backbone structure generation |
-| DRfold2 | Ab initio RNA structure prediction with composite language model | Zhang et al. | 2025 | doi:10.1101/2025.03.05.641632 | bioRxiv | Deep learning framework for ab initio RNA 3D structure with composite language model |
-| 3DRNALM | Accurate RNA 3D structure prediction using a language model-based framework | — | 2024 | PMC11621015 | Nature Communications | Language model-based framework for accurate RNA 3D structure prediction |
+| RNA-FrameFlow | Flow Matching for de novo 3D RNA Backbone Design | — | 2024 | arXiv:2406.13839 | Preprint | SE(3)流匹配方法，用于从头设计3D RNA骨架结构。 |
+| DRfold2 | Ab initio RNA structure prediction with composite language model | Zhang et al. | 2025 | doi:10.1101/2025.03.05.641632 | bioRxiv | 使用复合语言模型的从头RNA 3D结构预测深度学习框架。 |
+| 3DRNALM | Accurate RNA 3D structure prediction using a language model-based framework | — | 2024 | PMC11621015 | Nature Communications | 基于语言模型的准确RNA 3D结构预测框架。 |
 | NuFold | NuFold: end-to-end approach for RNA tertiary structure prediction | Daisuke Kihara | 2025 | doi:10.1038/s41467-025-56261-7 | Nature Communications | 端到端RNA三级结构预测深度学习模型 |
 
 ### RNA设计与生成
@@ -255,20 +255,20 @@
 | PlantCaduceus | Cross-species modeling of plant genomes at single-nucleotide resolution using a pretrained DNA language model | — | 2025 | 10.1073/pnas.2421738122 | PNAS | 植物特异性DNA语言模型，在16种被子植物基因组上训练，支持跨物种分析 |
 | HybriDNA | HybriDNA: A hybrid Transformer-Mamba2 DNA language model | — | 2025 | arXiv:2502.10807 | arXiv | 结合Transformer和Mamba2架构的DNA语言模型，支持超长序列(131kb)单核苷酸分辨率 |
 | Nucleotide Transformer v3 (NTv3) | A foundational model for joint sequence-function multi-species prediction | — | 2025 | bioRxiv | bioRxiv | 多物种长程基因组预测与功能注释基础模型 |
-| Basenji | Sequential regulatory activity prediction across chromosomes with convolutional neural networks | Kelley et al. | 2018 | doi:10.1101/gr.227819.117 | Genome Research | CNN for predicting gene expression from DNA sequence |
-| Basenji2 | Cross-species regulatory sequence activity prediction | Kelley | 2020 | doi:10.1371/journal.pcbi.1008050 | PLoS Computational Biology | Cross-species DNA regulatory activity prediction model |
-| ChromBPNet | ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility | Pampari et al. | 2025 | doi:10.1101/2024.12.25.630221 | bioRxiv | Base-resolution DL model for chromatin accessibility prediction |
-| scBasset | scBasset: Sequence-based modeling of single-cell ATAC-seq using convolutional neural networks | Yuan et al. | 2022 | doi:10.1038/s41592-022-01562-8 | Nature Methods | CNN for modeling single-cell ATAC-seq from DNA sequence |
-| EpiGePT | EpiGePT: a Pretrained Transformer model for epigenomics | Gao et al. | 2023 | doi:10.1101/2023.07.15.549134 | bioRxiv | Pretrained transformer for epigenomics data |
-| AgroNT | AgroNT: A crop genomics foundation model | Mendoza-Revilla et al. | 2024 | doi:10.1038/s41586-024-07969-x | Nature | Crop-specific genomic foundation model for plant genomics |
-| AlphaGenome | Advancing regulatory variant effect prediction with AlphaGenome | Google DeepMind | 2026 | doi:10.1038/s41586-025-10014-0 | Nature | Megabase-scale DNA model predicting gene expression and chromatin signals |
-| GENA-LM | GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences | — | 2023 | doi:10.1101/2023.06.12.544594 | bioRxiv/Bioinformatics | Open-source transformer DNA LMs supporting up to 36k bp |
-| DNAGPT | DNAGPT: A Generalized Pre-trained Tool for Multiple DNA Sequence Analysis Tasks | — | 2023 | doi:10.1101/2023.07.11.548628 | bioRxiv/PLoS ONE | Generative pre-trained model for multiple DNA analysis tasks |
-| MoDNA | MoDNA: Motif-Oriented Pre-training For DNA Language Model | — | 2022 | doi:10.1145/3535508.3545512 | ACM BCB | Motif-oriented pre-training for DNA language modeling |
-| GPN-MSA | GPN-MSA: An alignment-based DNA language model for genome-wide variant effect prediction | Benegas et al. | 2023 | doi:10.1038/s41587-024-02511-w | Nature Biotechnology | DNA LM using multi-species alignment for variant effect prediction |
-| MergeDNA | MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token Merging | — | 2025 | AAAI 2025 | AAAI | Hierarchical dynamic tokenization for genome modeling |
-| BMFM-DNA | BMFM-DNA: A SNP-aware DNA foundation model to capture variant effects | — | 2025 | arXiv:2507.05265 | Preprint | SNP-aware DNA foundation model for variant effects |
-| EpiAgent | EpiAgent: foundation model for single-cell epigenomics | — | 2025 | doi:10.1038/s41592-025-02822-z | Nature Methods | Foundation model for scATAC-seq data analysis |
+| Basenji | Sequential regulatory activity prediction across chromosomes with convolutional neural networks | Kelley et al. | 2018 | doi:10.1101/gr.227819.117 | Genome Research | 从DNA序列预测基因表达和调控活性的卷积神经网络。 |
+| Basenji2 | Cross-species regulatory sequence activity prediction | Kelley | 2020 | doi:10.1371/journal.pcbi.1008050 | PLoS Computational Biology | 跨物种DNA调控活性预测模型。 |
+| ChromBPNet | ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility | Pampari et al. | 2025 | doi:10.1101/2024.12.25.630221 | bioRxiv | 具有偏差分解的碱基分辨率染色质可及性预测深度学习模型。 |
+| scBasset | scBasset: Sequence-based modeling of single-cell ATAC-seq using convolutional neural networks | Yuan et al. | 2022 | doi:10.1038/s41592-022-01562-8 | Nature Methods | 从DNA序列建模单细胞ATAC-seq染色质可及性的卷积神经网络。 |
+| EpiGePT | EpiGePT: a Pretrained Transformer model for epigenomics | Gao et al. | 2023 | doi:10.1101/2023.07.15.549134 | bioRxiv | 用于表观基因组数据分析和预测的预训练Transformer模型。 |
+| AgroNT | AgroNT: A crop genomics foundation model | Mendoza-Revilla et al. | 2024 | doi:10.1038/s41586-024-07969-x | Nature | 专用于植物基因组学和育种应用的作物基因组基础模型。 |
+| AlphaGenome | Advancing regulatory variant effect prediction with AlphaGenome | Google DeepMind | 2026 | doi:10.1038/s41586-025-10014-0 | Nature | Google DeepMind的兆碱基级DNA模型，预测基因表达和染色质信号用于变异效应分析。 |
+| GENA-LM | GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences | — | 2023 | doi:10.1101/2023.06.12.544594 | bioRxiv/Bioinformatics | 支持最长36k bp序列的开源Transformer DNA语言模型家族。 |
+| DNAGPT | DNAGPT: A Generalized Pre-trained Tool for Multiple DNA Sequence Analysis Tasks | — | 2023 | doi:10.1101/2023.07.11.548628 | bioRxiv/PLoS ONE | 用于多种DNA分析任务的生成式预训练模型。 |
+| MoDNA | MoDNA: Motif-Oriented Pre-training For DNA Language Model | — | 2022 | doi:10.1145/3535508.3545512 | ACM BCB | 面向基序的预训练DNA语言模型，捕获调控基序模式。 |
+| GPN-MSA | GPN-MSA: An alignment-based DNA language model for genome-wide variant effect prediction | Benegas et al. | 2023 | doi:10.1038/s41587-024-02511-w | Nature Biotechnology | 使用多物种比对的DNA语言模型，用于全基因组变异效应预测。 |
+| MergeDNA | MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token Merging | — | 2025 | AAAI 2025 | AAAI | 分层动态词元化方法，用于上下文感知基因组建模。 |
+| BMFM-DNA | BMFM-DNA: A SNP-aware DNA foundation model to capture variant effects | — | 2025 | arXiv:2507.05265 | Preprint | IBM的SNP感知DNA基础模型，用于捕获基因组序列中的变异效应。 |
+| EpiAgent | EpiAgent: foundation model for single-cell epigenomics | — | 2025 | doi:10.1038/s41592-025-02822-z | Nature Methods | 用于单细胞ATAC-seq表观基因组数据分析的基础模型。 |
 | Gene42 | Gene42: Long-Range Genomic Foundation Model With Dense Attention | — | 2026 | arXiv:2503.16565 | arXiv | 长程基因组基础模型，decoder-only架构，处理高达192,000碱基对的单核苷酸分辨率DNA序列 |
 | dnaHNet | dnaHNet: A Scalable and Hierarchical Foundation Model for Genomic Sequence Learning | — | 2026 | arXiv:2602.10603 | arXiv | 可扩展层次化基因组序列学习基础模型 |
 | JEPA-DNA | JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures | — | 2026 | arXiv:2602.17162 | arXiv | 基于联合嵌入预测架构(JEPA)的基因组基础模型，结合生成和判别目标 |
@@ -309,34 +309,34 @@
 | LangCell | LangCell: Language-cell pre-training for cell identity understanding | Suyuan Zhao | 2024 | arXiv:2405.06708 | arXiv | 自然语言与单细胞转录组联合预训练，增强细胞身份理解 |
 | CellVQ | Illuminating cell states by a comprehensive and interpretable single cell foundation model | — | 2026 | 10.1038/s41467-026-70071-5 | Nature Communications | 综合可解释单细胞基础模型，在6800万细胞上训练 |
 | scKGBERT | scKGBERT: A knowledge-enhanced foundation model for single-cell transcriptomics | — | 2025 | — | PMC | 知识图谱增强的单细胞转录组基础模型 |
-| SATURN | Toward universal cell embeddings: integrating scRNA-seq datasets across species | Rosen et al. | 2024 | doi:10.1038/s41592-024-02191-z | Nature Methods | Cross-species universal cell embedding framework |
-| scTab | scTab: Scaling cross-tissue single-cell annotation models | Theis et al. | 2024 | doi:10.1038/s41467-024-51059-5 | Nature Communications | Scalable deep learning model for cross-tissue cell type annotation (22M cells) |
-| scPRINT | scPRINT: pre-training on 50 million cells allows robust gene network predictions | Kalfon et al. | 2025 | doi:10.1038/s41467-025-58699-1 | Nature Communications | Transformer FM trained on 50M cells for gene network inference |
-| scPRINT-2 | scPRINT-2: Towards the next-generation of cell foundation models | Kalfon et al. | 2025 | doi:10.64898/2025.12.11.693702 | bioRxiv | Next-gen cell FM trained on 350M cells across 16 organisms |
-| scELMo | scELMo: Embeddings from Language Models are Good Learners for Single-cell Data Analysis | — | 2023 | doi:10.1101/2023.12.07.569910 | bioRxiv | Language model embeddings for single-cell analysis |
-| scVI | scVI: Variational Inference for Single-Cell Gene Expression | Lopez et al. | 2018 | doi:10.1038/s41592-018-0229-2 | Nature Methods | Deep generative model for single-cell transcriptomics |
-| scANVI | scANVI: semi-supervised integration of single-cell multi-omic data | Xu et al. | 2021 | doi:10.15252/msb.20209620 | Molecular Systems Biology | Semi-supervised deep generative model for single-cell multi-omic integration |
-| totalVI | Joint probabilistic modeling of single-cell multi-omic data with totalVI | Gayoso et al. | 2021 | doi:10.1038/s41592-020-01050-x | Nature Methods | Joint probabilistic model for RNA+protein single-cell data |
-| CellTypist | Cross-tissue immune cell analysis reveals tissue-specific features in humans | Dominguez Conde et al. | 2022 | doi:10.1126/science.abl5197 | Science | Automated cell type annotation tool with large reference atlas |
-| scPoli | Population-level integration of single-cell datasets enables multi-scale analysis | De Donno et al. | 2023 | doi:10.1038/s41592-023-02035-2 | Nature Methods | Population-level single-cell dataset integration |
-| scHyena | scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain | — | 2023 | arXiv:2310.02713 | Preprint | Hyena-based foundation model for full-length scRNA-seq |
-| TOSICA | TOSICA: Transfer of Omics Single-Cell Analysis | — | 2023 | Nature Communications | Nature Communications | Transfer learning for single-cell omics analysis |
-| xTrimoGene | xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data | — | 2023 | OpenReview | NeurIPS 2023 | Efficient representation learner for scRNA-seq |
-| CancerFoundation | A single-cell RNA sequencing foundation model to decipher drug resistance in cancer | — | 2024 | doi:10.1101/2024.11.01.621087 | bioRxiv | Cancer-specific scRNA-seq FM for drug resistance analysis |
-| Cell-GraphCompass | Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model | — | 2024 | doi:10.1093/nsr/nwaf255 | National Science Review | Graph-structure FM for single cells |
-| scLong | scLong: A billion-parameter foundation model for capturing long-range gene context | — | 2026 | doi:10.1038/s41467-026-69102-y | Nature Communications | 1B-param FM attending to all 28k genes simultaneously |
-| Tahoe-x1 | Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters | — | 2025 | doi:10.1101/2025.10.23.683759 | bioRxiv | 3B-param perturbation-trained single-cell FM |
-| PULSAR | PULSAR: a Foundation Model for Multi-scale and Multicellular Biology | — | 2025 | doi:10.1101/2025.11.24.685470 | bioRxiv | Multi-scale FM integrating 36M+ cells for multicellular biology |
-| TranscriptFormer | A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution | — | 2025 | doi:10.1101/2025.04.25.650731 | bioRxiv | Cross-species generative cell atlas foundation model |
-| TCRfoundation | TCRfoundation: A multimodal foundation model for single-cell immune profiling | Liao et al. | 2025 | github | bioRxiv | Multimodal FM integrating gene expression with TCR sequences |
-| CELLama | CELLama: Foundation Model for Single Cell and Spatial Transcriptomics | — | 2024 | doi:10.1101/2024.05.08.593094 | bioRxiv | Cell embedding model leveraging language model abilities |
-| scPROTEIN | scPROTEIN: versatile deep graph contrastive learning framework for single-cell proteomics | — | 2024 | doi:10.1038/s41592-024-02214-9 | Nature Methods | Graph contrastive learning for single-cell proteomics embedding |
-| TEDDY | TEDDY: A Family of Foundation Models for Understanding Single Cell Biology | — | 2025 | arXiv:2503.03485 | ICML Workshop | Family of FMs for single-cell biology |
-| Tabula | Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics | — | 2025 | NeurIPS 2025 | NeurIPS | Tabular self-supervised FM for single-cell |
-| ChromFound | ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data | — | 2025 | arXiv:2505.12638 | NeurIPS 2025 | FM for single-cell chromatin accessibility (scATAC-seq) |
-| EpiFoundation | EpiFoundation: A Foundation Model for Single-Cell ATAC-seq via Peak-to-Gene Alignment | — | 2025 | doi:10.1101/2025.02.05.636688 | bioRxiv | FM for scATAC-seq using peak-to-gene alignment |
-| SCARF | SCARF: Single Cell ATAC-seq and RNA-seq Foundation model | — | 2025 | doi:10.1101/2025.04.07.647689 | bioRxiv | Multi-modal FM for scATAC-seq + scRNA-seq |
-| CAPTAIN | CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein | — | 2025 | doi:10.1101/2025.07.07.663366 | bioRxiv | Multimodal FM for co-assayed scRNA and protein data |
+| SATURN | Toward universal cell embeddings: integrating scRNA-seq datasets across species | Rosen et al. | 2024 | doi:10.1038/s41592-024-02191-z | Nature Methods | 跨物种通用细胞嵌入框架，整合不同物种的scRNA-seq数据。 |
+| scTab | scTab: Scaling cross-tissue single-cell annotation models | Theis et al. | 2024 | doi:10.1038/s41467-024-51059-5 | Nature Communications | 可扩展的跨组织细胞类型注释深度学习模型，训练于2200万细胞。 |
+| scPRINT | scPRINT: pre-training on 50 million cells allows robust gene network predictions | Kalfon et al. | 2025 | doi:10.1038/s41467-025-58699-1 | Nature Communications | 训练于5000万细胞的Transformer基础模型，用于鲁棒基因网络推断。 |
+| scPRINT-2 | scPRINT-2: Towards the next-generation of cell foundation models | Kalfon et al. | 2025 | doi:10.64898/2025.12.11.693702 | bioRxiv | 下一代细胞基础模型，训练于16个物种的3.5亿细胞。 |
+| scELMo | scELMo: Embeddings from Language Models are Good Learners for Single-cell Data Analysis | — | 2023 | doi:10.1101/2023.12.07.569910 | bioRxiv | 将语言模型嵌入应用于单细胞数据分析。 |
+| scVI | scVI: Variational Inference for Single-Cell Gene Expression | Lopez et al. | 2018 | doi:10.1038/s41592-018-0229-2 | Nature Methods | 为单细胞转录组分析提供概率框架的深度生成模型。 |
+| scANVI | scANVI: semi-supervised integration of single-cell multi-omic data | Xu et al. | 2021 | doi:10.15252/msb.20209620 | Molecular Systems Biology | 用于整合单细胞多组学数据的半监督深度生成模型。 |
+| totalVI | Joint probabilistic modeling of single-cell multi-omic data with totalVI | Gayoso et al. | 2021 | doi:10.1038/s41592-020-01050-x | Nature Methods | 用于同时分析RNA和蛋白质单细胞数据的联合概率模型。 |
+| CellTypist | Cross-tissue immune cell analysis reveals tissue-specific features in humans | Dominguez Conde et al. | 2022 | doi:10.1126/science.abl5197 | Science | 带有大规模跨组织免疫细胞参考图谱的自动化细胞类型注释工具。 |
+| scPoli | Population-level integration of single-cell datasets enables multi-scale analysis | De Donno et al. | 2023 | doi:10.1038/s41592-023-02035-2 | Nature Methods | 群体级单细胞数据集整合，实现多尺度生物学分析。 |
+| scHyena | scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain | — | 2023 | arXiv:2310.02713 | Preprint | 基于Hyena架构的全长scRNA-seq分析基础模型，专注于脑组织。 |
+| TOSICA | TOSICA: Transfer of Omics Single-Cell Analysis | — | 2023 | Nature Communications | Nature Communications | 用于跨数据集和模态的单细胞组学分析迁移学习框架。 |
+| xTrimoGene | xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data | — | 2023 | OpenReview | NeurIPS 2023 | 使用非对称编码器-解码器架构的高效可扩展scRNA-seq表征学习器。 |
+| CancerFoundation | A single-cell RNA sequencing foundation model to decipher drug resistance in cancer | — | 2024 | doi:10.1101/2024.11.01.621087 | bioRxiv | 用于解析药物耐药机制的癌症特异性scRNA-seq基础模型。 |
+| Cell-GraphCompass | Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model | — | 2024 | doi:10.1093/nsr/nwaf255 | National Science Review | 使用基于图的细胞表征的图结构单细胞分析基础模型。 |
+| scLong | scLong: A billion-parameter foundation model for capturing long-range gene context | — | 2026 | doi:10.1038/s41467-026-69102-y | Nature Communications | 十亿参数基础模型，同时关注所有28,000个基因以捕获长程上下文。 |
+| Tahoe-x1 | Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters | — | 2025 | doi:10.1101/2025.10.23.683759 | bioRxiv | 30亿参数扰动训练单细胞基础模型，用于预测细胞响应。 |
+| PULSAR | PULSAR: a Foundation Model for Multi-scale and Multicellular Biology | — | 2025 | doi:10.1101/2025.11.24.685470 | bioRxiv | 整合3600万+细胞的多尺度基础模型，用于多细胞生物学分析。 |
+| TranscriptFormer | A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution | — | 2025 | doi:10.1101/2025.04.25.650731 | bioRxiv | 跨越15亿年进化的跨物种生成式细胞图谱基础模型。 |
+| TCRfoundation | TCRfoundation: A multimodal foundation model for single-cell immune profiling | Liao et al. | 2025 | github | bioRxiv | 整合基因表达与TCR序列的多模态免疫分析基础模型。 |
+| CELLama | CELLama: Foundation Model for Single Cell and Spatial Transcriptomics | — | 2024 | doi:10.1101/2024.05.08.593094 | bioRxiv | 利用语言模型能力的细胞嵌入模型，用于单细胞和空间转录组学。 |
+| scPROTEIN | scPROTEIN: versatile deep graph contrastive learning framework for single-cell proteomics | — | 2024 | doi:10.1038/s41592-024-02214-9 | Nature Methods | 用于单细胞蛋白质组学嵌入和分析的图对比学习框架。 |
+| TEDDY | TEDDY: A Family of Foundation Models for Understanding Single Cell Biology | — | 2025 | arXiv:2503.03485 | ICML Workshop | 面向全面单细胞生物学理解的基础模型家族。 |
+| Tabula | Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics | — | 2025 | NeurIPS 2025 | NeurIPS | 面向单细胞转录组学数据的表格自监督基础模型。 |
+| ChromFound | ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data | — | 2025 | arXiv:2505.12638 | NeurIPS 2025 | 用于单细胞染色质可及性(scATAC-seq)数据分析的通用基础模型。 |
+| EpiFoundation | EpiFoundation: A Foundation Model for Single-Cell ATAC-seq via Peak-to-Gene Alignment | — | 2025 | doi:10.1101/2025.02.05.636688 | bioRxiv | 使用峰-基因比对的scATAC-seq表观基因组分析基础模型。 |
+| SCARF | SCARF: Single Cell ATAC-seq and RNA-seq Foundation model | — | 2025 | doi:10.1101/2025.04.07.647689 | bioRxiv | 联合建模scATAC-seq和scRNA-seq数据的多模态基础模型。 |
+| CAPTAIN | CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein | — | 2025 | doi:10.1101/2025.07.07.663366 | bioRxiv | 用于共检测scRNA和蛋白质数据整合的多模态基础模型。 |
 | OKR-Cell | OKR-Cell: Open world knowledge aided single-cell foundation model with cross-modal pre-training | — | 2025 | arXiv | arXiv | 开放世界知识增强的单细胞基础模型，跨模态预训练 |
 | GeneJepa | GeneJepa: A predictive world model of the transcriptome | — | 2025 | arXiv | arXiv | 转录组预测世界模型，基于JEPA架构 |
 | VCWorld | VCWorld: Biological world model for virtual cell simulation | — | 2025 | arXiv | arXiv | 虚拟细胞模拟的生物世界模型 |
@@ -383,7 +383,7 @@
 | AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | — | 2024 | bioRxiv:2024.11.29 | NeurIPS 2024 Workshop | AIDO体系中的蛋白质模块，160亿参数MoE架构，在1.2万亿氨基酸上训练 |
 | AIDO.ModelGenerator | Rapid and reproducible multimodal biological foundation model development with AIDO.ModelGenerator | — | 2025 | bioRxiv:2025.06.30.662437 | bioRxiv | AIDO开源工具包，加速跨尺度多模态生物基础模型开发 |
 | SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | — | 2025 | — | ICML 2025 | 空间转录组多尺度基础模型，整合宏观组织形态和微观细胞环境 |
-| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | — | 2025 | doi:10.64898/2025.12.29.696804 | bioRxiv | Unified FM for both single-cell and spatial transcriptomics |
+| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | — | 2025 | doi:10.64898/2025.12.29.696804 | bioRxiv | 同时用于单细胞和空间转录组学分析的统一基础模型。 |
 
 ---
 
@@ -394,17 +394,17 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| IgBERT | Large scale paired antibody language models | Henry Kenlay | 2024 | 10.1371/journal.pcbi.1012646 | PLOS Computational Biology | BERT-based antibody language model trained on 2B+ unpaired and 2M paired antibody sequences from OAS; supports paired heavy-light chain modeling |
-| IgT5 | Large scale paired antibody language models | Henry Kenlay | 2024 | 10.1371/journal.pcbi.1012646 | PLOS Computational Biology | T5-based paired antibody language model; companion to IgBERT; trained on OAS dataset for antibody design and engineering |
-| AntiBERTy | Deciphering antibody affinity maturation with language models and weakly supervised learning | Jeffrey A. Ruffolo | 2021 | arXiv:2112.07782 | Preprint | BERT-based model trained on 558M antibody sequences; learns antibody-specific representations for affinity maturation analysis |
-| AbLang | AbLang: An antibody language model for completing antibody sequences | Tobias H. Olsen | 2022 | 10.1093/bioadv/vbac046 | Bioinformatics Advances | Antibody-specific language model trained on OAS; captures semantic features for residue prediction and antibody representation |
-| AbLang2 | AbLang2: Addressing the Antibody Germline Bias | Tobias H. Olsen | 2024 | N/A | BioLM/Preprint | Improved antibody language model for paired heavy-light chains with reduced germline bias; better characterization of non-germline mutations |
-| IGLOO | Multimodal antibody loop tokenizer for protein language models | — | 2025 | OpenReview | NeurIPS 2025 Workshop | Multimodal antibody loop tokenizer enhancing PLMs for antibody research |
-| Ab-RoBERTa | Antibody Foundational Model: Ab-RoBERTa | Eunna Huh | 2025 | arXiv:2506.13006 | arXiv preprint | RoBERTa-based antibody language model for paratope prediction and antibody design tasks |
-| BALM | Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model | N/A (BEAM-Labs) | 2023 | 10.1101/2023.08.30.555473 | bioRxiv | Bio-inspired antibody language model for predicting antibody structure and function; trained on vast antibody datasets |
-| Sapiens (BioPhi) | BioPhi: A platform for antibody design, humanization and humanness evaluation | David Prihoda | 2022 | 10.1126/sciadv.abj6587 | Science Advances | BERT-based human antibody language model within BioPhi platform; for humanization, humanness evaluation, and mutation suggestion |
-| DASM | Separating selection from mutation in antibody language models | N/A (Matsen group) | 2025 | eLife:109644 | eLife | Deep Amino acid Selection Model that separates selection from mutation processes in antibody sequence modeling |
-| nanoBERT | nanoBERT: a deep learning model for gene agnostic navigation of the nanobody mutational space | Johannes Thorling Hadsund | 2024 | 10.1093/bioadv/vbae033 | Bioinformatics Advances | Nanobody-specific transformer model for predicting amino acid substitutions in VHH sequences; gene-agnostic |
+| IgBERT | Large scale paired antibody language models | Henry Kenlay | 2024 | 10.1371/journal.pcbi.1012646 | PLOS Computational Biology | 在20亿+非配对和200万配对OAS抗体序列上训练的BERT抗体语言模型。 |
+| IgT5 | Large scale paired antibody language models | Henry Kenlay | 2024 | 10.1371/journal.pcbi.1012646 | PLOS Computational Biology | 基于T5的配对抗体语言模型，为IgBERT的姊妹模型，用于抗体设计和工程。 |
+| AntiBERTy | Deciphering antibody affinity maturation with language models and weakly supervised learning | Jeffrey A. Ruffolo | 2021 | arXiv:2112.07782 | Preprint | 在5.58亿抗体序列上训练的BERT模型，用于亲和力成熟分析。 |
+| AbLang | AbLang: An antibody language model for completing antibody sequences | Tobias H. Olsen | 2022 | 10.1093/bioadv/vbac046 | Bioinformatics Advances | 在OAS上训练的抗体特异性语言模型，用于残基预测和抗体表征。 |
+| AbLang2 | AbLang2: Addressing the Antibody Germline Bias | Tobias H. Olsen | 2024 | N/A | BioLM/Preprint | 改进的配对重轻链抗体语言模型，降低种系偏差。 |
+| IGLOO | Multimodal antibody loop tokenizer for protein language models | — | 2025 | OpenReview | NeurIPS 2025 Workshop | 增强蛋白质语言模型的多模态抗体环区词元化器。 |
+| Ab-RoBERTa | Antibody Foundational Model: Ab-RoBERTa | Eunna Huh | 2025 | arXiv:2506.13006 | arXiv preprint | 基于RoBERTa的抗体语言模型，用于互补位预测和抗体设计。 |
+| BALM | Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model | N/A (BEAM-Labs) | 2023 | 10.1101/2023.08.30.555473 | bioRxiv | 生物启发的抗体语言模型，用于预测抗体结构和功能。 |
+| Sapiens (BioPhi) | BioPhi: A platform for antibody design, humanization and humanness evaluation | David Prihoda | 2022 | 10.1126/sciadv.abj6587 | Science Advances | BioPhi平台中基于BERT的人源抗体语言模型，用于人源化和人源性评估。 |
+| DASM | Separating selection from mutation in antibody language models | N/A (Matsen group) | 2025 | eLife:109644 | eLife | 深度氨基酸选择模型，在抗体序列建模中分离选择和突变过程。 |
+| nanoBERT | nanoBERT: a deep learning model for gene agnostic navigation of the nanobody mutational space | Johannes Thorling Hadsund | 2024 | 10.1093/bioadv/vbae033 | Bioinformatics Advances | 纳米抗体特异性Transformer模型，预测VHH序列中的氨基酸替换。 |
 | FAbCon | A generative foundation model for antibody sequence understanding | Justin Barton | 2024 | bioRxiv:2024.05.22.594943 | NeurIPS 2025 | 24亿参数抗体生成基础模型 |
 | S2ALM | S2ALM: Sequence-Structure Pre-trained Large Language Model for Antibody | Mingze Yin | 2025 | arXiv:2411.15215 | Nature Methods 2025 | 序列-结构预训练抗体大语言模型 |
 
@@ -412,23 +412,23 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| IgFold | Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies | Jeffrey A. Ruffolo | 2023 | 10.1038/s41467-023-38063-x | Nature Communications | Fast antibody structure prediction using pre-trained LM on 558M sequences + graph neural networks; predicts full variable region structures |
-| DeepAb | Antibody structure prediction using interpretable deep learning | Jeffrey A. Ruffolo | 2022 | 10.1016/j.patter.2021.100406 | Patterns (Cell Press) | Interpretable deep learning model for antibody Fv structure prediction; specializes in CDR loop modeling including CDR-H3 |
-| ABodyBuilder2 | ABodyBuilder2: Antibody Structure Prediction with Updated Datasets and Confidence Estimation | Brennan Abanades | 2023 | N/A | Oxford Protein Informatics Group | Deep learning model for rapid all-atom 3D structure prediction of paired antibody variable domains (VH/VL) from sequence |
-| ABlooper | ABlooper: Fast accurate antibody CDR loop structure prediction with accuracy estimation | Brennan Abanades | 2022 | 10.1093/bioinformatics/btac016 | Bioinformatics | Rapid equivariant neural network for antibody CDR loop structure prediction with built-in accuracy estimation |
-| AntiFold | AntiFold: Improved structure-based antibody design using inverse folding | Magnus Haraldson Høie | 2024 | arXiv:2405.03370 | Digital Discovery (RSC) | Antibody-specific inverse folding model fine-tuned from ESM-IF1; generates CDR sequences from antibody structures |
+| IgFold | Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies | Jeffrey A. Ruffolo | 2023 | 10.1038/s41467-023-38063-x | Nature Communications | 使用在5.58亿序列上预训练的语言模型和图神经网络的快速抗体结构预测。 |
+| DeepAb | Antibody structure prediction using interpretable deep learning | Jeffrey A. Ruffolo | 2022 | 10.1016/j.patter.2021.100406 | Patterns (Cell Press) | 可解释深度学习抗体Fv结构预测模型，专注于CDR环建模。 |
+| ABodyBuilder2 | ABodyBuilder2: Antibody Structure Prediction with Updated Datasets and Confidence Estimation | Brennan Abanades | 2023 | N/A | Oxford Protein Informatics Group | 快速全原子3D结构预测模型，用于配对抗体可变区域。 |
+| ABlooper | ABlooper: Fast accurate antibody CDR loop structure prediction with accuracy estimation | Brennan Abanades | 2022 | 10.1093/bioinformatics/btac016 | Bioinformatics | 快速等变神经网络，用于抗体CDR环结构预测及精度估计。 |
+| AntiFold | AntiFold: Improved structure-based antibody design using inverse folding | Magnus Haraldson Høie | 2024 | arXiv:2405.03370 | Digital Discovery (RSC) | 从ESM-IF1微调的抗体特异性逆折叠模型，从结构生成CDR序列。 |
 
 ### 抗体设计与生成
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| IgGM | A generative foundation model for antibody design | — | 2025 | doi:10.1101/2025.09.12.675771 | bioRxiv | Generative foundation model for antibody design |
-| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Shitong Luo | 2022 | NeurIPS 2022 proceedings | NeurIPS 2022 | Diffusion-based generative model for antigen-specific antibody CDR-H3 design; jointly models sequence, structure, and orientation |
-| dyMEAN | Full-Atom Antibody Design via dyMEAN | Xiangzhe Kong | 2023 | 10.48550/arXiv.2302.00203 | ICML 2023 | End-to-end full-atom antibody design using dynamic multi-channel equivariant graph network; CDR-H3 design with structural initialization |
-| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | Xiangzhe Kong | 2023 | N/A | ICLR 2023 | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design |
-| RefineGNN | Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design | Wengong Jin | 2022 | arXiv:2110.04624 | ICLR 2022 | Iterative refinement GNN for antibody CDR co-design of sequence and 3D structure; autoregressive generation |
-| Ophiuchus-Ab | Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy | Yiheng Zhu | 2026 | 10.1101/2026.02.02.703197 | bioRxiv | Diffusion language model for antibody immunotherapy; generative foundation model for paired antibody repertoires |
-| NanoAbLLaMA | NanoAbLLaMA: construction of nanobody libraries with protein large language models | N/A | 2025 | 10.3389/fchem.2025.1534XXX | Frontiers in Chemistry | LLaMA2-based language model fine-tuned for nanobody (VHH) library construction and design |
+| IgGM | A generative foundation model for antibody design | — | 2025 | doi:10.1101/2025.09.12.675771 | bioRxiv | 用于全面抗体设计的生成基础模型。 |
+| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Shitong Luo | 2022 | NeurIPS 2022 proceedings | NeurIPS 2022 | 基于扩散的抗原特异性抗体CDR-H3设计生成模型，联合建模序列、结构和取向。 |
+| dyMEAN | Full-Atom Antibody Design via dyMEAN | Xiangzhe Kong | 2023 | 10.48550/arXiv.2302.00203 | ICML 2023 | 使用动态多通道等变图网络的端到端全原子抗体设计。 |
+| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | Xiangzhe Kong | 2023 | N/A | ICLR 2023 | 用于条件抗体CDR序列-结构协同设计的3D等变图神经网络。 |
+| RefineGNN | Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design | Wengong Jin | 2022 | arXiv:2110.04624 | ICLR 2022 | 通过自回归生成进行抗体CDR序列和3D结构协同设计的迭代细化GNN。 |
+| Ophiuchus-Ab | Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy | Yiheng Zhu | 2026 | 10.1101/2026.02.02.703197 | bioRxiv | 用于抗体免疫治疗和配对抗体库生成的扩散语言模型。 |
+| NanoAbLLaMA | NanoAbLLaMA: construction of nanobody libraries with protein large language models | N/A | 2025 | 10.3389/fchem.2025.1534XXX | Frontiers in Chemistry | 基于LLaMA2微调的语言模型，用于纳米抗体(VHH)文库构建和设计。 |
 | CoSiNE | CoSiNE: Conditionally Site-Independent Neural Evolution of Antibody Sequences | — | 2026 | arXiv:2602.18982 | arXiv | 条件位点独立的抗体序列神经进化模型，显式建模抗体亲和力成熟过程 |
 | AbBFN2 | AbBFN2: A flexible antibody foundation model based on Bayesian Flow Networks | — | 2025 | bioRxiv:2025.04.29.651170 | bioRxiv | 基于贝叶斯流网络的灵活抗体基础模型，多目标统一建模 |
 | AntibodyDesignBFN | AntibodyDesignBFN: High-Fidelity Fixed-Backbone Antibody Design via Discrete Bayesian Flow Networks | — | 2026 | arXiv:2601.05605 | arXiv | 基于离散贝叶斯流网络的高保真固定骨架抗体设计 |
@@ -443,14 +443,14 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| TCR-BERT | TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses | Kevin Wu | 2024 | MLCB 2024 proceedings | PMLR v240 | Modified BERT trained on TCR sequences via self-supervised learning; captures TCR binding grammar for antigen-specificity prediction |
-| tcrLM | tcrLM: a lightweight protein language model for predicting T cell receptor and epitope binding specificity | Xing Fang | 2024 | arXiv:2406.16995 | arXiv preprint | Lightweight BERT-based LM pretrained on 100M+ TCR CDR3 sequences; incorporates physiochemical properties for TCR-epitope binding prediction |
-| TCR-GPT | TCR-GPT: Integrating Autoregressive Model and Reinforcement Learning for T-Cell Receptor Repertoires Generation | N/A | 2024 | arXiv:2408.01156 | arXiv preprint | Decoder-only transformer for TCR sequence generation; uses autoregressive modeling with reinforcement learning |
-| SCEPTR | Contrastive learning of T cell receptor representations | Yuta Nagano | 2024 | arXiv:2406.06397 | arXiv preprint | Lightweight BERT-like transformer for TCR analysis using autocontrastive and masked-language pre-training; TCR-pMHC interaction prediction |
-| ERGO-II | Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs | Ido Springer | 2020 | 10.3389/fimmu.2020.01803 | Frontiers in Immunology | Deep learning model (LSTM + autoencoder) for TCR-peptide binding prediction using NLP techniques on immune sequences |
-| mvTCR | Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data | Felix Drost | 2024 | 10.1038/s41467-024-49806-9 | Nature Communications | Multimodal variational autoencoder integrating single-cell TCR sequences with gene expression data |
-| NetTCR-2.0 | NetTCR-2.0 enables accurate prediction of TCR-peptide binding | Alessandro Montemurro | 2021 | 10.1038/s42003-021-02610-3 | Communications Biology | Deep learning model for TCR-peptide-MHC binding prediction using paired TCRα and β sequence data |
-| TCR-TRANSLATE | Conditional generation of real antigen-specific T cell receptor sequences | N/A | 2025 | 10.1038/s42256-025-01096-6 | Nature Machine Intelligence | ML framework for generating antigen-specific TCR sequences, including for unseen epitopes |
+| TCR-BERT | TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses | Kevin Wu | 2024 | MLCB 2024 proceedings | PMLR v240 | 通过自监督学习在TCR序列上训练的改进BERT，捕获TCR特异性表征。 |
+| tcrLM | tcrLM: a lightweight protein language model for predicting T cell receptor and epitope binding specificity | Xing Fang | 2024 | arXiv:2406.16995 | arXiv preprint | 在1亿+ TCR CDR3序列上预训练的轻量级BERT语言模型，用于TCR-表位结合预测。 |
+| TCR-GPT | TCR-GPT: Integrating Autoregressive Model and Reinforcement Learning for T-Cell Receptor Repertoires Generation | N/A | 2024 | arXiv:2408.01156 | arXiv preprint | 用于TCR序列生成的解码器Transformer，结合自回归建模和强化学习。 |
+| SCEPTR | Contrastive learning of T cell receptor representations | Yuta Nagano | 2024 | arXiv:2406.06397 | arXiv preprint | 使用自对比和掩码语言预训练的轻量级类BERT TCR分析Transformer。 |
+| ERGO-II | Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs | Ido Springer | 2020 | 10.3389/fimmu.2020.01803 | Frontiers in Immunology | 基于LSTM+自编码器的TCR-肽结合预测深度学习模型。 |
+| mvTCR | Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data | Felix Drost | 2024 | 10.1038/s41467-024-49806-9 | Nature Communications | 整合单细胞TCR序列和基因表达数据的多模态变分自编码器。 |
+| NetTCR-2.0 | NetTCR-2.0 enables accurate prediction of TCR-peptide binding | Alessandro Montemurro | 2021 | 10.1038/s42003-021-02610-3 | Communications Biology | 使用配对TCRα和β序列的TCR-肽-MHC结合预测深度学习模型。 |
+| TCR-TRANSLATE | Conditional generation of real antigen-specific T cell receptor sequences | N/A | 2025 | 10.1038/s42256-025-01096-6 | Nature Machine Intelligence | 生成抗原特异性TCR序列的机器学习框架，包括对未见表位的预测。 |
 
 ---
 
@@ -461,20 +461,20 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| EnzyGen | Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates | Song et al. | 2024 | arXiv:2405.08205 | Preprint | Enzyme design leveraging functional sites and substrates |
-| RFdiffusion2 | Atom-level enzyme active site scaffolding using RFdiffusion2 | — | 2025 | doi:10.1038/s41592-025-02975-x | Nature Methods | Atom-level enzyme active site scaffolding |
-| CLEAN | Enzyme function prediction using contrastive learning | Tianhao Yu | 2023 | 10.1126/science.adf2465 | Science | Contrastive learning model for enzyme EC number prediction; outperforms BLAST and traditional ML methods for enzyme annotation |
-| CLEAN-Contact | Improved enzyme functional annotation prediction using contrastive learning with structural inference | N/A (PNNL) | 2024 | 10.1038/s42003-024-07359-z | Communications Biology | Extension of CLEAN integrating protein contact maps (structural info) with sequences for improved enzyme function annotation |
-| EnzBERT | Predicting enzymatic function of protein sequences with attention | N/A | 2023 | 10.1093/bioinformatics/btad698 | Bioinformatics | BERT-based model for predicting enzyme EC numbers from protein sequences using attention mechanisms |
-| EnzymeFlow | EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow Matching and Co-Evolutionary Dynamics | Chao Song | 2024 | arXiv:2410.00327 | NeurIPS 2024 | Generative model using flow matching to design reaction-specific enzyme catalytic pockets with co-evolutionary dynamics |
-| EnzymeCAGE | EnzymeCAGE: A Geometric Foundation Model for Enzyme Retrieval with Evolutionary Insights | Yong Liu | 2024 | 10.1101/2024.12.15.628585 | bioRxiv → Nature Catalysis 2026 | Geometric foundation model trained on ~1M enzyme-reaction pairs across 3000+ species; for enzyme retrieval and function prediction |
-| CatPred | CatPred: a comprehensive framework for deep learning in vitro enzyme kinetic parameters | Veda Sheersh Boorla | 2025 | 10.1038/s41467-025-57215-9 | Nature Communications | Deep learning framework for predicting enzyme kinetic parameters (kcat, Km, Ki) from protein sequences |
-| UniKP | UniKP: a unified framework for the prediction of enzyme kinetic parameters | Han Yu | 2023 | 10.1038/s41467-023-44113-1 | Nature Communications | Unified deep learning framework using pretrained protein LMs to predict kcat, Km, and catalytic efficiency |
-| TurNuP | Turnover number predictions for kinetically uncharacterized enzymes using machine and deep learning | Alexander Kroll | 2023 | 10.1038/s41467-023-39840-4 | Nature Communications | Deep learning model for predicting enzyme turnover numbers (kcat) for kinetically uncharacterized enzymes |
-| EnzyControl | EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation | N/A | 2025 | arXiv:2510.25132 | Preprint | Framework for substrate-specific enzyme backbone generation with functional control; uses curated EnzyBind dataset |
-| ProtDETR | Interpretable Enzyme Function Prediction via Residue-Level Detection | Yang Zhao | 2025 | arXiv:2501.05644 | arXiv preprint | Attention-based framework for enzyme EC number prediction at residue-level; inspired by object detection (DETR) |
-| EZpred | EZpred: improving deep learning-based enzyme function prediction using unlabeled sequence homologs | N/A | 2025 | PMC12338500 | Bioinformatics | Deep learning framework leveraging unlabeled homolog sequences for improved enzyme EC number prediction |
-| BEC-Pred | A general model for predicting enzyme functions based on enzymatic reactions | N/A | 2024 | 10.1186/s13321-024-00827-y | Journal of Cheminformatics | BERT-based model predicting enzyme EC numbers from SMILES representations of substrates/products |
+| EnzyGen | Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates | Song et al. | 2024 | arXiv:2405.08205 | Preprint | 利用功能位点和底物信息的生成式酶设计模型。 |
+| RFdiffusion2 | Atom-level enzyme active site scaffolding using RFdiffusion2 | — | 2025 | doi:10.1038/s41592-025-02975-x | Nature Methods | 基于RFdiffusion架构的原子级酶活性位点支架设计工具。 |
+| CLEAN | Enzyme function prediction using contrastive learning | Tianhao Yu | 2023 | 10.1126/science.adf2465 | Science | 用于酶EC编号预测的对比学习模型，超越BLAST和传统方法。 |
+| CLEAN-Contact | Improved enzyme functional annotation prediction using contrastive learning with structural inference | N/A (PNNL) | 2024 | 10.1038/s42003-024-07359-z | Communications Biology | CLEAN的扩展版，整合蛋白质接触图以改进酶功能注释。 |
+| EnzBERT | Predicting enzymatic function of protein sequences with attention | N/A | 2023 | 10.1093/bioinformatics/btad698 | Bioinformatics | 基于BERT的模型，使用注意力机制从蛋白质序列预测酶EC编号。 |
+| EnzymeFlow | EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow Matching and Co-Evolutionary Dynamics | Chao Song | 2024 | arXiv:2410.00327 | NeurIPS 2024 | 使用流匹配设计反应特异性酶催化口袋的生成模型。 |
+| EnzymeCAGE | EnzymeCAGE: A Geometric Foundation Model for Enzyme Retrieval with Evolutionary Insights | Yong Liu | 2024 | 10.1101/2024.12.15.628585 | bioRxiv → Nature Catalysis 2026 | 在约100万酶-反应对上训练的几何基础模型，用于酶检索和功能预测。 |
+| CatPred | CatPred: a comprehensive framework for deep learning in vitro enzyme kinetic parameters | Veda Sheersh Boorla | 2025 | 10.1038/s41467-025-57215-9 | Nature Communications | 预测酶动力学参数(kcat、Km、Ki)的深度学习框架。 |
+| UniKP | UniKP: a unified framework for the prediction of enzyme kinetic parameters | Han Yu | 2023 | 10.1038/s41467-023-44113-1 | Nature Communications | 使用预训练蛋白质语言模型预测kcat、Km和催化效率的统一深度学习框架。 |
+| TurNuP | Turnover number predictions for kinetically uncharacterized enzymes using machine and deep learning | Alexander Kroll | 2023 | 10.1038/s41467-023-39840-4 | Nature Communications | 预测动力学未表征酶的转换数(kcat)的深度学习模型。 |
+| EnzyControl | EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation | N/A | 2025 | arXiv:2510.25132 | Preprint | 具有功能控制的底物特异性酶骨架生成框架。 |
+| ProtDETR | Interpretable Enzyme Function Prediction via Residue-Level Detection | Yang Zhao | 2025 | arXiv:2501.05644 | arXiv preprint | 受目标检测启发的基于注意力的残基级酶EC编号预测框架。 |
+| EZpred | EZpred: improving deep learning-based enzyme function prediction using unlabeled sequence homologs | N/A | 2025 | PMC12338500 | Bioinformatics | 利用未标记同源序列改进酶EC预测的深度学习框架。 |
+| BEC-Pred | A general model for predicting enzyme functions based on enzymatic reactions | N/A | 2024 | 10.1186/s13321-024-00827-y | Journal of Cheminformatics | 基于BERT的模型，从底物和产物的SMILES表征预测酶EC编号。 |
 | HIT-EC | HIT-EC: Trustworthy prediction of enzyme commission numbers using a hierarchical interpretable transformer | — | 2026 | doi:10.1038/s41467-026-68727-3 | Nature Communications | 层次可解释Transformer预测酶EC编号，可信赖的酶功能预测 |
 | ENZYME-UNIFIED | ENZYME-UNIFIED: Learning Holistic Representations of Enzyme Function with a Hybrid Interaction Model | — | 2025 | OpenReview:oTnFATrtCD | OpenReview | 酶功能全面表示学习基础模型，混合交互模型 |
 
@@ -487,16 +487,16 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Novae | Novae: a graph-based foundation model for spatial transcriptomics data | Blampey et al. | 2025 | doi:10.1038/s41592-025-02899-6 | Nature Methods | Graph-based FM for spatial transcriptomics with 30M cells |
-| SpaFoundation | SpaFoundation: a visual foundation model for spatial transcriptomics | — | 2025 | doi:10.1101/2025.08.07.669202 | bioRxiv | Visual FM for spatial transcriptomics using 1.84M histological images |
-| STPath | STPath: a generative foundation model for integrating spatial transcriptomics and WSIs | — | 2025 | doi:10.1038/s41746-025-02020-3 | npj Digital Medicine | Generative FM integrating spatial transcriptomics with histology WSIs |
-| OmiCLIP | A visual-omics foundation model to bridge histopathology with spatial transcriptomics | — | 2025 | doi:10.1038/s41592-025-02707-1 | Nature Methods | Visual-omics FM bridging histopathology images and spatial transcriptomics |
-| SpatialFusion | SpatialFusion: A lightweight multimodal foundation model for spatial transcriptomics | — | 2026 | doi:10.64898/2026.03.16.712056 | bioRxiv | Lightweight multimodal FM integrating gene expression + histopathology + pathways |
-| SAGE-FM | SAGE-FM: A lightweight and interpretable foundation model for spatial transcriptomics | — | 2025 | arXiv:2601.15504 | Preprint | GCN-based lightweight FM for spatial transcriptomics |
-| scGPT-spatial | scGPT-spatial: Continual Pretraining of Single-Cell FM for Spatial Transcriptomics | — | 2025 | doi:10.1101/2025.02.05.636714 | bioRxiv | Extension of scGPT for spatial transcriptomics via continual pretraining |
-| SpatialScope | SpatialScope: integrating spatial and single-cell transcriptomics data using deep generative models | — | 2023 | doi:10.1038/s41467-023-43629-w | Nature Communications | Deep generative model for ST + scRNA-seq integration |
-| stFormer | stFormer: a foundation model for spatial transcriptomics | N/A (csh3) | 2024 | 10.1101/2024.09.27.615337 | bioRxiv | Transformer FM integrating ligand-receptor interactions into spatial gene representations; context-specific gene embeddings |
-| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | N/A | 2025 | OpenReview | NeurIPS 2025 (submitted) | FM using graph embeddings and hierarchical prototypes for spatial transcriptomics; addresses batch effects |
+| Novae | Novae: a graph-based foundation model for spatial transcriptomics data | Blampey et al. | 2025 | doi:10.1038/s41592-025-02899-6 | Nature Methods | 在3000万细胞上训练的基于图的空间转录组学基础模型。 |
+| SpaFoundation | SpaFoundation: a visual foundation model for spatial transcriptomics | — | 2025 | doi:10.1101/2025.08.07.669202 | bioRxiv | 使用184万张组织学图像的空间转录组学视觉基础模型。 |
+| STPath | STPath: a generative foundation model for integrating spatial transcriptomics and WSIs | — | 2025 | doi:10.1038/s41746-025-02020-3 | npj Digital Medicine | 整合空间转录组学与全切片组织学图像的生成基础模型。 |
+| OmiCLIP | A visual-omics foundation model to bridge histopathology with spatial transcriptomics | — | 2025 | doi:10.1038/s41592-025-02707-1 | Nature Methods | 连接组织病理学图像和空间转录组学数据的视觉-组学基础模型。 |
+| SpatialFusion | SpatialFusion: A lightweight multimodal foundation model for spatial transcriptomics | — | 2026 | doi:10.64898/2026.03.16.712056 | bioRxiv | 整合基因表达、组织病理学和通路数据的轻量级多模态基础模型。 |
+| SAGE-FM | SAGE-FM: A lightweight and interpretable foundation model for spatial transcriptomics | — | 2025 | arXiv:2601.15504 | Preprint | 基于GCN的轻量级可解释空间转录组学基础模型。 |
+| scGPT-spatial | scGPT-spatial: Continual Pretraining of Single-Cell FM for Spatial Transcriptomics | — | 2025 | doi:10.1101/2025.02.05.636714 | bioRxiv | 通过持续预训练将scGPT扩展到空间转录组学。 |
+| SpatialScope | SpatialScope: integrating spatial and single-cell transcriptomics data using deep generative models | — | 2023 | doi:10.1038/s41467-023-43629-w | Nature Communications | 用于空间转录组学与scRNA-seq数据整合的深度生成模型。 |
+| stFormer | stFormer: a foundation model for spatial transcriptomics | N/A (csh3) | 2024 | 10.1101/2024.09.27.615337 | bioRxiv | 将配体-受体互作整合到空间基因表征中的Transformer基础模型。 |
+| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | N/A | 2025 | OpenReview | NeurIPS 2025 (submitted) | 使用图嵌入和层次原型的空间转录组学基础模型。 |
 | STORM | STORM: A multimodal foundation model of spatial transcriptomics and histology | — | 2026 | arXiv:2604.03630 | arXiv | 空间转录组+组织学多模态基础模型，训练于120万空间分辨谱，覆盖18个器官 |
 | SEAL | SEAL: Spatial Expression-Aligned Learning for pathology foundation models | — | 2026 | arXiv:2602.14177 | arXiv | 利用空间转录组数据增强病理基础模型的空间表达对齐学习框架 |
 | MINT | MINT: Molecularly Informed Training with Spatial Transcriptomics Supervision for Pathology Foundation Models | — | 2026 | arXiv:2603.07895 | arXiv | 分子信息训练+空间转录组监督的病理基础模型 |
@@ -506,12 +506,12 @@
 | SpaTranslator | SpaTranslator: Deep generative framework for universal spatial multi-omics cross-modality translation | — | 2025 | arXiv | arXiv | 通用空间多组学跨模态翻译的深度生成框架 |
 | SpatialProp | SpatialProp: Tissue perturbation modeling with spatially resolved single-cell transcriptomics | — | 2025 | arXiv | arXiv | 基于空间分辨单细胞转录组的组织扰动建模 |
 | SWITCH | SWITCH: Integrative deep learning of spatial multi-omics | — | 2025 | arXiv | arXiv | 空间多组学整合深度学习框架 |
-| CancerSTFormer | CancerSTFormer enables multi-scale analysis of spot-resolution spatial transcriptomes | N/A | 2025 | 10.1101/2025.12.22.696102 | bioRxiv | Multi-scale spatial transcriptomics FM for cancer; models at 50µm and 250µm scales for gene/immune regulatory analysis |
-| STAGATE | Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder | Kangning Dong | 2022 | 10.1038/s41467-022-29439-6 | Nature Communications | Graph attention auto-encoder for spatial domain identification by integrating gene expression and spatial location |
-| HEST-1k | HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis | N/A (Mahmood Lab) | 2024 | NeurIPS 2024 D&B Track | NeurIPS 2024 | Benchmark dataset of 1,229 spatial transcriptomics profiles linked with WSIs across 26 organs; supports FM development |
-| CellViT | CellViT: Vision Transformers for precise cell segmentation and classification | Fabian Hörst | 2024 | 10.1016/j.media.2024.103143 | Medical Image Analysis | Vision Transformer for precise cell/nuclei segmentation in H&E whole-slide images; leverages foundation model pre-training |
-| STAMP | Interpretable spatially aware dimension reduction of spatial transcriptomics with STAMP | N/A | 2024 | 10.1038/s41592-024-02463-8 | Nature Methods | Deep generative model for spatially-aware dimension reduction of spatial transcriptomics; interpretable spatial domain analysis |
-| SpaGT | Spatially informed graph transformers for spatially resolved transcriptomics | N/A | 2025 | 10.1038/s42003-025-08015-w | Communications Biology | Graph transformer integrating spatial coordinates and gene expression for spatial domain identification |
+| CancerSTFormer | CancerSTFormer enables multi-scale analysis of spot-resolution spatial transcriptomes | N/A | 2025 | 10.1101/2025.12.22.696102 | bioRxiv | 在50µm和250µm分辨率下的癌症多尺度空间转录组学基础模型。 |
+| STAGATE | Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder | Kangning Dong | 2022 | 10.1038/s41467-022-29439-6 | Nature Communications | 通过整合基因表达和空间位置进行空间域识别的图注意力自编码器。 |
+| HEST-1k | HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis | N/A (Mahmood Lab) | 2024 | NeurIPS 2024 D&B Track | NeurIPS 2024 | 包含1,229个空间转录组学profile和全切片图像的基准数据集，覆盖26个器官。 |
+| CellViT | CellViT: Vision Transformers for precise cell segmentation and classification | Fabian Hörst | 2024 | 10.1016/j.media.2024.103143 | Medical Image Analysis | 用于H&E全切片图像中精确细胞/核分割的视觉Transformer。 |
+| STAMP | Interpretable spatially aware dimension reduction of spatial transcriptomics with STAMP | N/A | 2024 | 10.1038/s41592-024-02463-8 | Nature Methods | 用于空间转录组学空间感知可解释降维的深度生成模型。 |
+| SpaGT | Spatially informed graph transformers for spatially resolved transcriptomics | N/A | 2025 | 10.1038/s42003-025-08015-w | Communications Biology | 整合空间坐标和基因表达的图Transformer，用于空间域识别。 |
 | BrainBeacon | BrainBeacon: A Cross-Species Foundation Model for Single-cell Spatial Transcriptomics of Brain | — | 2025 | bioRxiv:2025.07.08.663729 | bioRxiv | 全球首个跨物种大脑空间转录组基础模型，整合多物种脑空间组学数据用于数字孪生大脑与靶标发现 |
 
 ---

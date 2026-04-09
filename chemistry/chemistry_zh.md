@@ -47,9 +47,9 @@
 | GIN (Pretrained) | Strategies for Pre-Training Graph Neural Networks | Weihua Hu | 2020 | arXiv:1905.12265 | ICLR 2020 | 提出GNN预训练策略（节点级+图级），在200万分子上预训练GIN模型用于分子属性预测，开创性工作。 |
 | MIST | Foundation Models for Discovery and Exploration in Chemical Space | - | 2025 | arXiv:2510.18900 | arXiv preprint | 大规模分子基础模型家族（Molecular Insight SMILES Transformers），在大量无标注分子上训练，可预测400+结构-性质关系。 |
 | M2UMol | Multi-to-Uni Modal Knowledge Transfer Pre-training for Molecular Representation Learning | - | 2026 | doi:10.1038/s41467-026-69302-6 | Nature Communications | 多模态到单模态知识迁移预训练框架，将多种分子模态知识有效转移到2D编码器中。 |
-| Chemprop (D-MPNN) | Analyzing Learned Molecular Representations for Property Prediction | Kevin Yang | 2019 | doi:10.1021/acs.jcim.9b00237 | J. Chem. Inf. Model. | Directed message passing neural network for molecular property prediction |
-| Omni-Mol | Exploring Universal Convergent Space for Omni-Molecular Tasks | Chengxin Hu | 2025 | arXiv:2502.01074 | NeurIPS 2025 | Unified language model for any-to-any modality molecular tasks |
-| ADMET-AI | ADMET-AI: A Machine Learning ADMET Platform | Kyle Swanson | 2024 | doi:10.1093/bioinformatics/btae416 | Bioinformatics | ML platform for ADMET property prediction of large chemical libraries |
+| Chemprop (D-MPNN) | Analyzing Learned Molecular Representations for Property Prediction | Kevin Yang | 2019 | doi:10.1021/acs.jcim.9b00237 | J. Chem. Inf. Model. | 有向消息传递神经网络，用于分子性质预测和学习表征。 |
+| Omni-Mol | Exploring Universal Convergent Space for Omni-Molecular Tasks | Chengxin Hu | 2025 | arXiv:2502.01074 | NeurIPS 2025 | 统一语言模型，在通用收敛空间中实现任意模态分子任务。 |
+| ADMET-AI | ADMET-AI: A Machine Learning ADMET Platform | Kyle Swanson | 2024 | doi:10.1093/bioinformatics/btae416 | Bioinformatics | 用于跨大规模化学库快速ADMET性质预测的机器学习平台。 |
 | TamGen | TamGen: Drug Design with Target-Aware Molecule Generation through a Chemical Language Model | Microsoft/GHDDI | 2024 | doi:10.1038/s41467-024-53632-4 | Nature Communications | GPT风格化学语言模型，用于靶标感知的分子生成和药物设计 |
 | MoleculeGPT | MoleculeGPT: Instruction Following LLMs for Molecular Property Prediction | — | 2024 | arXiv:2306.09048 | NeurIPS 2024 Workshop | 通过分子指令数据微调的LLM，用于自然语言驱动的分子属性预测 |
 | SAFE-GPT | SAFE: A Molecular-Centric Foundation Model with SAFE Representation | — | 2024 | doi:10.1039/D4DD00019F | Digital Discovery | 使用SAFE(Sequential Attachment-based Fragment Embedding)表示的分子基础模型 |
