@@ -77,7 +77,7 @@
 | PoET-2 | PoET-2: Next-generation Protein Family Modeling with Sequences-of-Sequences | Next-generation retrieval-augmented multimodal protein family model improving fitness prediction over PoET. | [GitHub](https://github.com/OpenProteinAI/PoET-2) |
 | FlexRibbon | FlexRibbon: Joint Sequence and Structure Pretraining for Protein Modeling | 3-billion-parameter model jointly pretrained on amino acid sequences and 3D structures capturing flexible conformations. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.10.08.681293v1) |
 | ProteinAligner | ProteinAligner: A Tri-Modal Contrastive Learning Framework for Protein Representation Learning | Tri-modal contrastive learning framework integrating protein sequences, structures, and scientific literature. | [OpenReview](https://openreview.net/forum?id=LjlJBnmZ0M) |
-| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | Multi-modal protein language model supporting natural language interaction for protein knowledge retrieval. | [WebSearch](https://db.prottalks.com/) |
+| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | Multi-modal protein language model supporting natural language interaction for protein knowledge retrieval. | [ProtTalks](https://db.prottalks.com/) |
 | GearNet | Protein Representation Learning by Geometric Structure Pretraining | Relational graph neural network learning protein structure representations via geometric pretraining and multi-view contrastive learning. | [arXiv](https://arxiv.org/abs/2203.06125) |
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Self-supervised masked inverse folding pretraining for learning protein representations from structures. | [arXiv](https://arxiv.org/abs/2209.07203) |
 | PPLM | A paired sequence language model for protein-protein interaction | Paired sequence language model predicting protein-protein interactions from paired amino acid sequences. | [Nature Communications](https://doi.org/10.1038/s41467-026-70457-5) |
@@ -311,82 +311,82 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| scGPT | scGPT: Toward building a foundation model for single-cell multi-omics using generative AI | Generative pretrained transformer for single-cell multi-omics, enabling cell annotation, perturbation prediction, and gene network inference from 33M+ cells. | [Paper](https://doi.org/10.1038/s41592-024-02201-0) |
-| scBERT | scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data | Large-scale BERT-based pretrained model for automated cell type annotation from scRNA-seq data. | [Paper](https://doi.org/10.1038/s42256-022-00534-z) |
-| Geneformer | Transfer learning enables predictions in network biology | Transformer model pretrained on ~30 million single-cell transcriptomes for transfer learning in gene network biology. | [Paper](https://doi.org/10.1038/s41586-023-06139-9) |
-| scFoundation | Large-scale foundation model on single-cell transcriptomics | 100M-parameter single-cell transcriptomics foundation model (xTrimoGene) trained on 50M+ human cells. | [Paper](https://doi.org/10.1038/s41592-024-02305-7) |
-| UCE | Universal Cell Embeddings: A foundation model for cell biology | Universal cell embedding model that creates a unified representation space across species and tissues. | [Paper](https://www.biorxiv.org/content/10.1101/2023.11.28.568918) |
-| GeneCompass | GeneCompass: Deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model | Knowledge-enhanced cross-species foundation model trained on 100M+ human and mouse cells for deciphering gene regulatory mechanisms. | [Paper](https://doi.org/10.1038/s41422-024-01034-y) |
-| CellPLM | CellPLM: Pre-training of cell language model beyond single cells | Cell language model that integrates gene-gene and cell-cell interactions, going beyond single-cell level pretraining. | [Paper](https://openreview.net/forum?id=CellPLM) |
-| tGPT | Generative pretraining from large-scale transcriptomes for single-cell deciphering | Generative pretrained model on 22.3 million single-cell transcriptomes for cell deciphering and clinical translation. | [Paper](https://doi.org/10.1016/j.isci.2023.106536) |
-| CellFM | CellFM: A large-scale foundation model pre-trained on transcriptomics of 100 million human cells | 800M-parameter foundation model pretrained on 100 million human cell transcriptomes. | [Paper](https://doi.org/10.1038/s41467-025-59926-5) |
-| Nicheformer | Nicheformer: A foundation model for single-cell and spatial omics | Single-cell and spatial omics foundation model trained on SpatialCorpus-110M (110M+ cells), capturing spatial microenvironments. | [Paper](https://doi.org/10.1038/s41592-025-02814-z) |
-| scMulan | scMulan: A multitask generative pre-trained language model for single-cell analysis | Multitask generative pretrained language model that encodes cells as structured "c-sentences" for single-cell analysis. | [Paper](https://doi.org/10.1007/978-1-0716-3989-4_33) |
-| Cell2Sentence | Cell2Sentence: Teaching large language models the language of biology | Converts gene expression profiles into natural language sentences, enabling GPT-2 adaptation for single-cell transcriptomics. | [Paper](https://proceedings.mlr.press/v235/levine24a.html) |
-| GET | GET: A foundation model of transcription across human cell types | Universal expression transformer predicting gene expression from chromatin accessibility across 213 human cell types. | [Paper](https://doi.org/10.1038/s41586-024-08391-z) |
-| GenePT | GenePT: A simple but effective foundation model for genes and cells built from ChatGPT | Simple and effective gene/cell foundation model using ChatGPT embeddings for gene and cell representation. | [Paper](https://www.biorxiv.org/content/10.1101/2023.10.16.562533) |
-| LangCell | LangCell: Language-cell pre-training for cell identity understanding | Joint pretraining of natural language and single-cell transcriptomics to enhance cell identity understanding. | [Paper](https://arxiv.org/abs/2405.06708) |
-| CellVQ | Illuminating cell states by a comprehensive and interpretable single cell foundation model | Comprehensive and interpretable single-cell foundation model trained on 68 million cells for illuminating cell states. | [Paper](https://doi.org/10.1038/s41467-026-70071-5) |
-| scKGBERT | scKGBERT: A knowledge-enhanced foundation model for single-cell transcriptomics | Knowledge graph-enhanced foundation model for single-cell transcriptomics. | [Paper](https://pubmed.ncbi.nlm.nih.gov/) |
-| SATURN | Toward universal cell embeddings: integrating scRNA-seq datasets across species | Cross-species universal cell embedding framework that integrates scRNA-seq datasets across organisms. | [Paper](https://doi.org/10.1038/s41592-024-02191-z) |
-| scTab | scTab: Scaling cross-tissue single-cell annotation models | Scalable deep learning model for cross-tissue cell type annotation trained on 22 million cells. | [Paper](https://doi.org/10.1038/s41467-024-51059-5) |
-| scPRINT | scPRINT: pre-training on 50 million cells allows robust gene network predictions | Transformer foundation model trained on 50M cells for robust gene network inference. | [Paper](https://doi.org/10.1038/s41467-025-58699-1) |
-| scPRINT-2 | scPRINT-2: Towards the next-generation of cell foundation models | Next-generation cell foundation model trained on 350M cells across 16 organisms. | [Paper](https://www.biorxiv.org/content/10.1101/2025.12.11.693702) |
-| scELMo | scELMo: Embeddings from Language Models are Good Learners for Single-cell Data Analysis | Language model embeddings applied to single-cell data analysis. | [Paper](https://www.biorxiv.org/content/10.1101/2023.12.07.569910) |
-| scVI | scVI: Variational Inference for Single-Cell Gene Expression | Deep generative model providing probabilistic framework for single-cell transcriptomics analysis. | [Paper](https://doi.org/10.1038/s41592-018-0229-2) |
-| scANVI | scANVI: semi-supervised integration of single-cell multi-omic data | Semi-supervised deep generative model for integrating single-cell multi-omic data. | [Paper](https://doi.org/10.15252/msb.20209620) |
-| totalVI | Joint probabilistic modeling of single-cell multi-omic data with totalVI | Joint probabilistic model for simultaneous RNA and protein single-cell data analysis. | [Paper](https://doi.org/10.1038/s41592-020-01050-x) |
-| CellTypist | Cross-tissue immune cell analysis reveals tissue-specific features in humans | Automated cell type annotation tool with large cross-tissue immune cell reference atlas. | [Paper](https://doi.org/10.1126/science.abl5197) |
-| scPoli | Population-level integration of single-cell datasets enables multi-scale analysis | Population-level single-cell dataset integration enabling multi-scale biological analysis. | [Paper](https://doi.org/10.1038/s41592-023-02035-2) |
-| scHyena | scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain | Hyena architecture-based foundation model for full-length scRNA-seq analysis in brain tissue. | [Paper](https://arxiv.org/abs/2310.02713) |
-| TOSICA | TOSICA: Transfer of Omics Single-Cell Analysis | Transfer learning framework for single-cell omics analysis across datasets and modalities. | [Paper](https://doi.org/10.1038/s41467-023-44066-5) |
-| xTrimoGene | xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data | Efficient and scalable representation learner for scRNA-seq data using asymmetric encoder-decoder architecture. | [Paper](https://openreview.net/forum?id=xTrimoGene) |
-| CancerFoundation | A single-cell RNA sequencing foundation model to decipher drug resistance in cancer | Cancer-specific scRNA-seq foundation model for deciphering drug resistance mechanisms. | [Paper](https://www.biorxiv.org/content/10.1101/2024.11.01.621087) |
-| Cell-GraphCompass | Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model | Graph structure foundation model for single-cell analysis using graph-based cell representations. | [Paper](https://doi.org/10.1093/nsr/nwaf255) |
-| scLong | scLong: A billion-parameter foundation model for capturing long-range gene context | Billion-parameter foundation model attending to all 28,000 genes simultaneously for long-range context. | [Paper](https://doi.org/10.1038/s41467-026-69102-y) |
-| Tahoe-x1 | Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters | 3B-parameter perturbation-trained single-cell foundation model for predicting cellular responses. | [Paper](https://www.biorxiv.org/content/10.1101/2025.10.23.683759) |
-| PULSAR | PULSAR: a Foundation Model for Multi-scale and Multicellular Biology | Multi-scale foundation model integrating 36M+ cells for multicellular biology analysis. | [Paper](https://www.biorxiv.org/content/10.1101/2025.11.24.685470) |
-| TranscriptFormer | A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution | Cross-species generative cell atlas foundation model spanning 1.5 billion years of evolution. | [Paper](https://www.biorxiv.org/content/10.1101/2025.04.25.650731) |
-| TCRfoundation | TCRfoundation: A multimodal foundation model for single-cell immune profiling | Multimodal foundation model integrating gene expression with TCR sequences for immune profiling. | [Paper](https://github.com/TCRfoundation) |
-| CELLama | CELLama: Foundation Model for Single Cell and Spatial Transcriptomics | Cell embedding model leveraging language model capabilities for single-cell and spatial transcriptomics. | [Paper](https://www.biorxiv.org/content/10.1101/2024.05.08.593094) |
-| scPROTEIN | scPROTEIN: versatile deep graph contrastive learning framework for single-cell proteomics | Graph contrastive learning framework for single-cell proteomics embedding and analysis. | [Paper](https://doi.org/10.1038/s41592-024-02214-9) |
-| TEDDY | TEDDY: A Family of Foundation Models for Understanding Single Cell Biology | Family of foundation models designed for comprehensive single-cell biology understanding. | [Paper](https://arxiv.org/abs/2503.03485) |
-| Tabula | Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics | Tabular self-supervised foundation model tailored for single-cell transcriptomics data. | [Paper](https://openreview.net/forum?id=Tabula) |
-| ChromFound | ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data | Universal foundation model for single-cell chromatin accessibility (scATAC-seq) data analysis. | [Paper](https://arxiv.org/abs/2505.12638) |
-| EpiFoundation | EpiFoundation: A Foundation Model for Single-Cell ATAC-seq via Peak-to-Gene Alignment | Foundation model for scATAC-seq using peak-to-gene alignment for epigenomic analysis. | [Paper](https://www.biorxiv.org/content/10.1101/2025.02.05.636688) |
-| SCARF | SCARF: Single Cell ATAC-seq and RNA-seq Foundation model | Multi-modal foundation model jointly modeling scATAC-seq and scRNA-seq data. | [Paper](https://www.biorxiv.org/content/10.1101/2025.04.07.647689) |
-| CAPTAIN | CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein | Multimodal foundation model for co-assayed scRNA and protein data integration. | [Paper](https://www.biorxiv.org/content/10.1101/2025.07.07.663366) |
-| OKR-Cell | OKR-Cell: Open world knowledge aided single-cell foundation model with cross-modal pre-training | Open-world knowledge-enhanced single-cell foundation model with cross-modal pretraining. | [Paper](https://arxiv.org/abs/OKR-Cell) |
-| GeneJepa | GeneJepa: A predictive world model of the transcriptome | Predictive world model for transcriptomics based on JEPA architecture. | [Paper](https://arxiv.org/abs/GeneJepa) |
-| VCWorld | VCWorld: Biological world model for virtual cell simulation | Biological world model for simulating virtual cell dynamics and perturbation responses. | [Paper](https://arxiv.org/abs/VCWorld) |
-| CellForge | CellForge: Agentic design of virtual cell models | Agentic AI framework for automated design of virtual cell models. | [Paper](https://arxiv.org/abs/CellForge) |
-| CellHermes | CellHermes: Harmonizing multimodal data for omics understanding | Multimodal data harmonization model for unified omics understanding. | [Paper](https://arxiv.org/abs/CellHermes) |
-| CellTok | CellTok: Early-fusion multimodal LLM for single-cell transcriptomics via tokenization | Early-fusion multimodal LLM for single-cell transcriptomics using gene expression tokenization. | [Paper](https://arxiv.org/abs/CellTok) |
-| sciLaMA | sciLaMA: Single-cell representation learning leveraging prior knowledge from LLMs | Single-cell representation learning leveraging prior knowledge from large language models. | [Paper](https://arxiv.org/abs/sciLaMA) |
-| CASSIA | CASSIA: Multi-agent LLM for automated and interpretable cell annotation | Multi-agent LLM system for automated and interpretable single-cell annotation. | [Paper](https://arxiv.org/abs/CASSIA) |
-| scConcept | scConcept: Contrastive pretraining for technology-agnostic single-cell representations | Contrastive pretraining framework for technology-agnostic single-cell representations. | [Paper](https://arxiv.org/abs/scConcept) |
-| scLinguist | scLinguist: Hyena-based foundation model for cross-modality translation in single-cell multi-omics | Hyena-based foundation model for cross-modality translation in single-cell multi-omics. | [Paper](https://arxiv.org/abs/scLinguist) |
-| scNET | scNET: Context-specific gene and cell embeddings by integrating scRNA with PPI | Context-specific gene and cell embeddings integrating scRNA-seq with protein-protein interaction networks. | [Paper](https://arxiv.org/abs/scNET) |
-| HEIMDALL | HEIMDALL: Modular framework for tokenization in single-cell foundation models | Modular framework for flexible tokenization strategies in single-cell foundation models. | [Paper](https://arxiv.org/abs/HEIMDALL) |
-| PertAdapt | PertAdapt: Unlocking single-cell FMs for genetic perturbation prediction | Method for unlocking single-cell foundation models for genetic perturbation prediction tasks. | [Paper](https://arxiv.org/abs/PertAdapt) |
-| scPEFT | scPEFT: Parameter-efficient fine-tuning for single-cell large language models | Parameter-efficient fine-tuning methods tailored for single-cell large language models. | [Paper](https://arxiv.org/abs/scPEFT) |
-| BioLLM | BioLLM: Standardized framework for integrating and benchmarking single-cell FMs | Standardized framework for integrating and benchmarking single-cell foundation models. | [Paper](https://arxiv.org/abs/BioLLM) |
-| Tahoe-100M | Tahoe-100M: Giga-scale single-cell perturbation atlas | Giga-scale single-cell perturbation atlas dataset for training perturbation-response models. | [Paper](https://www.biorxiv.org/content/10.1101/Tahoe-100M) |
-| scLAMBDA | scLAMBDA: Modeling single-cell multi-gene perturbation responses | Model for predicting single-cell responses to multi-gene combinatorial perturbations. | [Paper](https://arxiv.org/abs/scLAMBDA) |
-| GeneMamba | GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data | Mamba architecture-based efficient single-cell foundation model with scalable computation. | [Paper](https://arxiv.org/abs/2504.16956) |
-| Atacformer | Atacformer: Transformer-based foundation model for ATAC-seq data analysis | Transformer-based foundation model for ATAC-seq chromatin accessibility data analysis. | [Paper](https://arxiv.org/abs/Atacformer) |
-| CLM-X | CLM-X: Cross-Modal Language Model for Single-Cell Multi-Omics | Cross-modal language model for unified single-cell multi-omics representation learning. | [Paper](https://arxiv.org/abs/CLM-X) |
-| CellOracle | CellOracle: Dissecting cell identity via network inference and in silico gene perturbation | Computational framework using gene regulatory networks to simulate gene perturbation effects on cell identity. | [Paper](https://doi.org/10.1038/s41586-022-05688-9) |
-| Stack | Stack: In-Context Learning of Single-Cell Biology | Arc Institute single-cell foundation model trained on 149M human cells enabling zero-shot prediction via in-context learning. | [Paper](https://www.biorxiv.org/content/10.1101/2026.01.09.698608) |
-| Lingshu-Cell | Lingshu-Cell: cellular world model for transcriptome modeling | Masked discrete diffusion cellular world model for transcriptome modeling from Alibaba DAMO. | [Paper](https://arxiv.org/abs/2603.25240) |
+| scGPT | scGPT: Toward building a foundation model for single-cell multi-omics using generative AI | Generative pretrained transformer for single-cell multi-omics, enabling cell annotation, perturbation prediction, and gene network inference from 33M+ cells. | [Nature Methods](https://doi.org/10.1038/s41592-024-02201-0) |
+| scBERT | scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data | Large-scale BERT-based pretrained model for automated cell type annotation from scRNA-seq data. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-022-00534-z) |
+| Geneformer | Transfer learning enables predictions in network biology | Transformer model pretrained on ~30 million single-cell transcriptomes for transfer learning in gene network biology. | [Nature](https://doi.org/10.1038/s41586-023-06139-9) |
+| scFoundation | Large-scale foundation model on single-cell transcriptomics | 100M-parameter single-cell transcriptomics foundation model (xTrimoGene) trained on 50M+ human cells. | [Nature Methods](https://doi.org/10.1038/s41592-024-02305-7) |
+| UCE | Universal Cell Embeddings: A foundation model for cell biology | Universal cell embedding model that creates a unified representation space across species and tissues. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.28.568918) |
+| GeneCompass | GeneCompass: Deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model | Knowledge-enhanced cross-species foundation model trained on 100M+ human and mouse cells for deciphering gene regulatory mechanisms. | [Cell Research](https://doi.org/10.1038/s41422-024-01034-y) |
+| CellPLM | CellPLM: Pre-training of cell language model beyond single cells | Cell language model that integrates gene-gene and cell-cell interactions, going beyond single-cell level pretraining. | [ICLR 2024](https://openreview.net/forum?id=CellPLM) |
+| tGPT | Generative pretraining from large-scale transcriptomes for single-cell deciphering | Generative pretrained model on 22.3 million single-cell transcriptomes for cell deciphering and clinical translation. | [iScience](https://doi.org/10.1016/j.isci.2023.106536) |
+| CellFM | CellFM: A large-scale foundation model pre-trained on transcriptomics of 100 million human cells | 800M-parameter foundation model pretrained on 100 million human cell transcriptomes. | [Nature Communications](https://doi.org/10.1038/s41467-025-59926-5) |
+| Nicheformer | Nicheformer: A foundation model for single-cell and spatial omics | Single-cell and spatial omics foundation model trained on SpatialCorpus-110M (110M+ cells), capturing spatial microenvironments. | [Nature Methods](https://doi.org/10.1038/s41592-025-02814-z) |
+| scMulan | scMulan: A multitask generative pre-trained language model for single-cell analysis | Multitask generative pretrained language model that encodes cells as structured "c-sentences" for single-cell analysis. | [RECOMB 2024](https://doi.org/10.1007/978-1-0716-3989-4_33) |
+| Cell2Sentence | Cell2Sentence: Teaching large language models the language of biology | Converts gene expression profiles into natural language sentences, enabling GPT-2 adaptation for single-cell transcriptomics. | [ICML 2024](https://proceedings.mlr.press/v235/levine24a.html) |
+| GET | GET: A foundation model of transcription across human cell types | Universal expression transformer predicting gene expression from chromatin accessibility across 213 human cell types. | [Nature](https://doi.org/10.1038/s41586-024-08391-z) |
+| GenePT | GenePT: A simple but effective foundation model for genes and cells built from ChatGPT | Simple and effective gene/cell foundation model using ChatGPT embeddings for gene and cell representation. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.10.16.562533) |
+| LangCell | LangCell: Language-cell pre-training for cell identity understanding | Joint pretraining of natural language and single-cell transcriptomics to enhance cell identity understanding. | [arXiv](https://arxiv.org/abs/2405.06708) |
+| CellVQ | Illuminating cell states by a comprehensive and interpretable single cell foundation model | Comprehensive and interpretable single-cell foundation model trained on 68 million cells for illuminating cell states. | [Nature Communications](https://doi.org/10.1038/s41467-026-70071-5) |
+| scKGBERT | scKGBERT: A knowledge-enhanced foundation model for single-cell transcriptomics | Knowledge graph-enhanced foundation model for single-cell transcriptomics. | [PMC](https://pubmed.ncbi.nlm.nih.gov/) |
+| SATURN | Toward universal cell embeddings: integrating scRNA-seq datasets across species | Cross-species universal cell embedding framework that integrates scRNA-seq datasets across organisms. | [Nature Methods](https://doi.org/10.1038/s41592-024-02191-z) |
+| scTab | scTab: Scaling cross-tissue single-cell annotation models | Scalable deep learning model for cross-tissue cell type annotation trained on 22 million cells. | [Nature Communications](https://doi.org/10.1038/s41467-024-51059-5) |
+| scPRINT | scPRINT: pre-training on 50 million cells allows robust gene network predictions | Transformer foundation model trained on 50M cells for robust gene network inference. | [Nature Communications](https://doi.org/10.1038/s41467-025-58699-1) |
+| scPRINT-2 | scPRINT-2: Towards the next-generation of cell foundation models | Next-generation cell foundation model trained on 350M cells across 16 organisms. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.11.693702) |
+| scELMo | scELMo: Embeddings from Language Models are Good Learners for Single-cell Data Analysis | Language model embeddings applied to single-cell data analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.12.07.569910) |
+| scVI | scVI: Variational Inference for Single-Cell Gene Expression | Deep generative model providing probabilistic framework for single-cell transcriptomics analysis. | [Nature Methods](https://doi.org/10.1038/s41592-018-0229-2) |
+| scANVI | scANVI: semi-supervised integration of single-cell multi-omic data | Semi-supervised deep generative model for integrating single-cell multi-omic data. | [Molecular Systems Biology](https://doi.org/10.15252/msb.20209620) |
+| totalVI | Joint probabilistic modeling of single-cell multi-omic data with totalVI | Joint probabilistic model for simultaneous RNA and protein single-cell data analysis. | [Nature Methods](https://doi.org/10.1038/s41592-020-01050-x) |
+| CellTypist | Cross-tissue immune cell analysis reveals tissue-specific features in humans | Automated cell type annotation tool with large cross-tissue immune cell reference atlas. | [Science](https://doi.org/10.1126/science.abl5197) |
+| scPoli | Population-level integration of single-cell datasets enables multi-scale analysis | Population-level single-cell dataset integration enabling multi-scale biological analysis. | [Nature Methods](https://doi.org/10.1038/s41592-023-02035-2) |
+| scHyena | scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain | Hyena architecture-based foundation model for full-length scRNA-seq analysis in brain tissue. | [arXiv](https://arxiv.org/abs/2310.02713) |
+| TOSICA | TOSICA: Transfer of Omics Single-Cell Analysis | Transfer learning framework for single-cell omics analysis across datasets and modalities. | [Nature Communications](https://doi.org/10.1038/s41467-023-44066-5) |
+| xTrimoGene | xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data | Efficient and scalable representation learner for scRNA-seq data using asymmetric encoder-decoder architecture. | [NeurIPS 2023](https://openreview.net/forum?id=xTrimoGene) |
+| CancerFoundation | A single-cell RNA sequencing foundation model to decipher drug resistance in cancer | Cancer-specific scRNA-seq foundation model for deciphering drug resistance mechanisms. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.01.621087) |
+| Cell-GraphCompass | Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model | Graph structure foundation model for single-cell analysis using graph-based cell representations. | [National Science Review](https://doi.org/10.1093/nsr/nwaf255) |
+| scLong | scLong: A billion-parameter foundation model for capturing long-range gene context | Billion-parameter foundation model attending to all 28,000 genes simultaneously for long-range context. | [Nature Communications](https://doi.org/10.1038/s41467-026-69102-y) |
+| Tahoe-x1 | Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters | 3B-parameter perturbation-trained single-cell foundation model for predicting cellular responses. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.10.23.683759) |
+| PULSAR | PULSAR: a Foundation Model for Multi-scale and Multicellular Biology | Multi-scale foundation model integrating 36M+ cells for multicellular biology analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.11.24.685470) |
+| TranscriptFormer | A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution | Cross-species generative cell atlas foundation model spanning 1.5 billion years of evolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.25.650731) |
+| TCRfoundation | TCRfoundation: A multimodal foundation model for single-cell immune profiling | Multimodal foundation model integrating gene expression with TCR sequences for immune profiling. | [bioRxiv](https://github.com/TCRfoundation) |
+| CELLama | CELLama: Foundation Model for Single Cell and Spatial Transcriptomics | Cell embedding model leveraging language model capabilities for single-cell and spatial transcriptomics. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.05.08.593094) |
+| scPROTEIN | scPROTEIN: versatile deep graph contrastive learning framework for single-cell proteomics | Graph contrastive learning framework for single-cell proteomics embedding and analysis. | [Nature Methods](https://doi.org/10.1038/s41592-024-02214-9) |
+| TEDDY | TEDDY: A Family of Foundation Models for Understanding Single Cell Biology | Family of foundation models designed for comprehensive single-cell biology understanding. | [ICML Workshop](https://arxiv.org/abs/2503.03485) |
+| Tabula | Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics | Tabular self-supervised foundation model tailored for single-cell transcriptomics data. | [NeurIPS](https://openreview.net/forum?id=Tabula) |
+| ChromFound | ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data | Universal foundation model for single-cell chromatin accessibility (scATAC-seq) data analysis. | [NeurIPS 2025](https://arxiv.org/abs/2505.12638) |
+| EpiFoundation | EpiFoundation: A Foundation Model for Single-Cell ATAC-seq via Peak-to-Gene Alignment | Foundation model for scATAC-seq using peak-to-gene alignment for epigenomic analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.05.636688) |
+| SCARF | SCARF: Single Cell ATAC-seq and RNA-seq Foundation model | Multi-modal foundation model jointly modeling scATAC-seq and scRNA-seq data. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.07.647689) |
+| CAPTAIN | CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein | Multimodal foundation model for co-assayed scRNA and protein data integration. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.07.663366) |
+| OKR-Cell | OKR-Cell: Open world knowledge aided single-cell foundation model with cross-modal pre-training | Open-world knowledge-enhanced single-cell foundation model with cross-modal pretraining. | [arXiv](https://arxiv.org/abs/OKR-Cell) |
+| GeneJepa | GeneJepa: A predictive world model of the transcriptome | Predictive world model for transcriptomics based on JEPA architecture. | [arXiv](https://arxiv.org/abs/GeneJepa) |
+| VCWorld | VCWorld: Biological world model for virtual cell simulation | Biological world model for simulating virtual cell dynamics and perturbation responses. | [arXiv](https://arxiv.org/abs/VCWorld) |
+| CellForge | CellForge: Agentic design of virtual cell models | Agentic AI framework for automated design of virtual cell models. | [arXiv](https://arxiv.org/abs/CellForge) |
+| CellHermes | CellHermes: Harmonizing multimodal data for omics understanding | Multimodal data harmonization model for unified omics understanding. | [arXiv](https://arxiv.org/abs/CellHermes) |
+| CellTok | CellTok: Early-fusion multimodal LLM for single-cell transcriptomics via tokenization | Early-fusion multimodal LLM for single-cell transcriptomics using gene expression tokenization. | [arXiv](https://arxiv.org/abs/CellTok) |
+| sciLaMA | sciLaMA: Single-cell representation learning leveraging prior knowledge from LLMs | Single-cell representation learning leveraging prior knowledge from large language models. | [arXiv](https://arxiv.org/abs/sciLaMA) |
+| CASSIA | CASSIA: Multi-agent LLM for automated and interpretable cell annotation | Multi-agent LLM system for automated and interpretable single-cell annotation. | [arXiv](https://arxiv.org/abs/CASSIA) |
+| scConcept | scConcept: Contrastive pretraining for technology-agnostic single-cell representations | Contrastive pretraining framework for technology-agnostic single-cell representations. | [arXiv](https://arxiv.org/abs/scConcept) |
+| scLinguist | scLinguist: Hyena-based foundation model for cross-modality translation in single-cell multi-omics | Hyena-based foundation model for cross-modality translation in single-cell multi-omics. | [arXiv](https://arxiv.org/abs/scLinguist) |
+| scNET | scNET: Context-specific gene and cell embeddings by integrating scRNA with PPI | Context-specific gene and cell embeddings integrating scRNA-seq with protein-protein interaction networks. | [arXiv](https://arxiv.org/abs/scNET) |
+| HEIMDALL | HEIMDALL: Modular framework for tokenization in single-cell foundation models | Modular framework for flexible tokenization strategies in single-cell foundation models. | [arXiv](https://arxiv.org/abs/HEIMDALL) |
+| PertAdapt | PertAdapt: Unlocking single-cell FMs for genetic perturbation prediction | Method for unlocking single-cell foundation models for genetic perturbation prediction tasks. | [arXiv](https://arxiv.org/abs/PertAdapt) |
+| scPEFT | scPEFT: Parameter-efficient fine-tuning for single-cell large language models | Parameter-efficient fine-tuning methods tailored for single-cell large language models. | [arXiv](https://arxiv.org/abs/scPEFT) |
+| BioLLM | BioLLM: Standardized framework for integrating and benchmarking single-cell FMs | Standardized framework for integrating and benchmarking single-cell foundation models. | [arXiv](https://arxiv.org/abs/BioLLM) |
+| Tahoe-100M | Tahoe-100M: Giga-scale single-cell perturbation atlas | Giga-scale single-cell perturbation atlas dataset for training perturbation-response models. | [bioRxiv](https://www.biorxiv.org/content/10.1101/Tahoe-100M) |
+| scLAMBDA | scLAMBDA: Modeling single-cell multi-gene perturbation responses | Model for predicting single-cell responses to multi-gene combinatorial perturbations. | [arXiv](https://arxiv.org/abs/scLAMBDA) |
+| GeneMamba | GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data | Mamba architecture-based efficient single-cell foundation model with scalable computation. | [arXiv](https://arxiv.org/abs/2504.16956) |
+| Atacformer | Atacformer: Transformer-based foundation model for ATAC-seq data analysis | Transformer-based foundation model for ATAC-seq chromatin accessibility data analysis. | [arXiv](https://arxiv.org/abs/Atacformer) |
+| CLM-X | CLM-X: Cross-Modal Language Model for Single-Cell Multi-Omics | Cross-modal language model for unified single-cell multi-omics representation learning. | [arXiv](https://arxiv.org/abs/CLM-X) |
+| CellOracle | CellOracle: Dissecting cell identity via network inference and in silico gene perturbation | Computational framework using gene regulatory networks to simulate gene perturbation effects on cell identity. | [Nature](https://doi.org/10.1038/s41586-022-05688-9) |
+| Stack | Stack: In-Context Learning of Single-Cell Biology | Arc Institute single-cell foundation model trained on 149M human cells enabling zero-shot prediction via in-context learning. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.09.698608) |
+| Lingshu-Cell | Lingshu-Cell: cellular world model for transcriptome modeling | Masked discrete diffusion cellular world model for transcriptome modeling from Alibaba DAMO. | [arXiv](https://arxiv.org/abs/2603.25240) |
 
 ### Virtual Cell Models
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| AlphaCell | Towards building a World Model to simulate perturbation-induced cellular dynamics | Virtual cell world model that simulates perturbation-induced cellular dynamics. | [Paper](https://www.biorxiv.org/content/10.1101/2026.03.02.709176) |
-| CellFluxV2 | CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling | Flow matching-based generative foundation model for virtual cell image modeling. | [Paper](https://www.biorxiv.org/content/10.1101/2026.01.19.696785) |
-| X-Cell | X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts | Large-scale diffusion language model predicting genome-wide transcriptional responses across diverse cellular contexts. | [Paper](https://www.biorxiv.org/content/10.1101/2026.03.18.712807) |
+| AlphaCell | Towards building a World Model to simulate perturbation-induced cellular dynamics | Virtual cell world model that simulates perturbation-induced cellular dynamics. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.02.709176) |
+| CellFluxV2 | CellFluxV2: An Image Generative Foundation Model for Virtual Cell Modeling | Flow matching-based generative foundation model for virtual cell image modeling. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.19.696785) |
+| X-Cell | X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts | Large-scale diffusion language model predicting genome-wide transcriptional responses across diverse cellular contexts. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.18.712807) |
 
 ---
 
@@ -397,12 +397,12 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| Xpressor | Towards foundation models that learn across biological scales | Cross-scale learning framework integrating molecular, cellular, and tissue-level gene expression via cross-attention. | [Paper](https://www.biorxiv.org/content/10.1101/2025.05.16.653447) |
-| AIDO | Toward AI-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels | AI-driven digital organism system integrating DNA→RNA→protein→cell multi-scale foundation models. | [Paper](https://arxiv.org/abs/2412.06993) |
-| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [Paper](https://www.biorxiv.org/content/10.1101/2024.11.29) |
-| AIDO.ModelGenerator | Rapid and reproducible multimodal biological foundation model development with AIDO.ModelGenerator | Open-source toolkit for accelerating cross-scale multimodal biological foundation model development. | [Paper](https://www.biorxiv.org/content/10.1101/2025.06.30.662437) |
-| SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | Multi-scale spatial transcriptomics foundation model integrating macroscopic tissue morphology and microscopic cellular environments. | [Paper](https://proceedings.mlr.press/v235/) |
-| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [Paper](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
+| Xpressor | Towards foundation models that learn across biological scales | Cross-scale learning framework integrating molecular, cellular, and tissue-level gene expression via cross-attention. | [ICML 2025](https://www.biorxiv.org/content/10.1101/2025.05.16.653447) |
+| AIDO | Toward AI-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels | AI-driven digital organism system integrating DNA→RNA→protein→cell multi-scale foundation models. | [arXiv](https://arxiv.org/abs/2412.06993) |
+| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [NeurIPS 2024 Workshop](https://www.biorxiv.org/content/10.1101/2024.11.29) |
+| AIDO.ModelGenerator | Rapid and reproducible multimodal biological foundation model development with AIDO.ModelGenerator | Open-source toolkit for accelerating cross-scale multimodal biological foundation model development. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.30.662437) |
+| SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | Multi-scale spatial transcriptomics foundation model integrating macroscopic tissue morphology and microscopic cellular environments. | [ICML 2025](https://proceedings.mlr.press/v235/) |
+| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
 
 ---
 
@@ -415,63 +415,63 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| IgBERT | Large scale paired antibody language models | BERT-based antibody language model trained on 2B+ unpaired and 2M paired antibody sequences from OAS. | [Paper](https://doi.org/10.1371/journal.pcbi.1012646) |
-| IgT5 | Large scale paired antibody language models | T5-based paired antibody language model companion to IgBERT for antibody design and engineering. | [Paper](https://doi.org/10.1371/journal.pcbi.1012646) |
-| AntiBERTy | Deciphering antibody affinity maturation with language models and weakly supervised learning | BERT-based model trained on 558M antibody sequences for affinity maturation analysis. | [Paper](https://arxiv.org/abs/2112.07782) |
-| AbLang | AbLang: An antibody language model for completing antibody sequences | Antibody-specific language model trained on OAS for residue prediction and antibody representation. | [Paper](https://doi.org/10.1093/bioadv/vbac046) |
-| AbLang2 | AbLang2: Addressing the Antibody Germline Bias | Improved antibody language model for paired heavy-light chains with reduced germline bias. | [Paper](https://github.com/oxpig/AbLang2) |
-| IGLOO | Multimodal antibody loop tokenizer for protein language models | Multimodal antibody loop tokenizer enhancing protein language models for antibody research. | [Paper](https://openreview.net/forum?id=IGLOO) |
-| Ab-RoBERTa | Antibody Foundational Model: Ab-RoBERTa | RoBERTa-based antibody language model for paratope prediction and antibody design. | [Paper](https://arxiv.org/abs/2506.13006) |
-| BALM | Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model | Bio-inspired antibody language model for predicting antibody structure and function. | [Paper](https://www.biorxiv.org/content/10.1101/2023.08.30.555473) |
-| Sapiens | BioPhi: A platform for antibody design, humanization and humanness evaluation | BERT-based human antibody language model within BioPhi platform for humanization and humanness evaluation. | [Paper](https://doi.org/10.1126/sciadv.abj6587) |
-| DASM | Separating selection from mutation in antibody language models | Deep amino acid selection model that separates selection from mutation in antibody sequence modeling. | [Paper](https://doi.org/10.7554/eLife.109644) |
-| nanoBERT | nanoBERT: a deep learning model for gene agnostic navigation of the nanobody mutational space | Nanobody-specific transformer model for predicting amino acid substitutions in VHH sequences. | [Paper](https://doi.org/10.1093/bioadv/vbae033) |
-| FAbCon | A generative foundation model for antibody sequence understanding | 2.4B-parameter generative foundation model for antibody sequence understanding. | [Paper](https://www.biorxiv.org/content/10.1101/2024.05.22.594943) |
-| S2ALM | S2ALM: Sequence-Structure Pre-trained Large Language Model for Antibody | Sequence-structure pretrained large language model for comprehensive antibody understanding. | [Paper](https://arxiv.org/abs/2411.15215) |
+| IgBERT | Large scale paired antibody language models | BERT-based antibody language model trained on 2B+ unpaired and 2M paired antibody sequences from OAS. | [PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1012646) |
+| IgT5 | Large scale paired antibody language models | T5-based paired antibody language model companion to IgBERT for antibody design and engineering. | [PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1012646) |
+| AntiBERTy | Deciphering antibody affinity maturation with language models and weakly supervised learning | BERT-based model trained on 558M antibody sequences for affinity maturation analysis. | [arXiv](https://arxiv.org/abs/2112.07782) |
+| AbLang | AbLang: An antibody language model for completing antibody sequences | Antibody-specific language model trained on OAS for residue prediction and antibody representation. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbac046) |
+| AbLang2 | AbLang2: Addressing the Antibody Germline Bias | Improved antibody language model for paired heavy-light chains with reduced germline bias. | [GitHub](https://github.com/oxpig/AbLang2) |
+| IGLOO | Multimodal antibody loop tokenizer for protein language models | Multimodal antibody loop tokenizer enhancing protein language models for antibody research. | [NeurIPS 2025 Workshop](https://openreview.net/forum?id=IGLOO) |
+| Ab-RoBERTa | Antibody Foundational Model: Ab-RoBERTa | RoBERTa-based antibody language model for paratope prediction and antibody design. | [arXiv](https://arxiv.org/abs/2506.13006) |
+| BALM | Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model | Bio-inspired antibody language model for predicting antibody structure and function. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.08.30.555473) |
+| Sapiens | BioPhi: A platform for antibody design, humanization and humanness evaluation | BERT-based human antibody language model within BioPhi platform for humanization and humanness evaluation. | [Science Advances](https://doi.org/10.1126/sciadv.abj6587) |
+| DASM | Separating selection from mutation in antibody language models | Deep amino acid selection model that separates selection from mutation in antibody sequence modeling. | [eLife](https://doi.org/10.7554/eLife.109644) |
+| nanoBERT | nanoBERT: a deep learning model for gene agnostic navigation of the nanobody mutational space | Nanobody-specific transformer model for predicting amino acid substitutions in VHH sequences. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbae033) |
+| FAbCon | A generative foundation model for antibody sequence understanding | 2.4B-parameter generative foundation model for antibody sequence understanding. | [NeurIPS 2025](https://www.biorxiv.org/content/10.1101/2024.05.22.594943) |
+| S2ALM | S2ALM: Sequence-Structure Pre-trained Large Language Model for Antibody | Sequence-structure pretrained large language model for comprehensive antibody understanding. | [Nature Methods](https://arxiv.org/abs/2411.15215) |
 
 ### Antibody Structure Prediction
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| IgFold | Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies | Fast antibody structure prediction using pretrained LM on 558M sequences with graph neural networks. | [Paper](https://doi.org/10.1038/s41467-023-38063-x) |
-| DeepAb | Antibody structure prediction using interpretable deep learning | Interpretable deep learning model for antibody Fv structure prediction specializing in CDR loop modeling. | [Paper](https://doi.org/10.1016/j.patter.2021.100406) |
-| ABodyBuilder2 | ABodyBuilder2: Antibody Structure Prediction with Updated Datasets and Confidence Estimation | Deep learning model for rapid all-atom 3D structure prediction of paired antibody variable domains. | [Paper](https://opig.stats.ox.ac.uk/webapps/newsabdab/sabpred/abodybuilder2/) |
-| ABlooper | ABlooper: Fast accurate antibody CDR loop structure prediction with accuracy estimation | Rapid equivariant neural network for antibody CDR loop structure prediction with accuracy estimation. | [Paper](https://doi.org/10.1093/bioinformatics/btac016) |
-| AntiFold | AntiFold: Improved structure-based antibody design using inverse folding | Antibody-specific inverse folding model fine-tuned from ESM-IF1 for CDR sequence generation from structures. | [Paper](https://arxiv.org/abs/2405.03370) |
+| IgFold | Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies | Fast antibody structure prediction using pretrained LM on 558M sequences with graph neural networks. | [Nature Communications](https://doi.org/10.1038/s41467-023-38063-x) |
+| DeepAb | Antibody structure prediction using interpretable deep learning | Interpretable deep learning model for antibody Fv structure prediction specializing in CDR loop modeling. | [Patterns](https://doi.org/10.1016/j.patter.2021.100406) |
+| ABodyBuilder2 | ABodyBuilder2: Antibody Structure Prediction with Updated Datasets and Confidence Estimation | Deep learning model for rapid all-atom 3D structure prediction of paired antibody variable domains. | [Oxford Protein Informatics Group](https://opig.stats.ox.ac.uk/webapps/newsabdab/sabpred/abodybuilder2/) |
+| ABlooper | ABlooper: Fast accurate antibody CDR loop structure prediction with accuracy estimation | Rapid equivariant neural network for antibody CDR loop structure prediction with accuracy estimation. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btac016) |
+| AntiFold | AntiFold: Improved structure-based antibody design using inverse folding | Antibody-specific inverse folding model fine-tuned from ESM-IF1 for CDR sequence generation from structures. | [Digital Discovery](https://arxiv.org/abs/2405.03370) |
 
 ### Antibody Design & Generation
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| IgGM | A generative foundation model for antibody design | Generative foundation model for comprehensive antibody design. | [Paper](https://www.biorxiv.org/content/10.1101/2025.09.12.675771) |
-| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Diffusion-based generative model for antigen-specific antibody CDR-H3 design, jointly modeling sequence, structure, and orientation. | [Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/DiffAb) |
-| dyMEAN | Full-Atom Antibody Design via dyMEAN | End-to-end full-atom antibody design using dynamic multi-channel equivariant graph network. | [Paper](https://arxiv.org/abs/2302.00203) |
-| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design. | [Paper](https://openreview.net/forum?id=MEAN) |
-| RefineGNN | Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design | Iterative refinement GNN for antibody CDR co-design of sequence and 3D structure via autoregressive generation. | [Paper](https://arxiv.org/abs/2110.04624) |
-| Ophiuchus-Ab | Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy | Diffusion language model for antibody immunotherapy and paired antibody repertoire generation. | [Paper](https://www.biorxiv.org/content/10.1101/2026.02.02.703197) |
-| NanoAbLLaMA | NanoAbLLaMA: construction of nanobody libraries with protein large language models | LLaMA2-based language model fine-tuned for nanobody (VHH) library construction and design. | [Paper](https://doi.org/10.3389/fchem.2025.1534) |
-| CoSiNE | CoSiNE: Conditionally Site-Independent Neural Evolution of Antibody Sequences | Conditionally site-independent neural evolution model explicitly modeling antibody affinity maturation. | [Paper](https://arxiv.org/abs/2602.18982) |
-| AbBFN2 | AbBFN2: A flexible antibody foundation model based on Bayesian Flow Networks | Flexible antibody foundation model based on Bayesian flow networks for multi-objective unified modeling. | [Paper](https://www.biorxiv.org/content/10.1101/2025.04.29.651170) |
-| AntibodyDesignBFN | AntibodyDesignBFN: High-Fidelity Fixed-Backbone Antibody Design via Discrete Bayesian Flow Networks | High-fidelity fixed-backbone antibody design using discrete Bayesian flow networks. | [Paper](https://arxiv.org/abs/2601.05605) |
-| AbAffinity | AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity | Large language model for predicting antibody-antigen binding affinity. | [Paper](https://arxiv.org/abs/2603.04480) |
-| CALM | CALM: Cross-attention Adaptive Immune Receptor–Antigen Language Model | Cross-attention language model for antibody-antigen specificity prediction. | [Paper](https://www.biorxiv.org/content/10.1101/2026.02.25.707916) |
-| AFD-INSTRUCTION | AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design | Large-scale antibody instruction dataset with functional annotations for LLM-based antibody understanding and design. | [Paper](https://arxiv.org/abs/2602.04916) |
-| DiffAbXL | DiffAbXL: Benchmarking generative models for antibody design | Benchmark and extended diffusion model for antibody design generative modeling. | [Paper](https://arxiv.org/abs/DiffAbXL) |
-| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Fully computational model for designing drug-like antibodies developed by Nabla Bio. | [Paper](https://www.nabla.bio/) |
-| Chai-2 | Chai-2: Zero-shot antibody discovery | Zero-shot antibody discovery model developed by Chai Discovery. | [Paper](https://www.chaidiscovery.com/) |
+| IgGM | A generative foundation model for antibody design | Generative foundation model for comprehensive antibody design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.12.675771) |
+| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Diffusion-based generative model for antigen-specific antibody CDR-H3 design, jointly modeling sequence, structure, and orientation. | [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/DiffAb) |
+| dyMEAN | Full-Atom Antibody Design via dyMEAN | End-to-end full-atom antibody design using dynamic multi-channel equivariant graph network. | [ICML 2023](https://arxiv.org/abs/2302.00203) |
+| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design. | [ICLR 2023](https://openreview.net/forum?id=MEAN) |
+| RefineGNN | Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design | Iterative refinement GNN for antibody CDR co-design of sequence and 3D structure via autoregressive generation. | [ICLR 2022](https://arxiv.org/abs/2110.04624) |
+| Ophiuchus-Ab | Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy | Diffusion language model for antibody immunotherapy and paired antibody repertoire generation. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.02.02.703197) |
+| NanoAbLLaMA | NanoAbLLaMA: construction of nanobody libraries with protein large language models | LLaMA2-based language model fine-tuned for nanobody (VHH) library construction and design. | [Frontiers in Chemistry](https://doi.org/10.3389/fchem.2025.1534) |
+| CoSiNE | CoSiNE: Conditionally Site-Independent Neural Evolution of Antibody Sequences | Conditionally site-independent neural evolution model explicitly modeling antibody affinity maturation. | [arXiv](https://arxiv.org/abs/2602.18982) |
+| AbBFN2 | AbBFN2: A flexible antibody foundation model based on Bayesian Flow Networks | Flexible antibody foundation model based on Bayesian flow networks for multi-objective unified modeling. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.29.651170) |
+| AntibodyDesignBFN | AntibodyDesignBFN: High-Fidelity Fixed-Backbone Antibody Design via Discrete Bayesian Flow Networks | High-fidelity fixed-backbone antibody design using discrete Bayesian flow networks. | [arXiv](https://arxiv.org/abs/2601.05605) |
+| AbAffinity | AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity | Large language model for predicting antibody-antigen binding affinity. | [arXiv](https://arxiv.org/abs/2603.04480) |
+| CALM | CALM: Cross-attention Adaptive Immune Receptor–Antigen Language Model | Cross-attention language model for antibody-antigen specificity prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.02.25.707916) |
+| AFD-INSTRUCTION | AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design | Large-scale antibody instruction dataset with functional annotations for LLM-based antibody understanding and design. | [arXiv](https://arxiv.org/abs/2602.04916) |
+| DiffAbXL | DiffAbXL: Benchmarking generative models for antibody design | Benchmark and extended diffusion model for antibody design generative modeling. | [arXiv](https://arxiv.org/abs/DiffAbXL) |
+| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Fully computational model for designing drug-like antibodies developed by Nabla Bio. | [Nabla Bio](https://www.nabla.bio/) |
+| Chai-2 | Chai-2: Zero-shot antibody discovery | Zero-shot antibody discovery model developed by Chai Discovery. | [Chai Discovery](https://www.chaidiscovery.com/) |
 
 ### TCR & Immunology Models
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| TCR-BERT | TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses | Modified BERT trained on TCR sequences via self-supervised learning for antigen-specificity prediction. | [Paper](https://proceedings.mlr.press/v240/) |
-| tcrLM | tcrLM: a lightweight protein language model for predicting T cell receptor and epitope binding specificity | Lightweight BERT-based LM pretrained on 100M+ TCR CDR3 sequences for TCR-epitope binding prediction. | [Paper](https://arxiv.org/abs/2406.16995) |
-| TCR-GPT | TCR-GPT: Integrating Autoregressive Model and Reinforcement Learning for T-Cell Receptor Repertoires Generation | Decoder-only transformer for TCR sequence generation using autoregressive modeling with reinforcement learning. | [Paper](https://arxiv.org/abs/2408.01156) |
-| SCEPTR | Contrastive learning of T cell receptor representations | Lightweight BERT-like transformer for TCR analysis using autocontrastive and masked-language pretraining. | [Paper](https://arxiv.org/abs/2406.06397) |
-| ERGO-II | Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs | Deep learning model (LSTM + autoencoder) for TCR-peptide binding prediction using NLP techniques. | [Paper](https://doi.org/10.3389/fimmu.2020.01803) |
-| mvTCR | Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data | Multimodal variational autoencoder integrating single-cell TCR sequences with gene expression data. | [Paper](https://doi.org/10.1038/s41467-024-49806-9) |
-| NetTCR-2.0 | NetTCR-2.0 enables accurate prediction of TCR-peptide binding | Deep learning model for TCR-peptide-MHC binding prediction using paired TCRα and β sequences. | [Paper](https://doi.org/10.1038/s42003-021-02610-3) |
-| TCR-TRANSLATE | Conditional generation of real antigen-specific T cell receptor sequences | ML framework for generating antigen-specific TCR sequences including for unseen epitopes. | [Paper](https://doi.org/10.1038/s42256-025-01096-6) |
+| TCR-BERT | TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses | Modified BERT trained on TCR sequences via self-supervised learning for antigen-specificity prediction. | [PMLR v240](https://proceedings.mlr.press/v240/) |
+| tcrLM | tcrLM: a lightweight protein language model for predicting T cell receptor and epitope binding specificity | Lightweight BERT-based LM pretrained on 100M+ TCR CDR3 sequences for TCR-epitope binding prediction. | [arXiv](https://arxiv.org/abs/2406.16995) |
+| TCR-GPT | TCR-GPT: Integrating Autoregressive Model and Reinforcement Learning for T-Cell Receptor Repertoires Generation | Decoder-only transformer for TCR sequence generation using autoregressive modeling with reinforcement learning. | [arXiv](https://arxiv.org/abs/2408.01156) |
+| SCEPTR | Contrastive learning of T cell receptor representations | Lightweight BERT-like transformer for TCR analysis using autocontrastive and masked-language pretraining. | [arXiv](https://arxiv.org/abs/2406.06397) |
+| ERGO-II | Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs | Deep learning model (LSTM + autoencoder) for TCR-peptide binding prediction using NLP techniques. | [Frontiers in Immunology](https://doi.org/10.3389/fimmu.2020.01803) |
+| mvTCR | Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data | Multimodal variational autoencoder integrating single-cell TCR sequences with gene expression data. | [Nature Communications](https://doi.org/10.1038/s41467-024-49806-9) |
+| NetTCR-2.0 | NetTCR-2.0 enables accurate prediction of TCR-peptide binding | Deep learning model for TCR-peptide-MHC binding prediction using paired TCRα and β sequences. | [Communications Biology](https://doi.org/10.1038/s42003-021-02610-3) |
+| TCR-TRANSLATE | Conditional generation of real antigen-specific T cell receptor sequences | ML framework for generating antigen-specific TCR sequences including for unseen epitopes. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01096-6) |
 
 ---
 
@@ -482,22 +482,22 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| EnzyGen | Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates | Generative enzyme design model leveraging functional sites and substrate information. | [Paper](https://arxiv.org/abs/2405.08205) |
-| RFdiffusion2 | Atom-level enzyme active site scaffolding using RFdiffusion2 | Atom-level enzyme active site scaffolding tool based on RFdiffusion architecture. | [Paper](https://doi.org/10.1038/s41592-025-02975-x) |
-| CLEAN | Enzyme function prediction using contrastive learning | Contrastive learning model for enzyme EC number prediction, outperforming BLAST and traditional methods. | [Paper](https://doi.org/10.1126/science.adf2465) |
-| CLEAN-Contact | Improved enzyme functional annotation prediction using contrastive learning with structural inference | Extension of CLEAN integrating protein contact maps for improved enzyme function annotation. | [Paper](https://doi.org/10.1038/s42003-024-07359-z) |
-| EnzBERT | Predicting enzymatic function of protein sequences with attention | BERT-based model for predicting enzyme EC numbers from protein sequences using attention mechanisms. | [Paper](https://doi.org/10.1093/bioinformatics/btad698) |
-| EnzymeFlow | EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow Matching and Co-Evolutionary Dynamics | Generative model using flow matching to design reaction-specific enzyme catalytic pockets. | [Paper](https://arxiv.org/abs/2410.00327) |
-| EnzymeCAGE | EnzymeCAGE: A Geometric Foundation Model for Enzyme Retrieval with Evolutionary Insights | Geometric foundation model trained on ~1M enzyme-reaction pairs for enzyme retrieval and function prediction. | [Paper](https://www.biorxiv.org/content/10.1101/2024.12.15.628585) |
-| CatPred | CatPred: a comprehensive framework for deep learning in vitro enzyme kinetic parameters | Deep learning framework for predicting enzyme kinetic parameters (kcat, Km, Ki) from sequences. | [Paper](https://doi.org/10.1038/s41467-025-57215-9) |
-| UniKP | UniKP: a unified framework for the prediction of enzyme kinetic parameters | Unified deep learning framework using pretrained protein LMs to predict kcat, Km, and catalytic efficiency. | [Paper](https://doi.org/10.1038/s41467-023-44113-1) |
-| TurNuP | Turnover number predictions for kinetically uncharacterized enzymes using machine and deep learning | Deep learning model for predicting enzyme turnover numbers (kcat) for uncharacterized enzymes. | [Paper](https://doi.org/10.1038/s41467-023-39840-4) |
-| EnzyControl | EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation | Framework for substrate-specific enzyme backbone generation with functional control. | [Paper](https://arxiv.org/abs/2510.25132) |
-| ProtDETR | Interpretable Enzyme Function Prediction via Residue-Level Detection | Attention-based framework for residue-level enzyme EC number prediction inspired by object detection. | [Paper](https://arxiv.org/abs/2501.05644) |
-| EZpred | EZpred: improving deep learning-based enzyme function prediction using unlabeled sequence homologs | Deep learning framework leveraging unlabeled homolog sequences for improved enzyme EC prediction. | [Paper](https://pubmed.ncbi.nlm.nih.gov/) |
-| BEC-Pred | A general model for predicting enzyme functions based on enzymatic reactions | BERT-based model predicting enzyme EC numbers from SMILES representations of substrates and products. | [Paper](https://doi.org/10.1186/s13321-024-00827-y) |
-| HIT-EC | HIT-EC: Trustworthy prediction of enzyme commission numbers using a hierarchical interpretable transformer | Hierarchical interpretable transformer for trustworthy enzyme EC number prediction. | [Paper](https://doi.org/10.1038/s41467-026-68727-3) |
-| ENZYME-UNIFIED | ENZYME-UNIFIED: Learning Holistic Representations of Enzyme Function with a Hybrid Interaction Model | Holistic enzyme function representation learning via hybrid interaction modeling. | [Paper](https://openreview.net/forum?id=oTnFATrtCD) |
+| EnzyGen | Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates | Generative enzyme design model leveraging functional sites and substrate information. | [arXiv](https://arxiv.org/abs/2405.08205) |
+| RFdiffusion2 | Atom-level enzyme active site scaffolding using RFdiffusion2 | Atom-level enzyme active site scaffolding tool based on RFdiffusion architecture. | [Nature Methods](https://doi.org/10.1038/s41592-025-02975-x) |
+| CLEAN | Enzyme function prediction using contrastive learning | Contrastive learning model for enzyme EC number prediction, outperforming BLAST and traditional methods. | [Science](https://doi.org/10.1126/science.adf2465) |
+| CLEAN-Contact | Improved enzyme functional annotation prediction using contrastive learning with structural inference | Extension of CLEAN integrating protein contact maps for improved enzyme function annotation. | [Communications Biology](https://doi.org/10.1038/s42003-024-07359-z) |
+| EnzBERT | Predicting enzymatic function of protein sequences with attention | BERT-based model for predicting enzyme EC numbers from protein sequences using attention mechanisms. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad698) |
+| EnzymeFlow | EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow Matching and Co-Evolutionary Dynamics | Generative model using flow matching to design reaction-specific enzyme catalytic pockets. | [NeurIPS 2024](https://arxiv.org/abs/2410.00327) |
+| EnzymeCAGE | EnzymeCAGE: A Geometric Foundation Model for Enzyme Retrieval with Evolutionary Insights | Geometric foundation model trained on ~1M enzyme-reaction pairs for enzyme retrieval and function prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.15.628585) |
+| CatPred | CatPred: a comprehensive framework for deep learning in vitro enzyme kinetic parameters | Deep learning framework for predicting enzyme kinetic parameters (kcat, Km, Ki) from sequences. | [Nature Communications](https://doi.org/10.1038/s41467-025-57215-9) |
+| UniKP | UniKP: a unified framework for the prediction of enzyme kinetic parameters | Unified deep learning framework using pretrained protein LMs to predict kcat, Km, and catalytic efficiency. | [Nature Communications](https://doi.org/10.1038/s41467-023-44113-1) |
+| TurNuP | Turnover number predictions for kinetically uncharacterized enzymes using machine and deep learning | Deep learning model for predicting enzyme turnover numbers (kcat) for uncharacterized enzymes. | [Nature Communications](https://doi.org/10.1038/s41467-023-39840-4) |
+| EnzyControl | EnzyControl: Adding Functional and Substrate-Specific Control for Enzyme Backbone Generation | Framework for substrate-specific enzyme backbone generation with functional control. | [arXiv](https://arxiv.org/abs/2510.25132) |
+| ProtDETR | Interpretable Enzyme Function Prediction via Residue-Level Detection | Attention-based framework for residue-level enzyme EC number prediction inspired by object detection. | [arXiv](https://arxiv.org/abs/2501.05644) |
+| EZpred | EZpred: improving deep learning-based enzyme function prediction using unlabeled sequence homologs | Deep learning framework leveraging unlabeled homolog sequences for improved enzyme EC prediction. | [Bioinformatics](https://pubmed.ncbi.nlm.nih.gov/) |
+| BEC-Pred | A general model for predicting enzyme functions based on enzymatic reactions | BERT-based model predicting enzyme EC numbers from SMILES representations of substrates and products. | [Journal of Cheminformatics](https://doi.org/10.1186/s13321-024-00827-y) |
+| HIT-EC | HIT-EC: Trustworthy prediction of enzyme commission numbers using a hierarchical interpretable transformer | Hierarchical interpretable transformer for trustworthy enzyme EC number prediction. | [Nature Communications](https://doi.org/10.1038/s41467-026-68727-3) |
+| ENZYME-UNIFIED | ENZYME-UNIFIED: Learning Holistic Representations of Enzyme Function with a Hybrid Interaction Model | Holistic enzyme function representation learning via hybrid interaction modeling. | [OpenReview](https://openreview.net/forum?id=oTnFATrtCD) |
 
 ---
 
@@ -508,32 +508,32 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| Novae | Novae: a graph-based foundation model for spatial transcriptomics data | Graph-based foundation model for spatial transcriptomics trained on 30 million cells. | [Paper](https://doi.org/10.1038/s41592-025-02899-6) |
-| SpaFoundation | SpaFoundation: a visual foundation model for spatial transcriptomics | Visual foundation model for spatial transcriptomics using 1.84M histological images. | [Paper](https://www.biorxiv.org/content/10.1101/2025.08.07.669202) |
-| STPath | STPath: a generative foundation model for integrating spatial transcriptomics and WSIs | Generative foundation model integrating spatial transcriptomics with whole-slide histology images. | [Paper](https://doi.org/10.1038/s41746-025-02020-3) |
-| OmiCLIP | A visual-omics foundation model to bridge histopathology with spatial transcriptomics | Visual-omics foundation model bridging histopathology images and spatial transcriptomics data. | [Paper](https://doi.org/10.1038/s41592-025-02707-1) |
-| SpatialFusion | SpatialFusion: A lightweight multimodal foundation model for spatial transcriptomics | Lightweight multimodal foundation model integrating gene expression, histopathology, and pathway data. | [Paper](https://www.biorxiv.org/content/10.1101/2026.03.16.712056) |
-| SAGE-FM | SAGE-FM: A lightweight and interpretable foundation model for spatial transcriptomics | GCN-based lightweight and interpretable foundation model for spatial transcriptomics. | [Paper](https://arxiv.org/abs/2601.15504) |
-| scGPT-spatial | scGPT-spatial: Continual Pretraining of Single-Cell FM for Spatial Transcriptomics | Extension of scGPT for spatial transcriptomics via continual pretraining. | [Paper](https://www.biorxiv.org/content/10.1101/2025.02.05.636714) |
-| SpatialScope | SpatialScope: integrating spatial and single-cell transcriptomics data using deep generative models | Deep generative model for integrating spatial transcriptomics with scRNA-seq data. | [Paper](https://doi.org/10.1038/s41467-023-43629-w) |
-| stFormer | stFormer: a foundation model for spatial transcriptomics | Transformer foundation model integrating ligand-receptor interactions into spatial gene representations. | [Paper](https://www.biorxiv.org/content/10.1101/2024.09.27.615337) |
-| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | Foundation model using graph embeddings and hierarchical prototypes for spatial transcriptomics. | [Paper](https://openreview.net/forum?id=STAGE) |
-| STORM | STORM: A multimodal foundation model of spatial transcriptomics and histology | Multimodal spatial transcriptomics and histology foundation model trained on 1.2M spatially-resolved profiles across 18 organs. | [Paper](https://arxiv.org/abs/2604.03630) |
-| SEAL | SEAL: Spatial Expression-Aligned Learning for pathology foundation models | Spatial expression-aligned learning framework enhancing pathology foundation models with spatial transcriptomics data. | [Paper](https://arxiv.org/abs/2602.14177) |
-| MINT | MINT: Molecularly Informed Training with Spatial Transcriptomics Supervision for Pathology Foundation Models | Molecularly informed training with spatial transcriptomics supervision for pathology foundation models. | [Paper](https://arxiv.org/abs/2603.07895) |
-| HINGE | HINGE: Adapting Pre-trained Single-Cell Foundation Models to Spatial Gene Expression | Adapts pretrained single-cell foundation models to spatial gene expression using histological image conditioning. | [Paper](https://arxiv.org/abs/2603.19766) |
-| HEIST | HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data | Graph foundation model for both spatial transcriptomics and proteomics data analysis. | [Paper](https://arxiv.org/abs/2506.11152) |
-| TISSUENARRATOR | TISSUENARRATOR: Generative modeling of spatial transcriptomics with LLMs | LLM-based generative modeling framework for spatial transcriptomics data. | [Paper](https://arxiv.org/abs/TISSUENARRATOR) |
-| SpaTranslator | SpaTranslator: Deep generative framework for universal spatial multi-omics cross-modality translation | Deep generative framework for universal cross-modality translation of spatial multi-omics data. | [Paper](https://arxiv.org/abs/SpaTranslator) |
-| SpatialProp | SpatialProp: Tissue perturbation modeling with spatially resolved single-cell transcriptomics | Tissue perturbation modeling using spatially resolved single-cell transcriptomics. | [Paper](https://arxiv.org/abs/SpatialProp) |
-| SWITCH | SWITCH: Integrative deep learning of spatial multi-omics | Integrative deep learning framework for spatial multi-omics data analysis. | [Paper](https://arxiv.org/abs/SWITCH) |
-| CancerSTFormer | CancerSTFormer enables multi-scale analysis of spot-resolution spatial transcriptomes | Multi-scale spatial transcriptomics foundation model for cancer at 50µm and 250µm resolution. | [Paper](https://www.biorxiv.org/content/10.1101/2025.12.22.696102) |
-| STAGATE | Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder | Graph attention auto-encoder for spatial domain identification integrating gene expression and spatial location. | [Paper](https://doi.org/10.1038/s41467-022-29439-6) |
-| HEST-1k | HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis | Benchmark dataset of 1,229 spatial transcriptomics profiles with whole-slide images across 26 organs. | [Paper](https://openreview.net/forum?id=HEST-1k) |
-| CellViT | CellViT: Vision Transformers for precise cell segmentation and classification | Vision Transformer for precise cell/nuclei segmentation in H&E whole-slide images. | [Paper](https://doi.org/10.1016/j.media.2024.103143) |
-| STAMP | Interpretable spatially aware dimension reduction of spatial transcriptomics with STAMP | Deep generative model for spatially-aware interpretable dimension reduction of spatial transcriptomics. | [Paper](https://doi.org/10.1038/s41592-024-02463-8) |
-| SpaGT | Spatially informed graph transformers for spatially resolved transcriptomics | Graph transformer integrating spatial coordinates and gene expression for spatial domain identification. | [Paper](https://doi.org/10.1038/s42003-025-08015-w) |
-| BrainBeacon | BrainBeacon: A Cross-Species Foundation Model for Single-cell Spatial Transcriptomics of Brain | Cross-species brain spatial transcriptomics foundation model integrating multi-species data for digital twin brain. | [Paper](https://www.biorxiv.org/content/10.1101/2025.07.08.663729) |
+| Novae | Novae: a graph-based foundation model for spatial transcriptomics data | Graph-based foundation model for spatial transcriptomics trained on 30 million cells. | [Nature Methods](https://doi.org/10.1038/s41592-025-02899-6) |
+| SpaFoundation | SpaFoundation: a visual foundation model for spatial transcriptomics | Visual foundation model for spatial transcriptomics using 1.84M histological images. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.07.669202) |
+| STPath | STPath: a generative foundation model for integrating spatial transcriptomics and WSIs | Generative foundation model integrating spatial transcriptomics with whole-slide histology images. | [npj Digital Medicine](https://doi.org/10.1038/s41746-025-02020-3) |
+| OmiCLIP | A visual-omics foundation model to bridge histopathology with spatial transcriptomics | Visual-omics foundation model bridging histopathology images and spatial transcriptomics data. | [Nature Methods](https://doi.org/10.1038/s41592-025-02707-1) |
+| SpatialFusion | SpatialFusion: A lightweight multimodal foundation model for spatial transcriptomics | Lightweight multimodal foundation model integrating gene expression, histopathology, and pathway data. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.16.712056) |
+| SAGE-FM | SAGE-FM: A lightweight and interpretable foundation model for spatial transcriptomics | GCN-based lightweight and interpretable foundation model for spatial transcriptomics. | [arXiv](https://arxiv.org/abs/2601.15504) |
+| scGPT-spatial | scGPT-spatial: Continual Pretraining of Single-Cell FM for Spatial Transcriptomics | Extension of scGPT for spatial transcriptomics via continual pretraining. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.05.636714) |
+| SpatialScope | SpatialScope: integrating spatial and single-cell transcriptomics data using deep generative models | Deep generative model for integrating spatial transcriptomics with scRNA-seq data. | [Nature Communications](https://doi.org/10.1038/s41467-023-43629-w) |
+| stFormer | stFormer: a foundation model for spatial transcriptomics | Transformer foundation model integrating ligand-receptor interactions into spatial gene representations. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.09.27.615337) |
+| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | Foundation model using graph embeddings and hierarchical prototypes for spatial transcriptomics. | [NeurIPS 2025 (submitted)](https://openreview.net/forum?id=STAGE) |
+| STORM | STORM: A multimodal foundation model of spatial transcriptomics and histology | Multimodal spatial transcriptomics and histology foundation model trained on 1.2M spatially-resolved profiles across 18 organs. | [arXiv](https://arxiv.org/abs/2604.03630) |
+| SEAL | SEAL: Spatial Expression-Aligned Learning for pathology foundation models | Spatial expression-aligned learning framework enhancing pathology foundation models with spatial transcriptomics data. | [arXiv](https://arxiv.org/abs/2602.14177) |
+| MINT | MINT: Molecularly Informed Training with Spatial Transcriptomics Supervision for Pathology Foundation Models | Molecularly informed training with spatial transcriptomics supervision for pathology foundation models. | [arXiv](https://arxiv.org/abs/2603.07895) |
+| HINGE | HINGE: Adapting Pre-trained Single-Cell Foundation Models to Spatial Gene Expression | Adapts pretrained single-cell foundation models to spatial gene expression using histological image conditioning. | [arXiv](https://arxiv.org/abs/2603.19766) |
+| HEIST | HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data | Graph foundation model for both spatial transcriptomics and proteomics data analysis. | [arXiv](https://arxiv.org/abs/2506.11152) |
+| TISSUENARRATOR | TISSUENARRATOR: Generative modeling of spatial transcriptomics with LLMs | LLM-based generative modeling framework for spatial transcriptomics data. | [arXiv](https://arxiv.org/abs/TISSUENARRATOR) |
+| SpaTranslator | SpaTranslator: Deep generative framework for universal spatial multi-omics cross-modality translation | Deep generative framework for universal cross-modality translation of spatial multi-omics data. | [arXiv](https://arxiv.org/abs/SpaTranslator) |
+| SpatialProp | SpatialProp: Tissue perturbation modeling with spatially resolved single-cell transcriptomics | Tissue perturbation modeling using spatially resolved single-cell transcriptomics. | [arXiv](https://arxiv.org/abs/SpatialProp) |
+| SWITCH | SWITCH: Integrative deep learning of spatial multi-omics | Integrative deep learning framework for spatial multi-omics data analysis. | [arXiv](https://arxiv.org/abs/SWITCH) |
+| CancerSTFormer | CancerSTFormer enables multi-scale analysis of spot-resolution spatial transcriptomes | Multi-scale spatial transcriptomics foundation model for cancer at 50µm and 250µm resolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.22.696102) |
+| STAGATE | Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder | Graph attention auto-encoder for spatial domain identification integrating gene expression and spatial location. | [Nature Communications](https://doi.org/10.1038/s41467-022-29439-6) |
+| HEST-1k | HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis | Benchmark dataset of 1,229 spatial transcriptomics profiles with whole-slide images across 26 organs. | [NeurIPS 2024](https://openreview.net/forum?id=HEST-1k) |
+| CellViT | CellViT: Vision Transformers for precise cell segmentation and classification | Vision Transformer for precise cell/nuclei segmentation in H&E whole-slide images. | [Medical Image Analysis](https://doi.org/10.1016/j.media.2024.103143) |
+| STAMP | Interpretable spatially aware dimension reduction of spatial transcriptomics with STAMP | Deep generative model for spatially-aware interpretable dimension reduction of spatial transcriptomics. | [Nature Methods](https://doi.org/10.1038/s41592-024-02463-8) |
+| SpaGT | Spatially informed graph transformers for spatially resolved transcriptomics | Graph transformer integrating spatial coordinates and gene expression for spatial domain identification. | [Communications Biology](https://doi.org/10.1038/s42003-025-08015-w) |
+| BrainBeacon | BrainBeacon: A Cross-Species Foundation Model for Single-cell Spatial Transcriptomics of Brain | Cross-species brain spatial transcriptomics foundation model integrating multi-species data for digital twin brain. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.08.663729) |
 
 ---
 
@@ -544,13 +544,13 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| GlycanGT | GlycanGT: A Foundation Model for Glycan Graphs with Pretrained Representation and Generative Learning | First glycan graph foundation model using graph transformer for glycan representation and generative learning. | [Paper](https://www.biorxiv.org/content/10.1101/2025.12.14.694171) |
-| SweetBERT | Exploring BERT-based models for IUPAC glycan nomenclature | BERT-based glycan sequence language model encoding IUPAC glycan nomenclature and branching structures. | [Paper](https://openreview.net/forum?id=BC4vd3oBXs) |
-| GlycanAA | Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training | All-atom glycan modeling framework using hierarchical message passing and multi-scale pretraining. | [Paper](https://arxiv.org/abs/2506.01376) |
-| MCNet | Atom-level machine learning of protein-glycan interactions and cross-chiral recognition | Atom-level machine learning model for protein-glycan interaction prediction including mirror-image glycan recognition. | [Paper](https://doi.org/10.1126/sciadv.adx6373) |
-| DeepGlycanSite | Highly accurate carbohydrate-binding site prediction with DeepGlycanSite | High-accuracy deep learning model for predicting carbohydrate-binding sites on proteins. | [Paper](https://doi.org/10.1038/s41467-024-49516-2) |
-| SweetNet | Using graph convolutional neural networks to learn a representation for glycans | Graph convolutional neural network for glycan representation learning handling complex branching structures. | [Paper](https://doi.org/10.1016/j.celrep.2022.110842) |
-| GlycoBERT | Transformer-based Deep Learning for Glycan Structure Inference from MS/MS | BERT-based transformer for inferring glycan structures from tandem mass spectrometry data. | [Paper](https://www.biorxiv.org/content/10.1101/2025.07.02.662857) |
+| GlycanGT | GlycanGT: A Foundation Model for Glycan Graphs with Pretrained Representation and Generative Learning | First glycan graph foundation model using graph transformer for glycan representation and generative learning. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.14.694171) |
+| SweetBERT | Exploring BERT-based models for IUPAC glycan nomenclature | BERT-based glycan sequence language model encoding IUPAC glycan nomenclature and branching structures. | [ICLR 2025 Workshop](https://openreview.net/forum?id=BC4vd3oBXs) |
+| GlycanAA | Modeling All-Atom Glycan Structures via Hierarchical Message Passing and Multi-Scale Pre-training | All-atom glycan modeling framework using hierarchical message passing and multi-scale pretraining. | [ICML 2025](https://arxiv.org/abs/2506.01376) |
+| MCNet | Atom-level machine learning of protein-glycan interactions and cross-chiral recognition | Atom-level machine learning model for protein-glycan interaction prediction including mirror-image glycan recognition. | [Science Advances](https://doi.org/10.1126/sciadv.adx6373) |
+| DeepGlycanSite | Highly accurate carbohydrate-binding site prediction with DeepGlycanSite | High-accuracy deep learning model for predicting carbohydrate-binding sites on proteins. | [Nature Communications](https://doi.org/10.1038/s41467-024-49516-2) |
+| SweetNet | Using graph convolutional neural networks to learn a representation for glycans | Graph convolutional neural network for glycan representation learning handling complex branching structures. | [Cell Reports](https://doi.org/10.1016/j.celrep.2022.110842) |
+| GlycoBERT | Transformer-based Deep Learning for Glycan Structure Inference from MS/MS | BERT-based transformer for inferring glycan structures from tandem mass spectrometry data. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.02.662857) |
 
 ---
 
@@ -561,8 +561,8 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| MetaboLM | MetaboLM: a metabolomic language model for multi-disease early prediction and risk stratification | Transformer-based metabolomics language model trained on ~84,000 healthy plasma metabolomes for multi-disease early prediction. | [Paper](https://doi.org/10.1038/s41467-025-66163-3) |
-| DSCF | Deep spectral component filtering as a foundation model for spectral analysis demonstrated in metabolic profiling | Self-supervised deep spectral component filtering foundation model for metabolic profiling analysis. | [Paper](https://doi.org/10.1038/s42256-025-01027-5) |
+| MetaboLM | MetaboLM: a metabolomic language model for multi-disease early prediction and risk stratification | Transformer-based metabolomics language model trained on ~84,000 healthy plasma metabolomes for multi-disease early prediction. | [Nature Communications](https://doi.org/10.1038/s41467-025-66163-3) |
+| DSCF | Deep spectral component filtering as a foundation model for spectral analysis demonstrated in metabolic profiling | Self-supervised deep spectral component filtering foundation model for metabolic profiling analysis. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01027-5) |
 
 ---
 
@@ -573,11 +573,11 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| CryoFM | CryoFM: A Flow-based Foundation Model for Cryo-EM Densities | Flow matching-based foundation model learning high-quality biomolecular density map distributions. | [Paper](https://arxiv.org/abs/2410.08631) |
-| Cryo-IEF | A comprehensive foundation model for cryo-EM image processing | Comprehensive cryo-EM image processing foundation model pretrained via contrastive learning on 65M particle images. | [Paper](https://doi.org/10.1038/s41592-025-02916-8) |
-| CryoLVM | CryoLVM: Self-supervised Learning from Cryo-EM Density Maps | Self-supervised cryo-EM density map foundation model using JEPA architecture. | [Paper](https://arxiv.org/abs/2602.02620) |
-| CryoNet.Refine | CryoNet.Refine: A One-step Diffusion Model for Rapid Refinement of Structural Models with Cryo-EM Density Map Restraints | One-step diffusion model for rapid structural model refinement with cryo-EM density map constraints. | [Paper](https://arxiv.org/abs/2602.22263) |
-| CryoDRGN-AI | CryoDRGN-AI: neural ab initio reconstruction for cryo-EM | Neural ab initio reconstruction method for heterogeneous cryo-EM data. | [Paper](https://doi.org/10.1038/s41592-025-02720-4) |
+| CryoFM | CryoFM: A Flow-based Foundation Model for Cryo-EM Densities | Flow matching-based foundation model learning high-quality biomolecular density map distributions. | [bioRxiv](https://arxiv.org/abs/2410.08631) |
+| Cryo-IEF | A comprehensive foundation model for cryo-EM image processing | Comprehensive cryo-EM image processing foundation model pretrained via contrastive learning on 65M particle images. | [Nature Methods](https://doi.org/10.1038/s41592-025-02916-8) |
+| CryoLVM | CryoLVM: Self-supervised Learning from Cryo-EM Density Maps | Self-supervised cryo-EM density map foundation model using JEPA architecture. | [arXiv](https://arxiv.org/abs/2602.02620) |
+| CryoNet.Refine | CryoNet.Refine: A One-step Diffusion Model for Rapid Refinement of Structural Models with Cryo-EM Density Map Restraints | One-step diffusion model for rapid structural model refinement with cryo-EM density map constraints. | [arXiv](https://arxiv.org/abs/2602.22263) |
+| CryoDRGN-AI | CryoDRGN-AI: neural ab initio reconstruction for cryo-EM | Neural ab initio reconstruction method for heterogeneous cryo-EM data. | [Nature Methods](https://doi.org/10.1038/s41592-025-02720-4) |
 
 ---
 
@@ -588,17 +588,17 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| METAGENE-1 | Metagenomic Foundation Model for Pandemic Monitoring | 7B-parameter autoregressive transformer trained on >1.5 trillion bases of metagenomic DNA/RNA for pathogen monitoring. | [Paper](https://arxiv.org/abs/2501.02045) |
-| MGM | MGM as a large-scale pretrained foundation model for microbiome analyses in diverse contexts | Large-scale microbiome foundation model trained on >263,000 microbiome samples for diverse contexts. | [Paper](https://www.biorxiv.org/content/10.1101/2024.12.30.630825) |
-| BiomeGPT | BiomeGPT: A foundation model for the human gut microbiome | Transformer-based human gut microbiome foundation model trained on >13,300 metagenomic samples. | [Paper](https://www.biorxiv.org/content/10.1101/2026.01.05.697599) |
-| GenomeOcean | GenomeOcean: An Efficient Genome Foundation Model Trained on Large-Scale Metagenomic Assemblies | Efficient 4B-parameter genome foundation model trained on large-scale metagenomic assemblies (>600 Gbp). | [Paper](https://www.biorxiv.org/content/10.1101/2025.01.30.635558) |
-| MicroGenomer | MicroGenomer: A Foundation Model for Transferable Microbial Genome Representations | Transferable microbial genome representation model trained on >234.5B base pairs for multi-scale analysis. | [Paper](https://www.biorxiv.org/content/10.1101/2025.12.28.696777) |
-| Generanno | Generanno: A Genomic Foundation Model for Metagenomic Annotation | Genomic foundation model for metagenomic annotation trained on 715B prokaryotic base pairs. | [Paper](https://www.biorxiv.org/content/10.1101/2025.06.04.656517) |
-| FGBERT | FGBERT: Function-Driven Pre-trained Gene Language Model for Metagenomics | Function-driven pretrained gene language model using protein-level context-aware tokenizer for metagenomics. | [Paper](https://arxiv.org/abs/2402.16901) |
-| MetagenBERT | MetagenBERT: a Transformer Architecture using Foundational DNA Read Embedding Models for novel Metagenome Representation | Transformer framework using DNABERT-2/DNABERT-S for metagenome representation from raw DNA reads. | [Paper](https://arxiv.org/abs/2601.03295) |
-| Darwin-7B | Darwin-7B: A Large Language Model for Metagenomics and Microbial Ecology | 7B-parameter LLM trained on microbial genomes and metagenomic data for species classification and functional annotation. | [Paper](https://arxiv.org/abs/Darwin-7B) |
-| EDEN | EDEN: 28 Billion Parameters for Programming Biology | 28B-parameter foundation model trained on 9.7 trillion nucleotide tokens for biological engineering. | [Paper](https://www.basecampresearch.com/) |
-| ViraLM | ViraLM: virus discovery through genome foundation model | Virus genome foundation model for virus discovery from metagenomic sequences. | [Paper](https://www.biorxiv.org/content/10.1101/2024.01.30.577935) |
+| METAGENE-1 | Metagenomic Foundation Model for Pandemic Monitoring | 7B-parameter autoregressive transformer trained on >1.5 trillion bases of metagenomic DNA/RNA for pathogen monitoring. | [arXiv](https://arxiv.org/abs/2501.02045) |
+| MGM | MGM as a large-scale pretrained foundation model for microbiome analyses in diverse contexts | Large-scale microbiome foundation model trained on >263,000 microbiome samples for diverse contexts. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.30.630825) |
+| BiomeGPT | BiomeGPT: A foundation model for the human gut microbiome | Transformer-based human gut microbiome foundation model trained on >13,300 metagenomic samples. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.05.697599) |
+| GenomeOcean | GenomeOcean: An Efficient Genome Foundation Model Trained on Large-Scale Metagenomic Assemblies | Efficient 4B-parameter genome foundation model trained on large-scale metagenomic assemblies (>600 Gbp). | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.01.30.635558) |
+| MicroGenomer | MicroGenomer: A Foundation Model for Transferable Microbial Genome Representations | Transferable microbial genome representation model trained on >234.5B base pairs for multi-scale analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.28.696777) |
+| Generanno | Generanno: A Genomic Foundation Model for Metagenomic Annotation | Genomic foundation model for metagenomic annotation trained on 715B prokaryotic base pairs. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.04.656517) |
+| FGBERT | FGBERT: Function-Driven Pre-trained Gene Language Model for Metagenomics | Function-driven pretrained gene language model using protein-level context-aware tokenizer for metagenomics. | [arXiv](https://arxiv.org/abs/2402.16901) |
+| MetagenBERT | MetagenBERT: a Transformer Architecture using Foundational DNA Read Embedding Models for novel Metagenome Representation | Transformer framework using DNABERT-2/DNABERT-S for metagenome representation from raw DNA reads. | [bioRxiv](https://arxiv.org/abs/2601.03295) |
+| Darwin-7B | Darwin-7B: A Large Language Model for Metagenomics and Microbial Ecology | 7B-parameter LLM trained on microbial genomes and metagenomic data for species classification and functional annotation. | [arXiv](https://arxiv.org/abs/Darwin-7B) |
+| EDEN | EDEN: 28 Billion Parameters for Programming Biology | 28B-parameter foundation model trained on 9.7 trillion nucleotide tokens for biological engineering. | [ICG-20](https://www.basecampresearch.com/) |
+| ViraLM | ViraLM: virus discovery through genome foundation model | Virus genome foundation model for virus discovery from metagenomic sequences. | [Bioinformatics](https://www.biorxiv.org/content/10.1101/2024.01.30.577935) |
 
 ---
 
@@ -609,8 +609,8 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| Phyla | Phyla: Towards a Foundation Model for Phylogenetic Inference | First phylogenetic inference foundation model using hybrid state-space transformer with tree loss function. | [Paper](https://www.biorxiv.org/content/10.1101/2025.01.17.633626) |
-| PhyloGPN | A Phylogenetic Approach to Genomic Language Modeling | Phylogenetic tree-based genomic language model using multi-species whole-genome alignments and evolutionary models. | [Paper](https://arxiv.org/abs/2503.03773) |
+| Phyla | Phyla: Towards a Foundation Model for Phylogenetic Inference | First phylogenetic inference foundation model using hybrid state-space transformer with tree loss function. | [ICLR 2025](https://www.biorxiv.org/content/10.1101/2025.01.17.633626) |
+| PhyloGPN | A Phylogenetic Approach to Genomic Language Modeling | Phylogenetic tree-based genomic language model using multi-species whole-genome alignments and evolutionary models. | [arXiv](https://arxiv.org/abs/2503.03773) |
 
 ---
 
@@ -621,11 +621,11 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| OmniBioTE | Large-Scale Multi-omic Biosequence Transformers for Modeling Protein-Nucleic Acid Interactions | Large-scale multi-omic biosequence transformer trained on >250B tokens of protein and nucleic acid sequences. | [Paper](https://arxiv.org/abs/2408.16245) |
-| Omni-DNA | Omni-DNA: A Unified Genomic Foundation Model for Cross-Modal and Multi-Task Learning | Unified genomic foundation model supporting DNA/RNA/protein cross-modal multi-task learning from Microsoft. | [Paper](https://arxiv.org/abs/2502.03499) |
-| OmniNA | OmniNA: A foundation model for nucleotide sequences | Nucleotide sequence foundation model pretrained on >91.7M sequences (>1 trillion bases) for cross-species understanding. | [Paper](https://www.biorxiv.org/content/10.1101/2024.01.14.575543) |
-| spEMO | Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data | Multi-modal foundation model framework integrating spatial multi-omics with histopathology image data. | [Paper](https://doi.org/10.1038/s41551-025-01602-6) |
-| scMamba | scMamba: A Scalable Foundation Model for Single-Cell Multi-Omics Integration Beyond Highly Variable Feature Selection | Scalable Mamba-based foundation model for single-cell multi-omics integration without feature selection. | [Paper](https://arxiv.org/abs/2506.20697) |
+| OmniBioTE | Large-Scale Multi-omic Biosequence Transformers for Modeling Protein-Nucleic Acid Interactions | Large-scale multi-omic biosequence transformer trained on >250B tokens of protein and nucleic acid sequences. | [PLOS ONE](https://arxiv.org/abs/2408.16245) |
+| Omni-DNA | Omni-DNA: A Unified Genomic Foundation Model for Cross-Modal and Multi-Task Learning | Unified genomic foundation model supporting DNA/RNA/protein cross-modal multi-task learning from Microsoft. | [NeurIPS 2025 (Microsoft)](https://arxiv.org/abs/2502.03499) |
+| OmniNA | OmniNA: A foundation model for nucleotide sequences | Nucleotide sequence foundation model pretrained on >91.7M sequences (>1 trillion bases) for cross-species understanding. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.01.14.575543) |
+| spEMO | Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data | Multi-modal foundation model framework integrating spatial multi-omics with histopathology image data. | [Nature Biomedical Engineering](https://doi.org/10.1038/s41551-025-01602-6) |
+| scMamba | scMamba: A Scalable Foundation Model for Single-Cell Multi-Omics Integration Beyond Highly Variable Feature Selection | Scalable Mamba-based foundation model for single-cell multi-omics integration without feature selection. | [arXiv](https://arxiv.org/abs/2506.20697) |
 
 ---
 
@@ -636,9 +636,9 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| CpGPT | CpGPT: A Foundation Model for DNA Methylation | DNA methylation foundation model predicting CpG site methylation states for aging and disease research. | [Paper](https://www.biorxiv.org/content/10.1101/2024.10.24.620080) |
-| MethylGPT | MethylGPT: A Foundation Model for the DNA Methylome | DNA methylome foundation model pretrained on large-scale methylation data for epigenetic age prediction and cancer classification. | [Paper](https://www.biorxiv.org/content/10.1101/2024.10.30.621013) |
-| scDNAm-GPT | scDNAm-GPT: A Foundation Model for Single-Cell DNA Methylation Analysis | Single-cell DNA methylation analysis foundation model for resolving epigenetic heterogeneity at single-cell resolution. | [Paper](https://www.biorxiv.org/content/10.1101/scDNAm-GPT) |
+| CpGPT | CpGPT: A Foundation Model for DNA Methylation | DNA methylation foundation model predicting CpG site methylation states for aging and disease research. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.24.620080) |
+| MethylGPT | MethylGPT: A Foundation Model for the DNA Methylome | DNA methylome foundation model pretrained on large-scale methylation data for epigenetic age prediction and cancer classification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.30.621013) |
+| scDNAm-GPT | scDNAm-GPT: A Foundation Model for Single-Cell DNA Methylation Analysis | Single-cell DNA methylation analysis foundation model for resolving epigenetic heterogeneity at single-cell resolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/scDNAm-GPT) |
 
 ---
 
@@ -649,12 +649,12 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| DIA-BERT | DIA-BERT: A Foundation Model for Data-Independent Acquisition Proteomics | Transformer-based foundation model for data-independent acquisition proteomics, improving peptide identification and quantification. | [Paper](https://www.biorxiv.org/content/10.1101/2024.02.01.578401) |
-| DreaMS | DreaMS: Deep Representations Empowering the Annotation of Mass Spectra | Deep representation learning foundation model for mass spectra annotation and metabolite identification. | [Paper](https://doi.org/10.1038/s41587-025-02689-7) |
-| LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [Paper](https://www.biorxiv.org/content/10.1101/LSM-MS2) |
-| OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [Paper](https://www.biorxiv.org/content/10.1101/OmniNovo) |
-| MS-FM | Foundation model for mass spectrometry proteomics | Unified mass spectrometry proteomics foundation model pretrained on de novo sequencing data. | [Paper](https://arxiv.org/abs/2505.10848) |
-| InstaNovo | InstaNovo: diffusion-powered de novo peptide sequencing | Diffusion-powered model for de novo peptide sequencing from mass spectrometry data. | [Paper](https://doi.org/10.1038/s42256-025-01019-5) |
+| DIA-BERT | DIA-BERT: A Foundation Model for Data-Independent Acquisition Proteomics | Transformer-based foundation model for data-independent acquisition proteomics, improving peptide identification and quantification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.01.578401) |
+| DreaMS | DreaMS: Deep Representations Empowering the Annotation of Mass Spectra | Deep representation learning foundation model for mass spectra annotation and metabolite identification. | [Nature Biotechnology](https://doi.org/10.1038/s41587-025-02689-7) |
+| LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/LSM-MS2) |
+| OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [bioRxiv](https://www.biorxiv.org/content/10.1101/OmniNovo) |
+| MS-FM | Foundation model for mass spectrometry proteomics | Unified mass spectrometry proteomics foundation model pretrained on de novo sequencing data. | [arXiv](https://arxiv.org/abs/2505.10848) |
+| InstaNovo | InstaNovo: diffusion-powered de novo peptide sequencing | Diffusion-powered model for de novo peptide sequencing from mass spectrometry data. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01019-5) |
 
 ---
 
@@ -665,7 +665,7 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| VFAM | Foundation model of neural activity predicts response to new stimulus types | Neural activity foundation model trained on large-scale mouse visual cortex data, predicting responses to novel stimulus types. | [Paper](https://doi.org/10.1038/s41586-025-08829-y) |
+| VFAM | Foundation model of neural activity predicts response to new stimulus types | Neural activity foundation model trained on large-scale mouse visual cortex data, predicting responses to novel stimulus types. | [Nature](https://doi.org/10.1038/s41586-025-08829-y) |
 
 ---
 
@@ -676,4 +676,4 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| DNA-Diffusion | Designing synthetic regulatory elements using DNA-Diffusion | Generative diffusion model for designing synthetic DNA regulatory elements. | [Paper](https://doi.org/10.1038/s41588-025-02441-6) |
+| DNA-Diffusion | Designing synthetic regulatory elements using DNA-Diffusion | Generative diffusion model for designing synthetic DNA regulatory elements. | [Nature Genetics](https://doi.org/10.1038/s41588-025-02441-6) |
