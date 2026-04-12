@@ -28,7 +28,6 @@
 | AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | A 7-billion-parameter astronomy-specialized LLM based on LLaMA-2, fine-tuned on 300K+ astronomical abstracts. | [SciNLP Workshop](https://doi.org/10.18653/v1/2023.wiesp-1.7) |
 | AstroLLaMA-2-70B | AstroMLab 2: AstroLLaMA-2-70B Model and Benchmarking Specialized LLMs for Astronomy | A 70-billion-parameter upgrade of AstroLLaMA providing more powerful domain-specific language understanding for astronomy. | [arXiv](https://arxiv.org/abs/2409.19750) |
 | AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | An open-source autoregressive pre-trained Transformer trained on 8.6 million DESI Legacy Survey galaxy images as a scalable large observation model. | [arXiv](https://arxiv.org/abs/2405.14930) |
-| GalaxiesML | GalaxiesML: A Dataset of Galaxy Images, Photometry, Redshifts, and Structural Parameters for Machine Learning | A standardized astronomical ML dataset of 286K galaxy images with photometry, redshifts, and structural parameters for foundation model training and evaluation. | [arXiv](https://arxiv.org/abs/2410.00271) |
 | astroBERT | astroBERT: A Language Model for Astronomy | A BERT-based language model pre-trained on astrophysics literature for astronomical text mining and NLP tasks. | [Astronomy & Computing](https://huggingface.co/adsabs/astroBERT) |
 
 ### Spectral Foundation Models
@@ -60,7 +59,6 @@
 | GraviBERT | GraviBERT: Transformer-based Inference for Gravitational-Wave Time Series | A BERT-style transformer foundation model for gravitational wave signal analysis supporting detection and parameter estimation. | [Machine Learning: Science and Technology](https://arxiv.org/abs/2512.21390) |
 | Dingo-T1 | Dingo-T1: Flexible Gravitational-Wave Parameter Estimation with Transformers | A transformer-based foundation model for near real-time gravitational wave posterior parameter estimation. | [NeurIPS ML4PS (2025)](https://arxiv.org/abs/2512.02968) |
 | WaveFormer | WaveFormer: Transformer-based Denoising Method for Gravitational-Wave Data | A Transformer-based model for denoising and signal recovery in LIGO gravitational wave interferometer time-series data. | [Machine Learning: Science and Technology](https://doi.org/10.1088/2632-2153/ad2f54) |
-| GW-FALCON | GW-FALCON: Feature-driven Deep Learning for Early Gravitational Wave Detection | A feature-driven deep learning model for early-stage gravitational wave detection from interferometer data. | [arXiv](https://arxiv.org/abs/2602.15073) |
 
 ---
 
@@ -82,7 +80,6 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| ExoMiner++ | ExoMiner++: Enhanced Transit Classification and a New Vetting Catalog | An improved deep learning model by NASA for exoplanet transit validation with enhanced accuracy and reliability for TESS data. | [NASA](https://doi.org/10.3847/1538-3881/ae03a4) |
 | PANOPTICON | PANOPTICON: A Novel Deep Learning Model to Detect Single Transit Events in PLATO Light Curves | A deep learning foundation model for automatic detection of single exoplanet transit events in PLATO light curves without prior data filtering. | [A&A](https://doi.org/10.1051/0004-6361/202452124) |
 
 ---
@@ -93,10 +90,7 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| CosmoPower | CosmoPower: Emulating Cosmological Power Spectra for Accelerated Bayesian Inference | A neural network emulator for rapid and accurate cosmological power spectrum generation replacing traditional Boltzmann solvers. | [arXiv](https://arxiv.org/abs/2106.03846) |
 | GOTHAM | GOTHAM: Teaching Dark Matter Simulations to Speak the Halo Language | A conditional generative Transformer for auto-regressive halo catalog modeling that rapidly populates cosmological simulations. | [arXiv](https://arxiv.org/abs/2409.11401) |
-| COCA | COCA: COmoving Computer Acceleration for N-body Simulations | A hybrid machine learning framework accelerating N-body cosmological simulations by emulating particle displacements in a comoving frame. | [A&A (2025)](https://arxiv.org/abs/2409.02154) |
-| EMBER-2 | EMBER-2: Emulating Baryons from Dark Matter Across Cosmic Time | A machine learning emulator that predicts baryonic effects from dark matter simulations across cosmological time with deep modulation networks. | [arXiv](https://arxiv.org/abs/2502.15875) |
 | CosmosGalaxyFM | Multi-modal Foundation Model for Cosmological Simulation Data | A multi-modal encoder-only transformer foundation model for cosmological galaxy simulation data. | [NeurIPS ML4PS](https://arxiv.org/abs/2510.07684) |
 
 ---
@@ -107,9 +101,6 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| CMB-ML | CMB-ML: A Cosmic Microwave Background Dataset for the Oldest Possible Computer Vision Task | A deep learning framework and dataset for CMB component separation enabling foreground signal removal. | [ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025/html/Amato_CMB-ML_A_Cosmic_Microwave_Background_Dataset_for_the_Oldest_Possible_Computer_Vision_Task_ICCV_2025_paper.html) |
-| PUREPath | PUREPath: A Deep Learning Approach for CMB B-mode Delensing | A deep learning method for CMB B-mode delensing that removes gravitational lensing effects to detect primordial gravitational wave signals. | [arXiv](https://arxiv.org/abs/2503.20774) |
-| Deep Needlet | Deep Needlet: A CNN-based Full Sky Component Separation Method in Needlet Space | A CNN-based CMB analysis method operating on needlet coefficients for efficient full-sky component separation. | [arXiv](https://arxiv.org/abs/2501.07469) |
 
 ---
 
@@ -120,7 +111,6 @@
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | ORACLE | ORACLE: A Real-time, Hierarchical, Deep Learning Photometric Classifier for the LSST | A real-time hierarchical deep learning classifier for automated transient and variable astrophysical source classification in LSST survey data. | [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/ae1130) |
-| SPLASH | SPLASH: A Rapid Host-Based Supernova Classifier for Wide-Field Surveys | A fast host-galaxy-based supernova classifier using only host photometry for rapid type inference in LSST-scale surveys. | [arXiv](https://arxiv.org/abs/2506.00121) |
 
 ---
 

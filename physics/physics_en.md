@@ -31,18 +31,10 @@
 | Bumblebee | Bumblebee: Foundation Model for Particle Physics Discovery | BERT-inspired particle physics foundation model embedding four-momentum vectors without positional encoding to capture generative and reconstruction-level information. | [NeurIPS 2024 Workshop](https://arxiv.org/abs/2412.07867) |
 | EveNet | EveNet: A Foundation Model for Particle Collision Data Analysis | Event-level collision data foundation model pre-trained on 500M simulated events with hybrid self-supervised learning for multi-task analysis. | [arXiv](https://arxiv.org/abs/2601.17126) |
 | HEP-JEPA | HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture | Collider physics foundation model using joint embedding predictive architecture (JEPA) for self-supervised jet tagging. | [arXiv](https://arxiv.org/abs/2502.03933) |
-| Particle Transformer | Particle Transformer for Jet Tagging | Transformer-based jet tagging architecture with pairwise particle interaction features, excelling on the JetClass dataset. | [arXiv](https://arxiv.org/abs/2202.03772) |
-| PELICAN | Explainable Equivariant Neural Networks for Particle Physics: PELICAN | Permutation-equivariant and Lorentz-invariant aggregation network for explainable jet tagging and reconstruction. | [Journal of High Energy Physics](https://doi.org/10.1007/jhep03(2024)113) |
-| LorentzNet | An Efficient Lorentz Equivariant Graph Neural Network for Jet Tagging | Efficient Lorentz-equivariant GNN that respects spacetime symmetries for high-performance jet tagging. | [Journal of High Energy Physics](https://doi.org/10.1007/jhep07(2022)030) |
-| ParticleNet | ParticleNet: Jet Tagging via Particle Clouds | Influential GNN treating jets as particle clouds using EdgeConv for jet classification. | [Phys. Rev. D](https://doi.org/10.1103/physrevd.101.056019) |
 | JetCLR | Symmetries, Safety, and Self-Supervision | Contrastive self-supervised jet representation learning framework using permutation-invariant Transformer encoder with symmetry augmentation. | [SciPost Phys.](https://doi.org/10.21468/scipostphys.12.6.188) |
-| ABCNet | ABCNet: An attention-based method for particle tagging | Attention-enhanced GNN treating collider data as point clouds for quark/gluon tagging. | [EPJ Plus](https://doi.org/10.1140/epjp/s13360-020-00497-3) |
-| JEDI-net | JEDI-net: a jet identification algorithm based on interaction networks | Deep learning jet identification via interaction networks modeling pairwise particle interactions. | [EPJ C 2020](https://doi.org/10.1140/epjc/s10052-020-7608-4) |
 | CaloFM | Foundation Model for Calorimetry via MoE | Mixture-of-experts foundation model for calorimeter simulation. | [arXiv](https://arxiv.org/abs/2603.28804) |
-| CaloDREAM | Detector Response Emulation via Attentive Flow Matching | High-fidelity fast calorimeter simulation using attentive flow matching. | [SciPost Phys.](https://doi.org/10.21468/scipostphys.18.3.088) |
 | JetFormer | Scalable Transformer for Jet Tagging | Scalable Transformer architecture for jet tagging. | [arXiv](https://arxiv.org/abs/2601.17215) |
 | PanopTag | PanopTag: Simultaneously Tagging All Jets in a Particle Collision Event | First method to simultaneously tag all jets in a collision event using encoder-decoder Transformer with event-level context. | [arXiv](https://arxiv.org/abs/2601.16417) |
-| GN2 | Transforming jet flavour tagging at ATLAS | ATLAS Transformer graph neural network for jet flavour tagging, dramatically improving b-jet identification. | [Nature Comm.](https://doi.org/10.1038/s41467-025-65059-6) |
 | TrackingBERT | A Language Model for Particle Tracking | BERT-based foundation model for particle track reconstruction by tokenizing detector data for LHC tracking. | [arXiv](https://arxiv.org/abs/2402.10239) |
 
 ---
@@ -93,15 +85,12 @@
 |-------|------------|-------------|------|
 | GPhyT | Towards a Physics Foundation Model | General physics Transformer trained on 1.8 TB of diverse simulation data with zero-shot generalization to unseen physics scenarios. | [arXiv](https://arxiv.org/abs/2509.13805) |
 | PhysiX | PhysiX: A Foundation Model for Physics Simulations | 4.5B-parameter physics simulation foundation model using discrete tokenizer for multi-scale physical processes with autoregressive generation. | [NeurIPS](https://arxiv.org/abs/2506.17774) |
-| PhysicsNeMo | PhysicsNeMo: An Open-Source Framework for Physics-AI | NVIDIA open-source framework for building, training, and deploying physics-informed AI models supporting GNN, FNO, and other architectures. | [GitHub](https://github.com/NVIDIA/physicsnemo) |
 | PDE-Transformer | PDE-Transformer: Efficient and Versatile Transformers for Physics Simulations | Scalable Transformer architecture for efficient surrogate modeling across multiple PDE types on regular grids. | [arXiv](https://arxiv.org/abs/2505.24717) |
 | M2PDE | M2PDE: Compositional Generative Multiphysics and Multi-component PDE Simulation | Compositional diffusion-based framework for generative multi-physics and multi-component PDE simulation. | [arXiv](https://arxiv.org/abs/2412.04134) |
 | UPS | Unified PDE Solvers | Unified PDE solver foundation model handling cross-domain, cross-dimension, and cross-resolution spatiotemporal PDEs. | [arXiv](https://arxiv.org/abs/2403.07187) |
 | CompNO | CompNO: A Novel Foundation Model approach for solving Partial Differential Equations | Compositional neural operator splitting monolithic models into composable modules for efficient parametric PDE solving. | [Applied Sciences](https://arxiv.org/abs/2601.07384) |
 | GNS | Learning to Simulate Complex Physics with Graph Networks | DeepMind graph network simulator learning particle interaction rules to generalize across fluids, rigid bodies, and deformable objects. | [ICML](https://proceedings.mlr.press/v119/sanchez-gonzalez20a.html) |
 | MeshGraphNets | Learning Mesh-Based Simulation with Graph Networks | Graph network simulation on unstructured meshes for aerodynamics and structural mechanics. | [ICLR](https://openreview.net/forum?id=roNqYL0_XP) |
-| X-MeshGraphNet | X-MeshGraphNet: Scalable Multi-Scale Graph Neural Networks for Physics Simulation | NVIDIA multi-scale mesh graph network extending MeshGraphNets to large-scale industrial physics simulation. | [NVIDIA 2024](https://docs.nvidia.com/deeplearning/physicsnemo/user-guide/latest/) |
-| DHN | Deep Hamiltonian Networks Based on Symplectic Integrators | Deep Hamiltonian network learning physical dynamics within an energy-conserving structure. | [arXiv](https://arxiv.org/abs/2004.13830) |
 | GeoPT | Scaling Physics Simulation via Lifted Geometric Pre-Training | Geometric pre-training foundation model for scaling physics simulation. | [arXiv](https://arxiv.org/abs/2602.20399) |
 
 ---
@@ -124,7 +113,6 @@
 | UniSim | Learning Interactive Real-World Simulators | Universal world simulator learning to simulate diverse human-world interactions from text, actions, and image inputs. | [ICLR](https://openreview.net/forum?id=sFyTZEqmUY) |
 | PAN | PAN: A World Model for General, Interactable, and Long-Horizon World Simulation | Action-conditioned world model for general, interactable, long-horizon simulation with environment dynamics consistency. | [arXiv](https://arxiv.org/abs/2511.09057) |
 | PhysDreamer | PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation | Physics-based 3D object interaction generation via video generation for physically consistent object manipulation. | [Lecture Notes in Computer Science](https://doi.org/10.1007/978-3-031-72627-9_22) |
-| PhyRecon | PhyRecon: Physically Plausible Neural Scene Reconstruction | Physically plausible neural scene reconstruction method combining physical constraints with 3D reconstruction. | [NeurIPS 2024](https://papers.nips.cc/paper_files/paper/2024/hash/2d880acd7b31e25d45097455c8e8257f-Abstract-Conference.html) |
 | Astra | General Interactive World Model with Autoregressive Denoising | General interactive world model combining autoregressive and denoising generation. | [ICLR](https://arxiv.org/abs/2512.08931) |
 
 ---
@@ -170,11 +158,6 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| HNN | Hamiltonian Neural Networks | Pioneering Hamiltonian neural network learning dynamics while preserving Hamiltonian structure and energy conservation. | [NeurIPS](https://arxiv.org/abs/1906.01563) |
-| LNN | Lagrangian Neural Networks | Lagrangian neural network learning the Lagrangian in generalized coordinates, automatically satisfying Euler-Lagrange equations. | [ICLR 2020 Workshop](https://arxiv.org/abs/2003.04630) |
-| GeoHNNs | Geometric Hamiltonian Neural Networks | Geometric Hamiltonian neural network integrating Riemannian geometry with symplectic structure to preserve physical symmetries. | [arXiv](https://arxiv.org/abs/2501.08459) |
-| CGENN | Clifford Group Equivariant Neural Networks | Clifford algebra-based group equivariant neural network unifying rotation, reflection, and translation symmetries for physics modeling. | [NeurIPS 2023](https://papers.nips.cc/paper_files/paper/2023/hash/c6e0125e14ea3d1a3de3c33fd2d49fc4-Abstract-Conference.html) |
-| Multivector Neurons | Multivector Neurons: Better and Faster O(n)-Equivariant Clifford Graph Neural Networks | Multivector neurons achieving faster and more efficient O(n)-equivariant graph neural networks via Clifford algebra. | [NeurIPS](https://arxiv.org/abs/2406.04052) |
 
 ---
 
@@ -196,7 +179,6 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| DeepFlame | Deep Learning-Enabled Supercritical Flame Simulation | Open-source deep learning combustion CFD platform integrating ML surrogate models for reactive flow simulation. | [arXiv](https://arxiv.org/abs/2508.18969) |
 
 ---
 

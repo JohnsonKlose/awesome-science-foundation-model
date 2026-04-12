@@ -28,7 +28,6 @@
 | AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | Tuan Dung Nguyen | 2023 | 2309.06126 | WIESP@EMNLP 2023 | 天文专用70亿参数大语言模型，基于LLaMA-2在30万+天文摘要上微调 |
 | AstroLLaMA-2-70B | AstroMLab 2: AstroLLaMA-2-70B Model and Benchmarking Specialized LLMs for Astronomy | — | 2024 | 2409.19750 | arXiv preprint | AstroLLaMA的大规模升级版（700亿参数），为天文学提供更强大的领域专用LLM |
 | AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | Michael J. Smith | 2024 | 2405.14930 | arXiv preprint | 开源自回归预训练Transformer，在860万DESI Legacy Survey星系图像上训练，可扩展的大观测模型 |
-| GalaxiesML | GalaxiesML: A Dataset of Galaxy Images, Photometry, Redshifts, and Structural Parameters for Machine Learning | Tuan Do | 2024 | 2410.00271 | arXiv preprint | 天文ML标准数据集（28.6万星系图像+测光+红移+结构参数），支持基础模型训练与评估 |
 | astroBERT | astroBERT: A Language Model for Astronomy | — | 2022 | — | Astronomy & Computing | 在天文学文献上预训练的BERT模型，用于天文文本挖掘NLP任务 |
 
 ### E2. 光谱基础模型
@@ -57,7 +56,6 @@
 | GraviBERT | GraviBERT: A Foundation Model for Gravitational Wave Signal Analysis | — | 2024 | — | arXiv preprint | 引力波信号分析基础模型，基于BERT架构在模拟引力波数据上预训练，支持信号检测与参数估计 |
 | Dingo-T1 | Dingo-T1: A Foundation Model for Fast Gravitational-Wave Inference | — | 2025 | — | NeurIPS ML4PS (2025) | 快速引力波推断基础模型，基于深度学习实现近实时引力波参数后验估计 |
 | WaveFormer | WaveFormer: Transformer-based Gravitational Wave Detection | — | 2022 | — | arXiv preprint | 基于Transformer架构的引力波检测模型，从原始干涉仪时间序列中检测引力波信号 |
-| GW-FALCON | Feature-driven deep learning for early GW detection | — | 2026 | arXiv:2602.15073 | arXiv | 特征驱动深度学习早期引力波探测 |
 
 ---
 
@@ -77,7 +75,6 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| ExoMiner++ | ExoMiner++: An Improved Deep Learning Model for Exoplanet Validation | — | 2025 | — | NASA (2025) | NASA开发的系外行星验证深度学习模型升级版，提高候选行星验证准确率和可靠性 |
 | PANOPTICON | PANOPTICON: A Foundation Model for Exoplanet Transit Detection | — | 2025 | — | A&A (2025) | 系外行星凌星探测基础模型，用于大规模巡天数据中行星凌星信号的自动检测与分类 |
 
 ---
@@ -87,10 +84,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| CosmoPower | CosmoPower: Emulating Cosmological Power Spectra with Neural Networks | — | 2024 | — | arXiv preprint | 神经网络宇宙学功率谱模拟器，快速生成精确的宇宙学功率谱替代传统Boltzmann求解器 |
 | GOTHAM | GOTHAM: A Generative Foundation Model for Cosmological Simulations | — | 2024 | — | arXiv preprint | 宇宙学模拟生成基础模型，快速生成高保真大尺度结构模拟 |
-| COCA | COCA: Cosmological Conditional Autoencoder for Structure Formation | — | 2024 | — | A&A (2025) | 宇宙学条件自编码器，基于宇宙学参数生成大尺度结构形成模拟 |
-| EMBER-2 | EMBER-2: Emulating Baryonic Effects for Cosmological Inference | — | 2025 | — | arXiv preprint | 重子效应模拟器，快速精确地模拟重子物理对宇宙学观测量的影响 |
 | CosmosGalaxyFM | Multi-modal Foundation Model for Cosmological Simulation Data | Bin Xia | 2025 | arXiv:2510.07684 | NeurIPS ML4PS 2025 | 多模态宇宙学基础模型 |
 
 ---
@@ -100,9 +94,6 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| CMB-ML | CMB-ML: A Foundation Model for CMB Component Separation | — | 2025 | — | ICCV 2025 | 宇宙微波背景辐射组分分离基础模型，利用深度学习实现CMB前景信号分离 |
-| PUREPath | PUREPath: A Deep Learning Approach for CMB B-mode Delensing | — | 2024 | — | arXiv preprint | CMB B模式去透镜深度学习方法，去除引力透镜效应以探测原初引力波信号 |
-| Deep Needlet | Deep Needlet: Deep Learning on Needlet Coefficients for CMB Analysis | — | 2025 | — | arXiv preprint | 基于Needlet系数的CMB深度学习分析方法，在球谐空间实现高效CMB数据处理 |
 
 ---
 
@@ -112,7 +103,6 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | ORACLE | ORACLE: A Foundation Model for Astronomical Survey Classification | — | 2025 | — | ApJ (2025) | 天文巡天分类基础模型，支持多波段巡天数据中的天体源自动分类与编目 |
-| SPLASH | Host galaxy-focused rapid supernova classifier for LSST | — | 2025 | arXiv:2506.00121 | arXiv | 面向LSST的快速超新星分类器 |
 
 ---
 

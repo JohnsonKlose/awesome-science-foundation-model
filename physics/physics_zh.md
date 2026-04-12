@@ -31,18 +31,10 @@
 | Bumblebee | Bumblebee: Foundation Model for Particle Physics Discovery | Andrew J. Wildridge | 2024 | 2412.07867 | NeurIPS 2024 Workshop | 受BERT启发的粒子物理基础模型，嵌入粒子四动量向量，去除位置编码，捕获生成级和重建级信息 |
 | EveNet | EveNet: A Foundation Model for Particle Collision Data Analysis | Ting-Hsiang Hsu | 2026 | 2601.17126 | arXiv preprint | 事件级碰撞数据基础模型，预训练于5亿模拟碰撞事件，采用混合自监督学习，支持多任务分析与生成 |
 | HEP-JEPA | HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture | Jai Bardhan | 2025 | 2502.03933 | arXiv preprint | 基于联合嵌入预测架构(JEPA)的对撞机物理基础模型，用于喷注标记等下游任务，自监督预训练 |
-| Particle Transformer (ParT) | Particle Transformer for Jet Tagging | Huilin Qu | 2022 | 2202.03772 | ICML 2022 | 基于transformer的喷注标记架构，引入pairwise粒子相互作用特征，在JetClass大规模数据集上表现优异 |
-| PELICAN | Explainable Equivariant Neural Networks for Particle Physics: PELICAN | Alexander Bogatskiy | 2023 | doi:10.1007/jhep03(2024)113 | JHEP 2024 | 排列等变且Lorentz不变/协变的聚合网络，直接处理四动量向量，可解释性强，用于喷注标记和重建 |
-| LorentzNet | An Efficient Lorentz Equivariant Graph Neural Network for Jet Tagging | Shiqi Gong | 2022 | doi:10.1007/jhep07(2022)030 | JHEP 2022 | 高效Lorentz等变图神经网络，在喷注标记中显式尊重时空对称性，性能优异且计算高效 |
-| ParticleNet | ParticleNet: Jet Tagging via Particle Clouds | Huilin Qu | 2019 | 1902.08570 | Phys. Rev. D 2020 | 将喷注视为"粒子云"的图神经网络架构，借鉴点云处理技术(EdgeConv)，用于喷注分类，影响深远 |
 | JetCLR | Symmetries, Safety, and Self-Supervision | Barry M. Dillon | 2021 | doi:10.21468/scipostphys.12.6.188 | SciPost Phys. 2022 | 基于对比学习的自监督喷注表征框架，利用排列不变transformer编码器和对称性增强，学习物理感知表征 |
-| ABCNet | ABCNet: An attention-based method for particle tagging | Vinicius Mikuni | 2020 | 2001.05311 | EPJ Plus 2020 | 注意力增强的图神经网络，将对撞机数据作为点云处理，用于夸克/胶子判别等粒子标记任务 |
-| JEDI-net | JEDI-net: a jet identification algorithm based on interaction networks | Eric A. Moreno | 2019 | 1908.05318 | EPJ C 2020 | 基于交互网络的喷注识别深度学习算法，通过粒子对之间的相互作用建模来区分重粒子衰变产生的喷注 |
 | CaloFM | Foundation Model for Calorimetry via MoE | — | 2026 | arXiv:2603.28804 | arXiv | MoE量热器模拟基础模型 |
-| CaloDREAM | Detector Response Emulation via Attentive Flow Matching | Luigi Favaro | 2024 | arXiv:2405.09629 | SciPost Phys. 2025 | 流匹配高保真量热器快速模拟 |
 | JetFormer | Scalable Transformer for Jet Tagging | — | 2026 | arXiv:2601.17215 | arXiv | 可扩展Transformer喷注标记 |
 | PanopTag | PanopTag: Simultaneously Tagging All Jets in a Particle Collision Event | Umar Sohail Qureshi | 2026 | 2601.16417 | arXiv preprint | 首个同时标记碰撞事件中所有喷注的方法，采用编码器-解码器transformer架构，利用事件级上下文 |
-| GN2 | Transforming jet flavour tagging at ATLAS | ATLAS Collaboration | 2025 | doi:10.1038/s41467-025-65059-6 | Nature Comm. 2026 | ATLAS合作组开发的transformer图神经网络喷注味标记算法，处理底层径迹数据，大幅提升b-jet识别 |
 | TrackingBERT | A Language Model for Particle Tracking | Andris Huang | 2024 | 2402.10239 | arXiv preprint | 基于BERT的粒子径迹重建基础模型，将探测器数据标记化处理，用于LHC中的粒子径迹寻找 |
 
 ---
@@ -91,15 +83,12 @@
 |---------|---------|---------|------|-----------|----------|------|
 | GPhyT | Towards a Physics Foundation Model | Florian Wiesner | 2025 | 2509.13805 | arXiv preprint | 通用物理transformer，训练于1.8TB多样化仿真数据，可零样本泛化到新物理场景，涵盖流动、对流、冲击波等 |
 | PhysiX | PhysiX: A Foundation Model for Physics Simulations | Tung Nguyen | 2025 | 2506.17774 | NeurIPS 2025 | 45亿参数的物理仿真基础模型，采用离散tokenizer编码多尺度物理过程，自回归生成，克服物理数据稀缺 |
-| PhysicsNeMo (formerly Modulus) | PhysicsNeMo: An Open-Source Framework for Physics-AI | NVIDIA | 2023– | GitHub: NVIDIA/physicsnemo | NVIDIA (open-source) | NVIDIA开源深度学习框架，用于构建、训练和部署物理信息AI模型，支持GNN/FNO等多种架构，广泛用于工程仿真 |
 | PDE-Transformer | PDE-Transformer: Efficient and Versatile Transformers for Physics Simulations | — | 2025 | arXiv:2505.24717 | arXiv preprint | 面向多种PDE类型的可扩展transformer架构，增强正则网格上的代理建模效率 |
 | M2PDE | M2PDE: Compositional Generative Multiphysics and Multi-component PDE Simulation | — | 2024 | 2412.04134 | arXiv preprint | 组合生成式多物理/多组分PDE仿真框架，基于扩散模型，处理复杂耦合物理系统 |
 | UPS | Unified PDE Solvers | — | 2024 | 2403.07187 | arXiv preprint | 统一PDE求解器基础模型，高效解决跨域、跨维度、跨分辨率的时空PDE，支持多种物理场景 |
 | CompNO | CompNO: A Novel Foundation Model approach for solving Partial Differential Equations | Hamda Hmida | 2025 | 2601.07384 | arXiv preprint | 组合式神经算子框架，将单片模型拆分为可组合模块，高效求解参数化PDE |
 | GNS | Learning to Simulate Complex Physics with Graph Networks | Alvaro Sanchez-Gonzalez | 2020 | 2002.09405 | ICML 2020 | DeepMind提出的图网络模拟器(GNS)，学习粒子交互规则，可泛化模拟流体、刚体、可变形物体等复杂物理系统 |
 | MeshGraphNets | Learning Mesh-Based Simulation with Graph Networks | Tobias Pfaff | 2021 | 2010.03409 | ICLR 2021 | 基于网格的图网络仿真方法，在非结构化网格上学习物理动力学，支持空气动力学和结构力学等 |
-| X-MeshGraphNet | X-MeshGraphNet: Scalable Multi-Scale Graph Neural Networks for Physics Simulation | — | 2024 | — | NVIDIA 2024 | NVIDIA提出的多尺度网格图网络，扩展MeshGraphNets至大规模工业物理仿真场景 |
-| DHN | Deep Hamiltonian Networks Based on Symplectic Integrators | — | 2020 | arXiv:2004.13830 | arXiv preprint | 深度哈密顿网络，在保持能量守恒的结构中学习物理动力学 |
 | GeoPT | Scaling Physics Simulation via Lifted Geometric Pre-Training | Haixu Wu | 2026 | arXiv:2602.20399 | arXiv | 几何预训练物理模拟基础模型 |
 
 ---
@@ -121,7 +110,6 @@
 | UniSim | Learning Interactive Real-World Simulators | Mengjiao Yang | 2023 | 2310.06114 | ICLR 2024 | 通用世界模拟器，学习模拟人与世界的多样交互，可从文本/动作/图像输入生成真实世界仿真 |
 | PAN | PAN: A World Model for General, Interactable, and Long-Horizon World Simulation | — | 2025 | 2511.09057 | arXiv preprint | 面向通用、可交互、长时间世界模拟的模型，基于动作条件的高质量视频预测，保持环境动态一致性 |
 | PhysDreamer | PhysDreamer: Physics-Based Interaction with 3D Objects via Video Generation | Tianyuan Zhang | 2024 | 2404.13026 | ECCV 2024 | 基于物理的3D对象交互生成模型，通过视频生成实现物理一致性的物体交互仿真 |
-| PhyRecon | PhyRecon: Physically Plausible Neural Scene Reconstruction | — | 2024 | — | arXiv preprint | 物理合理的神经场景重建方法，结合物理约束实现三维场景的物理一致性重建 |
 | Astra | General Interactive World Model with Autoregressive Denoising | — | 2024 | arXiv:2512.08931 | ICLR 2026 | 自回归去噪通用交互世界模型 |
 
 ---
@@ -163,11 +151,6 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| HNN | Hamiltonian Neural Networks | Sam Greydanus | 2019 | 1906.01563 | NeurIPS 2019 | 开创性的哈密顿神经网络，学习保持哈密顿结构的动力学系统，确保能量守恒 |
-| LNN | Lagrangian Neural Networks | Miles Cranmer | 2020 | 2003.04630 | ICLR 2020 Workshop | 拉格朗日神经网络，直接在广义坐标中学习拉格朗日量，自动满足Euler-Lagrange方程 |
-| GeoHNNs | Geometric Hamiltonian Neural Networks | — | 2025 | — | arXiv preprint | 几何哈密顿神经网络，将黎曼几何与辛结构融入神经网络，保持物理系统的几何对称性 |
-| CGENN | Clifford Group Equivariant Neural Networks | David Ruhe | 2023 | 2305.11141 | NeurIPS 2023 | 基于Clifford代数的群等变神经网络，统一处理旋转、反射和平移对称性，用于物理系统建模 |
-| Multivector Neurons | Multivector Neurons: Better and Faster O(n)-Equivariant Clifford Graph Neural Networks | — | 2024 | — | NeurIPS 2024 | 多向量神经元，基于Clifford代数实现更高效的O(n)等变图神经网络，加速几何物理ML |
 
 ---
 
@@ -187,7 +170,6 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| DeepFlame | Deep Learning-Enabled Supercritical Flame Simulation | — | 2025 | arXiv:2508.18969 | arXiv | 开源深度学习燃烧CFD平台，集成ML代理模型进行反应流模拟 |
 
 ---
 

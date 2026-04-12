@@ -83,10 +83,7 @@
 | GNoME | Scaling Deep Learning for Materials Discovery | Amil Merchant | 2023 | doi:10.1038/s41586-023-06735-9 | Nature | Google DeepMind的图神经网络材料探索工具，发现220万新稳定无机晶体结构，为材料数据库贡献前所未有的规模。 |
 | JMP | From Molecules to Materials: Pre-training Large Generalizable Models for Atomic Property Prediction | Nima Shoghi | 2024 | arXiv:2310.16802 | ICLR 2024 | Meta FAIR的联合多域预训练策略，在约1.2亿原子系统上监督预训练，跨越分子、材料等多化学域。 |
 | ATOMICA | Learning Universal Representations of Intermolecular Interactions with ATOMICA | — | 2025 | doi:10.1101/2025.04.02.646906 | bioRxiv Preprint | Zitnik Lab开发的几何深度学习模型，学习分子间相互作用的通用原子级表示 |
-| OMAT24 | Open Materials 2024 Dataset and Models | Meta FAIR | 2024 | arXiv:2410.12771 | arXiv | 包含1亿+DFT计算的开放材料数据集及预训练eSEN模型 |
 | eSEN | Efficient Scalable Equivariant Networks | Meta FAIR | 2025 | arXiv:2501.02063 | arXiv | 可扩展等变架构，UMA的基础，在分子/材料基准上达到SOTA |
-| OMol25 | The Open Molecules 2025 Dataset, Evaluations, and Models | Daniel S. Levine | 2025 | arXiv:2505.08762 | arXiv | Meta FAIR大规模开放分子性质数据集(>1亿DFT计算)及基线模型 |
-| OC25 | Open Catalyst 2025 for solid-liquid interfaces | — | 2025 | arXiv:2509.17862 | arXiv | 开放催化剂2025固-液界面数据集及模型 |
 
 <a id="materials-science-section-04"></a>
 ## 晶体生成与逆向设计
@@ -114,8 +111,6 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| OC20 | Open Catalyst 2020 (OC20) Dataset and Community Challenges | Lowik Chanussot | 2021 | doi:10.1021/acscatal.0c04525 | ACS Catalysis | Meta FAIR的开放催化剂数据集和基准，包含1.55亿DFT计算的吸附构型，推动催化剂发现的ML研究。 |
-| OC22 | The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysts | Richard Tran | 2023 | doi:10.1021/acscatal.2c05426 | ACS Catalysis | OC系列扩展到氧化物电催化剂，包含含氧化物表面的DFT弛豫数据，拓展催化场景覆盖。 |
 | AdsorbML | AdsorbML: A Leap in Efficiency for Adsorption Energy Calculations using Generalizable Machine Learning Potentials | Janice Lan | 2023 | doi:10.1038/s41524-023-01121-5 | npj Computational Materials | 通用ML势用于吸附能高效计算，结合OC20预训练模型显著加速催化剂筛选流程。 |
 | CatBERTa | CatBERTa: A RoBERTa-based Catalyst Property Prediction Model | - | 2023 | arXiv:2305.08628 | arXiv preprint | 基于RoBERTa的催化剂性质预测模型，从催化剂文本描述进行吸附能和活性预测。 |
 | GemNet-OC | GemNet-OC: Developing Graph Neural Networks for Large and Diverse Molecular Simulation Datasets | Johannes Gasteiger | 2022 | doi:10.1038/s41524-022-00891-8 | npj Computational Materials | 面向OC数据集优化的GemNet变体，在大规模催化剂模拟数据上达到SOTA性能。 |

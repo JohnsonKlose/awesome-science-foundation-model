@@ -38,7 +38,6 @@
 | ECMWF AIFS | AIFS — ECMWF's Data-driven Forecasting System | ECMWF's operational AI forecasting system combining graph neural networks and Transformers for data-driven weather prediction. | [arXiv](https://arxiv.org/abs/2406.01465) |
 | Stormer | Scaling Transformer Neural Networks for Skillful and Reliable Medium-range Weather Forecasting | A streamlined and efficient Transformer weather forecasting model achieving state-of-the-art performance with less training data. | [NeurIPS 2024](https://papers.nips.cc/paper_files/paper/2024/hash/7f19b99e63762d20e9df91144056f1ee-Abstract-Conference.html) |
 | AtmoRep | AtmoRep: A Stochastic Model of Atmosphere Dynamics Using Large Scale Representation Learning | A task-agnostic atmospheric foundation model based on large-scale representation learning for stochastic atmosphere dynamics. | [arXiv](https://arxiv.org/abs/2308.13280) |
-| SkyGPT | SkyGPT: Probabilistic Short-term Solar Forecasting Using Synthetic Sky Videos from Physics-constrained VideoGPT | A physics-constrained probabilistic short-term solar irradiance forecasting model using synthetic sky image video prediction. | [Advances in Applied Energy (2024)](https://doi.org/10.1016/j.adapen.2024.100172) |
 | WeatherGFT | WeatherGFT: Generalizing Weather Forecast to Fine-grained Temporal Scales via Physics-AI Hybrid Modeling | A hybrid physics-AI weather forecasting model extending predictions to finer temporal resolutions at 30-minute intervals. | [NeurIPS](https://doi.org/10.52202/079017-0734) |
 | WeatherGFM | WeatherGFM: Learning A Weather Generalist Foundation Model via In-context Learning | A weather generalist foundation model unifying forecasting, super-resolution, image translation, and post-processing via in-context learning. | [ICLR](https://openreview.net/forum?id=izjNI5bcOV) |
 | Prithvi WxC | Prithvi WxC: Foundation Model for Weather and Climate | A 2.3-billion-parameter weather and climate foundation model by IBM and NASA trained on 160 MERRA-2 variables. | [arXiv](https://arxiv.org/abs/2409.13598) |
@@ -66,8 +65,6 @@
 | Clay Foundation Model | Clay: An Open Source AI Model for Earth | An open-source earth observation foundation model based on masked autoencoder architecture supporting Sentinel-1/2 and DEM data. | [Project Page](https://clay-foundation.github.io/model/) |
 | SkySense | SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery | A large-scale multimodal remote sensing foundation model pre-trained on 21.5 million temporal optical and SAR data samples. | [CVPR](https://doi.org/10.1109/CVPR52733.2024.02613) |
 | Scale-MAE | Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning | A scale-aware masked autoencoder that explicitly models spatial resolution relationships for multiscale geospatial representation learning. | [ICCV 2023](https://doi.org/10.1109/ICCV51070.2023.00378) |
-| RSPrompter | RSPrompter: Learning to Prompt for Remote Sensing Instance Segmentation | A SAM-based prompt learning method for remote sensing instance segmentation adapting vision foundation models to remote sensing. | [IEEE TGRS (2024)](https://doi.org/10.1109/tgrs.2024.3356074) |
-| ChangeFormer | ChangeFormer: A Transformer-Based Siamese Network for Change Detection | A Transformer-based siamese network for remote sensing change detection. | [IGARSS](https://doi.org/10.1109/igarss46834.2022.9883686) |
 | DOFA | Neural Plasticity-Inspired Multimodal Foundation Model for Earth Observation | A neural plasticity-inspired multimodal EO foundation model using dynamic wavelength-adaptive hypernetworks to handle diverse sensor data. | [arXiv](https://arxiv.org/abs/2403.15356) |
 | GFM (Prithvi-EO-1.0) | Foundation Models for Generalist Geospatial Artificial Intelligence | NASA/IBM's first-generation earth science foundation model based on self-supervised Vision Transformers trained on HLS data. | [arXiv](https://arxiv.org/abs/2310.18660) |
 | S2MAE | S2MAE: A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Image | A spatial-spectral masked autoencoder providing joint spatial-spectral pre-training for spectral remote sensing imagery. | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Li_S2MAE_A_Spatial-Spectral_Pretraining_Foundation_Model_for_Spectral_Remote_Sensing_Data_CVPR_2024_paper.html) |
@@ -75,8 +72,6 @@
 | WaveMAE | WaveMAE: Wavelet-decomposition Masked Autoencoder for Multispectral Satellite Imagery | A self-supervised foundation model combining wavelet decomposition with geospatial priors for multispectral satellite imagery. | [arXiv](https://arxiv.org/abs/2510.22697) |
 | RoMA | RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing | A scalable Mamba-architecture remote sensing foundation model addressing ViT limitations in large-scale remote sensing pre-training. | [NeurIPS](https://arxiv.org/abs/2503.10392) |
 | CROMA | CROMA: Contrastive Radar-Optical Masked Autoencoders for Remote Sensing | A contrastive radar-optical masked autoencoder for multimodal remote sensing representation learning. | [NeurIPS](https://doi.org/10.52202/075280-0241) |
-| SSL4EO | SSL4EO: Self-Supervised Learning for Earth Observation | A large-scale self-supervised learning benchmark and pre-trained model for earth observation. | [IEEE TGRS](https://doi.org/10.1109/TGRS.2023.3251668) |
-| SatLAS | SatLAS: A Large-Scale Satellite Image Dataset with Automatic Labels | A dataset of 137 million labeled satellite images with pre-trained Swin Transformer models for diverse geospatial tasks. | [ICCV](https://doi.org/10.1109/iccv51070.2023.01538) |
 | AnySat | AnySat: One Earth Observation Model for Many Resolutions, Scales, and Modalities | A unified multi-resolution multimodal earth observation model using JEPA architecture for diverse EO tasks. | [CVPR](https://openaccess.thecvf.com/content/CVPR2025/html/Astruc_AnySat_One_Earth_Observation_Model_for_Many_Resolutions_Scales_and_CVPR_2025_paper.html) |
 | TerraFM | TerraFM: A Scalable Foundation Model for Unified Multisensor Earth Observation | A scalable self-supervised foundation model for unified multisensor earth observation pre-trained on 18.7 million samples. | [ICLR 2026](https://openreview.net/forum?id=cBxuzdUDNx) |
 
@@ -94,7 +89,6 @@
 | GLONET | GLONET: Mercator's End-to-End Neural Global Ocean Forecasting System | An end-to-end neural network global ocean forecasting system by Mercator Ocean trained on GLORYS12 reanalysis data. | [JGR: ML & Computation](https://doi.org/10.1029/2025jh000686) |
 | WenHai | Forecasting the Eddying Ocean with a Deep Neural Network | A deep neural network ocean forecasting system excelling at mesoscale eddy dynamics prediction. | [Nature Communications](https://doi.org/10.1038/s41467-025-57389-2) |
 | FuXi-Ocean | FuXi-Ocean: A Global Ocean Forecasting System with Sub-Daily Resolution | A data-driven global ocean forecasting system with 6-hour temporal and 1/12° spatial resolution reaching 1500-meter depth. | [NeurIPS](https://arxiv.org/abs/2506.03210) |
-| OceanCastNet | Ocean Wave Forecasting with Deep Learning as Alternative to Physical Models | A deep learning ocean wave forecasting model that can replace the traditional physical model ECWAM. | [JAMES (2025)](https://doi.org/10.1029/2025ms005285) |
 | ORCA-DL | Data-driven Global Ocean Modeling for Seasonal to Decadal Prediction | A data-driven global ocean model supporting 3D ocean predictions from seasonal to decadal timescales. | [Science Advances](https://doi.org/10.1126/sciadv.adu2488) |
 | FuXi-ONS | Data-driven Ensemble Prediction of the Global Ocean | A machine-learning ensemble global ocean forecasting system for 5-to-365-day predictions. | [arXiv](https://arxiv.org/abs/2603.19591) |
 
@@ -106,16 +100,12 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| PhaseNet | PhaseNet: A Deep-Neural-Network-Based Seismic Arrival-Time Picking Method | One of the most widely used deep learning models for seismic arrival-time picking in seismology. | [Geophysical Journal International](https://doi.org/10.1093/gji/ggy423) |
-| EQTransformer | EQTransformer: An Attentive Deep-Learning Model for Simultaneous Earthquake Detection and Phase Picking | An attention-based deep learning model for simultaneous earthquake detection and seismic phase picking. | [Nature Communications](https://doi.org/10.1038/s41467-020-17591-w) |
 | SeisT | SeisT: A Foundational Deep Learning Model for Earthquake Monitoring Tasks | A Transformer-based seismic monitoring foundation model supporting multiple earthquake tasks including detection, phase picking, and magnitude estimation. | [IEEE TGRS](https://doi.org/10.1109/tgrs.2024.3371503) |
 | SeisLM | SeisLM: A Foundation Model for Seismic Waveforms | A large-scale self-supervised seismic waveform foundation model pre-trained via contrastive learning on massive open-source seismic data. | [arXiv](https://arxiv.org/abs/2410.15765) |
 | SeisMoLLM | SeisMoLLM: Advancing Seismic Monitoring via Cross-modal Transfer with Pre-trained Large Language Model | A seismic monitoring foundation model leveraging cross-modal transfer from GPT-2 architecture for seismic analysis. | [arXiv](https://arxiv.org/abs/2502.19960) |
 | SeismicXM | SeismicXM: A Cross-Task Foundation Model for Single-Station Seismic Waveform Processing | A cross-task seismic waveform processing foundation model by China Earthquake Administration supporting multiple single-station tasks. | [SRL](https://doi.org/10.1785/0220250290) |
 | U-Trans | U-Trans: A Foundation Model for Seismic Waveform Representation | A U-Net encoder-decoder architecture seismic waveform representation foundation model trained on 2M+ three-component waveforms. | [Scientific Reports](https://doi.org/10.1038/s41598-026-41454-x) |
-| EQCCT | EQCCT: A Production-Ready Earthquake Detection and Phase-Picking Method Using the Compact Convolutional Transformer | A production-ready compact convolutional Transformer for earthquake detection and phase picking. | [IEEE TGRS](https://doi.org/10.1109/TGRS.2023.3264212) |
 | PhaseNet+ | PhaseNet+: Towards End-to-End Earthquake Monitoring Using a Multitask Deep Learning Model | A multi-task extension of PhaseNet enabling end-to-end earthquake monitoring. | [arXiv](https://arxiv.org/abs/2506.06939) |
-| WaveCastNet | Rapid Wavefield Forecasting for Earthquake Early Warning | A deep learning model for real-time seismic wavefield prediction enabling rapid earthquake early warning. | [Nature Communications](https://doi.org/10.1038/s41467-025-65435-2) |
 | SeisCLIP | SeisCLIP: Contrastive Multimodal Seismology Foundation Model | A contrastive multimodal seismology foundation model learning joint representations from seismic waveforms and metadata. | [arXiv](https://arxiv.org/abs/2309.02320) |
 
 ---
@@ -126,12 +116,8 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| WaterGPT | WaterGPT: Training a Large Language Model to Become a Hydrology Expert | A hydrology-focused large language model fine-tuned on domain data for expert-level hydrological question answering and analysis. | [Water (MDPI, 2024)](https://www.mdpi.com/2073-4441/16/21/3075) |
 | HydroGAT | HydroGAT: Distributed Heterogeneous Graph Attention Transformer for Spatiotemporal Flood Prediction | A graph attention network-based hydrological prediction foundation model capturing spatial dependencies across watersheds. | [arXiv](https://arxiv.org/abs/2509.02481) |
-| δHBV-globe1.0 | δHBV-globe1.0: A Differentiable Global Hydrological Model | A differentiable global hydrological model combining the classic HBV conceptual model with deep learning gradient optimization. | [Geoscientific Model Development](https://doi.org/10.5194/gmd-17-7181-2024) |
-| FloodCastBench | FloodCastBench: A Large-Scale Dataset and Foundation Models for Flood Modeling | A large-scale flood modeling dataset and accompanying foundation models for flood prediction. | [Scientific Data](https://doi.org/10.1038/s41597-025-04725-2) |
 | ZeroFlood | ZeroFlood: A Geospatial Foundation Model for Data-Efficient Flood Susceptibility Mapping | A geospatial foundation model for data-efficient flood susceptibility mapping. | [arXiv](https://arxiv.org/abs/2510.23364) |
-| PIFF | PIFF: Physics-Informed Generative Flow Model for Real-Time Flood Depth Mapping | A physics-informed generative flow model for real-time flood depth mapping. | [arXiv](https://arxiv.org/abs/2511.09130) |
 | GraphRiverCast | Topology-informed AI Foundation Model for Global River Forecasting | A topology-informed AI foundation model for global river hydrodynamic forecasting. | [arXiv](https://arxiv.org/abs/2602.22293) |
 
 ---
@@ -226,4 +212,3 @@
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | ORBIT-2 | ORBIT-2: Scaling Exascale Vision Transformer for Weather and Climate Downscaling | A climate downscaling foundation model trained on exascale computing infrastructure for efficient high-resolution climate inference. | [SC 2025](https://e3sm.org/best-paper-award-at-sc25-ai-driven-weather-prediction-with-orbit-2/) |
-| SR-Weather | SR-Weather: Super-Resolution Framework for Weather Downscaling | A deep learning super-resolution framework downscaling coarse-resolution weather forecasts to kilometer-scale surface air temperature. | [npj Climate and Atmospheric Science](https://www.nature.com/articles/s41612-026-01328-5) |

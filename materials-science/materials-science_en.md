@@ -87,10 +87,7 @@
 | GNoME | Scaling Deep Learning for Materials Discovery | Google DeepMind GNN materials explorer discovering 2.2M new stable inorganic crystal structures. | [Nature](https://doi.org/10.1038/s41586-023-06735-9) |
 | JMP | From Molecules to Materials: Pre-training Large Generalizable Models for Atomic Property Prediction | Meta FAIR joint multi-domain pre-training on ~120M atomic systems spanning molecules and materials. | [ICLR](https://openreview.net/forum?id=PfPnugdxup) |
 | ATOMICA | Learning Universal Representations of Intermolecular Interactions with ATOMICA | Geometric deep learning model learning universal atomic-level representations of intermolecular interactions. | [bioRxiv](https://doi.org/10.1101/2025.04.02.646906) |
-| OMAT24 | Open Materials 2024 Dataset and Models | Open materials dataset with 100M+ DFT calculations and pre-trained eSEN models. | [arXiv](https://arxiv.org/abs/2410.12771) |
 | eSEN | Efficient Scalable Equivariant Networks | Scalable equivariant architecture forming the backbone of UMA, achieving SOTA on molecular and materials benchmarks. | [arXiv](https://arxiv.org/abs/2501.02063) |
-| OMol25 | The Open Molecules 2025 Dataset, Evaluations, and Models | Meta FAIR large-scale open molecular property dataset with 100M+ DFT calculations and baseline models. | [arXiv](https://arxiv.org/abs/2505.08762) |
-| OC25 | Open Catalyst 2025 for solid-liquid interfaces | Open Catalyst 2025 dataset and models for solid-liquid interface catalysis. | [arXiv](https://arxiv.org/abs/2509.17862) |
 
 ---
 
@@ -124,8 +121,6 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| OC20 | Open Catalyst 2020 (OC20) Dataset and Community Challenges | Meta FAIR open catalyst dataset with 155M DFT-computed adsorption configurations for ML-driven catalyst discovery. | [ACS Catalysis](https://doi.org/10.1021/acscatal.0c04525) |
-| OC22 | The Open Catalyst 2022 (OC22) Dataset and Challenges for Oxide Electrocatalysts | Extension of Open Catalyst to oxide electrocatalysts with DFT relaxation data for oxide surfaces. | [ACS Catalysis](https://doi.org/10.1021/acscatal.2c05426) |
 | AdsorbML | AdsorbML: A Leap in Efficiency for Adsorption Energy Calculations using Generalizable Machine Learning Potentials | Generalizable ML potentials for efficient adsorption energy calculation, accelerating catalyst screening with OC20 pre-trained models. | [npj Computational Materials](https://doi.org/10.1038/s41524-023-01121-5) |
 | CatBERTa | CatBERTa: A RoBERTa-based Catalyst Property Prediction Model | RoBERTa-based model predicting catalyst adsorption energies and activities from textual descriptions. | [arXiv](https://arxiv.org/abs/2305.08628) |
 | GemNet-OC | GemNet-OC: Developing Graph Neural Networks for Large and Diverse Molecular Simulation Datasets | GemNet variant optimized for Open Catalyst datasets, achieving SOTA on large-scale catalyst simulations. | [npj Computational Materials](https://doi.org/10.1038/s41524-022-00891-8) |
