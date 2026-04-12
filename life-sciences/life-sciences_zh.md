@@ -77,6 +77,7 @@
 | GearNet | Protein Representation Learning by Geometric Structure Pretraining | Zuobai Zhang | 2023 | arXiv:2203.06125 | ICLR 2023 | 关系图神经网络，通过几何结构预训练和多视图对比学习学习蛋白质结构表示 |
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Kevin Yang | 2022 | arXiv:2209.07203 | bioRxiv | 通过掩码逆折叠自监督预训练学习蛋白质表示 |
 | PPLM | A paired sequence language model for protein-protein interaction | Jun Liu | 2026 | doi:10.1038/s41467-026-70457-5 | Nature Communications | 成对序列语言模型，预测蛋白质-蛋白质相互作用 |
+| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | — | 2024 | bioRxiv:2024.11.29 | bioRxiv Preprint | AIDO体系中的蛋白质模块，160亿参数MoE架构，在1.2万亿氨基酸上训练 |
 
 ### 蛋白质结构预测
 
@@ -341,6 +342,7 @@
 | CellOracle | CellOracle: Dissecting cell identity via network inference and in silico gene perturbation | Kenji Kamimoto | 2023 | doi:10.1038/s41586-022-05688-9 | Nature | 基于基因调控网络的计算框架，模拟基因扰动对细胞身份的影响 |
 | Stack | Stack: In-Context Learning of Single-Cell Biology | Arc Institute | 2026 | bioRxiv:2026.01.09.698608 | bioRxiv | Arc Institute单细胞FM，1.49亿人类细胞训练，零样本预测 |
 | Lingshu-Cell | Lingshu-Cell: cellular world model for transcriptome modeling | Alibaba DAMO | 2026 | arXiv:2603.25240 | arXiv | 灵枢-细胞：掩码离散扩散细胞世界模型 |
+| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | — | 2025 | doi:10.64898/2025.12.29.696804 | bioRxiv | 同时用于单细胞和空间转录组学分析的统一基础模型。 |
 
 ### 虚拟细胞模型
 
@@ -361,9 +363,9 @@
 |---------|---------|---------|------|-----------|----------|------|
 | Xpressor | Towards foundation models that learn across biological scales | Jeremie Kalfon | 2025 | bioRxiv:2025.05.16.653447 | bioRxiv Preprint | 跨尺度学习框架，通过交叉注意力机制整合分子、细胞和组织层面的基因表达信息 |
 | AIDO | Toward AI-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels | Le Song | 2024 | arXiv:2412.06993 | arXiv | GenBio AI开发的AI驱动数字生物体系统，整合DNA→RNA→蛋白质→细胞多尺度基础模型 |
-| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | — | 2024 | bioRxiv:2024.11.29 | bioRxiv Preprint | AIDO体系中的蛋白质模块，160亿参数MoE架构，在1.2万亿氨基酸上训练 |
-| SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | — | 2025 | — | ICML 2025 | 空间转录组多尺度基础模型，整合宏观组织形态和微观细胞环境 |
-| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | — | 2025 | doi:10.64898/2025.12.29.696804 | bioRxiv | 同时用于单细胞和空间转录组学分析的统一基础模型。 |
+| CDT (Central Dogma Transformer) | Central Dogma Transformer: Towards Mechanism-Oriented AI for Cellular Understanding | Nobuyuki Ota | 2026 | arXiv:2601.01089 | arXiv Preprint | 中心法则Transformer，通过方向性交叉注意力整合DNA（Enformer）、RNA（scGPT）和蛋白质（ProteomeLM）预训练模型，模拟DNA→RNA→蛋白质信息流，生成统一的虚拟细胞嵌入 |
+| CDT-II | Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms | Nobuyuki Ota | 2026 | arXiv:2602.08751 | arXiv Preprint | AI显微镜架构，通过DNA/RNA自注意力和交叉注意力建模转录调控；在K562 CRISPRi数据上达到基因平均r=0.84，恢复GFI1B调控网络（6.6倍富集），通过梯度归因预测治疗靶点下游效应 |
+| CDT-III | Central Dogma Transformer III: Interpretable AI Across DNA, RNA, and Protein | Nobuyuki Ota | 2026 | arXiv:2603.23361 | arXiv Preprint | 两阶段虚拟细胞嵌入器（VCE-N核转录+VCE-C胞质翻译），将CDT扩展至完整中心法则并支持蛋白质预测；RNA r=0.843，蛋白质r=0.969，在无临床数据下重新发现阿仑单抗5/7已知临床副作用 |
 
 ---
 
@@ -490,6 +492,8 @@
 | STAMP | Interpretable spatially aware dimension reduction of spatial transcriptomics with STAMP | N/A | 2024 | 10.1038/s41592-024-02463-8 | Nature Methods | 用于空间转录组学空间感知可解释降维的深度生成模型。 |
 | SpaGT | Spatially informed graph transformers for spatially resolved transcriptomics | N/A | 2025 | 10.1038/s42003-025-08015-w | Communications Biology | 整合空间坐标和基因表达的图Transformer，用于空间域识别。 |
 | BrainBeacon | BrainBeacon: A Cross-Species Foundation Model for Single-cell Spatial Transcriptomics of Brain | — | 2025 | bioRxiv:2025.07.08.663729 | bioRxiv | 全球首个跨物种大脑空间转录组基础模型，整合多物种脑空间组学数据用于数字孪生大脑与靶标发现 |
+| SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | — | 2025 | — | ICML 2025 | 空间转录组多尺度基础模型，整合宏观组织形态和微观细胞环境 |
+| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | — | 2025 | doi:10.64898/2025.12.29.696804 | bioRxiv | 同时用于单细胞和空间转录组学分析的统一基础模型。 |
 
 ---
 

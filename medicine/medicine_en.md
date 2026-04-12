@@ -90,6 +90,7 @@
 | CheXficient | A data- and compute-efficient chest X-ray foundation model | Data- and compute-efficient chest X-ray foundation model. | [arXiv](https://arxiv.org/abs/2602.22843) |
 | Ark+ | Fully open AI foundation model for chest radiography | Fully open AI foundation model for chest radiography published in Nature. | [Nature](https://doi.org/10.1038/s41586-025-08954-4) |
 | MedSigLIP | Medical dual-tower vision-language encoder | Medical dual-tower vision-language encoder developed by Google Health, part of Health AI Developer Foundations. | [Google HADF](https://developers.google.com/health-ai-developer-foundations/medsiglip) |
+| FM-CT | 3D Foundation Model for Generalizable Disease Detection in Head Computed Tomography | 3D head CT foundation model self-supervised pretrained on 361,663 non-contrast head CT scans using self-distillation and masked image modeling for generalizable disease detection. | [arXiv](https://arxiv.org/abs/2502.02779) |
 
 ---
 

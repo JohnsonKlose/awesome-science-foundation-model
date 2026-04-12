@@ -79,6 +79,7 @@
 | GearNet | Protein Representation Learning by Geometric Structure Pretraining | Relational graph neural network learning protein structure representations via geometric pretraining and multi-view contrastive learning. | [ICLR](https://openreview.net/forum?id=to3qCB3tOh9) |
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Self-supervised masked inverse folding pretraining for learning protein representations from structures. | [arXiv](https://arxiv.org/abs/2209.07203) |
 | PPLM | A paired sequence language model for protein-protein interaction | Paired sequence language model predicting protein-protein interactions from paired amino acid sequences. | [Nature Communications](https://doi.org/10.1038/s41467-026-70457-5) |
+| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29) |
 
 ### Protein Structure Prediction
 
@@ -360,6 +361,7 @@
 | CellOracle | CellOracle: Dissecting cell identity via network inference and in silico gene perturbation | Computational framework using gene regulatory networks to simulate gene perturbation effects on cell identity. | [Nature](https://doi.org/10.1038/s41586-022-05688-9) |
 | Stack | Stack: In-Context Learning of Single-Cell Biology | Arc Institute single-cell foundation model trained on 149M human cells enabling zero-shot prediction via in-context learning. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.09.698608) |
 | Lingshu-Cell | Lingshu-Cell: cellular world model for transcriptome modeling | Masked discrete diffusion cellular world model for transcriptome modeling from Alibaba DAMO. | [arXiv](https://arxiv.org/abs/2603.25240) |
+| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
 
 ### Virtual Cell Models
 
@@ -380,9 +382,9 @@
 |-------|------------|-------------|------|
 | Xpressor | Towards foundation models that learn across biological scales | Cross-scale learning framework integrating molecular, cellular, and tissue-level gene expression via cross-attention. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.05.16.653447) |
 | AIDO | Toward AI-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels | AI-driven digital organism system integrating DNA→RNA→protein→cell multi-scale foundation models. | [arXiv](https://arxiv.org/abs/2412.06993) |
-| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29) |
-| SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | Multi-scale spatial transcriptomics foundation model integrating macroscopic tissue morphology and microscopic cellular environments. | [ICML 2025](https://proceedings.mlr.press/v235/) |
-| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
+| CDT (Central Dogma Transformer) | Central Dogma Transformer: Towards Mechanism-Oriented AI for Cellular Understanding | Architecture integrating pretrained DNA (Enformer), RNA (scGPT), and protein (ProteomeLM) models via directional cross-attention mirroring the central dogma information flow, producing unified Virtual Cell Embeddings. | [arXiv](https://arxiv.org/abs/2601.01089) |
+| CDT-II | Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms | AI microscope with DNA/RNA self-attention and cross-attention for transcriptional control; achieves per-gene mean r=0.84 on K562 CRISPRi data, recovers GFI1B regulatory network (6.6× enrichment), and predicts therapeutic target consequences via gradient attribution. | [arXiv](https://arxiv.org/abs/2602.08751) |
+| CDT-III | Central Dogma Transformer III: Interpretable AI Across DNA, RNA, and Protein | Two-stage Virtual Cell Embedder (VCE-N for nuclear transcription, VCE-C for cytosolic translation) extending to full central dogma with protein prediction; achieves RNA r=0.843 and protein r=0.969, rediscovers 5/7 known Alemtuzumab side effects without clinical data. | [arXiv](https://arxiv.org/abs/2603.23361) |
 
 ---
 
@@ -511,6 +513,8 @@
 | STAMP | Interpretable spatially aware dimension reduction of spatial transcriptomics with STAMP | Deep generative model for spatially-aware interpretable dimension reduction of spatial transcriptomics. | [Nature Methods](https://doi.org/10.1038/s41592-024-02463-8) |
 | SpaGT | Spatially informed graph transformers for spatially resolved transcriptomics | Graph transformer integrating spatial coordinates and gene expression for spatial domain identification. | [Communications Biology](https://doi.org/10.1038/s42003-025-08015-w) |
 | BrainBeacon | BrainBeacon: A Cross-Species Foundation Model for Single-cell Spatial Transcriptomics of Brain | Cross-species brain spatial transcriptomics foundation model integrating multi-species data for digital twin brain. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.08.663729) |
+| SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | Multi-scale spatial transcriptomics foundation model integrating macroscopic tissue morphology and microscopic cellular environments. | [ICML 2025](https://proceedings.mlr.press/v235/) |
+| OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
 
 ---
 

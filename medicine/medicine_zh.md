@@ -94,6 +94,7 @@
 | CheXficient | A data- and compute-efficient chest X-ray foundation model | Chong Wang | 2026 | arXiv:2602.22843 | arXiv | 数据高效胸部X光基础模型 |
 | Ark+ | Fully open AI foundation model for chest radiography | — | 2025 | Nature 2025 | Nature | 全开放胸部X光AI基础模型(Nature发表) |
 | MedSigLIP | Medical dual-tower vision-language encoder | Google Health | 2025 | Google HADF | Google HADF | Google Health开发的医学专用双塔视觉-语言编码器，Health AI Developer Foundations项目一部分 |
+| FM-CT | 3D Foundation Model for Generalizable Disease Detection in Head Computed Tomography | Weicheng Zhu | 2025 | arXiv:2502.02779 | arXiv Preprint | 3D头部CT基础模型，在361,663例非增强头部CT上通过自蒸馏和掩码图像建模进行自监督预训练，用于可泛化的疾病检测 |
 
 ---
 
