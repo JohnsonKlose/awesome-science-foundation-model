@@ -4,6 +4,7 @@
 
 > 覆盖作物科学、植物表型、农业遥感、生物多样性、野生动物等农业与生态基础模型。
 > [总览](../README.zh.md)
+> 说明：本页已剔除纯数据集、基准、挑战赛、库与仅有产品发布页的条目；为避免误译，少量新增条目暂沿用英文版简述。
 
 ## 目录
 - [作物与生态遥感](#agriculture-ecology-section-01)
@@ -21,52 +22,30 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | (西交利物浦大学) | 2024 | 学术出版 | Scholar XJTLU | 多模态AI模型，集成视觉和文本数据用于精准植物病害检测和作物健康评估。 |
-| AgriGPT (Ecosystem) | AgriGPT: A Large Language Model Ecosystem for Agriculture | (多作者) | 2025 | arXiv:2508.08632 | arXiv Preprint | 农业专用大语言模型生态系统，包含多智能体数据引擎，编译高质量农业领域数据。 |
+| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual-Language Model | (西交利物浦大学) | 2024 | 10.1007/978-981-96-9921-6_20 | Lecture Notes in Computer Science | 多模态AI模型，集成视觉和文本数据用于精准植物病害检测和作物健康评估。 |
+| AgriGPT (Ecosystem) | AgriGPT: a Large Language Model Ecosystem for Agriculture | Bo Yang | 2025 | arXiv:2508.08632 | arXiv | 农业专用LLM生态系统，配备多智能体数据引擎，编译高质量农业领域数据 |
 | AgroGPT | AgroGPT: Efficient Agricultural Vision-Language Model with Expert Tuning | Muhammad Awais | 2024 | arXiv:2410.08405 | WACV 2025 | 农业专用视觉-语言模型，基于70,000张图像的AgroInstruct数据集通过专家调优训练，支持作物病害对话。 |
 | IPM-AgriGPT | IPM-AgriGPT: A Large Language Model for Pest and Disease Management with a G-EA Framework | Leifeng Guo | 2025 | DOI:10.3390/math13040566 | Mathematics 2025 | 利用G-EA框架和农业上下文推理的害虫病害管理大语言模型。 |
-| AgriGPT-Omni | AgriGPT-Omni: A Unified Speech-Vision-Text Framework for Multilingual Agricultural Intelligence | (浙江大学) | 2025 | arXiv:2512.10624 | arXiv Preprint | 统一语音-视觉-文本的多语言农业AI框架，由浙江大学开发。 |
+| AgriGPT-Omni | AgriGPT-Omni: A Unified Speech-Vision-Text Framework for Multilingual Agricultural Intelligence | Bo Yang | 2025 | arXiv:2512.10624 | arXiv | 浙江大学开发的统一语音-视觉-文本多语言农业AI框架 |
 | AgriFM | AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Crop Mapping | Wenyuan Li | 2025 | arXiv:2505.21357 | arXiv Preprint | 多源时序遥感基础模型，集成MODIS/Landsat-8/9/Sentinel-2卫星数据，使用改进的Video Swin Transformer进行作物制图。 |
 | CropSTS | CropSTS: A Remote Sensing Foundation Model for Cropland Classification with Decoupled Spatiotemporal Attention | Yuxing Chen | 2025 | DOI:10.3390/rs17142481 | Remote Sensing 2025 | 利用解耦时空注意力机制的作物分类遥感基础模型，解决模糊田块边界和有限时序建模问题。 |
-| PlantCaFo | PlantCaFo: An Efficient Few-Shot Plant Disease Recognition Method Leveraging Foundation Models | Ruifang Zhai | 2025 | DOI:10.1016/j.plaphe.2025.100024 | Plant Phenomics 2025 | 利用CLIP和DINO基础模型的少样本作物病害识别方法，在数据有限场景下提升检测精度。 |
-| AlphaEarth Foundation (AEF) | Evaluating Geospatial Foundation Models for Agricultural Applications | (多作者) | 2025 | arXiv:2601.00857 | arXiv Preprint | 在多源地球观测数据上训练的地理空间基础模型，评估其在作物产量预测等农业应用中的效果。 |
-| MetaFruit | MetaFruit: A Multi-Fruit Detection Foundation Model | (Penn State) | 2024 | — | Penn State | 宾夕法尼亚州立大学开发的多水果检测基础模型，支持多种水果的自动化检测和计数。 |
-| VITA | VITA: Variational Transformer for Crop Yield Prediction | (多作者) | 2025 | — | arXiv Preprint | 基于变分Transformer的作物产量预测模型，结合时序遥感和环境数据。 |
 | SoilNet | SoilNet: Multimodal Soil Horizon Classification | (多作者) | 2025 | — | arXiv Preprint | 多模态土壤层位分类基础模型，整合土壤图像、化学和物理属性数据。 |
 | AQUA | AQUA: The First Large Language Model for Aquaculture and Fisheries | (多作者) | 2025 | — | arXiv Preprint | 首个水产养殖和渔业专用大语言模型，涵盖养殖管理、病害诊断等领域知识。 |
-| HarvestFlex | HarvestFlex: A Vision-Language-Action Model for Strawberry Harvesting | (多作者) | 2026 | — | arXiv Preprint | 面向草莓采摘的视觉-语言-动作模型，结合视觉感知和机器人操作。 |
-| AnimalFormer | AnimalFormer: Transformer-based Livestock Behavior Recognition | (多作者) | 2024 | — | CVPR Workshop 2024 | 基于Transformer的家畜行为识别模型，支持多种动物行为的自动化分析。 |
 | FoMo4Wheat | FoMo4Wheat: Toward reliable crop vision foundation models | PheniX-Lab | 2025 | arXiv:2509.06907 | arXiv | 小麦表型分析专用基础模型 |
 | SPROUT | Scalable Diffusion Foundation Model for Agricultural Vision | UTokyo | 2026 | arXiv:2603.27519 | arXiv | 扩散预训练农业视觉基础模型 |
-| PhenoAssistant | Conversational multi-agent AI for plant phenotyping | — | 2026 | Nature Communications | Nature Comms | 对话式多智能体植物表型分析AI |
-| LeafNet | Large-scale plant disease vision-language dataset and benchmark | — | 2026 | arXiv:2602.13662 | arXiv | 大规模植物病害视觉-语言数据集和基准 |
 
 ### A2. 生态与生物多样性AI基础模型
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| SpeciesNet | SpeciesNet: Open-Source AI Model for Wildlife Species Identification | (Google/WWF) | 2025 | GitHub (google/cameratrapai) | 开源发布 | Google开发的开源AI模型，可识别近2,500种野生动物，在6500万张相机陷阱图像上训练，用于生物多样性监测。 |
 | BioAnalyst | BioAnalyst: A Foundation Model for Biodiversity | Athanasios Trantas | 2025 | arXiv:2507.09080 | NeurIPS 2025 | 首个多模态生物多样性基础模型，基于Transformer架构，集成物种记录、遥感、气候等生态数据用于欧洲保护规划。 |
-| NatureLM-audio | NatureLM-audio: An Audio-Language Foundation Model for Bioacoustics | (Earth Species Project) | 2024 | arXiv:2411.07186 | arXiv Preprint | 首个大规模生物声学音频-语言基础模型，支持零样本物种分类和声音描述，用于生态监测。 |
-| Tighnari | Tighnari: Multi-modal Plant Species Prediction Based on Hierarchical Cross-Attention | (多作者) | 2025 | arXiv:2501.02649 | arXiv Preprint | 多模态植物物种预测AI模型，整合卫星图像、气候时序、土地覆盖和土壤变量进行时空物种分布预测。 |
-| Tighnari v2 | Tighnari v2: Mitigating Label Noise and Distribution Shift in Multi-modal Plant Species Prediction | (多作者) | 2026 | arXiv:2602.08282 | arXiv Preprint | Tighnari升级版，解决噪声标签和分布偏移问题，增强植物物种分布预测的鲁棒性。 |
-| OpenWildlife | OpenWildlife: Open-Vocabulary Multi-Species Wildlife Detector for Geographically-Diverse Aerial Imagery | (多作者) | 2025 | arXiv:2506.19204 | arXiv Preprint | 开放词汇多物种野生动物检测器，利用语言-视觉基础模型处理陆地和海洋环境的航拍图像。 |
-| PlantCLEF系列 | Overview of PlantCLEF 2024: Multi-species Plant Identification in Vegetation Plot Images | Hervé Goëau | 2024 | arXiv:2509.15768 | CLEF 2024 | 基于170万+植物图像的多物种植物识别AI挑战和模型系列，用于生态和生物多样性研究。 |
-| GeoLifeCLEF | Overview of GeoLifeCLEF 2025: Plant Species Presence Prediction with Environmental and High-Resolution Remote Sensing Data | (多作者) | 2025 | CEUR-WS | CLEF 2025 | 利用高分辨率环境和遥感数据进行欧洲植物物种分布建模的竞赛和基准。 |
-| BirdNET | BirdNET: A Deep Learning Solution for Avian Diversity Monitoring | Stefan Kahl | 2021 | — | Cornell Lab | 康奈尔大学鸟类学实验室开发的深度学习鸟类声音识别模型，V1.0支持6500+物种，V3.0扩展到11000+物种，广泛用于生态声学监测。 |
+| NatureLM-audio | NatureLM-audio: an Audio-Language Foundation Model for Bioacoustics | David Robinson | 2024 | arXiv:2411.07186 | arXiv | 首个大规模生物声学音频-语言基础模型，支持零样本物种分类和声音描述，用于生态监测 |
+| OpenWildlife | OpenWildlife: Open-Vocabulary Multi-Species Wildlife Detector for Geographically-Diverse Aerial Imagery | Muhammed Patel | 2025 | arXiv:2506.19204 | arXiv | 开放词汇多物种野生动物检测器，使用语言-视觉基础模型处理陆地和海洋航空影像 |
 | NicheFlow | NicheFlow: A Generative Foundation Model for Species Distribution Modeling | (多作者) | 2024 | bioRxiv | bioRxiv Preprint | 首个基于生成式流匹配的物种分布建模基础模型，学习环境-物种关系的连续分布。 |
-| EcoCast | EcoCast: Biodiversity Risk Forecasting Foundation Model | (多作者) | 2025 | — | NeurIPS Workshop 2025 | 生物多样性风险预测基础模型，用于生态系统健康评估和保护规划。 |
-| MiTREE | MiTREE: Multi-Input Transformer for Species Distribution Estimation | (多作者) | 2024 | — | arXiv Preprint | 多输入Transformer模型用于物种分布估计，整合多源环境和遥感数据。 |
-| FoMo-Bench | FoMo-Bench: Foundation Model Benchmark for Forest Monitoring | (多作者) | 2024 | — | AAAI 2025 | 森林监测基础模型基准，评估多种基础模型在森林覆盖变化检测等任务上的表现。 |
-| Cattle-CLIP | Cattle-CLIP: Cattle Behavior Recognition via CLIP-based Vision-Language Learning | (多作者) | 2025 | — | arXiv Preprint | 基于CLIP的牛行为识别模型，利用视觉-语言学习进行放牧行为分类。 |
-| Granite-Geospatial-Ocean | Granite Geospatial Ocean: IBM Foundation Model for Ocean Monitoring | (IBM Research) | 2025 | — | IBM Research | IBM开发的海洋监测地理空间基础模型，基于Granite系列，用于海洋环境变化检测和预测。 |
+| Granite-Geospatial-Ocean | A Sentinel-3 foundation model for ocean colour | Geoffrey Dawson | 2025 | arXiv:2509.21273 | arXiv | Granite地理空间系列中的Sentinel-3海洋颜色基础模型，用于海洋监测及下游海洋任务。 |
 | OceanSAR | OceanSAR: SAR Ocean Observation Foundation Model | (多作者) | 2025 | — | arXiv Preprint | SAR海洋观测基础模型，专注于海洋表面监测、船舶检测和海洋环境分析。 |
-| SatBird | SatBird: Bird Species Distribution Modeling with Remote Sensing and Citizen Science Data | — | 2024 | NeurIPS 2023 | NeurIPS 2023 | 结合卫星图像和eBird公民科学数据的鸟类物种分布基础模型 |
 | Insect-Foundation | Insect-Foundation: A Foundation Model for Visual Insect Understanding | Hoang-Quan Nguyen | 2024 | arXiv:2311.15206 | CVPR 2024 | 昆虫视觉理解基础模型，100万张昆虫图像 |
-| Atlantes | Atlantes: GPS transformers for global-scale maritime intelligence | Allen AI | 2025 | arXiv:2504.19036 | arXiv | GPS Transformer全球海洋船舶行为分析 |
-| FMRAG | FMRAG: Retrieval-Augmented Multimodal LLM for Fisheries Intelligence | — | 2026 | doi:10.3389/fmars.2026.xxx | Frontiers in Marine Science | 渔业智能检索增强多模态LLM |
-| Buzzdetect | Open-source deep learning for bioacoustic pollinator monitoring | OSU | 2025 | bioRxiv | bioRxiv | 开源深度学习自动化传粉者声学监测 |
-| BugNet | Rapid scalable pipeline for automated insect monitoring | UW-Madison | 2026 | Frontiers | Frontiers Ecol. Evo. | 快速可扩展自动化昆虫监测流程 |
+| FMRAG | FMRAG: Retrieval-Augmented Multimodal Large Language Models for Fisheries Intelligence | — | 2026 | 10.3389/fmars.2026.1801835 | Frontiers in Marine Science | 渔业智能检索增强多模态大语言模型 |
 
 ### A3. 相关遥感基础模型
 
@@ -74,8 +53,6 @@
 |---------|---------|---------|------|-----------|----------|------|
 | SkySense++ | A Semantic-Enhanced Multi-Modal Remote Sensing Foundation Model for Earth Observation | Kang Wu | 2025 | DOI:10.1038/s42256-025-01078-8 | Nature Machine Intelligence 2025 | 语义增强的多模态遥感基础模型，在2700万遥感数据上训练，支持农业制图在内的多种地球观测任务。 |
 | SkySense V2 | SkySense V2: A Unified Foundation Model for Multi-modal Remote Sensing | (多作者) | 2025 | arXiv:2507.13812 | ICCV 2025 | 统一的多模态遥感基础模型，单一Transformer主干处理多种遥感模态数据。 |
-| iNatAg | iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark Dataset with 4.7M Images of 2,959 Crop and Weed Species | (多作者) | 2025 | arXiv:2503.20068 | arXiv Preprint | 包含470万张图像、2,959种作物和杂草物种的大规模分类基准数据集和模型。 |
 
 ---
 
-> **总计 / Total: 35 models** — 农业AI: 15 | 生态与生物多样性: 17 | 相关遥感: 3

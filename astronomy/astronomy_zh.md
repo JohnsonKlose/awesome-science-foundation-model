@@ -4,6 +4,7 @@
 
 > 覆盖多模态天文学、系外行星、引力波、宇宙学、射电天文学、太阳物理等天文学基础模型。
 > [总览](../README.zh.md)
+> 说明：本页已剔除纯数据集、基准、挑战赛、库与仅有产品发布页的条目；为避免误译，少量新增条目暂沿用英文版简述。
 
 ## 目录
 - [多模态天文](#astronomy-section-01)
@@ -27,15 +28,14 @@
 | AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | Liam Parker | 2023 | 2310.03024 | MNRAS (2024) | 跨模态星系基础模型，使用自监督对比学习将星系图像和光谱嵌入共享物理意义的潜在空间 |
 | AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | Tuan Dung Nguyen | 2023 | 2309.06126 | WIESP@EMNLP 2023 | 天文专用70亿参数大语言模型，基于LLaMA-2在30万+天文摘要上微调 |
 | AstroLLaMA-2-70B | AstroMLab 2: AstroLLaMA-2-70B Model and Benchmarking Specialized LLMs for Astronomy | — | 2024 | 2409.19750 | arXiv preprint | AstroLLaMA的大规模升级版（700亿参数），为天文学提供更强大的领域专用LLM |
-| AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | Michael J. Smith | 2024 | 2405.14930 | arXiv preprint | 开源自回归预训练Transformer，在860万DESI Legacy Survey星系图像上训练，可扩展的大观测模型 |
-| GalaxiesML | GalaxiesML: A Dataset of Galaxy Images, Photometry, Redshifts, and Structural Parameters for Machine Learning | Tuan Do | 2024 | 2410.00271 | arXiv preprint | 天文ML标准数据集（28.6万星系图像+测光+红移+结构参数），支持基础模型训练与评估 |
+| AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | Michael J. Smith | 2024 | arXiv:2405.14930 | arXiv | 开源自回归预训练Transformer，在860万DESI Legacy Survey星系图像上训练的可扩展大规模观测模型 |
 | astroBERT | astroBERT: A Language Model for Astronomy | — | 2022 | — | Astronomy & Computing | 在天文学文献上预训练的BERT模型，用于天文文本挖掘NLP任务 |
 
 ### E2. 光谱基础模型
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| OmniSpectra | OmniSpectra: A Unified Foundation Model for Native Resolution Astronomical Spectra | Jeff Shen | 2025 | 2601.15351 | arXiv preprint | 统一天文光谱基础模型，可处理任意长度、任意仪器的原始分辨率光谱，无需重采样或插值 |
+| OmniSpectra | OmniSpectra: A Unified Foundation Model for Native Resolution Astronomical Spectra | Md Khairul Islam | 2026 | arXiv:2601.15351 | arXiv | 统一天文光谱基础模型，无需重采样或插值即可处理任意长度、任意仪器的原始分辨率光谱 |
 | SpectraFM | SpectraFM: Tuning into Stellar Foundation Models | — | 2024 | — | NeurIPS FM4Science Workshop (2024) | 恒星光谱基础模型，在大规模恒星光谱数据上预训练，支持光谱分类与参数估计等下游任务 |
 
 ### E3. 时域天文/光变曲线基础模型
@@ -45,7 +45,7 @@
 | FALCO | FALCO: Foundation Model of Astronomical Light Curves for Time Domain Astronomy | Xiaoxiong Zuo | 2025 | 2504.20290 | AJ (2026) | 天文光变曲线基础模型，基于Transformer自监督学习在Kepler数据上训练，支持时域天文多种下游任务 |
 | Astromer 2 | Astromer 2: Few-shot Light Curve Classification | Cristobal Donoso-Oliva | 2025 | 2502.02717 | A&A (2026) | 自监督光变曲线基础模型，在150万MACHO巡天光变曲线上预训练，支持少样本分类 |
 | ASTROMER | ASTROMER: A Transformer-based Embedding for the Representation of Light Curves | Cristobal Donoso-Oliva | 2022 | DOI:10.1051/0004-6361/202243928 | A&A (2023) | 首个用于天文光变曲线表征的Transformer预训练模型，可迁移到多种巡天数据 |
-| AstroCo | ASTROCO: Self-Supervised Conformer-Style Transformers for Light-Curve Embeddings | — | 2025 | 2509.24134 | arXiv preprint | 自监督Conformer风格Transformer编码器，处理不规则恒星光变曲线 |
+| AstroCo | ASTROCO: Self-Supervised Conformer-Style Transformers for Light-Curve Embeddings | Antony Tan | 2025 | arXiv:2509.24134 | arXiv | 自监督Conformer风格Transformer编码器，用于处理不规则恒星光变曲线 |
 
 ---
 
@@ -100,7 +100,6 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| CMB-ML | CMB-ML: A Foundation Model for CMB Component Separation | — | 2025 | — | ICCV 2025 | 宇宙微波背景辐射组分分离基础模型，利用深度学习实现CMB前景信号分离 |
 | PUREPath | PUREPath: A Deep Learning Approach for CMB B-mode Delensing | — | 2024 | — | arXiv preprint | CMB B模式去透镜深度学习方法，去除引力透镜效应以探测原初引力波信号 |
 | Deep Needlet | Deep Needlet: Deep Learning on Needlet Coefficients for CMB Analysis | — | 2025 | — | arXiv preprint | 基于Needlet系数的CMB深度学习分析方法，在球谐空间实现高效CMB数据处理 |
 
@@ -131,5 +130,5 @@
 - [PolymathicAI / AstroCLIP (GitHub)](https://github.com/PolymathicAI/AstroCLIP)
 - [Smith42 / astroPT (GitHub)](https://github.com/smith42/astroPT)
 - [Astromer Science (GitHub)](https://github.com/astromer-science/main-code)
-- [IAIFI Astrophysics Papers](https://iaifi.github.io/papers-astro.html)
+- [IAIFI Astrophysics Papers](https://iaifi.org/papers-astro.html)
 - [Multimessenger Astronomy in the Era of Foundational AI Workshop (2025)](https://www.lisamission.org/multimessenger-astronomy-in-the-era-of-foundational-ai/)
