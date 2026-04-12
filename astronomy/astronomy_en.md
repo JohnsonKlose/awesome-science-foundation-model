@@ -24,8 +24,8 @@
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | AION-1 | AION-1: Omnimodal Foundation Model for Astronomical Sciences | A large-scale omnimodal astronomical foundation model integrating 39 data modalities (imaging, spectra, scalar measurements) covering 200M+ astronomical objects. | [NeurIPS](https://arxiv.org/abs/2510.17960) |
-| AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | A cross-modal galaxy foundation model using self-supervised contrastive learning to embed galaxy images and spectra into a shared physically meaningful latent space. | [Monthly Notices of the Royal Astronomical Society](https://arxiv.org/abs/2310.03024) |
-| AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | A 7-billion-parameter astronomy-specialized LLM based on LLaMA-2, fine-tuned on 300K+ astronomical abstracts. | [Proceedings of the Second Workshop on Information Extraction from Scientific Publications](https://arxiv.org/abs/2309.06126) |
+| AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | A cross-modal galaxy foundation model using self-supervised contrastive learning to embed galaxy images and spectra into a shared physically meaningful latent space. | [MNRAS](https://doi.org/10.1093/mnras/stae1450) |
+| AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | A 7-billion-parameter astronomy-specialized LLM based on LLaMA-2, fine-tuned on 300K+ astronomical abstracts. | [SciNLP Workshop](https://doi.org/10.18653/v1/2023.wiesp-1.7) |
 | AstroLLaMA-2-70B | AstroMLab 2: AstroLLaMA-2-70B Model and Benchmarking Specialized LLMs for Astronomy | A 70-billion-parameter upgrade of AstroLLaMA providing more powerful domain-specific language understanding for astronomy. | [arXiv](https://arxiv.org/abs/2409.19750) |
 | AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | An open-source autoregressive pre-trained Transformer trained on 8.6 million DESI Legacy Survey galaxy images as a scalable large observation model. | [arXiv](https://arxiv.org/abs/2405.14930) |
 | GalaxiesML | GalaxiesML: A Dataset of Galaxy Images, Photometry, Redshifts, and Structural Parameters for Machine Learning | A standardized astronomical ML dataset of 286K galaxy images with photometry, redshifts, and structural parameters for foundation model training and evaluation. | [arXiv](https://arxiv.org/abs/2410.00271) |
@@ -59,7 +59,7 @@
 |-------|------------|-------------|------|
 | GraviBERT | GraviBERT: Transformer-based Inference for Gravitational-Wave Time Series | A BERT-style transformer foundation model for gravitational wave signal analysis supporting detection and parameter estimation. | [Machine Learning: Science and Technology](https://arxiv.org/abs/2512.21390) |
 | Dingo-T1 | Dingo-T1: Flexible Gravitational-Wave Parameter Estimation with Transformers | A transformer-based foundation model for near real-time gravitational wave posterior parameter estimation. | [NeurIPS ML4PS (2025)](https://arxiv.org/abs/2512.02968) |
-| WaveFormer | WaveFormer: Transformer-based Denoising Method for Gravitational-Wave Data | A Transformer-based model for denoising and signal recovery in LIGO gravitational wave interferometer time-series data. | [Machine Learning: Science and Technology](https://arxiv.org/abs/2212.14283) |
+| WaveFormer | WaveFormer: Transformer-based Denoising Method for Gravitational-Wave Data | A Transformer-based model for denoising and signal recovery in LIGO gravitational wave interferometer time-series data. | [Machine Learning: Science and Technology](https://doi.org/10.1088/2632-2153/ad2f54) |
 | GW-FALCON | GW-FALCON: Feature-driven Deep Learning for Early Gravitational Wave Detection | A feature-driven deep learning model for early-stage gravitational wave detection from interferometer data. | [arXiv](https://arxiv.org/abs/2602.15073) |
 
 ---
@@ -72,7 +72,7 @@
 |-------|------------|-------------|------|
 | RGZ-FM | Radio Galaxy Zoo: Towards Building the First Multi-purpose Foundation Model for Radio Astronomy | The first multi-purpose radio astronomy foundation model pre-trained on Radio Galaxy Zoo data for radio source classification and morphology analysis. | [arXiv](https://arxiv.org/abs/2305.16127) |
 | STRADAViT | STRADAViT: Towards a Foundational Model for Radio Astronomy through Self-Supervised Transfer | A self-supervised Vision Transformer foundation model for radio astronomy data handling diverse radio interferometric imaging tasks. | [arXiv](https://arxiv.org/abs/2603.29660) |
-| SKATR | SKATR: A Self-Supervised Summary Transformer for SKA Radio Continuum Data | A self-supervised summary Transformer foundation model for SKA radio continuum survey data providing universal feature representations. | [SciPost (2025)](https://arxiv.org/abs/2410.18899) |
+| SKATR | SKATR: A Self-Supervised Summary Transformer for SKA Radio Continuum Data | A self-supervised summary Transformer foundation model for SKA radio continuum survey data providing universal feature representations. | [SciPost (2025)](https://doi.org/10.21468/scipostphys.18.5.155) |
 
 ---
 
@@ -119,7 +119,7 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| ORACLE | ORACLE: A Real-time, Hierarchical, Deep Learning Photometric Classifier for the LSST | A real-time hierarchical deep learning classifier for automated transient and variable astrophysical source classification in LSST survey data. | [The Astrophysical Journal](https://arxiv.org/abs/2501.01496) |
+| ORACLE | ORACLE: A Real-time, Hierarchical, Deep Learning Photometric Classifier for the LSST | A real-time hierarchical deep learning classifier for automated transient and variable astrophysical source classification in LSST survey data. | [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/ae1130) |
 | SPLASH | SPLASH: A Rapid Host-Based Supernova Classifier for Wide-Field Surveys | A fast host-galaxy-based supernova classifier using only host photometry for rapid type inference in LSST-scale surveys. | [arXiv](https://arxiv.org/abs/2506.00121) |
 
 ---

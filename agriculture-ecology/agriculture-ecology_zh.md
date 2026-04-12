@@ -59,7 +59,7 @@
 | MiTREE | MiTREE: Multi-Input Transformer for Species Distribution Estimation | (多作者) | 2024 | — | arXiv Preprint | 多输入Transformer模型用于物种分布估计，整合多源环境和遥感数据。 |
 | FoMo-Bench | FoMo-Bench: Foundation Model Benchmark for Forest Monitoring | (多作者) | 2024 | — | AAAI 2025 | 森林监测基础模型基准，评估多种基础模型在森林覆盖变化检测等任务上的表现。 |
 | Cattle-CLIP | Cattle-CLIP: Cattle Behavior Recognition via CLIP-based Vision-Language Learning | (多作者) | 2025 | — | arXiv Preprint | 基于CLIP的牛行为识别模型，利用视觉-语言学习进行放牧行为分类。 |
-| Granite-Geospatial-Ocean | Granite Geospatial Ocean: IBM Foundation Model for Ocean Monitoring | (IBM Research) | 2025 | — | IBM Research | IBM开发的海洋监测地理空间基础模型，基于Granite系列，用于海洋环境变化检测和预测。 |
+| Granite-Geospatial-Ocean | Granite Geospatial Ocean: IBM Foundation Model for Ocean Monitoring | (IBM Research) | 2025 | — | arXiv Preprint | IBM开发的海洋监测地理空间基础模型，基于Granite系列，用于海洋环境变化检测和预测。 |
 | OceanSAR | OceanSAR: SAR Ocean Observation Foundation Model | (多作者) | 2025 | — | arXiv Preprint | SAR海洋观测基础模型，专注于海洋表面监测、船舶检测和海洋环境分析。 |
 | SatBird | SatBird: Bird Species Distribution Modeling with Remote Sensing and Citizen Science Data | — | 2024 | NeurIPS 2023 | NeurIPS 2023 | 结合卫星图像和eBird公民科学数据的鸟类物种分布基础模型 |
 | Insect-Foundation | Insect-Foundation: A Foundation Model for Visual Insect Understanding | Hoang-Quan Nguyen | 2024 | arXiv:2311.15206 | CVPR 2024 | 昆虫视觉理解基础模型，100万张昆虫图像 |

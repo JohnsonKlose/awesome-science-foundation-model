@@ -24,7 +24,7 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | AION-1 | AION-1: Omnimodal Foundation Model for Astronomical Sciences | Liam Parker | 2025 | 2510.17960 | NeurIPS 2025 | 大规模全模态天文基础模型，集成39种数据模态（成像、光谱、标量测量），覆盖2亿+天文目标 |
-| AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | Liam Parker | 2023 | 2310.03024 | MNRAS (2024) | 跨模态星系基础模型，使用自监督对比学习将星系图像和光谱嵌入共享物理意义的潜在空间 |
+| AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | Liam Parker | 2023 | doi:10.1093/mnras/stae1450 | MNRAS (2024) | 跨模态星系基础模型，使用自监督对比学习将星系图像和光谱嵌入共享物理意义的潜在空间 |
 | AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | Tuan Dung Nguyen | 2023 | 2309.06126 | WIESP@EMNLP 2023 | 天文专用70亿参数大语言模型，基于LLaMA-2在30万+天文摘要上微调 |
 | AstroLLaMA-2-70B | AstroMLab 2: AstroLLaMA-2-70B Model and Benchmarking Specialized LLMs for Astronomy | — | 2024 | 2409.19750 | arXiv preprint | AstroLLaMA的大规模升级版（700亿参数），为天文学提供更强大的领域专用LLM |
 | AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | Michael J. Smith | 2024 | 2405.14930 | arXiv preprint | 开源自回归预训练Transformer，在860万DESI Legacy Survey星系图像上训练，可扩展的大观测模型 |
