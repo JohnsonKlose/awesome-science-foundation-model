@@ -236,6 +236,8 @@
 | FetalCLIP | Visual-Language Foundation Model for Fetal Ultrasound | Fadillah Maani | 2025 | arXiv:2502.14807 | arXiv | 胎儿超声视觉-语言基础模型 |
 | UltraSam | Foundation Model for Ultrasound Segmentation | Adrien Meyer | 2024 | arXiv:2411.16222 | arXiv | SAM超声分割基础模型 |
 | Sonomate | Sonomate: A Fetal Ultrasound Vision-Language Model for Clinical Decision Support | (多作者) | 2025 | — | arXiv Preprint | 胎儿超声视觉-语言模型，整合超声影像和临床文本支持产科决策。 |
+| EchoJEPA | EchoJEPA: A Latent Predictive Foundation Model for Echocardiography | Alif Munim | 2026 | arXiv:2602.02603 | arXiv Preprint | 潜在预测式心超基础模型，在30万患者1800万张心超图像上基于V-JEPA 2架构预训练；LVEF估计优于基线约20%，零样本泛化至儿科患者 |
+| BUSGen | A foundation generative model for breast ultrasound image analysis | Haojun Yu | 2025 | doi:10.1038/s41551-026-01639-1 | Nature Biomedical Engineering | 乳腺超声生成基础模型，在350万+乳腺超声图像上预训练；少样本合成数据用于癌症筛查、诊断和预后，超越全部9位放射科医师，灵敏度提升16.5% |
 
 ---
 

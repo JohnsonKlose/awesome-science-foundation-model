@@ -225,6 +225,8 @@
 | FetalCLIP | Visual-Language Foundation Model for Fetal Ultrasound | Vision-language foundation model for fetal ultrasound, enabling zero-shot and few-shot classification of fetal anatomy and pathology. | [arXiv](https://arxiv.org/abs/2502.14807) |
 | UltraSam | Foundation Model for Ultrasound Segmentation | SAM-based ultrasound segmentation foundation model adapted for universal ultrasound image segmentation. | [arXiv](https://arxiv.org/abs/2411.16222) |
 | Sonomate | A Visually Grounded Language Model for Fetal Ultrasound | Fetal ultrasound vision-language model integrating ultrasound imaging and clinical text for obstetric clinical decision support. | [Nature](https://doi.org/10.1038/s41551-025-01578-3) |
+| EchoJEPA | EchoJEPA: A Latent Predictive Foundation Model for Echocardiography | Latent predictive echocardiography foundation model pretrained on 18M echocardiograms from 300K patients using V-JEPA 2 architecture; outperforms baselines by ~20% in LVEF estimation with zero-shot pediatric generalization. | [arXiv](https://arxiv.org/abs/2602.02603) |
+| BUSGen | A foundation generative model for breast ultrasound image analysis | Generative foundation model pretrained on 3.5M+ breast ultrasound images; few-shot synthetic data generation for cancer screening, diagnosis, and prognosis, outperforming all 9 board-certified radiologists with 16.5% sensitivity improvement. | [Nature Biomedical Engineering](https://doi.org/10.1038/s41551-026-01639-1) |
 
 ---
 

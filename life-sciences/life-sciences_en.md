@@ -80,6 +80,7 @@
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Self-supervised masked inverse folding pretraining for learning protein representations from structures. | [arXiv](https://arxiv.org/abs/2209.07203) |
 | PPLM | A paired sequence language model for protein-protein interaction | Paired sequence language model predicting protein-protein interactions from paired amino acid sequences. | [Nature Communications](https://doi.org/10.1038/s41467-026-70457-5) |
 | AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29) |
+| BioReason-Pro | BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning | First multimodal reasoning LLM for protein function prediction integrating ESM3 embeddings with GO-GPT ontology modeling; achieves 73.6% F_max on GO term prediction, preferred over UniProt annotations by human experts 79% of the time. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.19.712954) |
 
 ### Protein Structure Prediction
 
@@ -292,6 +293,7 @@
 | Species-aware DNA LM | Species-aware DNA Language Modeling | DNA language model incorporating species-specific information during pretraining. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.01.26.525670v1) |
 | Genos | Genos: A Large Human-Centric Genomic Foundation Model | Large-scale (up to 10B parameters) human-centric genomic foundation model with MoE-Transformer architecture from BGI. | [ICG-20 Conference](https://github.com/BGI-HangzhouAI/Genos) |
 | GENERator | GENERator: A Long-Context Generative Genomic Foundation Model | Long-context generative genomic foundation model pretrained on 386 billion nucleotides with 98k context length. | [arXiv](https://arxiv.org/abs/2502.07272) |
+| BioReason | BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model | First deep integration of DNA foundation models (Nucleotide Transformer/Evo2) with LLMs for multi-step biological reasoning; raises KEGG disease pathway prediction from 86% to 98% with interpretable reasoning traces. | [arXiv](https://arxiv.org/abs/2505.23579) |
 
 ---
 <a id="life-sciences-section-04"></a>

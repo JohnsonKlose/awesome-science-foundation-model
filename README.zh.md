@@ -108,6 +108,7 @@
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Kevin Yang | 2022 | arXiv:2209.07203 | bioRxiv | 通过掩码逆折叠自监督预训练学习蛋白质表示 |
 | PPLM | A paired sequence language model for protein-protein interaction | Jun Liu | 2026 | doi:10.1038/s41467-026-70457-5 | Nature Communications | 成对序列语言模型，预测蛋白质-蛋白质相互作用 |
 | AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | — | 2024 | bioRxiv:2024.11.29 | bioRxiv Preprint | AIDO体系中的蛋白质模块，160亿参数MoE架构，在1.2万亿氨基酸上训练 |
+| BioReason-Pro | BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning | Adibvafa Fallahpour | 2026 | doi:10.64898/2026.03.19.712954 | bioRxiv Preprint | 首个蛋白质功能预测多模态推理LLM，整合ESM3嵌入与GO-GPT本体建模；GO术语预测F_max 73.6%，人类专家79%偏好其注释超过UniProt |
 
 #### 蛋白质结构预测
 
@@ -302,6 +303,7 @@
 | Species-aware DNA LM | Species-aware DNA Language Modeling | Dennis Gankin | 2023 | bioRxiv:2023.01.26.525670 | bioRxiv | 在预训练中融入物种特异性信息的DNA语言模型 |
 | Genos | Genos: A Large Human-Centric Genomic Foundation Model | — (BGI / Zhejiang Lab) | 2025 | BGI-HangzhouAI/Genos | ICG-20 Conference | 全球首个100亿参数人类基因组基础模型，MoE-Transformer架构，支持百万碱基对上下文分析 |
 | GENERator | GENERator: A Long-Context Generative Genomic Foundation Model | Wei Wu | 2025 | arXiv:2502.07272 | arXiv | 长上下文生成式基因组基础模型 |
+| BioReason | BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model | Adibvafa Fallahpour | 2025 | arXiv:2505.23579 | NeurIPS 2025 | 首个将DNA基础模型（Nucleotide Transformer/Evo2）与LLM深度整合的多模态生物推理模型；KEGG疾病通路预测从86%提升至98%，生成可解释的推理链 |
 
 ---
 
@@ -1731,6 +1733,8 @@
 | FetalCLIP | Visual-Language Foundation Model for Fetal Ultrasound | Fadillah Maani | 2025 | arXiv:2502.14807 | arXiv | 胎儿超声视觉-语言基础模型 |
 | UltraSam | Foundation Model for Ultrasound Segmentation | Adrien Meyer | 2024 | arXiv:2411.16222 | arXiv | SAM超声分割基础模型 |
 | Sonomate | Sonomate: A Fetal Ultrasound Vision-Language Model for Clinical Decision Support | (多作者) | 2025 | — | arXiv Preprint | 胎儿超声视觉-语言模型，整合超声影像和临床文本支持产科决策。 |
+| EchoJEPA | EchoJEPA: A Latent Predictive Foundation Model for Echocardiography | Alif Munim | 2026 | arXiv:2602.02603 | arXiv Preprint | 潜在预测式心超基础模型，在30万患者1800万张心超图像上基于V-JEPA 2架构预训练；LVEF估计优于基线约20%，零样本泛化至儿科患者 |
+| BUSGen | A foundation generative model for breast ultrasound image analysis | Haojun Yu | 2025 | doi:10.1038/s41551-026-01639-1 | Nature Biomedical Engineering | 乳腺超声生成基础模型，在350万+乳腺超声图像上预训练；少样本合成数据用于癌症筛查、诊断和预后，超越全部9位放射科医师，灵敏度提升16.5% |
 
 ---
 
