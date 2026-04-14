@@ -36,15 +36,14 @@
 | FuXi | FuXi: a cascade machine learning forecasting system for 15-day global weather forecast | Lei Chen | 2023 | DOI:10.1038/s41612-023-00512-1 | npj Climate and Atmospheric Science 2023 | 级联机器学习天气预报系统，使用39年ERA5数据训练，15天预报性能媲美ECMWF集合平均 |
 | NeuralGCM | Neural General Circulation Models for Weather and Climate | Dmitrii Kochkov | 2023 | 2311.07222 | Nature (2024) | Google Research开发的神经GCM，将可微大气动力学求解器与机器学习结合，支持天气到气候时间尺度预测 |
 | FourCastNet | FourCastNet: A Global Data-driven High-resolution Weather Forecasting System | Jaideep Pathak | 2022 | 2202.11214 | arXiv preprint | NVIDIA开发的高分辨率全球天气预报模型，使用自适应傅里叶神经算子(AFNO)，0.25°分辨率 |
-| ECMWF AIFS | AIFS -- ECMWF's data-driven forecasting system | Simon Lang | 2024 | arXiv:2406.01465 | arXiv | ECMWF业务化AI预报系统，结合图神经网络和Transformer实现数据驱动天气预报。 |
-| Stormer | Scaling transformer neural networks for skillful and reliable medium-range weather forecasting | Tung Nguyen | 2024 | NeurIPS 2024 proceedings | NeurIPS 2024 | 简洁高效的Transformer天气预报模型，在更少训练数据下实现强竞争力的中期天气预报性能 |
-| AtmoRep | AtmoRep: A stochastic model of atmosphere dynamics using large scale representation learning | Christian Lessig | 2023 | arXiv:2308.13280 | arXiv | 基于大规模表示学习的任务无关大气基础模型，用于随机大气动力学 |
-| SkyGPT | SkyGPT: Probabilistic Short-term Solar Forecasting Using Synthetic Sky Videos from Physics-constrained VideoGPT | Yuhao Nie | 2023 | 2306.11682 | Advances in Applied Energy (2024) | 物理约束的概率性短期太阳辐照度预报模型，通过合成天空图像实现随机视频预测 |
-| WeatherGFT | WeatherGFT: Generalizing Weather Forecast to Fine-grained Temporal Scales via Physics-AI Hybrid Modeling | Wanghan Xu | 2024 | DOI:10.52202/079017-0734 | NeurIPS 2024 | 混合物理-AI天气预报模型，将预报推广到更细时间分辨率（30分钟间隔） |
-| WeatherGFM | WeatherGFM: Learning a Weather Generalist Foundation Model via In-context Learning | Xiangyu Zhao | 2025 | ICLR 2025 proceedings | ICLR 2025 | 天气通用基础模型，统一天气预报、超分辨率、图像翻译和天气后处理多种任务 |
-| Prithvi WxC | Prithvi WxC: Foundation Model for Weather and Climate | Johannes Schmude | 2024 | arXiv:2409.13598 | arXiv | IBM和NASA联合开发的23亿参数天气气候基础模型，在160个MERRA-2变量上训练 |
-| FuXi-2.0 | FuXi-2.0: Advancing machine learning weather forecasting model for practical applications | Xiaohui Zhong | 2024 | arXiv:2409.07188 | arXiv | FuXi升级版，提供逐小时全球预报，覆盖更全面的气象变量 |
-| ArchesWeather | ArchesWeather: An efficient AI weather forecasting model at 1.5° resolution | Guillaume Couairon | 2024 | arXiv:2405.14527 | arXiv | 轻量高效AI天气预报模型，1.5°分辨率，结合2D和柱状注意力机制 |
+| ECMWF AIFS | AIFS -- ECMWF's Data-driven Forecasting System | Simon Lang | 2024 | 2406.01465 | arXiv preprint | ECMWF开发的AI预报系统，结合图神经网络和Transformer，已投入业务运行 |
+| Stormer | Scaling Transformer Neural Networks for Skillful and Reliable Medium-range Weather Forecasting | Tung Nguyen | 2023 | 2312.03876 | arXiv preprint | 简洁高效的Transformer天气预报模型，以更少训练数据达到SOTA性能 |
+| AtmoRep | AtmoRep: A Stochastic Model of Atmosphere Dynamics Using Large Scale Representation Learning | Christian Lessig | 2023 | 2308.13280 | arXiv preprint | 基于大规模表征学习的随机大气动力学模型，任务无关的大气基础模型 |
+| WeatherGFT | WeatherGFT: Generalizing Weather Forecast to Fine-grained Temporal Scales via Physics-AI Hybrid Modeling | Xinyi Li | 2024 | 2405.13796 | NeurIPS 2024 | 混合物理-AI天气预报模型，将预报推广到更细时间分辨率（30分钟间隔） |
+| WeatherGFM | WeatherGFM: Learning A Weather Generalist Foundation Model via In-context Learning | Xiangyu Zhao | 2024 | 2411.05420 | ICLR 2025 | 天气通用基础模型，统一天气预报、超分辨率、图像翻译和天气后处理多种任务 |
+| Prithvi WxC | Prithvi WxC: Foundation Model for Weather and Climate | Johannes Schmude | 2024 | 2409.13598 | arXiv preprint | IBM和NASA联合开发的23亿参数天气与气候基础模型，使用MERRA-2数据160个变量训练 |
+| FuXi-2.0 | FuXi-2.0: Advancing Machine Learning Weather Forecasting Model for Practical Applications | Xiaohui Zhong | 2024 | 2409.07188 | arXiv preprint | FuXi的升级版，提供1小时全球预报，包含更全面的气象变量集 |
+| ArchesWeather | ArchesWeather: An Efficient AI Weather Forecasting Model at 1.5° Resolution | Guillaume Couairon | 2024 | 2405.14527 | arXiv preprint | 高效轻量级AI天气预报模型，1.5°分辨率，使用2D注意力和列级注意力组合 |
 | W-MAE | W-MAE: Pre-trained Weather Model with Masked Autoencoder | — | 2023 | arXiv:2304.08754 | arXiv | 基于掩码自编码器的预训练天气模型，任务无关的大气基础模型 |
 | Omni-Weather | Unified multimodal foundation model for weather | — | 2025 | arXiv:2512.21643 | arXiv | 统一多模态天气生成与理解基础模型 |
 
@@ -55,25 +54,24 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Prithvi-EO-2.0 | Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications | Daniela Szwarcman | 2024 | arXiv:2412.02732 | arXiv | NASA/IBM多时相地球观测基础模型，在420万全球时间序列样本上训练，支持Landsat和Sentinel-2 |
-| SpectralGPT | SpectralGPT: Spectral Remote Sensing Foundation Model | Danfeng Hong | 2023 | 2311.07113 | IEEE TPAMI (2024) | 首个光谱遥感基础模型，采用3D生成式预训练Transformer，专为多光谱/高光谱卫星影像设计 |
-| SatMAE | SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery | Yezhen Cong | 2022 | NeurIPS 2022 proceedings | NeurIPS 2022 | 针对时序和多光谱卫星影像的掩码自编码器预训练框架 |
+| Prithvi-EO-2.0 | Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications | Daniela Szwarcman | 2024 | 2412.02732 | arXiv preprint | NASA/IBM联合开发的多时态地球观测基础模型，在420万全球时序样本上训练，支持Landsat和Sentinel-2 |
+| SpectralGPT | SpectralGPT: Spectral Remote Sensing Foundation Model | Danfeng Hong | 2023 | doi:10.1109/tpami.2024.3362475 | IEEE TPAMI (2024) | 首个光谱遥感基础模型，采用3D生成式预训练Transformer，专为多光谱/高光谱卫星影像设计 |
+| SatMAE | SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery | Yezhen Cong | 2022 | 2207.08051 | NeurIPS 2022 | 针对时序和多光谱卫星影像的掩码自编码器预训练框架 |
 | SeaMo | SeaMo: A Multi-Seasonal and Multimodal Remote Sensing Foundation Model | Xuyang Li | 2024 | 2412.19237 | arXiv preprint | 多季节多模态遥感基础模型，融合光学、SAR和气象数据 |
 | TerraMind | TerraMind: Large-Scale Generative Multimodality for Earth Observation | Johannes Jakubik | 2025 | ICCV 2025 proceedings | ICCV 2025 | IBM/ESA/DLR联合开发的大规模多模态地球观测生成基础模型，在5000亿token上训练 |
 | RingMo | RingMo: A Remote Sensing Foundation Model with Masked Image Modeling | Xian Sun | 2022 | DOI:10.1109/TGRS.2022.3194732 | IEEE TGRS (2023) | 中国科学院开发的遥感基础模型，使用掩码图像建模进行大规模预训练 |
-| SatCLIP | SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery | Konstantin Klemmer | 2025 | DOI:10.1609/aaai.v39i4.32457 | AAAI 2025 | 微软开发的全球通用地理位置编码器，使用Sentinel-2对比学习生成位置嵌入 |
-| SkySense | SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery | Xin Guo | 2024 | CVPR 2024 proceedings | CVPR 2024 | 大规模多模态遥感基础模型，在2150万时序光学+SAR数据集上预训练 |
-| Scale-MAE | Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning | Colorado J. Reed | 2023 | ICCV 2023 proceedings | ICCV 2023 | 尺度感知的掩码自编码器，为多尺度地理空间表征学习显式建模不同空间分辨率关系 |
-| RSPrompter | RSPrompter: Learning to Prompt for Remote Sensing Instance Segmentation | Keyan Chen | 2023 | 2306.16269 | IEEE TGRS (2024) | 基于SAM的遥感实例分割提示学习方法，将视觉基础模型应用于遥感 |
-| ChangeFormer | ChangeFormer: A Transformer-Based Siamese Network for Change Detection | Wele Gedara Chaminda Bandara | 2022 | 2201.01293 | IGARSS 2022 | 基于Transformer的孪生网络遥感变化检测模型 |
-| DOFA | Neural Plasticity-Inspired Multimodal Foundation Model for Earth Observation | Zhitong Xiong | 2024 | arXiv:2403.15356 | arXiv | 受神经可塑性启发的多模态地球观测基础模型，使用动态波长自适应超网络处理多源传感器数据 |
-| GFM (Prithvi-EO-1.0) | Foundation Models for Generalist Geospatial Artificial Intelligence | Johannes Jakubik | 2023 | arXiv:2310.18660 | arXiv | NASA/IBM第一代地球科学基础模型，基于自监督Vision Transformer在HLS数据上训练 |
-| S2MAE | S2MAE: A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Data | Boheng Li | 2024 | 10.1109/CVPR52733.2024.02616 | CVPR 2024 | 空间-光谱掩码自编码器，为光谱遥感影像提供联合空间-光谱预训练 |
-| RingMoE | RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation | Hanbo Bi | 2025 | arXiv:2504.03166 | arXiv | 147亿参数混合模态专家遥感基础模型，在4亿+样本上预训练 |
+| SatCLIP | SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery | Konstantin Klemmer | 2023 | 2311.17179 | AAAI 2025 | 微软开发的全球通用地理位置编码器，使用Sentinel-2对比学习生成位置嵌入 |
+| Clay Foundation Model | Clay: An Open Source AI Model for Earth | Bruno Sánchez-Andrade Nuño | 2024 | — | 开源项目 | 开源地球观测基础模型，基于掩码自编码器架构，支持Sentinel-1/2和DEM |
+| SkySense | SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery | Xin Guo | 2023 | 2312.10115 | CVPR 2024 | 大规模多模态遥感基础模型，在2150万时序光学+SAR数据集上预训练 |
+| Scale-MAE | Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning | Colorado J. Reed | 2022 | 2212.14532 | ICCV 2023 | 尺度感知的掩码自编码器，为多尺度地理空间表征学习显式建模不同空间分辨率关系 |
+| DOFA | Neural Plasticity-Inspired Multimodal Foundation Model for Earth Observation | Zhitong Xiong | 2024 | 2403.15356 | arXiv preprint | 受神经可塑性启发的多模态EO基础模型，使用动态波长自适应超网络处理多种传感器数据 |
+| GFM (Prithvi-EO-1.0) | Foundation Models for Generalist Geospatial Artificial Intelligence | Johannes Jakubik | 2023 | 2310.18660 | arXiv preprint | NASA/IBM首代地球科学基础模型，基于HLS数据的自监督视觉Transformer |
+| S2MAE | S2MAE: A Spatial-Spectral Pretraining Foundation Model for Spectral Remote Sensing Image | Boheng Li | 2024 | — | CVPR 2024 | 空间-光谱掩码自编码器，为光谱遥感影像提供联合空间-光谱预训练 |
+| RingMoE | RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation | — | 2024 | 2504.03166 | arXiv preprint | 混合模态专家(MoE)遥感基础模型，147亿参数，在4亿+样本上预训练 |
 | WaveMAE | WaveMAE: Wavelet-decomposition Masked Autoencoder for Multispectral Satellite Imagery | — | 2024 | 2510.22697 | arXiv preprint | 结合小波分解和地理空间先验的多光谱卫星影像自监督基础模型 |
 | RoMA | RoMA: Scaling up Mamba-based Foundation Models for Remote Sensing | Fengxiang Wang | 2025 | arXiv:2503.10392 | NeurIPS 2025 | 可扩展的Mamba架构遥感基础模型，解决ViT在大规模遥感预训练中的局限 |
 | CROMA | CROMA: Contrastive Radar-Optical Masked Autoencoders for Remote Sensing | — | 2024 | NeurIPS 2024 | NeurIPS 2024 | 对比雷达-光学掩码自编码器，用于多模态遥感表示学习 |
-| AnySat | AnySat: One Earth Observation Model for Many Resolutions, Scales, and Modalities | Guillaume Astruc | 2025 | CVPR 2025 proceedings | CVPR 2025 | 统一多分辨率多模态地球观测模型，JEPA架构 |
+| AnySat | One EO model for many resolutions, scales, and modalities | — | 2025 | CVPR 2025 | CVPR 2025 | 统一多分辨率多模态地球观测模型，JEPA架构 |
 | TerraFM | Scalable foundation model for unified multisensor EO | — | 2025 | — | ICLR 2026 | 可扩展多传感器统一地球观测基础模型 |
 
 ---
@@ -89,8 +87,7 @@
 | GLONET | GLONET: Mercator's End-to-End Neural Forecasting System | — | 2024 | 2412.05454 | arXiv preprint | Mercator Ocean开发的端到端神经网络全球海洋预报系统，基于GLORYS12再分析数据训练 |
 | WenHai | Forecasting the Eddying Ocean with a Deep Neural Network | — | 2025 | DOI:10.1038/s41467-025-57389-2 | Nature Communications (2025) | 深度神经网络海洋预报系统，擅长中尺度涡旋动力学预测 |
 | FuXi-Ocean | FuXi-Ocean: A Global Ocean Forecasting System with Sub-Daily Resolution | — | 2025 | — | NeurIPS 2025 | 数据驱动全球海洋预报系统，6小时时间分辨率，1/12°空间分辨率，深度达1500米 |
-| OceanCastNet | Ocean Wave Forecasting with Deep Learning as Alternative to Physical Models | Ziliang Zhang | 2024 | 2406.03848 | JAMES (2025) | 深度学习海洋波浪预报模型，可替代传统物理模型ECWAM |
-| ORCA-DL | Data-driven global ocean modeling for seasonal to decadal prediction | Zijie Guo | 2025 | DOI:10.1126/sciadv.adu2488 | Science Advances 2025 | 数据驱动全球海洋模型，支持从季节到年代际尺度的三维海洋预测 |
+| ORCA-DL | Data-driven Global Ocean Modeling for Seasonal to Decadal Prediction | — | 2025 | — | 期刊论文 | 数据驱动全球海洋模型，支持从季节到年代际尺度的三维海洋预测 |
 | FuXi-ONS | ML-based ensemble forecasting for global ocean | — | 2026 | arXiv:2603.19591 | arXiv | ML集合全球海洋预报(5-365天) |
 
 ---
@@ -100,16 +97,12 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| PhaseNet | PhaseNet: A Deep-Neural-Network-Based Seismic Arrival Time Picking Method | Weiqiang Zhu | 2018 | 10.1093/gji/ggy423 | Geophysical Journal International | 地震学中最广泛使用的深度学习地震到时拾取模型之一 |
-| EQTransformer | EQTransformer: An Attentive Deep-Learning Model for Simultaneous Earthquake Detection and Phase Picking | S. Mostafa Mousavi | 2020 | DOI:10.1038/s41467-020-17591-w | Nature Communications | 基于注意力机制的地震检测与震相拾取模型，是地震监测的标杆深度学习方法 |
-| SeisT | SeisT: A Foundational Deep Learning Model for Earthquake Monitoring Tasks | Sen Li | 2023 | 2310.01037 | IEEE TGRS (2024) | 基于Transformer的地震监测基础模型，支持多种地震任务（检测、震相拾取、震级估计等） |
-| SeisLM | SeisLM: a Foundation Model for Seismic Waveforms | Tianlin Liu | 2024 | arXiv:2410.15765 | arXiv | 大规模自监督地震波形基础模型，通过对比学习在海量开源地震数据上预训练 |
-| SeisMoLLM | SeisMoLLM: Advancing Seismic Monitoring via Cross-modal Transfer with Pre-trained Large Language Model | Xinghao Wang | 2025 | arXiv:2502.19960 | arXiv | 地震监测基础模型，利用GPT-2架构的跨模态迁移进行地震分析 |
+| SeisT | SeisT: A Foundational Deep Learning Model for Earthquake Monitoring Tasks | Sen Li | 2023 | doi:10.1109/tgrs.2024.3371503 | IEEE TGRS (2024) | 基于Transformer的地震监测基础模型，支持多种地震任务（检测、震相拾取、震级估计等） |
+| SeisLM | SeisLM: A Foundation Model for Seismic Waveforms | — | 2024 | 2410.15765 | arXiv preprint | 大规模自监督地震波形基础模型，通过对比学习在海量开源地震数据上预训练 |
+| SeisMoLLM | SeisMoLLM: Advancing Seismic Monitoring via Cross-modal Transfer with Pre-trained Large Language Model | — | 2025 | 2502.19960 | arXiv preprint | 基于大语言模型跨模态迁移的地震监测基础模型，借鉴GPT-2架构 |
 | SeismicXM | SeismicXM: A Cross-Task Foundation Model for Single-Station Seismic Waveform Processing | — | 2026 | DOI:10.1785/0220250290 | SRL (2026) | 中国地震局开发的跨任务地震波形处理基础模型，支持单台站多种处理任务 |
 | U-Trans | U-Trans: A Foundation Model for Seismic Waveform Representation and Enhanced Downstream Earthquake Tasks | — | 2026 | DOI:10.1038/s41598-026-41454-x | Scientific Reports (2026) | U-Net编码器-解码器架构的地震波形表征基础模型，在200万+三分量波形上训练 |
-| EQCCT | EQCCT: A Production-Ready Earthquake Detection and Phase-Picking Method Using the Compact Convolutional Transformer | — | 2023 | DOI:10.1109/TGRS.2023.3319440 | IEEE TGRS (2023) | 紧凑卷积Transformer的生产级地震检测和震相拾取方法 |
 | PhaseNet+ | PhaseNet+: Towards End-to-End Earthquake Monitoring Using a Multitask Deep Learning Model | Weiqiang Zhu | 2024 | 2506.06939 | arXiv preprint | PhaseNet的多任务扩展版本，实现端到端地震监测 |
-| WaveCastNet | Rapid wavefield forecasting for earthquake early warning | — | 2025 | doi:10.1038/s41467-025-65435-2 | Nature Communications | 地震波场实时预测深度学习模型 |
 | SeisCLIP | Contrastive multimodal seismology FM | — | 2023 | arXiv:2309.02320 | arXiv | 对比多模态地震学基础模型 |
 
 ---
@@ -119,11 +112,8 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| WaterGPT | WaterGPT: Training a Large Language Model to Become a Hydrology Expert | — | 2024 | — | Water (MDPI, 2024) | 面向水文学的大语言模型，通过领域数据微调实现水文专家级问答与分析 |
 | HydroGAT | HydroGAT: A Graph Attention Foundation Model for Hydrological Prediction | — | 2025 | — | arXiv preprint | 基于图注意力网络的水文预测基础模型，建模流域间空间依赖关系 |
-| δHBV-globe1.0 | δHBV-globe1.0: A Differentiable Global Hydrological Model | — | 2024 | — | 期刊论文 | 可微分全球水文模型，将经典HBV概念水文模型与深度学习梯度优化结合 |
 | ZeroFlood | ZeroFlood: A Geospatial Foundation Model for Data-Efficient Flood Susceptibility Mapping | — | 2025 | arXiv:2510.23364 | arXiv | 地理空间洪水易感性制图基础模型 |
-| PIFF | PIFF: Physics-Informed Generative Flow Model for Real-Time Flood Depth Mapping | — | 2025 | arXiv:2511.09130 | arXiv | 物理信息洪水深度制图模型 |
 | GraphRiverCast | Topology-informed AI FM for global river forecasting | — | 2026 | arXiv:2602.22293 | arXiv | 拓扑信息全球河流水动力预报AI基础模型 |
 
 ---
@@ -176,7 +166,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Transparent Earth | Transparent Earth: A Foundation Model for Subsurface Characterization | — | 2025 | — | LANL (2025) | 洛斯阿拉莫斯国家实验室开发的地下特征化基础模型，用于地下结构成像与反演 |
+| Transparent Earth | Transparent Earth: A Foundation Model for Subsurface Characterization | — | 2025 | — | arXiv Preprint | 洛斯阿拉莫斯国家实验室开发的地下特征化基础模型，用于地下结构成像与反演 |
 | GEM 3D | GEM 3D: A Generative Earth Model for 3D Subsurface Modeling | — | 2025 | — | arXiv preprint | 生成式三维地球模型，用于地下结构建模与地质属性预测 |
 | SFM-Exploration | SFM-Exploration: A Seismic Foundation Model for Exploration Geophysics | — | 2023 | — | Geophysics (2025) | 面向勘探地球物理的地震基础模型，在大规模合成与实际地震数据上预训练，支持多种勘探下游任务 |
 | WLFM | WLFM: Well Log Foundation Model for Subsurface Analysis | — | 2025 | — | arXiv preprint | 测井基础模型，在大规模测井数据上自监督预训练，支持岩性识别、储层预测等下游任务 |
@@ -210,7 +200,6 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | ORBIT-2 | ORBIT-2: A Foundation Model for Climate Downscaling | — | 2025 | — | SC 2025 | 气候降尺度基础模型，在超级计算环境中训练，实现高效气候降尺度推理 |
-| SR-Weather | SR-Weather: Super-Resolution Foundation Model for Weather Downscaling | — | 2026 | — | arXiv preprint | 天气降尺度超分辨率基础模型，将粗分辨率气候/天气预报数据降尺度至公里级精度 |
 
 ---
 

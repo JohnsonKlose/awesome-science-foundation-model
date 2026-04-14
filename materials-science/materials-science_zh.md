@@ -26,16 +26,16 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | MACE | MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields | Ilyes Batatia | 2022 | arXiv:2206.07697 | NeurIPS 2022 | 高阶等变消息传递神经网络框架，通过多层原子团簇展开(ACE)实现高精度和高效率的力场计算。 |
-| MACE-MP-0 | A Foundation Model for Atomistic Materials Chemistry | Ilyes Batatia | 2023 | arXiv:2401.00096 | J. Chem. Phys. 2025 | MACE框架的预训练基础力场模型，覆盖89种元素，在Materials Project数据上训练，用于通用材料化学模拟。 |
-| CHGNet | CHGNet as a pretrained universal neural network potential for charge-informed atomistic modelling | Bowen Deng | 2023 | 10.1038/s42256-023-00716-3 | Nature Machine Intelligence | 预训练通用图神经网络势，包含电荷信息，在Materials Project DFT数据上训练 |
-| M3GNet | A universal graph deep learning interatomic potential for the periodic table | Chi Chen | 2022 | 10.1038/s43588-022-00349-3 | Nature Computational Science | 通用图深度学习原子间势，在Materials Project弛豫数据上训练，覆盖所有周期表元素 |
+| MACE-MP-0 | A Foundation Model for Atomistic Materials Chemistry | Ilyes Batatia | 2023 | arXiv:doi:10.1063/5.0297006 | J. Chem. Phys. 2025 | MACE框架的预训练基础力场模型，覆盖89种元素，在Materials Project数据上训练，用于通用材料化学模拟。 |
+| CHGNet | CHGNet as a Pretrained Universal Neural Network Potential for Charge-Informed Atomistic Modelling | Bowen Deng | 2023 | doi:10.1038/s42256-023-00716-3 | Nature Machine Intelligence | 预训练通用图神经网络势（Crystal Hamiltonian Graph Neural Network），在Materials Project DFT数据上训练，支持电荷信息的原子级建模。 |
+| M3GNet | A Universal Graph Deep Learning Interatomic Potential for the Periodic Table | Chi Chen | 2022 | doi:10.1038/s43588-022-00349-3 | Nature Computational Science | 通用图深度学习原子间势，在Materials Project结构弛豫数据上训练，覆盖整个周期表元素。 |
 | SevenNet | SevenNet: Scalable Graph Neural Network Interatomic Potential | Yutack Park | 2024 | doi:10.1021/acs.jctc.4c00190 | J. Chem. Theory Comput. | 基于NequIP架构的可扩展GNN原子间势，支持LAMMPS并行分子动力学模拟，提供预训练模型。 |
-| Orb | Orb: A Fast, Scalable Neural Network Potential | Mark Neumann | 2024 | arXiv:2410.22570 | arXiv | Orbital Materials开发的快速可扩展神经网络势，比现有通用势快3-6倍，同时保持SOTA精度 |
-| NequIP | E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials | Simon Batzner | 2022 | 10.1038/s41467-022-29939-5 | Nature Communications | E(3)等变GNN，使用等变卷积代替不变描述符，以最少训练数据实现高精度 |
-| Allegro | Learning local equivariant representations for large-scale atomistic dynamics | Albert Musaelian | 2023 | 10.1038/s41467-023-36329-y | Nature Communications | 高可扩展E(3)等变架构，使用局部等变表示支持大规模分子动力学 |
-| Allegro-FM | Allegro-FM: Toward an Equivariant Foundation Model for Exascale Molecular Dynamics Simulations | - | 2025 | arXiv:2502.06073 | J. Phys. Chem. Lett. 2025 | 面向Exascale分子动力学模拟的等变基础模型，基于Allegro架构，覆盖广泛化学空间。 |
-| DPA-2 | DPA-2: a large atomic model as a multi-task learner | Duo Zhang | 2024 | 10.1038/s41524-024-01493-2 | npj Computational Materials | 大规模Deep Potential多任务原子模型，跨多种化学和材料系统预训练，支持微调 |
-| ANI-1 | ANI-1: an extensible neural network potential with DFT accuracy at force field computational cost | J. S. Smith | 2017 | 10.1039/c6sc05720a | Chemical Science | 开创性可扩展神经网络势，以力场计算成本实现DFT精度，适用于H/C/N/O有机分子 |
+| Orb | Orb: A Fast, Scalable Neural Network Potential | Mark Neumann | 2024 | arXiv:2410.22570 | arXiv preprint | Orbital Materials开发的高效可扩展神经网络势，比现有通用势快3-6倍，保持SOTA精度。 |
+| NequIP | E(3)-Equivariant Graph Neural Networks for Data-Efficient and Accurate Interatomic Potentials | Simon Batzner | 2022 | doi:10.1038/s41467-022-29939-5 | Nature Communications | E(3)-等变图神经网络，使用等变卷积而非不变描述符，数据效率极高，少量训练数据即可达到高精度。 |
+| Allegro | Learning Local Equivariant Representations for Large-Scale Atomistic Dynamics | Albert Musaelian | 2023 | doi:10.1038/s41467-023-36329-y | Nature Communications | 高度可扩展的E(3)-等变深度学习架构，使用局部等变表示避免全局消息传递，支持大规模分子动力学模拟。 |
+| Allegro-FM | Allegro-FM: Toward an Equivariant Foundation Model for Exascale Molecular Dynamics Simulations | - | 2025 | arXiv:doi:10.1021/acs.jpclett.5c00605 | J. Phys. Chem. Lett. 2025 | 面向Exascale分子动力学模拟的等变基础模型，基于Allegro架构，覆盖广泛化学空间。 |
+| DPA-2 | DPA-2: A Large Atomic Model as a Multi-task Learner | Duo Zhang | 2024 | doi:10.1038/s41524-024-01493-2 | npj Computational Materials | 大规模原子模型多任务学习器（Deep Potential系列），在多种化学和材料体系上预训练，支持迁移学习和微调。 |
+| ANI-1 | ANI-1: An Extensible Neural Network Potential with DFT Accuracy at Force Field Computational Cost | Justin S. Smith | 2017 | doi:10.1039/C6SC05720A | Chemical Science | 开创性的可扩展神经网络势，在H/C/N/O有机分子上达到DFT精度而力场级计算代价。 |
 | ANI-2x | Extending the Applicability of the ANI Deep Learning Molecular Potential to Sulfur and Halogens | Christian Devereux | 2020 | doi:10.1021/acs.jctc.0c00121 | J. Chem. Theory Comput. | ANI系列扩展版本，将覆盖元素扩展到S和卤素（F/Cl），支持更广泛有机分子空间。 |
 | AIMNet2 | AIMNet2: A Neural Network Potential to Meet Your Neutral, Charged, Organic, and Elemental-Organic Needs | Dylan Anstine | 2024 | doi:10.1039/D4SC08572H | Chemical Science 2025 | 高可迁移性神经网络势，支持中性和带电有机/元素有机分子，覆盖14种元素。 |
 | GRACE | Graph Atomic Cluster Expansion for Semilocal Interactions beyond Equivariant Message Passing | — | 2024 | 10.1103/PhysRevX.14.021036 | Phys. Rev. X | 图原子团簇展开通用MLIP框架，覆盖97种元素 |
@@ -55,10 +55,10 @@
 | SMI-TED | SMI-TED: Large-Scale Foundation Model for Materials and Chemistry | - | 2025 | IBM Research | ICLR 2025 Workshop | IBM大规模SMILES编码器-解码器模型，在PubChem 9100万SMILES上预训练，面向材料和化学应用。 |
 | DARWIN 1.5 | DARWIN 1.5: Large Language Models as Materials Science Adapted Learners | Tong Xie | 2024 | arXiv:2412.11970 | arXiv | 开源材料科学LLM，从自然语言输入预测材料属性并促进发现 |
 | MatBERT | Quantifying the Advantage of Domain-Specific Pre-training on Named Entity Recognition Tasks in Materials Science | Trewartha | 2022 | doi:10.1016/j.patter.2022.100488 | Patterns (Cell Press) | 在材料科学文献上预训练的BERT模型（LBNL），在材料NLP任务（命名实体识别等）上优于通用模型。 |
-| MatSciBERT | MatSciBERT: A materials domain language model for text mining and information extraction | Tanishq Gupta | 2022 | 10.1038/s41524-022-00784-w | npj Computational Materials | 在材料科学文献上训练的领域专用BERT，增强文本挖掘和信息抽取 |
-| MOFTransformer | A multi-modal pre-training transformer for universal transfer learning in metal–organic frameworks | Yeonghun Kang | 2023 | 10.1038/s42256-023-00628-2 | Nature Machine Intelligence | 多模态预训练Transformer，在100万假想MOF上训练，使用原子图和能量网格嵌入进行MOF属性预测 |
-| CrystalFormer | Space group informed transformer for crystalline materials generation | Zhendong Cao | 2025 | 10.1016/j.scib.2025.09.035 | Science Bulletin | 受空间群对称性和Wyckoff位置引导的自回归Transformer，用于晶体材料生成 |
-| MatInFormer | Materials Informatics Transformer: A Language Model for Interpretable Materials Properties Prediction | Hongshuo Huang | 2023 | arXiv:2308.16259 | arXiv | 利用LLM技术的材料信息学Transformer，用于可解释的材料属性预测 |
+| MatSciBERT | MatSciBERT: A Materials Domain Language Model for Text Mining and Information Extraction | Gupta | 2022 | doi:10.1038/s41524-022-00784-w | npj Computational Materials | 在材料科学文献上训练的领域BERT模型，增强材料文本挖掘和信息提取能力。 |
+| MOFTransformer | A Multi-modal Pre-training Transformer for Universal Transfer Learning in Metal-Organic Frameworks | Kang | 2023 | doi:10.1038/s42256-023-00628-2 | Nature Machine Intelligence | 多模态预训练Transformer，在100万假想MOF上预训练，整合原子图和能量网格嵌入用于MOF性质预测。 |
+| CrystalFormer | Space Group Informed Transformer for Crystalline Materials Generation | - | 2024 | doi:10.1016/j.scib.2024.07.032 | arXiv preprint | 空间群信息引导的自回归Transformer模型，用于晶体材料生成，利用对称性和Wyckoff位置信息。 |
+| MatInFormer | Materials Informatics Transformer: A Language Model for Interpretable Materials Properties Prediction | - | 2023 | arXiv:2308.16259 | arXiv preprint | 材料信息学Transformer，利用LLM技术实现可解释的材料性质预测。 |
 | KPGT | A Knowledge-Guided Pre-training Framework for Improving Molecular Representation | - | 2023 | doi:10.1038/s41467-023-43214-1 | Nature Communications | 知识引导的图Transformer预训练框架，利用化学知识提升分子/材料表示学习质量。 |
 | Matformer | Periodic Graph Transformers for Crystal Material Property Prediction | Keqiang Yan | 2022 | arXiv:2209.11807 | NeurIPS 2022 | 周期图Transformer，利用周期性感知的多图注意力机制预测晶体材料性质。 |
 | PotNet | Complete and Efficient Graph Transformers for Crystal Material Property Prediction | Keqiang Yan | 2023 | arXiv:2306.10045 | ICLR 2024 | 完备高效的晶体图Transformer，通过原子间势信息实现完备图表示，提升晶体性质预测。 |
@@ -81,7 +81,7 @@
 | MatterSim | MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures | Han Yang | 2024 | arXiv:2405.04967 | arXiv | 微软深度学习原子模型，覆盖所有元素，温度0-5000K，压力0-1000GPa |
 | GNoME | Scaling deep learning for materials discovery | Amil Merchant | 2023 | 10.1038/s41586-023-06735-9 | Nature | Google DeepMind GNN材料探索器，发现220万种新稳定无机晶体结构 |
 | JMP | From Molecules to Materials: Pre-training Large Generalizable Models for Atomic Property Prediction | Nima Shoghi | 2024 | arXiv:2310.16802 | ICLR 2024 | Meta FAIR的联合多域预训练策略，在约1.2亿原子系统上监督预训练，跨越分子、材料等多化学域。 |
-| ATOMICA | Learning Universal Representations of Intermolecular Interactions with ATOMICA | - | 2025 | 10.1101/2025.04.02.646906 | bioRxiv | Zitnik Lab开发的几何深度学习模型，学习分子间相互作用的通用原子级表示。 |
+| ATOMICA | Learning Universal Representations of Intermolecular Interactions with ATOMICA | — | 2025 | doi:10.1101/2025.04.02.646906 | bioRxiv Preprint | Zitnik Lab开发的几何深度学习模型，学习分子间相互作用的通用原子级表示 |
 | eSEN | Efficient Scalable Equivariant Networks | Meta FAIR | 2025 | arXiv:2501.02063 | arXiv | 可扩展等变架构，UMA的基础，在分子/材料基准上达到SOTA |
 
 <a id="materials-science-section-04"></a>
@@ -92,11 +92,11 @@
 | CDVAE | Crystal Diffusion Variational Autoencoder for Periodic Material Generation | Tian Xie | 2022 | arXiv:2110.06197 | ICLR 2022 | 晶体扩散变分自编码器，结合扩散过程和VAE生成周期性晶体结构，首个端到端稳定晶体生成模型。 |
 | DiffCSP | Crystal Structure Prediction by Joint Equivariant Diffusion | Rui Jiao | 2023 | arXiv:2309.04475 | NeurIPS 2023 | 联合等变扩散模型用于晶体结构预测，同时扩散原子坐标和晶格参数，实现高精度CSP。 |
 | SyMat | Towards Symmetry-Aware Generation of Periodic Materials | Youzhi Luo | 2023 | arXiv:2307.02554 | NeurIPS 2023 | 对称性感知的周期性材料生成模型，显式利用空间群对称性约束生成过程。 |
-| MatterGen | MatterGen: A Generative Model for Inorganic Materials Design | Claudio Zeni | 2024 | arXiv:2312.03687 | Nature 2025 | 微软开发的扩散生成模型，可按化学、对称性和性质约束逆向设计无机晶体材料。 |
-| Crystal-GFN | Crystal-GFN: sampling crystals with desirable properties and constraints | Mila AI4Science | 2023 | arXiv:2310.04925 | arXiv | 基于GFlowNet的晶体采样框架，在属性和成分约束下高效探索晶体空间 |
+| MatterGen | MatterGen: A Generative Model for Inorganic Materials Design | Claudio Zeni | 2024 | doi:10.1038/s41586-025-08628-5 | Nature 2025 | 微软开发的扩散生成模型，可按化学、对称性和性质约束逆向设计无机晶体材料。 |
+| Crystal-GFN | Crystal-GFN: Sampling Crystals with Desirable Properties and Constraints | Alex Hernandez-Garcia | 2023 | arXiv:2310.04925 | arXiv preprint | 基于GFlowNet的晶体采样框架，按期望性质和组成约束高效探索晶体空间。 |
 | FlowMM | FlowMM: Generating Materials with Riemannian Flow Matching | Benjamin Kurt Miller | 2024 | arXiv:2406.04713 | ICML 2024 | 利用黎曼流匹配在晶体流形上生成材料结构，实现几何感知的高效晶体生成。 |
 | FlowLLM | FlowLLM: Flow Matching for Material Generation with Large Language Models as Base Distributions | Pauli Virtanen | 2024 | arXiv:2410.23405 | NeurIPS 2024 | 将LLM作为基分布与流匹配结合，利用LLM的化学先验知识提升晶体生成质量。 |
-| CrystalFlow | CrystalFlow: A Flow-Based Generative Model for Crystalline Materials | Tai D. Nguyen | 2024 | arXiv:2412.12345 | Nature Communications 2025 | 基于流的晶体材料生成模型，通过归一化流实现高保真度的晶体结构生成。 |
+| CrystalFlow | CrystalFlow: A Flow-Based Generative Model for Crystalline Materials | Tai D. Nguyen | 2024 | arXiv:doi:10.1038/s41467-025-64364-4 | Nature Communications 2025 | 基于流的晶体材料生成模型，通过归一化流实现高保真度的晶体结构生成。 |
 | WyckoffDiff | WyckoffDiff: Diffusion in the Wyckoff Space for Crystal Structure Generation | Filip Ekström Kelvinius | 2025 | arXiv:2502.xxxxx | ICML 2025 | 在Wyckoff位置空间进行扩散的晶体生成模型，通过对称性感知表示提升结构有效性。 |
 | MatterGPT | MatterGPT: A Generative Transformer for Multi-Property Inverse Design of Solid-State Materials | Yan Chen | 2024 | arXiv:2408.07608 | arXiv | 自回归Transformer，支持固态材料的多属性条件逆向设计 |
 | CrystaLLM | CrystaLLM: Large Language Model for Crystallography | - | 2024 | doi:10.1038/s41467-024-54639-7 | Nature Communications 2024 | 利用大语言模型直接从CIF文本生成晶体结构，无需显式几何编码。 |
@@ -110,7 +110,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| AdsorbML | AdsorbML: a leap in efficiency for adsorption energy calculations using generalizable machine learning potentials | Janice Lan | 2023 | 10.1038/s41524-023-01121-5 | npj Computational Materials | 可泛化机器学习势，用于高效吸附能计算，通过OC20预训练模型加速催化剂筛选 |
+| AdsorbML | AdsorbML: A Leap in Efficiency for Adsorption Energy Calculations using Generalizable Machine Learning Potentials | Janice Lan | 2023 | doi:10.1038/s41524-023-01121-5 | npj Computational Materials | 通用ML势用于吸附能高效计算，结合OC20预训练模型显著加速催化剂筛选流程。 |
 | CatBERTa | CatBERTa: A RoBERTa-based Catalyst Property Prediction Model | - | 2023 | arXiv:2305.08628 | arXiv preprint | 基于RoBERTa的催化剂性质预测模型，从催化剂文本描述进行吸附能和活性预测。 |
 | eSCN | Reducing SO(3) Convolutions to SO(2) for Efficient Equivariant GNNs | Larry Zitnick | 2023 | arXiv:2302.03655 | ICML 2023 | 高效等变球面通道网络，将SO(3)卷积降维为SO(2)操作，大幅提升计算效率同时保持精度。 |
 | SCN | Spherical Channels for Modeling Atomic Interactions | Larry Zitnick | 2022 | arXiv:2206.14331 | NeurIPS 2022 | 球面通道网络，使用球谐函数通道建模原子相互作用，在OC20催化任务上取得优异表现。 |
