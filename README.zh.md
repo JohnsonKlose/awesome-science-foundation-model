@@ -2,11 +2,7 @@
 
 <p align="right"><strong>Language:</strong> <a href="README.md">English</a> | 中文</p>
 
-覆盖九个主要科学领域的双语科学基础模型目录。
-
-具有明确跨学科属性的模型可能会出现在多个相关领域中。
-
-目录中已剔除纯数据集、基准、挑战赛、库以及仅有产品发布页的条目。
+一份全面的中英双语指南，收录驱动下一轮科学突破的 **1,000+ 基础模型**——横跨九大学科领域，从蛋白质设计到天气预测。跨学科模型在所有相关领域均有收录。
 
 ## 按领域浏览
 
@@ -68,6 +64,7 @@
 | ESM-2 | Evolutionary-scale prediction of atomic-level protein structure with a language model | Zeming Lin | 2023 | 10.1126/science.ade2574 | Science | 150亿参数蛋白质语言模型，支持从单序列进行原子级结构预测（ESMFold）。 |
 | ESM3 | Simulating 500 million years of evolution with a language model | Thomas Hayes | 2025 | 10.1126/science.ads0018 | Science | 多模态蛋白质生成模型，联合处理序列、结构和功能信息，模拟5亿年进化过程。 |
 | ESMFold | Evolutionary-scale prediction of atomic-level protein structure with a language model | Zeming Lin | 2023 | 10.1126/science.ade2574 | Science | 基于ESM-2的单序列蛋白质结构预测方法，比AlphaFold2快约60倍。 |
+| ESM Cambrian (ESMC) | ESM Cambrian: Revealing the mysteries of proteins with unsupervised learning | — | 2024 | — | EvolutionaryScale | 新一代ESM蛋白质语言模型，在多种蛋白质理解和生成任务上显著超越ESM-2 |
 | ProtTrans | ProtTrans: Toward understanding the language of life through self-supervised learning | Ahmed Elnaggar | 2021 | 10.1109/TPAMI.2021.3095381 | IEEE TPAMI | 大规模蛋白质预训练模型套件(含ProtBERT、ProtXLNet、ProtT5等)，在3930亿氨基酸上训练 |
 | ProteinBERT | ProteinBERT: a universal deep-learning model of protein sequence and function | Nadav Brandes | 2022 | 10.1093/bioinformatics/btac020 | Bioinformatics | 通用蛋白质模型，在序列和GO注释上联合预训练，支持多种蛋白质属性预测。 |
 | ProtGPT2 | ProtGPT2 is a deep unsupervised language model for protein design | Noelia Ferruz | 2022 | 10.1038/s41467-022-32007-7 | Nature Communications | 基于GPT-2的蛋白质序列生成模型，生成类似于天然蛋白质的新序列。 |
@@ -104,10 +101,11 @@
 | PoET-2 | Understanding protein function with a multimodal retrieval-augmented foundation model | (OpenProtein.AI) | 2025 | arXiv:2508.04724 | arXiv | 下一代检索增强多模态蛋白质家族模型，相比PoET改善适应性预测。 |
 | FlexRibbon | FlexRibbon: Foundation Model for Flexible Protein Representation | — | 2025 | — | Preprint | 灵活蛋白质表示基础模型，支持多种蛋白质分析和设计下游任务。 |
 | ProteinAligner | ProteinAligner: Cross-Modal Alignment for Protein Sequence and Structure | — | 2025 | — | Preprint | 蛋白质序列-结构跨模态对齐基础模型，增强蛋白质理解和功能预测。 |
+| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | — | 2025 | 10.1101/2025.02.07.637070 | bioRxiv | 多模态蛋白质语言模型，支持自然语言交互进行蛋白质分析和设计 |
 | GearNet | Protein Representation Learning by Geometric Structure Pretraining | Zuobai Zhang | 2023 | arXiv:2203.06125 | ICLR 2023 | 关系图神经网络，通过几何结构预训练和多视图对比学习学习蛋白质结构表示 |
 | MIF | Masked inverse folding with sequence transfer for protein representation learning | Kevin Yang | 2022 | 10.1093/protein/gzad015 | Protein Engineering Design and Selection | 自监督掩码逆折叠预训练，从结构学习蛋白质表示。 |
 | PPLM | A paired sequence language model for protein-protein interaction | Jun Liu | 2026 | doi:10.1038/s41467-026-70457-5 | Nature Communications | 成对序列语言模型，预测蛋白质-蛋白质相互作用 |
-| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | — | 2024 | bioRxiv:2024.11.29 | bioRxiv Preprint | AIDO体系中的蛋白质模块，160亿参数MoE架构，在1.2万亿氨基酸上训练 |
+| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | — | 2024 | bioRxiv:2024.11.29.625425 | bioRxiv Preprint | AIDO体系中的蛋白质模块，160亿参数MoE架构，在1.2万亿氨基酸上训练 |
 | BioReason-Pro | BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning | Adibvafa Fallahpour | 2026 | doi:10.64898/2026.03.19.712954 | bioRxiv Preprint | 首个蛋白质功能预测多模态推理LLM，整合ESM3嵌入与GO-GPT本体建模；GO术语预测F_max 73.6%，人类专家79%偏好其注释超过UniProt |
 
 #### 蛋白质结构预测
@@ -127,6 +125,7 @@
 |---------|---------|---------|------|-----------|----------|------|
 | ProteinMPNN | Robust deep learning–based protein sequence design using ProteinMPNN | J. Dauparas | 2022 | 10.1126/science.add2187 | Science | 消息传递神经网络用于蛋白质序列设计，具有实验验证的高成功率。 |
 | RFdiffusion | De novo design of protein structure and function with RFdiffusion | Joseph L. Watson | 2023 | 10.1038/s41586-023-06415-8 | Nature | 基于RoseTTAFold的扩散模型，用于从头蛋白质骨架设计。 |
+| RFdiffusion3 | RFdiffusion3: All-atom biomolecular design | — | 2025 | 10.1101/2025.09.18.676967 | bioRxiv | 升级版RFdiffusion，支持全原子级蛋白质和生物分子设计 |
 | Chroma | Illuminating protein space with a programmable generative model | John B. Ingraham | 2023 | 10.1038/s41586-023-06728-8 | Nature | Generate:Biomedicines开发的可编程蛋白质扩散生成模型。 |
 | FrameDiff | SE(3) diffusion model with application to protein backbone generation | Jason Yim | 2023 | arXiv:2302.02277 | ICLR 2024 | SE(3)等变扩散模型，用于蛋白质骨架生成，无需预训练结构预测网络 |
 | FrameFlow | SE(3) stochastic flow matching for protein backbone generation | Jason Yim | 2024 | arXiv:2310.02391 | ICLR 2024 | 基于SE(3)流匹配的蛋白质骨架生成模型 |
@@ -151,7 +150,7 @@
 | TERMinator | TERMinator: A neural framework for structure-based protein design using tertiary repeating motifs | — | 2022 | doi:10.1038/s41467-022-37051-7 | Nature Communications | 基于三级重复基序的蛋白质设计神经网络框架 |
 | AlphaDesign | AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB | — | 2022 | arXiv:2202.01079 | arXiv | 基于AlphaFoldDB的图蛋白质设计方法和基准测试 |
 | Latent-X | Latent-X: Atom-level frontier model for de novo protein binder design | Latent Labs | 2025 | — | arXiv Preprint | 原子级前沿模型，用于从头蛋白质结合物设计 |
-| Latent-X2 | Latent-X2: Drug-like antibodies with low immunogenicity | Latent Labs | 2025 | — | Latent Labs | 低免疫原性的药物级抗体设计模型 |
+| Latent-X2 | Latent-X2: Drug-like antibodies with low immunogenicity | Latent Labs | 2025 | arXiv:2512.20263 | arXiv | 低免疫原性的药物级抗体设计模型 |
 | ProDiT | Generating functional proteins with a multimodal diffusion transformer | — | 2025 | bioRxiv:2025.09.03.672144 | bioRxiv | 多模态扩散Transformer蛋白质设计模型，在2.14亿蛋白上训练 |
 | SimpleDesign | SimpleDesign: Joint Model for Protein Sequence and Structure Codesign | — | 2025 | OpenReview | ICLR 2025 | 端到端蛋白质序列-结构联合设计模型 |
 | PXDesign | PXDesign: Fast De Novo Design of Protein Binders | Protenix (ByteDance) | 2025 | bioRxiv:2025.08.15.670450 | bioRxiv | 字节跳动Protenix快速蛋白质结合物从头设计 |
@@ -347,6 +346,7 @@
 | Tahoe-x1 | Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters | Shreshth Gandhi | 2025 | 10.1101/2025.10.23.683759 | bioRxiv | 30亿参数扰动训练单细胞基础模型，用于预测细胞响应。 |
 | PULSAR | PULSAR: a Foundation Model for Multi-scale and Multicellular Biology | Kuan Pang | 2025 | 10.1101/2025.11.24.685470 | bioRxiv | 多尺度基础模型，整合3600万+细胞用于多细胞生物学分析。 |
 | TranscriptFormer | A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution | — | 2025 | doi:10.1101/2025.04.25.650731 | bioRxiv | 跨越15亿年进化的跨物种生成式细胞图谱基础模型。 |
+| TCRfoundation | TCRfoundation: A multimodal foundation model for single-cell immune profiling | — | 2025 | — | Preprint | 多模态基础模型，整合基因表达和TCR序列数据用于单细胞免疫分析 |
 | CELLama | CELLama: Foundation Model for Single Cell and Spatial Transcriptomics | — | 2024 | doi:10.1101/2024.05.08.593094 | bioRxiv | 利用语言模型能力的细胞嵌入模型，用于单细胞和空间转录组学。 |
 | scPROTEIN | scPROTEIN: versatile deep graph contrastive learning framework for single-cell proteomics | — | 2024 | doi:10.1038/s41592-024-02214-9 | Nature Methods | 用于单细胞蛋白质组学嵌入和分析的图对比学习框架。 |
 | TEDDY | TEDDY: A Family of Foundation Models for Understanding Single Cell Biology | — | 2025 | arXiv:2503.03485 | ICML Workshop | 面向全面单细胞生物学理解的基础模型家族。 |
@@ -443,8 +443,8 @@
 | AntibodyDesignBFN | AntibodyDesignBFN: High-Fidelity Fixed-Backbone Antibody Design via Discrete Bayesian Flow Networks | Yue Hu | 2026 | arXiv:2601.05605 | arXiv | 使用离散贝叶斯流网络的高保真固定骨架抗体设计。 |
 | AbAffinity | AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity | — | 2026 | arXiv:2603.04480 | arXiv | 预测抗体结合亲和力的大语言模型 |
 | CALM | CALM: Cross-attention Adaptive Immune Receptor–Antigen Language Model | — | 2026 | bioRxiv:2026.02.25.707916 | bioRxiv | 抗体-抗原特异性预测的跨注意力自适应免疫受体语言模型 |
-| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Nabla Bio | 2025 | — | Nabla Bio | 全计算设计药物级抗体，Nabla Bio开发 |
-| Chai-2 | Chai-2: Zero-shot antibody discovery | Chai Discovery | 2025 | — | Chai Discovery | 零样本抗体发现模型，Chai Discovery开发 |
+| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Nabla Bio | 2025 | — | Technical Report | 全计算设计药物级抗体，Nabla Bio开发 |
+| Chai-2 | Chai-2: Zero-shot antibody discovery | Chai Discovery | 2025 | 10.1101/2025.07.05.663018 | bioRxiv | 零样本抗体发现模型，Chai Discovery开发 |
 
 #### TCR与免疫模型
 
@@ -584,7 +584,7 @@
 | FGBERT | FGBERT: Function-Driven Pre-trained Gene Language Model for Metagenomics | ChenRui Duan | 2024 | arXiv:2402.16901 | arXiv | 功能驱动预训练基因语言模型，使用蛋白质级上下文感知分词器用于宏基因组学。 |
 | MetagenBERT | MetagenBERT: a Transformer Architecture using Foundational DNA Read Embedding Models for novel Metagenome Representation | Gaspar Roy | 2025 | arXiv:2601.03295 | bioRxiv | 基于Transformer的宏基因组表示框架，利用DNABERT-2/DNABERT-S直接从原始DNA读段进行疾病分类 |
 | Darwin-7B | Darwin-7B: A Multi-Omic Foundation Model for the Human Gut Microbiome via Sparsified Quality-Aware Tokenization | (多作者) | 2026 | OpenReview:X5Ii21IdDF | ICLR 2026 Workshop | 70亿参数多组学基础模型，面向人类肠道微生物组，采用稀疏化质量感知tokenization进行训练。 |
-| ViraLM | ViraLM: virus discovery through genome foundation model | Cheng Peng | 2024 | bioRxiv:2024.01.30.577935 | Bioinformatics | 病毒基因组基础模型 |
+| ViraLM | ViraLM: virus discovery through genome foundation model | Cheng Peng | 2024 | 10.1093/bioinformatics/btae704 | Bioinformatics | 病毒基因组基础模型 |
 
 ---
 
@@ -1054,6 +1054,7 @@
 | GNS | Learning to Simulate Complex Physics with Graph Networks | Alvaro Sanchez-Gonzalez | 2020 | 2002.09405 | ICML 2020 | DeepMind提出的图网络模拟器(GNS)，学习粒子交互规则，可泛化模拟流体、刚体、可变形物体等复杂物理系统 |
 | MeshGraphNets | Learning Mesh-Based Simulation with Graph Networks | Tobias Pfaff | 2021 | 2010.03409 | ICLR 2021 | 基于网格的图网络仿真方法，在非结构化网格上学习物理动力学，支持空气动力学和结构力学等 |
 | GeoPT | Scaling Physics Simulation via Lifted Geometric Pre-Training | Haixu Wu | 2026 | arXiv:2602.20399 | arXiv | 几何预训练物理模拟基础模型 |
+| Cosmos | Cosmos World Foundation Model Platform for Physical AI | — | 2025 | — | NVIDIA | NVIDIA开源世界基础模型平台，生成物理感知视频和交互式3D环境 |
 
 ---
 
@@ -1063,9 +1064,12 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | Genie | Genie: Generative Interactive Environments | Jake Bruce | 2024 | 2402.15391 | ICML 2024 | DeepMind开发的110亿参数无监督世界模型，从未标注视频中学习，可从单张图片生成可交互的虚拟世界 |
+| Genie 2 | Genie 2: A large-scale foundation world model | — | 2024 | — | DeepMind | 升级版Genie，从单张图像生成多样、可控的交互式3D环境 |
+| Genie 3 | Genie 3: A new frontier for world models | — | 2025 | — | DeepMind | 通用世界模型，从文本或图像实时生成一致的交互式3D世界 |
 | DIAMOND | Diffusion for World Modeling: Visual Details Matter in Atari | Eloi Alonso | 2024 | 2405.12399 | NeurIPS 2024 (Spotlight) | 基于扩散模型的世界建模方法，在Atari环境中实现高视觉保真度的RL智能体训练，保留细节信息 |
 | WorldDreamer | WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens | Xiaofeng Wang | 2024 | arXiv:2401.09985 | arXiv | 通用世界模型，通过掩码词元预测捕获多环境物理动力学，用于视频生成。ation. |
 | GameNGen | Diffusion Models Are Real-Time Game Engines | Dani Valevski | 2024 | arXiv:2408.14837 | arXiv | Google Research神经游戏引擎，使用扩散模型模拟复杂游戏环境(DOOM)达20+fps。 |
+| OASIS | Oasis: A Universe in a Transformer | — | 2024 | — | arXiv | 实时开放世界AI模型，通过Transformer以20fps生成类Minecraft交互式游戏体验 |
 | Pandora | Pandora: Towards General World Model with Natural Language Actions and Video States | Jiannan Xiang | 2024 | arXiv:2406.09455 | arXiv | 混合自回归-扩散世界模型，通过自然语言动作控制视频状态生成。 |
 | UniSim | Learning Interactive Real-World Simulators | Mengjiao Yang | 2023 | 2310.06114 | ICLR 2024 | 通用世界模拟器，学习模拟人与世界的多样交互，可从文本/动作/图像输入生成真实世界仿真 |
 | PAN | PAN: A World Model for General, Interactable, and Long-Horizon World Simulation | PAN Team | 2025 | arXiv:2511.09057 | arXiv | 动作条件化世界模型，支持通用、可交互、长时间尺度的模拟，保持环境动力学一致性。 |
@@ -1209,7 +1213,6 @@
 | TerraMind | TerraMind: Large-Scale Generative Multimodality for Earth Observation | Johannes Jakubik | 2025 | ICCV 2025 proceedings | ICCV 2025 | IBM/ESA/DLR联合开发的大规模多模态地球观测生成基础模型，在5000亿token上训练 |
 | RingMo | RingMo: A Remote Sensing Foundation Model with Masked Image Modeling | Xian Sun | 2022 | DOI:10.1109/TGRS.2022.3194732 | IEEE TGRS (2023) | 中国科学院开发的遥感基础模型，使用掩码图像建模进行大规模预训练 |
 | SatCLIP | SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery | Konstantin Klemmer | 2023 | 2311.17179 | AAAI 2025 | 微软开发的全球通用地理位置编码器，使用Sentinel-2对比学习生成位置嵌入 |
-| Clay Foundation Model | Clay: An Open Source AI Model for Earth | Bruno Sánchez-Andrade Nuño | 2024 | — | 开源项目 | 开源地球观测基础模型，基于掩码自编码器架构，支持Sentinel-1/2和DEM |
 | SkySense | SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery | Xin Guo | 2023 | 2312.10115 | CVPR 2024 | 大规模多模态遥感基础模型，在2150万时序光学+SAR数据集上预训练 |
 | Scale-MAE | Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning | Colorado J. Reed | 2022 | 2212.14532 | ICCV 2023 | 尺度感知的掩码自编码器，为多尺度地理空间表征学习显式建模不同空间分辨率关系 |
 | DOFA | Neural Plasticity-Inspired Multimodal Foundation Model for Earth Observation | Zhitong Xiong | 2024 | 2403.15356 | arXiv preprint | 受神经可塑性启发的多模态EO基础模型，使用动态波长自适应超网络处理多种传感器数据 |
@@ -1237,6 +1240,8 @@
 | FuXi-Ocean | FuXi-Ocean: A Global Ocean Forecasting System with Sub-Daily Resolution | — | 2025 | — | NeurIPS 2025 | 数据驱动全球海洋预报系统，6小时时间分辨率，1/12°空间分辨率，深度达1500米 |
 | ORCA-DL | Data-driven Global Ocean Modeling for Seasonal to Decadal Prediction | — | 2025 | — | 期刊论文 | 数据驱动全球海洋模型，支持从季节到年代际尺度的三维海洋预测 |
 | FuXi-ONS | ML-based ensemble forecasting for global ocean | — | 2026 | arXiv:2603.19591 | arXiv | ML集合全球海洋预报(5-365天) |
+| PhaseNet | PhaseNet: A Deep-Neural-Network-Based Seismic Arrival Time Picking Method | Weiqiang Zhu | 2019 | 10.1093/gji/ggy423 | Geophysical Journal International | 最广泛使用的地震到时拾取深度学习模型之一，支持P波和S波到时自动识别 |
+| EQTransformer | EQTransformer: An Attentive Deep-Learning Model for Simultaneous Earthquake Detection and Phase Picking | S. Mostafa Mousavi | 2020 | 10.1038/s41467-020-17591-w | Nature Communications | 基于注意力机制的地震检测与震相拾取深度学习模型，已成为地震学标准工具 |
 
 ---
 
@@ -1347,7 +1352,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| ORBIT-2 | ORBIT-2: A Foundation Model for Climate Downscaling | — | 2025 | — | SC 2025 | 气候降尺度基础模型，在超级计算环境中训练，实现高效气候降尺度推理 |
+| ORBIT-2 | ORBIT-2: A Foundation Model for Climate Downscaling | — | 2025 | — | ORNL | 气候降尺度基础模型，在超级计算环境中训练，实现高效气候降尺度推理 |
 
 ---
 
@@ -1424,6 +1429,7 @@
 | RGZ-FM | RGZ-FM: A First Multipurpose Foundation Model for Radio Galaxy Zoo | — | 2023 | — | arXiv preprint | 首个多用途射电星系基础模型，在Radio Galaxy Zoo数据上预训练，支持射电源分类与形态学分析 |
 | STRADAViT | STRADAViT: A Vision Transformer for Radio Astronomy Data | — | 2026 | — | arXiv preprint | 面向射电天文数据的视觉Transformer基础模型，处理射电干涉成像数据的多种下游任务 |
 | SKATR | SKATR: A Foundation Model for SKA Radio Continuum Data | — | 2024 | — | SciPost (2025) | 面向SKA射电连续谱数据的基础模型，为下一代射电巡天提供通用特征表示 |
+| ExoMiner++ | ExoMiner++: Enhanced Transit Classification and a New Vetting Catalog | — | 2025 | — | Preprint | NASA改进版深度学习模型，用于系外行星凌星验证和分类 |
 
 ---
 
@@ -1671,6 +1677,8 @@
 | Campanella MAE | Campanella et al. (MAE): Masked Autoencoder ViT-L for Digital Pathology | — (Thomas Fuchs Lab) | 2024 | — | arXiv Preprint | ViT-L架构，MAE自监督训练于42万WSI的病理基础模型 |
 | SP22M | SP22M: Mount Sinai Computational Pathology Foundation Model (22M params) | — (Mount Sinai) | 2024 | Hugging Face | Hugging Face | Mount Sinai开发的2200万参数计算病理基础模型 |
 | SP85M | SP85M: Mount Sinai Computational Pathology Foundation Model (85M params) | — (Mount Sinai) | 2024 | Hugging Face | Hugging Face | Mount Sinai开发的8500万参数计算病理基础模型 |
+| CHROMA | A comprehensive foundation model for generalizable cytogenetics in precision oncology with CHROMA | Changchun Yang | 2026 | 10.1038/s41698-026-01383-4 | npj Precision Oncology | 面向精准肿瘤学的通用细胞遗传学基础模型，实现自动化染色体分析与核型判读 |
+| PAST | PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer | Changchun Yang | 2025 | arXiv:2507.06418 | arXiv | 多模态单细胞基础模型，整合组织病理学图像和空间转录组数据用于癌症分析 |
 
 ---
 
@@ -1788,6 +1796,7 @@
 | Med-PaLM | Large Language Models Encode Clinical Knowledge | Karan Singhal | 2023 | 10.1038/s41586-023-06291-2 | Nature | Google首个医学LLM。 |
 | Med-PaLM 2 | Towards Expert-Level Medical Question Answering with Large Language Models | Karan Singhal | 2023 | arXiv:2305.09617 | arXiv | 专家级医学问答。 |
 | Med-Gemini | Advancing Multimodal Medical Capabilities of Gemini | Lin Yang | 2024 | arXiv:2405.03162 | arXiv | Google多模态医学AI，将Gemini能力扩展到文本、图像和基因组学的临床推理。 |
+| MedGemma | Open Models for Health AI | — | 2025 | arXiv:2507.05201 | arXiv | Google开源Gemma医学变体集合，为医学文本和图像理解提供专门优化的模型 |
 | PubMedBERT | Domain-specific language model pretraining for biomedical NLP | Yu Gu | 2021 | — | ACL 2021 | PubMed全文预训练的生物医学BERT |
 | GatorTron | A large language model for electronic health records | Xi Yang | 2022 | 10.1038/s41746-022-00742-2 | npj Digital Medicine | 90B token临床文本预训练的大规模临床语言模型。 |
 | BioGPT | BioGPT: generative pre-trained transformer for biomedical text generation and mining | Renqian Luo | 2022 | 10.1093/bib/bbac409 | Briefings in Bioinformatics | 生物医学文本生成与挖掘GPT模型。 |
@@ -1801,6 +1810,7 @@
 | DoctorGLM | DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task | Honglin Xiong | 2023 | arXiv:2304.01097 | arXiv | 基于ChatGLM-6B的中文医疗LLM，使用中文医疗对话数据微调，提供可访问的中文医疗咨询。 |
 | BioMistral | BioMistral: A Collection of Open-Source Pretrained Large Language Models for the Medical Domain | — | 2024 | arXiv:2402.10373 | ACL 2024 | 基于Mistral的开源生物医学LLM，在PubMed Central数据上继续预训练 |
 | Me-LLaMA | Me-LLaMA: Foundation Large Language Models for Medical Applications | Qianqian Xie (Yale) | 2024 | arXiv:2402.12749 | npj Digital Medicine | 基于LLaMA2的医疗基础LLM（13B/70B），在大规模生物医学和临床数据上继续预训练和指令微调 |
+| OpenBioLLM | OpenBioLLM-70B: Advancing Open-Source Large Language Models in Medical Domain | — | 2024 | — | Saama AI Labs | 700亿参数开源生物医学大语言模型，基于Llama微调，面向医学领域应用 |
 | MMedLM | Towards Building Multilingual Language Model for Medicine | — (MAGIC-AI4Med) | 2024 | arXiv:2402.13963 | Nature Communications | 多语言医疗语言模型，基于MMedC多语言医疗语料库训练，支持跨语言医疗问答 |
 | ClinicalMamba | ClinicalMamba: A Generative Clinical Language Model on Longitudinal Clinical Notes | — | 2024 | arXiv | arXiv Preprint | 基于Mamba架构的临床语言生成模型，处理纵向临床笔记 |
 | ChiMed-GPT | ChiMed-GPT: A Chinese Medical Large Language Model with Full Training Regime | — | 2023 | arXiv | arXiv Preprint | 全训练流程的中文医学大语言模型 |
@@ -2116,17 +2126,18 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | (西交利物浦大学) | 2024 | 学术出版 | Scholar XJTLU | 多模态AI模型，集成视觉和文本数据用于精准植物病害检测和作物健康评估。 |
+| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | (西交利物浦大学) | 2024 | 10.1007/978-981-96-9921-6_20 | Springer | 多模态AI模型，集成视觉和文本数据用于精准植物病害检测和作物健康评估。 |
 | AgroGPT | AgroGPT: Efficient Agricultural Vision-Language Model with Expert Tuning | Muhammad Awais | 2024 | arXiv:2410.08405 | WACV 2025 | 农业专用视觉-语言模型，基于70,000张图像的AgroInstruct数据集通过专家调优训练，支持作物病害对话。 |
 | IPM-AgriGPT | IPM-AgriGPT: A Large Language Model for Pest and Disease Management with a G-EA Framework | Leifeng Guo | 2025 | DOI:10.3390/math13040566 | Mathematics 2025 | 利用G-EA框架和农业上下文推理的害虫病害管理大语言模型。 |
 | AgriGPT-Omni | AgriGPT-Omni: A Unified Speech-Vision-Text Framework for Multilingual Agricultural Intelligence | Bo Yang | 2025 | arXiv:2512.10624 | arXiv | 浙江大学开发的统一语音-视觉-文本多语言农业AI框架。 |
 | AgriFM | AgriFM: A Multi-source Temporal Remote Sensing Foundation Model for Crop Mapping | Wenyuan Li | 2025 | arXiv:2505.21357 | arXiv Preprint | 多源时序遥感基础模型，集成MODIS/Landsat-8/9/Sentinel-2卫星数据，使用改进的Video Swin Transformer进行作物制图。 |
 | CropSTS | CropSTS: A Remote Sensing Foundation Model for Cropland Classification with Decoupled Spatiotemporal Attention | Yuxing Chen | 2025 | DOI:10.3390/rs17142481 | Remote Sensing 2025 | 利用解耦时空注意力机制的作物分类遥感基础模型，解决模糊田块边界和有限时序建模问题。 |
-| AlphaEarth Foundation (AEF) | Evaluating Geospatial Foundation Models for Agricultural Applications | (多作者) | 2025 | arXiv:2601.00857 | arXiv Preprint | 在多源地球观测数据上训练的地理空间基础模型，评估其在作物产量预测等农业应用中的效果。 |
+| AlphaEarth Foundation | Evaluating Geospatial Foundation Models for Agricultural Applications | — | 2025 | arXiv:2601.00857 | arXiv | 基于多源地球观测数据训练的地理空间基础模型，用于农业应用评估（含作物产量预测等） |
 | VITA | VITA: Variational Transformer for Crop Yield Prediction | (多作者) | 2025 | — | arXiv Preprint | 基于变分Transformer的作物产量预测模型，结合时序遥感和环境数据。 |
 | AQUA | AQUA: The First Large Language Model for Aquaculture and Fisheries | (多作者) | 2025 | — | arXiv Preprint | 首个水产养殖和渔业专用大语言模型，涵盖养殖管理、病害诊断等领域知识。 |
 | FoMo4Wheat | FoMo4Wheat: Toward reliable crop vision foundation models | PheniX-Lab | 2025 | arXiv:2509.06907 | arXiv | 小麦表型分析专用基础模型 |
 | SPROUT | Scalable Diffusion Foundation Model for Agricultural Vision | UTokyo | 2026 | arXiv:2603.27519 | arXiv | 扩散预训练农业视觉基础模型 |
+| SpeciesNet | SpeciesNet: Open-Source AI Model for Wildlife Species Identification | — | 2025 | — | Google GitHub | Google开源AI模型，在6500万张相机陷阱图像上训练，识别近2500种野生动物 |
 
 #### A2. 生态与生物多样性AI基础模型
 
@@ -2142,6 +2153,7 @@
 | MiTREE | MiTREE: Multi-Input Transformer for Species Distribution Estimation | (多作者) | 2024 | — | arXiv Preprint | 多输入Transformer模型用于物种分布估计，整合多源环境和遥感数据。 |
 | Granite-Geospatial-Ocean | Granite Geospatial Ocean: IBM Foundation Model for Ocean Monitoring | (IBM Research) | 2025 | — | arXiv Preprint | IBM开发的海洋监测地理空间基础模型，基于Granite系列，用于海洋环境变化检测和预测。 |
 | OceanSAR | OceanSAR: SAR Ocean Observation Foundation Model | (多作者) | 2025 | — | arXiv Preprint | SAR海洋观测基础模型，专注于海洋表面监测、船舶检测和海洋环境分析。 |
+| SatBird | SatBird: Bird Species Distribution Modeling with Remote Sensing and Citizen Science Data | — | 2023 | doi:10.52202/075280-3317 | NeurIPS | 鸟类物种分布模型，结合卫星影像和eBird公民科学数据用于鸟类生态研究 |
 | Insect-Foundation | Insect-Foundation: A Foundation Model for Visual Insect Understanding | Hoang-Quan Nguyen | 2024 | arXiv:2311.15206 | CVPR 2024 | 昆虫视觉理解基础模型，100万张昆虫图像 |
 | Atlantes | Atlantes: GPS transformers for global-scale maritime intelligence | Allen AI | 2025 | arXiv:2504.19036 | arXiv | GPS Transformer全球海洋船舶行为分析 |
 

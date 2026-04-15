@@ -1,10 +1,8 @@
-# Scientific Foundation Models
+# Science Foundation Models
 
-<p align="right"><strong>Language:</strong> English | <a href="README.zh.md">中文</a></p>
+<p align="right"><strong>Language:</strong> English | <a href="README.zh.md">Chinese</a></p>
 
-A bilingual catalog of scientific foundation models across nine major scientific domains.
-
-Models with clear interdisciplinary relevance may appear in more than one domain.
+A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next wave of scientific breakthroughs — **1,000+ models** across nine domains, from protein design to weather prediction. Cross-disciplinary models are listed wherever they apply.
 
 ## Browse by Domain
 
@@ -105,11 +103,11 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | PoET-2 | PoET-2: Next-generation Protein Family Modeling with Sequences-of-Sequences | Next-generation retrieval-augmented multimodal protein family model improving fitness prediction over PoET. | [GitHub](https://github.com/OpenProteinAI/PoET-2) |
 | FlexRibbon | FlexRibbon: Joint Sequence and Structure Pretraining for Protein Modeling | 3-billion-parameter model jointly pretrained on amino acid sequences and 3D structures capturing flexible conformations. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.10.08.681293v1) |
 | ProteinAligner | ProteinAligner: A Tri-Modal Contrastive Learning Framework for Protein Representation Learning | Tri-modal contrastive learning framework integrating protein sequences, structures, and scientific literature. | [OpenReview](https://openreview.net/forum?id=LjlJBnmZ0M) |
-| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | Multi-modal protein language model supporting natural language interaction for protein knowledge retrieval. | [Project](https://db.prottalks.com/) |
+| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | Multi-modal protein language model supporting natural language interaction for protein knowledge retrieval. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.07.637070) |
 | GearNet | Protein Representation Learning by Geometric Structure Pretraining | Relational graph neural network learning protein structure representations via geometric pretraining and multi-view contrastive learning. | [ICLR](https://openreview.net/forum?id=to3qCB3tOh9) |
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Self-supervised masked inverse folding pretraining for learning protein representations from structures. | [arXiv](https://arxiv.org/abs/2209.07203) |
 | PPLM | A paired sequence language model for protein-protein interaction | Paired sequence language model predicting protein-protein interactions from paired amino acid sequences. | [Nature Communications](https://doi.org/10.1038/s41467-026-70457-5)                      |
-| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29) |
+| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29.625425v1) |
 | BioReason-Pro | BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning | First multimodal reasoning LLM for protein function prediction integrating ESM3 embeddings with GO-GPT ontology modeling; achieves 73.6% F_max on GO term prediction, preferred over UniProt annotations by human experts 79% of the time. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.19.712954) |
 
 #### Protein Structure Prediction
@@ -133,7 +131,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 |-------|------------|-------------|----------------------------------------------------------------------------------------------|
 | ProteinMPNN | Robust deep learning-based protein sequence design using ProteinMPNN | Message-passing neural network for protein sequence design with experimentally validated high success rates. | [Science](https://doi.org/10.1126/science.add2187)                                           |
 | RFdiffusion | De novo design of protein structure and function with RFdiffusion | Diffusion model built on RoseTTAFold for de novo protein backbone design. | [Nature](https://doi.org/10.1038/s41586-023-06415-8)                                         |
-| RFdiffusion3 | RFdiffusion3: All-atom biomolecular design | Upgraded RFdiffusion supporting all-atom-level protein and biomolecular design. | [IPD](https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/)                            |
+| RFdiffusion3 | RFdiffusion3: All-atom biomolecular design | Upgraded RFdiffusion supporting all-atom-level protein and biomolecular design. | [bioRxiv](https://doi.org/10.1101/2025.09.18.676967)                            |
 | Chroma | Illuminating protein space with a programmable generative model | Programmable protein diffusion generative model from Generate:Biomedicines. | [Nature](https://doi.org/10.1038/s41586-023-06728-8)                                         |
 | FrameDiff | SE(3) diffusion model with application to protein backbone generation | SE(3)-equivariant diffusion model for protein backbone generation without pretrained structure prediction networks. | [ICLR](https://proceedings.mlr.press/v202/yim23a.html)                                       |
 | FrameFlow | SE(3) stochastic flow matching for protein backbone generation | SE(3) flow matching model for protein backbone generation. | [ICLR](https://openreview.net/forum?id=kJFIH23hXb)                                           |
@@ -158,7 +156,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | TERMinator | TERMinator: A neural framework for structure-based protein design using tertiary repeating motifs | Neural network framework for protein design based on tertiary repeating motifs. | [Nature Communications](https://doi.org/10.1038/s41467-022-37051-7) |
 | AlphaDesign | AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB | Graph-based protein design method benchmarked on the AlphaFold Database. | [arXiv](https://arxiv.org/abs/2202.01079) |
 | Latent-X | Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design | Atom-level frontier model generating all-atom structures and sequences for de novo protein binder design. | [arXiv](https://arxiv.org/abs/2507.19375) |
-| Latent-X2 | Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2 | Generative model designing drug-like antibodies with strong binding affinity and low immunogenicity. | [Latent Labs](https://www.latentlabs.com/press-release/latent-labs-announces-latent-x2-ai-g) |
+| Latent-X2 | Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2 | Generative model designing drug-like antibodies with strong binding affinity and low immunogenicity. | [arXiv](https://arxiv.org/abs/2512.20263) |
 | ProDiT | Generating functional proteins with a multimodal diffusion transformer | Multimodal diffusion Transformer protein design model trained on 214 million proteins. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.03.672144v2) |
 | SimpleDesign | SimpleDesign: Joint Model for Protein Sequence and Structure Codesign | End-to-end joint model for protein sequence-structure co-design without tokenizers. | [ICLR](https://openreview.net/forum?id=ibbog3himK)                                           |
 | PXDesign | PXDesign: Fast De Novo Design of Protein Binders | ByteDance Protenix fast and modular pipeline for de novo protein binder design with 20–73% hit rates. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.15.670450v3) |
@@ -226,7 +224,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | BiRNA-BERT | BiRNA-BERT allows efficient RNA language modeling with adaptive tokenization | Adaptive tokenization RNA language model overcoming limitations in sequence length and diversity. | [Communications Biology](https://doi.org/10.1038/s42003-025-08982-0) |
 | mRNABERT | mRNABERT: advancing mRNA sequence design with a universal language model and comprehensive dataset | Language model specifically designed for mRNA sequence engineering with a dual-tokenization scheme. | [Nature Communications](https://doi.org/10.1038/s41467-025-65340-8) |
 | CodonBERT | CodonBERT: Large language models for mRNA design and optimization | Codon-level tokenized mRNA language model for mRNA design and optimization. | [BEACON Benchmark](https://doi.org/10.18653/v1/2024.alvr-1.18) |
-| NucleicBERT | NucleicBERT: A large language model for RNA structure prediction | BERT-based self-supervised masked language model for RNA sequence analysis and structure prediction. | [GitHub/KIT-MBS](https://www.biorxiv.org/content/10.1101/2025.09.02.673754v2) |
+| NucleicBERT | NucleicBERT: A large language model for RNA structure prediction | BERT-based self-supervised masked language model for RNA sequence analysis and structure prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.02.673754v2) |
 | MP-RNA | MP-RNA: Unleashing multi-species RNA foundation model via calibrated secondary structure prediction | Multi-species RNA foundation model emphasizing calibrated secondary structure prediction. | [EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.304/) |
 | OmniGenome | Bridging sequence-structure alignment in RNA foundation models | RNA foundation model precisely aligning RNA sequences with secondary structures for bidirectional mapping. | [arXiv](https://arxiv.org/abs/2407.11242) |
 | structRFM | A fully open structure-guided RNA foundation model for robust structural and functional inference | Fully open-source structure-guided RNA foundation model integrating sequence and secondary structure for robust inference. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.06.668731v1) |
@@ -338,7 +336,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | scFoundation | Large-scale foundation model on single-cell transcriptomics | 100M-parameter single-cell transcriptomics foundation model (xTrimoGene) trained on 50M+ human cells. | [Nature Methods](https://doi.org/10.1038/s41592-024-02305-7) |
 | UCE | Universal Cell Embeddings: A foundation model for cell biology | Universal cell embedding model that creates a unified representation space across species and tissues. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.28.568918) |
 | GeneCompass | GeneCompass: Deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model | Knowledge-enhanced cross-species foundation model trained on 100M+ human and mouse cells for deciphering gene regulatory mechanisms. | [Cell Research](https://doi.org/10.1038/s41422-024-01034-y) |
-| CellPLM | CellPLM: Pre-training of cell language model beyond single cells | Cell language model that integrates gene-gene and cell-cell interactions, going beyond single-cell level pretraining. | [ICLR 2024](https://openreview.net/forum?id=CellPLM) |
+| CellPLM | CellPLM: Pre-training of cell language model beyond single cells | Cell language model that integrates gene-gene and cell-cell interactions, going beyond single-cell level pretraining. | [ICLR 2024](https://openreview.net/forum?id=BKXvPDekud) |
 | tGPT | Generative pretraining from large-scale transcriptomes for single-cell deciphering | Generative pretrained model on 22.3 million single-cell transcriptomes for cell deciphering and clinical translation. | [iScience](https://doi.org/10.1016/j.isci.2023.106536) |
 | CellFM | CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells | 800M-parameter foundation model pretrained on 100 million human cell transcriptomes. | [Nature Communications](https://doi.org/10.1038/s41467-025-59926-5) |
 | Nicheformer | Nicheformer: a foundation model for single-cell and spatial omics | Single-cell and spatial omics foundation model trained on SpatialCorpus-110M (110M+ cells), capturing spatial microenvironments. | [Nature Methods](https://doi.org/10.1038/s41592-025-02814-z) |
@@ -455,9 +453,9 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | IgGM | A generative foundation model for antibody design | Generative foundation model for comprehensive antibody design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.12.675771) |
-| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Diffusion-based generative model for antigen-specific antibody CDR-H3 design, jointly modeling sequence, structure, and orientation. | [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/DiffAb) |
+| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Diffusion-based generative model for antigen-specific antibody CDR-H3 design, jointly modeling sequence, structure, and orientation. | [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3fa7d76a0dc1179f1e98d1bc62403756-Abstract-Conference.html) |
 | dyMEAN | Full-Atom Antibody Design via dyMEAN | End-to-end full-atom antibody design using dynamic multi-channel equivariant graph network. | [ICML](https://arxiv.org/abs/2302.00203) |
-| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design. | [ICLR 2023](https://openreview.net/forum?id=MEAN) |
+| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design. | [ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP) |
 | RefineGNN | Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design | Iterative refinement GNN for antibody CDR co-design of sequence and 3D structure via autoregressive generation. | [ICLR](https://openreview.net/forum?id=LI2bhrE_2A) |
 | Ophiuchus-Ab | Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy | Diffusion language model for antibody immunotherapy and paired antibody repertoire generation. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.02.02.703197) |
 | NanoAbLLaMA | NanoAbLLaMA: construction of nanobody libraries with protein large language models | LLaMA2-based language model fine-tuned for nanobody (VHH) library construction and design. | [Frontiers in Chemistry](https://doi.org/10.3389/fchem.2025.1534) |
@@ -466,8 +464,8 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | AntibodyDesignBFN | AntibodyDesignBFN: High-Fidelity Fixed-Backbone Antibody Design via Discrete Bayesian Flow Networks | High-fidelity fixed-backbone antibody design using discrete Bayesian flow networks. | [arXiv](https://arxiv.org/abs/2601.05605) |
 | AbAffinity | AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity | Large language model for predicting antibody-antigen binding affinity. | [arXiv](https://arxiv.org/abs/2603.04480) |
 | CALM | CALM: Cross-attention Adaptive Immune Receptor–Antigen Language Model | Cross-attention language model for antibody-antigen specificity prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.02.25.707916) |
-| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Fully computational model for designing drug-like antibodies developed by Nabla Bio. | [Nabla Bio](https://www.nabla.bio/) |
-| Chai-2 | Chai-2: Zero-shot antibody discovery | Zero-shot antibody discovery model developed by Chai Discovery. | [Chai Discovery](https://www.chaidiscovery.com/) |
+| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Fully computational model for designing drug-like antibodies developed by Nabla Bio. | [Technical Report](https://nabla-public.s3.us-east-1.amazonaws.com/2025_Nabla_JAM2.pdf) |
+| Chai-2 | Chai-2: Zero-shot antibody discovery | Zero-shot antibody discovery model developed by Chai Discovery. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.05.663018v1) |
 
 #### TCR & Immunology Models
 
@@ -526,7 +524,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | scGPT-spatial | scGPT-spatial: Continual Pretraining of Single-Cell FM for Spatial Transcriptomics | Extension of scGPT for spatial transcriptomics via continual pretraining. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.05.636714) |
 | SpatialScope | SpatialScope: integrating spatial and single-cell transcriptomics data using deep generative models | Deep generative model for integrating spatial transcriptomics with scRNA-seq data. | [Nature Communications](https://doi.org/10.1038/s41467-023-43629-w) |
 | stFormer | stFormer: a foundation model for spatial transcriptomics | Transformer foundation model integrating ligand-receptor interactions into spatial gene representations. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.09.27.615337) |
-| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | Foundation model using graph embeddings and hierarchical prototypes for spatial transcriptomics. | [NeurIPS 2025 (submitted)](https://openreview.net/forum?id=STAGE) |
+| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | Foundation model using graph embeddings and hierarchical prototypes for spatial transcriptomics. | [OpenReview](https://openreview.net/forum?id=ZGzKckA29U) |
 | STORM | STORM: A multimodal foundation model of spatial transcriptomics and histology | Multimodal spatial transcriptomics and histology foundation model trained on 1.2M spatially-resolved profiles across 18 organs. | [arXiv](https://arxiv.org/abs/2604.03630) |
 | SEAL | SEAL: Spatial Expression-Aligned Learning for pathology foundation models | Spatial expression-aligned learning framework enhancing pathology foundation models with spatial transcriptomics data. | [arXiv](https://arxiv.org/abs/2602.14177) |
 | MINT | MINT: Molecularly Informed Training with Spatial Transcriptomics Supervision for Pathology Foundation Models | Molecularly informed training with spatial transcriptomics supervision for pathology foundation models. | [arXiv](https://arxiv.org/abs/2603.07895) |
@@ -607,7 +605,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | FGBERT | FGBERT: Function-Driven Pre-trained Gene Language Model for Metagenomics | Function-driven pretrained gene language model using protein-level context-aware tokenizer for metagenomics. | [arXiv](https://arxiv.org/abs/2402.16901) |
 | MetagenBERT | MetagenBERT: a Transformer Architecture using Foundational DNA Read Embedding Models for novel Metagenome Representation | Transformer framework using DNABERT-2/DNABERT-S for metagenome representation from raw DNA reads. | [arXiv](https://arxiv.org/abs/2601.03295) |
 | Darwin-7B | Darwin-7B: A Multi-Omic Foundation Model for the Human Gut Microbiome via Sparsified Quality-Aware Tokenization | 7B-parameter multi-omic foundation model for the human gut microbiome, trained with sparsified quality-aware tokenization. | [ICLR 2026 Workshop](https://openreview.net/forum?id=X5Ii21IdDF&noteId=PHRJek5N5v) |
-| ViraLM | ViraLM: virus discovery through genome foundation model | Virus genome foundation model for virus discovery from metagenomic sequences. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.1101/2024.01.30.577935) |
+| ViraLM | ViraLM: virus discovery through genome foundation model | Virus genome foundation model for virus discovery from metagenomic sequences. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btae704) |
 
 ---
 
@@ -647,7 +645,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 |-------|------------|-------------|------|
 | CpGPT | CpGPT: A Foundation Model for DNA Methylation | DNA methylation foundation model predicting CpG site methylation states for aging and disease research. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.24.620080) |
 | MethylGPT | MethylGPT: A Foundation Model for the DNA Methylome | DNA methylome foundation model pretrained on large-scale methylation data for epigenetic age prediction and cancer classification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.30.621013) |
-| scDNAm-GPT | scDNAm-GPT: A Foundation Model for Single-Cell DNA Methylation Analysis | Single-cell DNA methylation analysis foundation model for resolving epigenetic heterogeneity at single-cell resolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/scDNAm-GPT) |
+| scDNAm-GPT | scDNAm-GPT: A Foundation Model for Single-Cell DNA Methylation Analysis | Single-cell DNA methylation analysis foundation model for resolving epigenetic heterogeneity at single-cell resolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.19.638959) |
 
 ---
 
@@ -660,8 +658,8 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 |-------|------------|-------------|------|
 | DIA-BERT | DIA-BERT: A Foundation Model for Data-Independent Acquisition Proteomics | Transformer-based foundation model for data-independent acquisition proteomics, improving peptide identification and quantification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.01.578401) |
 | DreaMS | DreaMS: Deep Representations Empowering the Annotation of Mass Spectra | Deep representation learning foundation model for mass spectra annotation and metabolite identification. | [Nature Biotechnology](https://doi.org/10.1038/s41587-025-02689-7) |
-| LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/LSM-MS2) |
-| OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [bioRxiv](https://www.biorxiv.org/content/10.1101/OmniNovo) |
+| LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [ChemRxiv](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-k06gb-v2) |
+| OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [arXiv](https://arxiv.org/abs/2512.12272) |
 | MS-FM | Foundation model for mass spectrometry proteomics | Unified mass spectrometry proteomics foundation model pretrained on de novo sequencing data. | [arXiv](https://arxiv.org/abs/2505.10848) |
 | InstaNovo | InstaNovo: diffusion-powered de novo peptide sequencing | Diffusion-powered model for de novo peptide sequencing from mass spectrometry data. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01019-5) |
 
@@ -894,7 +892,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | MEGNet | Graph Networks as a Universal Machine Learning Framework for Molecules and Crystals | Universal materials graph network supporting property prediction for both molecules and crystals with global state features. | [Chemistry of Materials](https://doi.org/10.1021/acs.chemmater.9b01294) |
 | ALIGNN | Atomistic Line Graph Neural Network for Improved Materials Property Predictions | NIST atomistic line graph neural network that explicitly models bond angles, outperforming CGCNN and MEGNet. | [npj Computational Materials](https://doi.org/10.1038/s41524-021-00650-1) |
 | MultiMat | Multimodal Foundation Models for Material Property Prediction and Discovery | Multimodal foundation model integrating crystal structure, density of states, charge density, and text for comprehensive materials property prediction. | [Newton](https://doi.org/10.1016/j.newton.2025.100016) |
-| SMI-TED | SMI-TED: Large-Scale Foundation Model for Materials and Chemistry | IBM large-scale SMILES encoder-decoder model pre-trained on 91M PubChem SMILES for materials and chemistry applications. | [ICLR 2024 Workshop](https://openreview.net/forum?id=smi-ted) |
+| SMI-TED | SMI-TED: Large-Scale Foundation Model for Materials and Chemistry | IBM large-scale SMILES encoder-decoder model pre-trained on 91M PubChem SMILES for materials and chemistry applications. | [ICLR 2024 Workshop](https://openreview.net/forum?id=Yq8At31hLi) |
 | DARWIN 1.5 | DARWIN 1.5: Large Language Models as Materials Science Adapted Learners | Open-source materials science LLM that predicts material properties and facilitates discovery from natural language input. | [arXiv](https://arxiv.org/abs/2412.11970) |
 | MatBERT | Quantifying the Advantage of Domain-Specific Pre-training on Named Entity Recognition Tasks in Materials Science | BERT model pre-trained on materials science literature (LBNL), outperforming general models on materials NLP tasks. | [Patterns](https://doi.org/10.1016/j.patter.2022.100488) |
 | MatSciBERT | MatSciBERT: A Materials Domain Language Model for Text Mining and Information Extraction | Domain-specific BERT trained on materials science literature for enhanced text mining and information extraction. | [npj Computational Materials](https://doi.org/10.1038/s41524-022-00784-w) |
@@ -1141,11 +1139,11 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | Cosmos | Cosmos World Foundation Model Platform for Physical AI | NVIDIA open-source world foundation model platform generating physics-aware video and world states for robotics and autonomous driving. | [arXiv / NVIDIA](https://arxiv.org/abs/2501.03575) |
 | Genie | Genie: Generative Interactive Environments | DeepMind 11B-parameter unsupervised world model generating interactive virtual worlds from a single image. | [ICML](https://proceedings.mlr.press/v235/bruce24a.html) |
 | Genie 2 | Genie 2: A large-scale foundation world model | Upgraded Genie generating diverse, controllable interactive 3D environments from a single image for embodied AI. | [DeepMind](https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/) |
-| Genie 3 | Genie 3: A new frontier for world models | General world model generating consistent interactive 3D worlds from text or images in real time with physical consistency. | [DeepMind](https://deepmind.google/discover/blog/genie-3/) |
+| Genie 3 | Genie 3: A new frontier for world models | General world model generating consistent interactive 3D worlds from text or images in real time with physical consistency. | [DeepMind](https://deepmind.google/models/genie/) |
 | DIAMOND | Diffusion for World Modeling: Visual Details Matter in Atari | Diffusion-based world modeling achieving high visual fidelity for RL agent training in Atari environments. | [NeurIPS 2024](https://papers.nips.cc/paper_files/paper/2024/hash/6bdde0373d53d4a501249547084bed43-Abstract-Conference.html) |
 | WorldDreamer | WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens | General world model capturing physical dynamics across multiple environments via masked token prediction for video generation. | [arXiv](https://arxiv.org/abs/2401.09985) |
 | GameNGen | Diffusion Models Are Real-Time Game Engines | Google Research neural game engine using diffusion models to simulate complex game environments (DOOM) at 20+ fps. | [arXiv preprint (Google)](https://arxiv.org/abs/2408.14837) |
-| OASIS | Oasis: A Universe in a Transformer | Real-time open-world AI model generating interactive Minecraft-like gameplay at 20 fps via Transformer and diffusion. | [Decart AI](https://oasis-model.github.io) |
+| OASIS | Oasis: A Universe in a Transformer | Real-time open-world AI model generating interactive Minecraft-like gameplay at 20 fps via Transformer and diffusion. | [Project Page](https://oasis-model.github.io) |
 | Pandora | Pandora: Towards General World Model with Natural Language Actions and Video States | Hybrid autoregressive-diffusion world model controlling video state generation through natural language actions. | [arXiv](https://arxiv.org/abs/2406.09455) |
 | UniSim | Learning Interactive Real-World Simulators | Universal world simulator learning to simulate diverse human-world interactions from text, actions, and image inputs. | [ICLR](https://openreview.net/forum?id=sFyTZEqmUY) |
 | PAN | PAN: A World Model for General, Interactable, and Long-Horizon World Simulation | Action-conditioned world model for general, interactable, long-horizon simulation with environment dynamics consistency. | [arXiv](https://arxiv.org/abs/2511.09057) |
@@ -1437,7 +1435,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| ORBIT-2 | ORBIT-2: Scaling Exascale Vision Transformer for Weather and Climate Downscaling | A climate downscaling foundation model trained on exascale computing infrastructure for efficient high-resolution climate inference. | [SC 2025](https://e3sm.org/best-paper-award-at-sc25-ai-driven-weather-prediction-with-orbit-2/) |
+| ORBIT-2 | ORBIT-2: Scaling Exascale Vision Transformer for Weather and Climate Downscaling | A climate downscaling foundation model trained on exascale computing infrastructure for efficient high-resolution climate inference. | [ORNL](https://impact.ornl.gov/en/publications/orbit-2-scaling-exascale-vision-foundation-models-for-weather-and/) |
 
 ## Astronomy
 
@@ -1668,12 +1666,12 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | CytoNet | CytoNet: A Foundation Model for the Human Cerebral Cortex | Foundation model for analyzing human cerebral cortex at cellular resolution, trained on 1M+ unlabeled histological image patches. | [arXiv](https://arxiv.org/abs/2511.01870) |
 | BrainLM | BrainLM: A Foundation Model for Brain Activity Recordings | Brain activity foundation model trained on 6,700 hours of fMRI data using self-supervised masked prediction for predicting age, sex, and clinical variables. | [ICLR](https://openreview.net/forum?id=RwI7ZEfR27) |
 | BrainFM | BrainFM: A Modality-Agnostic Multi-task Foundation Model for Human Brain Imaging | Modality-agnostic multi-task brain imaging foundation model that generalizes across MRI/fMRI/EEG and other neuroimaging modalities. | [arXiv](https://arxiv.org/abs/2509.00549) |
-| BrainGFM | BrainGFM: A Brain Graph Foundation Model for Neuroimaging Analysis | Brain graph foundation model using graph contrastive learning and masked autoencoders for fMRI data. | [NeurIPS](https://openreview.net/forum?id=BrainGFM) |
+| BrainGFM | BrainGFM: A Brain Graph Foundation Model for Neuroimaging Analysis | Brain graph foundation model using graph contrastive learning and masked autoencoders for fMRI data. | [NeurIPS](https://openreview.net/forum?id=PeGHkAaRxs) |
 | BrainFounder | BrainFounder: Towards 3D Foundation Models for Neuroimage Segmentation | Large-scale neuroimaging segmentation foundation model pretrained on multimodal MRI from 41,400 participants with a two-stage pretraining strategy. | [MICCAI](https://doi.org/10.1016/j.media.2024.103301) |
 | Brain Harmony | Brain Harmony: A Multimodal Foundation Model Unifying Brain Structural Morphology and Functional Dynamics | First multimodal brain foundation model unifying brain structural morphology (T1-MRI) and functional dynamics (fMRI). | [arXiv](https://arxiv.org/abs/2509.24693) |
 | Brain-OF | Brain-OF: An Omnifunctional Foundation Model for fMRI, EEG and MEG | Omnifunctional foundation model spanning fMRI, EEG, and MEG neuroimaging modalities. | [arXiv](https://arxiv.org/abs/2602.23410) |
 | SAM-Brain3D | Brain Foundation Models with Hypergraph Dynamic Adapter for Brain Disease Analysis | Brain imaging foundation model trained on 66,000+ MRI image-label pairs (14 sub-modalities) for brain disease analysis. | [Pattern Recognition](https://doi.org/10.1016/j.patcog.2025.112595) |
-| MindLLM | MindLLM: A Subject-Agnostic and Versatile Model for fMRI-to-Text Decoding | Subject-agnostic fMRI-to-text decoding model advancing brain-computer interface research. | [ICML 2025](https://openreview.net/forum?id=MindLLM) |
+| MindLLM | MindLLM: A Subject-Agnostic and Versatile Model for fMRI-to-Text Decoding | Subject-agnostic fMRI-to-text decoding model advancing brain-computer interface research. | [ICML 2025](https://proceedings.mlr.press/v267/qiu25e.html) |
 | Decipher-MR | Decipher-MR: A Vision-Language Foundation Model for 3D MRI Representations | 3D MRI vision-language foundation model trained on 200,000+ MRI sequences, supporting multiple brain disease analysis including psychiatric disorders. | [npj Digital Medicine](https://arxiv.org/abs/2509.21249) |
 | SLIM-Brain | Data-efficient FM for fMRI analysis | Data-efficient foundation model for fMRI analysis. | [arXiv](https://arxiv.org/abs/2512.21881) |
 
@@ -1739,6 +1737,8 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | Campanella MAE | Campanella et al. (MAE): Masked Autoencoder ViT-L for Digital Pathology | ViT-L architecture pathology foundation model with MAE self-supervised training on 420K WSIs. | [arXiv](https://arxiv.org/abs/2310.07033) |
 | SP22M | SP22M: Mount Sinai Computational Pathology Foundation Model (22M params) | Mount Sinai 22M-parameter computational pathology foundation model. | [Hugging Face](https://huggingface.co/MountSinaiCompPath/SP22M) |
 | SP85M | SP85M: Mount Sinai Computational Pathology Foundation Model (85M params) | Mount Sinai 85M-parameter computational pathology foundation model. | [Hugging Face](https://huggingface.co/MountSinaiCompPath/SP85M) |
+| CHROMA | A comprehensive foundation model for generalizable cytogenetics in precision oncology with CHROMA | Comprehensive cytogenetics foundation model for automated chromosome analysis and karyotyping in precision oncology. | [npj Precision Oncology](https://doi.org/10.1038/s41698-026-01383-4) |
+| PAST | PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer | Multimodal single-cell foundation model integrating histopathology images and spatial transcriptomics data for cancer analysis. | [arXiv](https://arxiv.org/abs/2507.06418) |
 
 ---
 <a id="medicine-section-04"></a>
@@ -1864,7 +1864,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 | Med-PaLM | Large Language Models Encode Clinical Knowledge | Google's first medical LLM, achieving expert-level performance on medical question answering benchmarks by encoding clinical knowledge in a large language model. | [Nature](https://doi.org/10.1038/s41586-023-06291-2) |
 | Med-PaLM 2 | Towards Expert-Level Medical Question Answering with Large Language Models | Second-generation Google medical LLM reaching expert-level medical QA performance, significantly improving over Med-PaLM on multiple clinical benchmarks. | [arXiv](https://arxiv.org/abs/2305.09617) |
 | Med-Gemini | Advancing Multimodal Medical Capabilities of Gemini | Google multimodal medical AI extending Gemini's capabilities to clinical reasoning across text, images, and genomics. | [arXiv](https://arxiv.org/abs/2405.03162) |
-| MedGemma | Open Models for Health AI | Google's open-source collection of Gemma variants tailored for medical text and image understanding, offering multimodal and text-only pretrained formats. | [Google](https://developers.google.com/health-ai-developer-foundations/medgemma) |
+| MedGemma | Open Models for Health AI | Google's open-source collection of Gemma variants tailored for medical text and image understanding, offering multimodal and text-only pretrained formats. | [arXiv](https://arxiv.org/abs/2507.05201) |
 | PubMedBERT | Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing | BERT model pretrained from scratch exclusively on PubMed abstracts and full texts, demonstrating that domain-specific pretraining outperforms mixed-domain approaches for biomedical NLP. | [ACM Transactions on Computing for Healthcare](https://doi.org/10.1145/3458754) |
 | GatorTron | A Large Clinical Language Model to Unlock Patient Information from Unstructured Electronic Health Records | Large-scale clinical language model (up to 8.9B parameters) pretrained on over 90 billion words of clinical text, designed to unlock patient information from unstructured EHRs. | [npj Digital Medicine](https://doi.org/10.1038/s41746-022-00742-2) |
 | BioGPT | Generative Pre-trained Transformer for Biomedical Text Generation and Mining | Domain-specific generative Transformer pretrained on large-scale biomedical literature for both text generation and mining tasks in biomedicine. | [Briefings in Bioinformatics](https://arxiv.org/abs/2210.10341) |
@@ -2127,7 +2127,7 @@ Models with clear interdisciplinary relevance may appear in more than one domain
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | A multimodal AI model integrating visual and text data for precise plant disease detection and crop health assessment. | [Scholar XJTLU](https://scholar.xjtlu.edu.cn/en/publications/agrigpt-a-strong-plant-disease-detection-model-via-visual-instruct) |
+| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | A multimodal AI model integrating visual and text data for precise plant disease detection and crop health assessment. | [Springer](https://doi.org/10.1007/978-981-96-9921-6_20) |
 | AgroGPT | AgroGPT: Efficient Agricultural Vision-Language Model with Expert Tuning | An agriculture-specific vision-language model trained via expert tuning on 70,000 images from the AgroInstruct dataset for crop disease dialogue. | [WACV](https://doi.org/10.1109/WACV61041.2025.00555) |
 | IPM-AgriGPT | IPM-AgriGPT: A Large Language Model for Pest and Disease Management with a G-EA Framework | A large language model for integrated pest and disease management using agricultural context reasoning via the G-EA framework. | [Mathematics](https://doi.org/10.3390/math13040566) |
 | AgriGPT-Omni | AgriGPT-Omni: A Unified Speech-Vision-Text Framework for Multilingual Agricultural Intelligence | A unified speech-vision-text multilingual agricultural AI framework by Zhejiang University. | [arXiv](https://arxiv.org/abs/2512.10624) |

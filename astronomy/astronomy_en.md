@@ -1,6 +1,6 @@
 # Astronomy
 
-<p align="right"><strong>Language:</strong> English | <a href="astronomy_zh.md">中文</a></p>
+<p align="right"><strong>Language:</strong> English | <a href="astronomy_zh.md">Chinese</a></p>
 
 > Multi-modal astronomy, exoplanets, gravitational waves, cosmology, radio astronomy, solar physics, and related astronomical foundation models.
 > [Index](../README.md)
@@ -19,19 +19,19 @@
 <a id="astronomy-section-01"></a>
 ## Multimodal Astronomy
 
-### Multimodal & Cross-Modal Foundation Models
+#### Multimodal & Cross-Modal Foundation Models
 *Foundation models that integrate multiple astronomical data modalities including imaging, spectra, and scalar measurements.*
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | AION-1 | AION-1: Omnimodal Foundation Model for Astronomical Sciences | A large-scale omnimodal astronomical foundation model integrating 39 data modalities (imaging, spectra, scalar measurements) covering 200M+ astronomical objects. | [NeurIPS](https://arxiv.org/abs/2510.17960) |
-| AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | A cross-modal galaxy foundation model using self-supervised contrastive learning to embed galaxy images and spectra into a shared physically meaningful latent space. | [MNRAS](https://doi.org/10.1093/mnras/stae1450) |
-| AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | A 7-billion-parameter astronomy-specialized LLM based on LLaMA-2, fine-tuned on 300K+ astronomical abstracts. | [SciNLP Workshop](https://doi.org/10.18653/v1/2023.wiesp-1.7) |
+| AstroCLIP | AstroCLIP: A Cross-Modal Foundation Model for Galaxies | A cross-modal galaxy foundation model using self-supervised contrastive learning to embed galaxy images and spectra into a shared physically meaningful latent space. | [Monthly Notices of the Royal Astronomical Society](https://arxiv.org/abs/2310.03024) |
+| AstroLLaMA | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | A 7-billion-parameter astronomy-specialized LLM based on LLaMA-2, fine-tuned on 300K+ astronomical abstracts. | [Proceedings of the Second Workshop on Information Extraction from Scientific Publications](https://doi.org/10.18653/v1/2023.wiesp-1.7) |
 | AstroLLaMA-2-70B | AstroMLab 2: AstroLLaMA-2-70B Model and Benchmarking Specialized LLMs for Astronomy | A 70-billion-parameter upgrade of AstroLLaMA providing more powerful domain-specific language understanding for astronomy. | [arXiv](https://arxiv.org/abs/2409.19750) |
 | AstroPT | AstroPT: Scaling Large Observation Models for Astronomy | An open-source autoregressive pre-trained Transformer trained on 8.6 million DESI Legacy Survey galaxy images as a scalable large observation model. | [arXiv](https://arxiv.org/abs/2405.14930) |
 | astroBERT | astroBERT: A Language Model for Astronomy | A BERT-based language model pre-trained on astrophysics literature for astronomical text mining and NLP tasks. | [Astronomy & Computing](https://huggingface.co/adsabs/astroBERT) |
 
-### Spectral Foundation Models
+#### Spectral Foundation Models
 *Models designed for processing and analyzing astronomical spectra across instruments and wavelengths.*
 
 | Model | Paper Title | Description | Link |
@@ -39,7 +39,7 @@
 | OmniSpectra | OmniSpectra: A Unified Foundation Model for Native Resolution Astronomical Spectra | A unified astronomical spectral foundation model that processes arbitrary-length, any-instrument native-resolution spectra without resampling or interpolation. | [arXiv](https://arxiv.org/abs/2601.15351) |
 | SpectraFM | SpectraFM: Tuning into Stellar Foundation Models | A stellar spectral foundation model pre-trained on large-scale stellar spectral data supporting spectral classification and parameter estimation. | [NeurIPS FM4Science Workshop (2024)](https://arxiv.org/abs/2411.04750) |
 
-### Time-Domain Astronomy & Light Curve Models
+#### Time-Domain Astronomy & Light Curve Models
 *Foundation models for astronomical light curve analysis, classification, and time-domain phenomena.*
 
 | Model | Paper Title | Description | Link |
@@ -71,7 +71,7 @@
 |-------|------------|-------------|------|
 | RGZ-FM | Radio Galaxy Zoo: Towards Building the First Multi-purpose Foundation Model for Radio Astronomy | The first multi-purpose radio astronomy foundation model pre-trained on Radio Galaxy Zoo data for radio source classification and morphology analysis. | [arXiv](https://arxiv.org/abs/2305.16127) |
 | STRADAViT | STRADAViT: Towards a Foundational Model for Radio Astronomy through Self-Supervised Transfer | A self-supervised Vision Transformer foundation model for radio astronomy data handling diverse radio interferometric imaging tasks. | [arXiv](https://arxiv.org/abs/2603.29660) |
-| SKATR | SKATR: A Self-Supervised Summary Transformer for SKA Radio Continuum Data | A self-supervised summary Transformer foundation model for SKA radio continuum survey data providing universal feature representations. | [SciPost (2025)](https://doi.org/10.21468/scipostphys.18.5.155) |
+| SKATR | SKATR: A Self-Supervised Summary Transformer for SKA Radio Continuum Data | A self-supervised summary Transformer foundation model for SKA radio continuum survey data providing universal feature representations. | [SciPost (2025)](https://arxiv.org/abs/2410.18899) |
 
 ---
 
@@ -81,6 +81,7 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
+| ExoMiner++ | ExoMiner++: Enhanced Transit Classification and a New Vetting Catalog | An improved deep learning model by NASA for exoplanet transit validation with enhanced accuracy and reliability for TESS data. | [The Astronomical Journal](https://doi.org/10.3847/1538-3881/ae03a4) |
 | PANOPTICON | PANOPTICON: A Novel Deep Learning Model to Detect Single Transit Events in PLATO Light Curves | A deep learning foundation model for automatic detection of single exoplanet transit events in PLATO light curves without prior data filtering. | [A&A](https://doi.org/10.1051/0004-6361/202452124) |
 
 ---
@@ -111,7 +112,7 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| ORACLE | ORACLE: A Real-time, Hierarchical, Deep Learning Photometric Classifier for the LSST | A real-time hierarchical deep learning classifier for automated transient and variable astrophysical source classification in LSST survey data. | [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/ae1130) |
+| ORACLE | ORACLE: A Real-time, Hierarchical, Deep Learning Photometric Classifier for the LSST | A real-time hierarchical deep learning classifier for automated transient and variable astrophysical source classification in LSST survey data. | [The Astrophysical Journal](https://arxiv.org/abs/2501.01496) |
 
 ---
 

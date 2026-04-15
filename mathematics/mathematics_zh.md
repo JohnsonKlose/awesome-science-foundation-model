@@ -14,7 +14,7 @@
 <a id="mathematics-section-01"></a>
 ## 定理证明
 
-### 综述 Overview
+#### 综述 Overview
 
 定理证明基础模型专注于形式化数学推理，结合大语言模型与证明辅助系统（如Lean），用于自动化定理证明、数学竞赛问题求解等。
 
@@ -45,7 +45,7 @@
 <a id="mathematics-section-02"></a>
 ## 科学多模态推理
 
-### 综述 Overview
+#### 综述 Overview
 
 科学多模态推理基础模型涵盖跨学科科学知识理解与推理的大规模模型，支持文本、图像、分子等多模态科学数据的处理和推理。
 
@@ -53,8 +53,8 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Intern-S1 | Intern-S1: A Scientific Multimodal Foundation Model | Lei Bai | 2025 | arXiv:2508.15763 | arXiv | 上海AI Lab 2410亿参数MoE科学多模态基础模型，在万亿级科学数据上训练，支持文本/图像/视频科学推理 |
-| Galactica | Galactica: A Large Language Model for Science | Ross Taylor | 2022 | arXiv:2211.09085 | arXiv | Meta AI科学语言模型（1.25亿-1200亿参数），在1060亿token科学文献上训练，支持论文摘要、数学推理和分子理解 |
+| Intern-S1 | Intern-S1: A Scientific Multimodal Foundation Model | Lei Bai | 2025 | arXiv:2508.15763 | arXiv | 上海AI Lab的2410亿参数MoE科学多模态基础模型，在万亿级科学数据上训练。, supporting text/image/video scientific reasoning. |
+| Galactica | Galactica: A Large Language Model for Science | Ross Taylor | 2022 | arXiv:2211.09085 | arXiv | Meta AI开发的科学语言模型（1.25亿-1200亿参数），在1060亿token科学文献上训练。pporting paper summarization, math reasoning, and molecular understanding. |
 | SciGLM | SciGLM: Training Scientific Language Models with Self-Reflective Instruction Annotation and Tuning | Dan Zhang | 2024 | arXiv:2401.07950 | ACL 2024 | 基于自反射指令标注和调优的科学语言模型，增强LLM在物理、化学、数学和形式证明等领域的推理能力。 |
 | SciDFM | SciDFM: A Large Language Model with Mixture-of-Experts for Science | Liangtai Sun | 2024 | arXiv:2409.18412 | NeurIPS 2024 | 从零训练的182亿参数（56亿活跃）MoE科学基础模型，支持分子、氨基酸序列等领域特异性知识理解。 |
 | Intern-S1-Pro | Scientific Multimodal Foundation Model at Trillion Scale | Shanghai AI Lab | 2026 | arXiv:2603.25040 | arXiv | 万亿参数MoE科学多模态FM，覆盖化学、物理、生命科学、地球科学 |
@@ -67,7 +67,7 @@
 <a id="mathematics-section-03"></a>
 ## 数学推理LLM
 
-### 综述 Overview
+#### 综述 Overview
 
 数学推理LLM专注于通过预训练和微调提升大语言模型在数学问题求解（算术、代数、竞赛数学等）中的推理能力，通常在大规模数学语料或合成数据上训练。
 

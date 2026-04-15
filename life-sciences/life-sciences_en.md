@@ -1,6 +1,6 @@
 # Life Sciences
 
-<p align="right"><strong>Language:</strong> English | <a href="life-sciences_zh.md">中文</a></p>
+<p align="right"><strong>Language:</strong> English | <a href="life-sciences_zh.md">Chinese</a></p>
 
 > Protein, RNA, DNA/genomics, single-cell biology, spatial transcriptomics, antibody and immunology, cryo-EM, metagenomics, and related biological foundation models.
 > [Index](../README.md)
@@ -29,60 +29,61 @@
 <a id="life-sciences-section-01"></a>
 ## Protein
 
-### Protein Language Models
+#### Protein Language Models
 
 *Large-scale pretrained models learning protein representations from amino acid sequences.*
 
-| Model | Paper Title | Description | Link |
-|-------|------------|-------------|------|
-| ESM-1b | Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences | Large-scale unsupervised protein language model trained on 250 million sequences to capture evolutionary diversity and biological properties. | [PNAS](https://doi.org/10.1073/pnas.2016239118) |
-| ESM-2 | Evolutionary-scale prediction of atomic-level protein structure with a language model | 15-billion-parameter protein language model enabling atomic-level structure prediction from single sequences (ESMFold). | [Science](https://doi.org/10.1126/science.ade2574) |
-| ESM3 | Simulating 500 million years of evolution with a language model | Multimodal protein generative model that jointly processes sequence, structure, and function to simulate 500 million years of evolution. | [Science](https://doi.org/10.1126/science.ads0018) |
-| ESMFold | Evolutionary-scale prediction of atomic-level protein structure with a language model | Single-sequence protein structure prediction method based on ESM-2, approximately 60× faster than AlphaFold2. | [Science](https://doi.org/10.1126/science.ade2574) |
-| ProtTrans | ProtTrans: Toward understanding the language of life through self-supervised learning | Suite of large-scale protein pretrained models (ProtBERT, ProtXLNet, ProtT5, etc.) trained on 393 billion amino acids. | [IEEE TPAMI](https://doi.org/10.1109/TPAMI.2021.3095381) |
-| ProteinBERT | ProteinBERT: a universal deep-learning model of protein sequence and function | Universal protein model jointly pretrained on sequences and GO annotations for diverse protein property prediction. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btac020) |
-| ProtGPT2 | ProtGPT2 is a deep unsupervised language model for protein design | GPT-2-based protein sequence generation model that produces novel sequences resembling natural proteins. | [Nature Communications](https://doi.org/10.1038/s41467-022-32007-7) |
-| ProGen | Large language models generate functional protein sequences across diverse families | Large-scale protein language model from Salesforce trained on 280 million sequences to generate functional artificial proteins. | [Nature Biotechnology](https://doi.org/10.1038/s41587-022-01618-2) |
-| ProGen2 | ProGen2: Exploring the boundaries of protein language models | 6.4-billion-parameter protein language model trained on genomic, metagenomic, and protein family data. | [Cell Systems](https://doi.org/10.1016/j.cels.2023.10.002) |
-| ProGen3 | Scaling unlocks broader generation and deeper functional understanding of proteins | Sparse mixture-of-experts protein generative model trained on 1.5 trillion tokens for enhanced protein design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.15.649055) |
-| SaProt | SaProt: Protein language modeling with structure-aware vocabulary | Structure-aware protein language model that encodes 3D structures as discrete tokens via Foldseek for joint training with sequences. | [ICLR 2024](https://iclr.cc/virtual/2024/poster/19394) |
-| xTrimoPGLM | xTrimoPGLM: Unified 100B-scale pre-trained transformer for deciphering the language of protein | 100-billion-parameter unified protein language model supporting both protein understanding and generation tasks. | [Nature Methods](https://doi.org/10.1038/s41592-025-02636-z) |
-| Ankh | Ankh: Optimized protein language model unlocks general-purpose modelling | Optimized protein language model emphasizing training efficiency to achieve competitive performance with fewer resources. | [arXiv](https://arxiv.org/abs/2301.06568) |
-| ProCyon | ProCyon: A multimodal foundation model for protein phenotypes | Multimodal protein foundation model integrating sequence, structure, and natural language data to predict protein phenotypes. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.10.627665) |
-| ProSST | ProSST: Protein language modeling with quantized structure and disentangled attention | Protein language model combining amino acid sequences with quantized 3D structural information. | [NeurIPS 2024](https://doi.org/10.52202/079017-1126) |
-| InstructPLM | InstructPLM: Aligning protein language models to follow protein design instructions | Instruction-tuned ESM2 model that surpasses ESM3 on protein design tasks through alignment training. | [arXiv](https://arxiv.org/abs/2510.03370) |
-| UniRep | Unified rational protein engineering with sequence-based deep representation learning | RNN-based protein language model for unified representation learning and rational protein engineering. | [Nature Methods](https://doi.org/10.1038/s41592-019-0598-1) |
-| MSA Transformer | MSA Transformer | Transformer model that operates over multiple sequence alignments for improved protein modeling. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.1101/2021.02.12.430858) |
-| EVE | Disease variant prediction with deep generative models of evolutionary data | Evolutionary variational autoencoder for predicting disease-causing genetic variants from protein family data. | [Nature](https://doi.org/10.1038/s41586-021-04043-8) |
-| Tranception | Protein fitness prediction with autoregressive transformers and inference-time retrieval | Autoregressive language model with retrieval-time alignment context for protein fitness prediction. | [ICML](https://proceedings.mlr.press/v162/notin22a.html) |
-| RITA | RITA: a Study on Scaling Up Generative Protein Sequence Models | Scaling study of autoregressive protein generative models up to 1.2 billion parameters. | [arXiv](https://arxiv.org/abs/2205.05789) |
-| ProtSSN | Semantical and Geometrical Protein Encoding for Zero-Shot Engineering | Structure-plus-sequence denoising pretraining framework for zero-shot protein engineering. | [eLife](https://elifesciences.org/articles/98033) |
-| ProLLaMA | ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing | Multi-task protein LLM based on the LLaMA architecture for diverse protein language processing tasks. | [IEEE](https://doi.org/10.1109/tai.2025.3564914) |
-| ProTrek | ProTrek: Navigating the Protein Universe through Tri-Modal Contrastive Learning | Tri-modal protein model learning joint representations of sequence, structure, and function via contrastive learning. | [Nature Biotechnology](https://doi.org/10.1038/s41587-025-02836-0) |
-| ProtWord | ProtWord: A Discrete Protein Language Model for Functional Discovery and De Novo Design | 150M-parameter discrete protein language model that translates sequences into an 8,192-token vocabulary for functional discovery. | [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.02.14.705947v1) |
-| ProtLLM | ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training | Interleaved protein-language large language model with a dynamic protein mounting mechanism. | [ACL 2024](https://doi.org/10.18653/v1/2024.acl-long.484) |
-| ProtHyena | Hyena architecture enables fast and efficient protein language modeling | Fast Hyena-based protein language model leveraging implicit convolution for efficient sequence processing. | [iMetaOmics](https://doi.org/10.1002/imo2.45) |
+| Model | Paper Title | Description | Link                                                                                     |
+|-------|------------|-------------|------------------------------------------------------------------------------------------|
+| ESM-1b | Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences | Large-scale unsupervised protein language model trained on 250 million sequences to capture evolutionary diversity and biological properties. | [PNAS](https://doi.org/10.1073/pnas.2016239118)                                          |
+| ESM-2 | Evolutionary-scale prediction of atomic-level protein structure with a language model | 15-billion-parameter protein language model enabling atomic-level structure prediction from single sequences (ESMFold). | [Science](https://doi.org/10.1126/science.ade2574)                                       |
+| ESM3 | Simulating 500 million years of evolution with a language model | Multimodal protein generative model that jointly processes sequence, structure, and function to simulate 500 million years of evolution. | [Science](https://doi.org/10.1126/science.ads0018)                                       |
+| ESMFold | Evolutionary-scale prediction of atomic-level protein structure with a language model | Single-sequence protein structure prediction method based on ESM-2, approximately 60× faster than AlphaFold2. | [Science](https://doi.org/10.1126/science.ade2574)                                       |
+| ESM Cambrian (ESMC) | ESM Cambrian: Revealing the mysteries of proteins with unsupervised learning | Next-generation ESM protein language model that reveals intrinsic biological principles of proteins through unsupervised learning. | [EvolutionaryScale](https://www.evolutionaryscale.ai/blog/esm-cambrian)                  |
+| ProtTrans | ProtTrans: Toward understanding the language of life through self-supervised learning | Suite of large-scale protein pretrained models (ProtBERT, ProtXLNet, ProtT5, etc.) trained on 393 billion amino acids. | [IEEE TPAMI](https://doi.org/10.1109/TPAMI.2021.3095381)                                 |
+| ProteinBERT | ProteinBERT: a universal deep-learning model of protein sequence and function | Universal protein model jointly pretrained on sequences and GO annotations for diverse protein property prediction. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btac020)                         |
+| ProtGPT2 | ProtGPT2 is a deep unsupervised language model for protein design | GPT-2-based protein sequence generation model that produces novel sequences resembling natural proteins. | [Nature Communications](https://doi.org/10.1038/s41467-022-32007-7)                      |
+| ProGen | Large language models generate functional protein sequences across diverse families | Large-scale protein language model from Salesforce trained on 280 million sequences to generate functional artificial proteins. | [Nature Biotechnology](https://doi.org/10.1038/s41587-022-01618-2)                       |
+| ProGen2 | ProGen2: Exploring the boundaries of protein language models | 6.4-billion-parameter protein language model trained on genomic, metagenomic, and protein family data. | [Cell Systems](https://doi.org/10.1016/j.cels.2023.10.002)                               |
+| ProGen3 | Scaling unlocks broader generation and deeper functional understanding of proteins | Sparse mixture-of-experts protein generative model trained on 1.5 trillion tokens for enhanced protein design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.15.649055)                     |
+| SaProt | SaProt: Protein language modeling with structure-aware vocabulary | Structure-aware protein language model that encodes 3D structures as discrete tokens via Foldseek for joint training with sequences. | [ICLR 2024](https://iclr.cc/virtual/2024/poster/19394)                                   |
+| xTrimoPGLM | xTrimoPGLM: Unified 100B-scale pre-trained transformer for deciphering the language of protein | 100-billion-parameter unified protein language model supporting both protein understanding and generation tasks. | [Nature Methods](https://doi.org/10.1038/s41592-025-02636-z)                             |
+| Ankh | Ankh: Optimized protein language model unlocks general-purpose modelling | Optimized protein language model emphasizing training efficiency to achieve competitive performance with fewer resources. | [arXiv](https://arxiv.org/abs/2301.06568)                                                |
+| ProCyon | ProCyon: A multimodal foundation model for protein phenotypes | Multimodal protein foundation model integrating sequence, structure, and natural language data to predict protein phenotypes. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.10.627665)                     |
+| ProSST | ProSST: Protein language modeling with quantized structure and disentangled attention | Protein language model combining amino acid sequences with quantized 3D structural information. | [NeurIPS 2024](https://doi.org/10.52202/079017-1126)                                     |
+| InstructPLM | InstructPLM: Aligning protein language models to follow protein design instructions | Instruction-tuned ESM2 model that surpasses ESM3 on protein design tasks through alignment training. | [arXiv](https://arxiv.org/abs/2510.03370)                                                |
+| UniRep | Unified rational protein engineering with sequence-based deep representation learning | RNN-based protein language model for unified representation learning and rational protein engineering. | [Nature Methods](https://doi.org/10.1038/s41592-019-0598-1)                              |
+| MSA Transformer | MSA Transformer | Transformer model that operates over multiple sequence alignments for improved protein modeling. | [ICML](https://doi.org/10.1101/2021.02.12.430858)                                        |
+| EVE | Disease variant prediction with deep generative models of evolutionary data | Evolutionary variational autoencoder for predicting disease-causing genetic variants from protein family data. | [Nature](https://doi.org/10.1038/s41586-021-04043-8)                                     |
+| Tranception | Protein fitness prediction with autoregressive transformers and inference-time retrieval | Autoregressive language model with retrieval-time alignment context for protein fitness prediction. | [ICML](https://proceedings.mlr.press/v162/notin22a.html)                                 |
+| RITA | RITA: a Study on Scaling Up Generative Protein Sequence Models | Scaling study of autoregressive protein generative models up to 1.2 billion parameters. | [arXiv](https://arxiv.org/abs/2205.05789)                                                |
+| ProtSSN | Semantical and Geometrical Protein Encoding for Zero-Shot Engineering | Structure-plus-sequence denoising pretraining framework for zero-shot protein engineering. | [eLife](https://elifesciences.org/articles/98033)                                        |
+| ProLLaMA | ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing | Multi-task protein LLM based on the LLaMA architecture for diverse protein language processing tasks. | [TAI](https://doi.org/10.1109/TAI.2025.3564914)                                          |
+| ProTrek | ProTrek: Navigating the Protein Universe through Tri-Modal Contrastive Learning | Tri-modal protein model learning joint representations of sequence, structure, and function via contrastive learning. | [Nature Biotechnology](https://doi.org/10.1038/s41587-025-02836-0)                       |
+| ProtWord | ProtWord: A Discrete Protein Language Model for Functional Discovery and De Novo Design | 150M-parameter discrete protein language model that translates sequences into an 8,192-token vocabulary for functional discovery. | [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.02.14.705947v1)                  |
+| ProtLLM | ProtLLM: An Interleaved Protein-Language LLM with Protein-as-Word Pre-Training | Interleaved protein-language large language model with a dynamic protein mounting mechanism. | [ACL](https://doi.org/10.18653/v1/2024.acl-long.484)                                     |
+| ProtHyena | Hyena architecture enables fast and efficient protein language modeling | Fast Hyena-based protein language model leveraging implicit convolution for efficient sequence processing. | [iMetaOmics](https://doi.org/10.1002/imo2.45)                                            |
 | DPLM | Diffusion Language Models Are Versatile Protein Learners | Diffusion-based language model for versatile protein sequence generation and understanding. | [ICML](https://proceedings.mlr.press/v235/wang24ct.html) |
-| PTM-Mamba | PTM-Mamba: a PTM-aware protein language model with bidirectional gated Mamba blocks | State-space model with bidirectional gated Mamba blocks for post-translational-modification-aware protein representation. | [Nature Methods](https://doi.org/10.1038/s41592-025-02656-9) |
-| DeepSequence | Deep generative models of genetic variation capture the effects of mutations | Variational autoencoder over aligned protein families for predicting the effects of mutations. | [Nature Methods](https://doi.org/10.1038/s41592-018-0138-4) |
-| PoET | PoET: A generative model of protein families as sequences-of-sequences | Sequences-of-sequences family modeling framework with retrieval for protein fitness prediction. | [NeurIPS 2023](https://papers.nips.cc/paper_files/paper/2023/hash/f4366126eba252699b280e8f93c0ab2f-Abstract-Conference.html) |
+| PTM-Mamba | PTM-Mamba: a PTM-aware protein language model with bidirectional gated Mamba blocks | State-space model with bidirectional gated Mamba blocks for post-translational-modification-aware protein representation. | [Nature Methods](https://doi.org/10.1038/s41592-025-02656-9)                             |
+| DeepSequence | Deep generative models of genetic variation capture the effects of mutations | Variational autoencoder over aligned protein families for predicting the effects of mutations. | [Nature Methods](https://doi.org/10.1038/s41592-018-0138-4)                              |
+| PoET | PoET: A generative model of protein families as sequences-of-sequences | Sequences-of-sequences family modeling framework with retrieval for protein fitness prediction. | [Advances in Neural Information Processing Systems 36](https://papers.nips.cc/paper_files/paper/2023/hash/f4366126eba252699b280e8f93c0ab2f-Abstract-Conference.html) |
 | Prot2Text | Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers | Multimodal model generating natural language descriptions of protein functions from structure and sequence. | [AAAI 2024](https://doi.org/10.1609/aaai.v38i10.28948) |
-| PAIR | Boosting the predictive power of protein representations with a corpus of text annotations | Method that boosts protein representations by incorporating text annotation corpora. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01088-6) |
+| PAIR | Boosting the predictive power of protein representations with a corpus of text annotations | Method that boosts protein representations by incorporating text annotation corpora. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01088-6)                |
 | MULAN | MULAN: Multimodal protein language model for sequence and structure encoding | Multimodal protein encoder that jointly models sequence and structure information. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbaf117) |
 | ProteinSage | ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling | Protein language model combining implicit learning with explicit structural constraints for improved efficiency. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.17.712034) |
-| OneProt | OneProt: Towards Multi-Modal Protein Foundation Models | Multi-modal protein foundation model integrating structure, sequence, text, and binding site data. | [arXiv](https://arxiv.org/abs/2411.04863) |
-| ECNet | ECNet: Evolutionary context-integrated neural network for protein engineering | Deep learning framework integrating evolutionary context for protein engineering and fitness prediction. | [Nature Communications](https://doi.org/10.1038/s41467-022-29076-z) |
+| OneProt | OneProt: Towards Multi-Modal Protein Foundation Models | Multi-modal protein foundation model integrating structure, sequence, text, and binding site data. | [arXiv](https://arxiv.org/abs/2411.04863)                                                |
+| ECNet | ECNet: Evolutionary context-integrated neural network for protein engineering | Deep learning framework integrating evolutionary context for protein engineering and fitness prediction. | [Nature Communications](https://doi.org/10.1038/s41467-022-29076-z)                      |
 | PoET-2 | PoET-2: Next-generation Protein Family Modeling with Sequences-of-Sequences | Next-generation retrieval-augmented multimodal protein family model improving fitness prediction over PoET. | [GitHub](https://github.com/OpenProteinAI/PoET-2) |
 | FlexRibbon | FlexRibbon: Joint Sequence and Structure Pretraining for Protein Modeling | 3-billion-parameter model jointly pretrained on amino acid sequences and 3D structures capturing flexible conformations. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.10.08.681293v1) |
 | ProteinAligner | ProteinAligner: A Tri-Modal Contrastive Learning Framework for Protein Representation Learning | Tri-modal contrastive learning framework integrating protein sequences, structures, and scientific literature. | [OpenReview](https://openreview.net/forum?id=LjlJBnmZ0M) |
-| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | Multi-modal protein language model supporting natural language interaction for protein knowledge retrieval. | [Project](https://db.prottalks.com/) |
+| ProteinTalks | ProteinTalks: Multi-Modal Protein Language Model with Natural Language Interaction | Multi-modal protein language model supporting natural language interaction for protein knowledge retrieval. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.07.637070) |
 | GearNet | Protein Representation Learning by Geometric Structure Pretraining | Relational graph neural network learning protein structure representations via geometric pretraining and multi-view contrastive learning. | [ICLR](https://openreview.net/forum?id=to3qCB3tOh9) |
 | MIF | Masked Inverse Folding with Sequence Transfer for Protein Representation Learning | Self-supervised masked inverse folding pretraining for learning protein representations from structures. | [arXiv](https://arxiv.org/abs/2209.07203) |
-| PPLM | A paired sequence language model for protein-protein interaction | Paired sequence language model predicting protein-protein interactions from paired amino acid sequences. | [Nature Communications](https://doi.org/10.1038/s41467-026-70457-5) |
-| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29) |
+| PPLM | A paired sequence language model for protein-protein interaction | Paired sequence language model predicting protein-protein interactions from paired amino acid sequences. | [Nature Communications](https://doi.org/10.1038/s41467-026-70457-5)                      |
+| AIDO.Protein | Mixture of experts enable efficient and effective protein understanding and design | 16B-parameter mixture-of-experts protein module trained on 1.2 trillion amino acids within the AIDO ecosystem. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.29.625425v1) |
 | BioReason-Pro | BioReason-Pro: Advancing Protein Function Prediction with Multimodal Biological Reasoning | First multimodal reasoning LLM for protein function prediction integrating ESM3 embeddings with GO-GPT ontology modeling; achieves 73.6% F_max on GO term prediction, preferred over UniProt annotations by human experts 79% of the time. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.19.712954) |
 
-### Protein Structure Prediction
+#### Protein Structure Prediction
 
 *Methods for predicting 3D protein structures from sequences.*
 
@@ -95,50 +96,51 @@
 | RoseTTAFold All-Atom | Generalized biomolecular modeling and design with RoseTTAFold All-Atom | All-atom biomolecular modeling framework supporting complex prediction of proteins, nucleic acids, small molecules, and metal ions. | [Science](https://doi.org/10.1126/science.adl2528) |
 | OmegaFold | High-resolution de novo structure prediction from primary sequence | MSA-free single-sequence protein structure prediction leveraging pretrained protein language models. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.07.21.500999) |
 
-### Protein Design & Generation
+#### Protein Design & Generation
 
 *Generative models for de novo protein backbone and sequence design.*
 
-| Model | Paper Title | Description | Link |
-|-------|------------|-------------|------|
-| ProteinMPNN | Robust deep learning–based protein sequence design using ProteinMPNN | Message-passing neural network for protein sequence design with experimentally validated high success rates. | [Science](https://doi.org/10.1126/science.add2187) |
-| RFdiffusion | De novo design of protein structure and function with RFdiffusion | Diffusion model built on RoseTTAFold for de novo protein backbone design. | [Nature](https://doi.org/10.1038/s41586-023-06415-8) |
-| Chroma | Illuminating protein space with a programmable generative model | Programmable protein diffusion generative model from Generate:Biomedicines. | [Nature](https://doi.org/10.1038/s41586-023-06728-8) |
-| FrameDiff | SE(3) diffusion model with application to protein backbone generation | SE(3)-equivariant diffusion model for protein backbone generation without pretrained structure prediction networks. | [ICLR](https://proceedings.mlr.press/v202/yim23a.html) |
-| FrameFlow | SE(3) stochastic flow matching for protein backbone generation | SE(3) flow matching model for protein backbone generation. | [ICLR](https://openreview.net/forum?id=kJFIH23hXb) |
-| FoldingDiff | Protein structure generation via folding diffusion | Diffusion model based on protein folding angle representations that simulates natural folding processes. | [Nature Communications](https://doi.org/10.1038/s41467-024-45051-2) |
-| Genie | Genie: SE(3)-equivariant generative model for protein backbone design | SE(3)-equivariant DDPM model for protein backbone design. | [ICML 2023 (Workshop)](https://arxiv.org/abs/2301.12485) |
-| Genie 2 | Out of many, one: Designing and scaffolding proteins at the scale of the structural universe with Genie 2 | Upgraded Genie capturing a broader and more diverse protein structure space. | [arXiv](https://arxiv.org/abs/2405.15489) |
-| Proteus | Proteus: Exploring protein structure generation for enhanced designability and efficiency | Efficient protein backbone generation model without requiring pretrained structure prediction networks. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.10.579791) |
-| FoldFlow | FoldFlow: SE(3) stochastic flow matching for protein backbone generation | Family of stochastic flow matching models for protein backbone generation. | [ICLR](https://openreview.net/forum?id=kJFIH23hXb) |
-| ProteinGenerator (PG) | Multistate and functional protein design using RoseTTAFold | RoseTTAFold-based diffusion model that simultaneously generates protein sequences and structures. | [Nature Biotechnology](https://doi.org/10.1038/s41587-024-02395-w) |
-| SeedProteo | SeedProteo: All-atom protein design | Diffusion-based all-atom protein design model integrating structure and sequence information for binder design. | [arXiv](https://arxiv.org/abs/2512.24192) |
+| Model | Paper Title | Description | Link                                                                                         |
+|-------|------------|-------------|----------------------------------------------------------------------------------------------|
+| ProteinMPNN | Robust deep learning-based protein sequence design using ProteinMPNN | Message-passing neural network for protein sequence design with experimentally validated high success rates. | [Science](https://doi.org/10.1126/science.add2187)                                           |
+| RFdiffusion | De novo design of protein structure and function with RFdiffusion | Diffusion model built on RoseTTAFold for de novo protein backbone design. | [Nature](https://doi.org/10.1038/s41586-023-06415-8)                                         |
+| RFdiffusion3 | RFdiffusion3: All-atom biomolecular design | Upgraded RFdiffusion supporting all-atom-level protein and biomolecular design. | [bioRxiv](https://doi.org/10.1101/2025.09.18.676967)                            |
+| Chroma | Illuminating protein space with a programmable generative model | Programmable protein diffusion generative model from Generate:Biomedicines. | [Nature](https://doi.org/10.1038/s41586-023-06728-8)                                         |
+| FrameDiff | SE(3) diffusion model with application to protein backbone generation | SE(3)-equivariant diffusion model for protein backbone generation without pretrained structure prediction networks. | [ICLR](https://proceedings.mlr.press/v202/yim23a.html)                                       |
+| FrameFlow | SE(3) stochastic flow matching for protein backbone generation | SE(3) flow matching model for protein backbone generation. | [ICLR](https://openreview.net/forum?id=kJFIH23hXb)                                           |
+| FoldingDiff | Protein structure generation via folding diffusion | Diffusion model based on protein folding angle representations that simulates natural folding processes. | [Nature Communications](https://doi.org/10.1038/s41467-024-45051-2)                          |
+| Genie | Genie: SE(3)-equivariant generative model for protein backbone design | SE(3)-equivariant DDPM model for protein backbone design. | [ICML (Workshop)](https://arxiv.org/abs/2301.12485)                                          |
+| Genie 2 | Out of many, one: Designing and scaffolding proteins at the scale of the structural universe with Genie 2 | Upgraded Genie capturing a broader and more diverse protein structure space. | [arXiv](https://arxiv.org/abs/2405.15489)                                                    |
+| Proteus | Proteus: Exploring protein structure generation for enhanced designability and efficiency | Efficient protein backbone generation model without requiring pretrained structure prediction networks. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.10.579791)                         |
+| FoldFlow | FoldFlow: SE(3) stochastic flow matching for protein backbone generation | Family of stochastic flow matching models for protein backbone generation. | [ICLR](https://openreview.net/forum?id=kJFIH23hXb)                                           |
+| ProteinGenerator (PG) | Multistate and functional protein design using RoseTTAFold | RoseTTAFold-based diffusion model that simultaneously generates protein sequences and structures. | [Nature Biotechnology](https://doi.org/10.1038/s41587-024-02395-w)                           |
+| SeedProteo | SeedProteo: All-atom protein design | Diffusion-based all-atom protein design model integrating structure and sequence information for binder design. | [arXiv](https://arxiv.org/abs/2512.24192)                                                    |
 | ESM-IF (ESM-IF1) | Language models generalize beyond natural proteins | Inverse folding model conditioned on backbone structures for generating protein sequences. | [bioRxiv](https://doi.org/10.1101/2022.12.21.521521) |
 | EvoDiff | Protein generation with evolutionary diffusion | Sequence-based diffusion model for protein generation leveraging evolutionary data. | [bioRxiv/Nature Biotechnology](https://doi.org/10.1101/2023.09.11.556673) |
 | ZymCTRL | ZymCTRL: a conditional language model for the generation of artificial enzymes | Conditional enzyme language model trained on 37 million BRENDA enzyme sequences. | [bioRxiv](https://doi.org/10.1101/2024.05.03.592223) |
 | PiFold | PiFold: Toward effective and efficient protein inverse folding | Efficient inverse folding model with a novel PiGNN architecture. | [ICLR](https://openreview.net/forum?id=oMsN9TYwJ0j) |
 | LM-Design | Structure-informed language models are protein designers | Structure-informed language model for protein design combining PLM and structural context. | [ICML](https://doi.org/10.1101/2023.02.03.526917) |
-| ProteinDT | A text-guided protein design framework | Text-guided protein generation framework using multimodal learning. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01011-z) |
-| Protpardelle | An all-atom protein generative model | All-atom generative model for producing complete protein structures including side chains. | [PNAS](https://doi.org/10.1073/pnas.2311500121) |
-| Multiflow | Generative Flows on Discrete State-Spaces for Protein Co-Design | Discrete flow matching framework for joint sequence-structure protein co-design. | [ICML](https://arxiv.org/abs/2402.04997) |
-| La-Proteina | La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching | Atomistic protein generation method via partially latent flow matching. | [arXiv](https://arxiv.org/abs/2507.09466) |
-| EvoFlows | Evolutionary Edit-Based Flow-Matching for Protein Engineering | Evolutionary edit-based flow matching approach for directed protein engineering. | [arXiv](https://arxiv.org/abs/2603.11703) |
+| ProteinDT | A text-guided protein design framework | Text-guided protein generation framework using multimodal learning. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01011-z)                    |
+| Protpardelle | An all-atom protein generative model | All-atom generative model for producing complete protein structures including side chains. | [PNAS](https://doi.org/10.1073/pnas.2311500121)                                              |
+| Multiflow | Generative Flows on Discrete State-Spaces for Protein Co-Design | Discrete flow matching framework for joint sequence-structure protein co-design. | [ICML](https://arxiv.org/abs/2402.04997)                                                     |
+| La-Proteina | La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching | Atomistic protein generation method via partially latent flow matching. | [arXiv](https://arxiv.org/abs/2507.09466)                                                    |
+| EvoFlows | Evolutionary Edit-Based Flow-Matching for Protein Engineering | Evolutionary edit-based flow matching approach for directed protein engineering. | [arXiv](https://arxiv.org/abs/2603.11703)                                                    |
 | Fold2Seq | Fold2Seq: A joint sequence(1D)-fold(3D) embedding-based generative model for protein design | Joint sequence-fold embedding generative model learning from both 3D structures and 1D sequences. | [ICML](https://proceedings.mlr.press/v139/cao21a.html) |
 | TERMinator | TERMinator: A neural framework for structure-based protein design using tertiary repeating motifs | Neural network framework for protein design based on tertiary repeating motifs. | [Nature Communications](https://doi.org/10.1038/s41467-022-37051-7) |
 | AlphaDesign | AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB | Graph-based protein design method benchmarked on the AlphaFold Database. | [arXiv](https://arxiv.org/abs/2202.01079) |
 | Latent-X | Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design | Atom-level frontier model generating all-atom structures and sequences for de novo protein binder design. | [arXiv](https://arxiv.org/abs/2507.19375) |
-| Latent-X2 | Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2 | Generative model designing drug-like antibodies with strong binding affinity and low immunogenicity. | [Latent Labs](https://www.latentlabs.com/press-release/latent-labs-announces-latent-x2-ai-g) |
+| Latent-X2 | Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2 | Generative model designing drug-like antibodies with strong binding affinity and low immunogenicity. | [arXiv](https://arxiv.org/abs/2512.20263) |
 | ProDiT | Generating functional proteins with a multimodal diffusion transformer | Multimodal diffusion Transformer protein design model trained on 214 million proteins. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.03.672144v2) |
-| SimpleDesign | SimpleDesign: Joint Model for Protein Sequence and Structure Codesign | End-to-end joint model for protein sequence-structure co-design without tokenizers. | [ICLR](https://openreview.net/forum?id=ibbog3himK) |
+| SimpleDesign | SimpleDesign: Joint Model for Protein Sequence and Structure Codesign | End-to-end joint model for protein sequence-structure co-design without tokenizers. | [ICLR](https://openreview.net/forum?id=ibbog3himK)                                           |
 | PXDesign | PXDesign: Fast De Novo Design of Protein Binders | ByteDance Protenix fast and modular pipeline for de novo protein binder design with 20–73% hit rates. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.15.670450v3) |
 
-### Peptide Foundation Models
+#### Peptide Foundation Models
 
 *Foundation models for peptide design, antimicrobial peptides, and cyclic peptides.*
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| PepMLM | Target Sequence-Conditioned Generation of Therapeutic Peptide Binders via Span Masked Language Modeling | ESM-2 fine-tuned span masked LM generating linear peptide binders conditioned on target protein sequences. | [arXiv](https://arxiv.org/abs/2310.03842) |
+| PepMLM | Target Sequence-Conditioned Generation of Therapeutic Peptide Binders via Span Masked Language Modeling | ESM-2 fine-tuned span masked LM generating linear peptide binders conditioned on target protein sequences. | [Nature Biotechnology / ICLR](https://arxiv.org/abs/2310.03842) |
 | PepBERT | PepBERT: Lightweight language models for peptide representation | Lightweight dedicated peptide language model for bioactive peptide discovery and representation learning. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.04.08.647838) |
 | PepDoRA | PepDoRA: A Unified Peptide Language Model via Weight-Decomposed Low-Rank Adaptation | Unified peptide language model predicting multiple peptide properties via weight-decomposed low-rank adaptation. | [arXiv](https://arxiv.org/abs/2410.20667) |
 | AMP-Designer | A foundation model approach to guide antimicrobial peptide design in the era of AI-driven scientific discovery | LLM-based foundation model for de novo design of antimicrobial peptides with significant antibacterial activity. | [arXiv](https://arxiv.org/abs/2407.12296) |
@@ -150,7 +152,7 @@
 | CpSDE | Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling | Cyclic peptide design method using harmonic stochastic differential equations with atom-bond modeling. | [ICML](https://proceedings.mlr.press/v267/zhou25i.html) |
 | PDeepPP | A general language model for peptide identification | General deep learning framework for peptide function prediction combining pretrained PLMs with Transformer-CNN architecture. | [arXiv](https://arxiv.org/abs/2502.15610) |
 
-### Protein–Protein Interaction Models
+#### Protein–Protein Interaction Models
 
 *Models predicting protein–protein interactions and complex structures.*
 
@@ -159,7 +161,7 @@
 | PLM-interact | PLM-interact: extending protein language models to predict protein-protein interactions | Extension of protein language models for PPI prediction by jointly encoding protein pairs from sequences alone. | [Nature Communications](https://doi.org/10.1038/s41467-025-64512-w) |
 | IntFold | IntFold: A Controllable Foundation Model for General and Specialized Biomolecular Structure Prediction | Controllable biomolecular structure prediction foundation model matching AlphaFold3 accuracy with support for PPI complexes and allosteric states. | [arXiv](https://arxiv.org/abs/2507.02025) |
 
-### Protein Dynamics
+#### Protein Dynamics
 
 *Models capturing protein thermodynamics, conformational dynamics, and molecular dynamics.*
 
@@ -169,9 +171,9 @@
 | SeqDance | Learning Biophysical Dynamics with Protein Language Models | Protein language model incorporating biophysical dynamics, trained on MD simulations and normal mode analyses of 64,000+ proteins. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.11.617911) |
 | ESMDance | Learning Biophysical Dynamics with Protein Language Models | ESM-2 fine-tuned variant for protein conformational dynamics prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.11.617911) |
 | MD-LLM-1 | MD-LLM-1: A Large Language Model for Molecular Dynamics | First molecular dynamics LLM, fine-tuning Mistral 7B for protein conformational dynamics prediction. | [arXiv](https://arxiv.org/abs/2508.03709) |
-| VibeGen | Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model | Language diffusion model framework for end-to-end protein design targeting specific vibrational dynamics. | [arXiv (MIT)](https://arxiv.org/abs/2502.10173) |
+| VibeGen | Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model | Language diffusion model framework for end-to-end protein design targeting specific vibrational dynamics. | [arXiv](https://arxiv.org/abs/2502.10173) |
 | DynamicsPLM | Learning Protein Representations with Conformational Dynamics | Protein language model learning from computationally generated conformational dynamics ensembles. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.10.06.680789) |
-| DPLM-2 | DPLM-2: A Multimodal Diffusion Protein Language Model | Multimodal discrete diffusion protein language model jointly modeling amino acid sequences and 3D structures. | [NeurIPS 2025 (ByteDance)](https://openreview.net/forum?id=5z9GjHgerY) |
+| DPLM-2 | DPLM-2: A Multimodal Diffusion Protein Language Model | Multimodal discrete diffusion protein language model jointly modeling amino acid sequences and 3D structures. | [NeurIPS 2025](https://openreview.net/forum?id=5z9GjHgerY) |
 | METL | Biophysics-based protein language models for protein engineering | Mutation effect transfer learning framework integrating biophysical modeling and machine learning for protein engineering. | [Nature Methods](https://doi.org/10.1038/s41592-025-02776-2) |
 
 ---
@@ -179,7 +181,7 @@
 <a id="life-sciences-section-02"></a>
 ## RNA
 
-### RNA Language Models
+#### RNA Language Models
 
 *Pretrained models for RNA sequence representation, structure inference, and function prediction.*
 
@@ -195,7 +197,7 @@
 | BiRNA-BERT | BiRNA-BERT allows efficient RNA language modeling with adaptive tokenization | Adaptive tokenization RNA language model overcoming limitations in sequence length and diversity. | [Communications Biology](https://doi.org/10.1038/s42003-025-08982-0) |
 | mRNABERT | mRNABERT: advancing mRNA sequence design with a universal language model and comprehensive dataset | Language model specifically designed for mRNA sequence engineering with a dual-tokenization scheme. | [Nature Communications](https://doi.org/10.1038/s41467-025-65340-8) |
 | CodonBERT | CodonBERT: Large language models for mRNA design and optimization | Codon-level tokenized mRNA language model for mRNA design and optimization. | [BEACON Benchmark](https://doi.org/10.18653/v1/2024.alvr-1.18) |
-| NucleicBERT | NucleicBERT: A large language model for RNA structure prediction | BERT-based self-supervised masked language model for RNA sequence analysis and structure prediction. | [GitHub/KIT-MBS](https://www.biorxiv.org/content/10.1101/2025.09.02.673754v2) |
+| NucleicBERT | NucleicBERT: A large language model for RNA structure prediction | BERT-based self-supervised masked language model for RNA sequence analysis and structure prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.02.673754v2) |
 | MP-RNA | MP-RNA: Unleashing multi-species RNA foundation model via calibrated secondary structure prediction | Multi-species RNA foundation model emphasizing calibrated secondary structure prediction. | [EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.304/) |
 | OmniGenome | Bridging sequence-structure alignment in RNA foundation models | RNA foundation model precisely aligning RNA sequences with secondary structures for bidirectional mapping. | [arXiv](https://arxiv.org/abs/2407.11242) |
 | structRFM | A fully open structure-guided RNA foundation model for robust structural and functional inference | Fully open-source structure-guided RNA foundation model integrating sequence and secondary structure for robust inference. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.06.668731v1) |
@@ -204,12 +206,12 @@
 | AllSplice | Perturbation-aware predictive modeling of RNA splicing using bidirectional transformers | Perturbation-aware bidirectional transformer for RNA splicing prediction. | [bioRxiv](https://doi.org/10.1101/2024.03.20.585793) |
 | HydraRNA | HydraRNA: A hybrid architecture based full-length RNA language model | Hybrid-architecture full-length RNA language model combining multiple architecture strengths for processing long RNA sequences. | [Genome Biology](https://doi.org/10.1186/s13059-025-03853-7) |
 | EVA-RNA | EVA-RNA: A Scaling Cross-Species Transcriptomic Foundation Model for Immunology & Inflammation | Cross-species transcriptomic foundation model trained on 500K+ human and mouse samples for immunology and inflammation research. | [OpenReview](https://openreview.net/forum?id=VcOvSJNgRf) |
-| GRNFormer | GRNFormer: A Biologically-Guided Framework for Integrating Gene Regulatory Networks into RNA Foundation Models | Biologically-guided framework integrating gene regulatory networks into RNA foundation model training. | [ACL 2025 Findings](https://aclanthology.org/2025.findings-acl.196/) |
+| GRNFormer | GRNFormer: A Biologically-Guided Framework for Integrating Gene Regulatory Networks into RNA Foundation Models | Biologically-guided framework integrating gene regulatory networks into RNA foundation model training. | [Findings of the Association for Computational Linguistics: ACL 2025](https://aclanthology.org/2025.findings-acl.196/) |
 | BMFM-RNA | BMFM-RNA: Whole-cell expression decoding improves transcriptomic foundation models | IBM biomedical foundation model RNA module using whole-cell expression decoding to enhance transcriptomic models. | [arXiv (IBM)](https://arxiv.org/abs/2506.14861) |
 | CodonFM | CodonFM: Foundation Models for Codons | Codon foundation model trained on 130 million protein-coding sequences across 20,000+ species by NVIDIA and Arc Institute. | [GitHub](https://github.com/NVIDIA-Digital-Bio/CodonFM) |
 | Orthrus | Orthrus: Evolutionary and Functional RNA Foundation Models | Mamba-based RNA foundation model pretrained with biologically-augmented contrastive learning. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.10.617658v1) |
 
-### RNA Structure Prediction
+#### RNA Structure Prediction
 
 *Deep learning methods for RNA 2D and 3D structure prediction.*
 
@@ -221,7 +223,7 @@
 | 3DRNALM | Accurate RNA 3D structure prediction using a language model-based framework | Language model-based framework for accurate RNA 3D structure prediction. | [Nature Communications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11621015/) |
 | NuFold | NuFold: end-to-end approach for RNA tertiary structure prediction | End-to-end deep learning model for RNA tertiary structure prediction. | [Nature Communications](https://doi.org/10.1038/s41467-025-56261-7) |
 
-### RNA Design & Generation
+#### RNA Design & Generation
 
 *Generative models for RNA therapeutic sequence design and structure co-design.*
 
@@ -229,7 +231,7 @@
 |-------|------------|-------------|------|
 | RNAGenesis | RNAGenesis: A Generalist Foundation Model for Functional RNA Therapeutics | Generalist RNA therapeutics foundation model unifying sequence representation, structure prediction, and functional de novo design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.30.630826) |
 | GEMORNA | Deep generative models design mRNA sequences with enhanced translational capacity and stability | Deep generative model designing mRNA sequences with enhanced translational capacity and stability. | [Science](https://doi.org/10.1126/science.adr8470) |
-| EVA | A Long-Context Generative Foundation Model Deciphers RNA Design Principles | 1.4-billion-parameter MoE generative foundation model trained on 114 million full-length RNA sequences for long-context RNA design. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.64898/2026.03.17.712398) |
+| EVA | A Long-Context Generative Foundation Model Deciphers RNA Design Principles | 1.4-billion-parameter MoE generative foundation model trained on 114 million full-length RNA sequences for long-context RNA design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.03.17.712398) |
 | RNACG | RNACG: A Universal RNA Sequence Conditional Generation model based on Flow-Matching | Universal RNA sequence conditional generation model based on flow matching. | [arXiv](https://arxiv.org/abs/2407.19838) |
 | RiboFlow | RiboFlow: Conditional De Novo RNA Co-Design via Synergistic Flow Matching | Synergistic flow matching framework for RNA sequence-structure co-design targeting ligand binding. | [NeurIPS](https://arxiv.org/abs/2503.17007) |
 | RiboGen | RiboGen: RNA Sequence and Structure Co-Generation with Equivariant MultiFlow | Equivariant multi-flow model simultaneously generating RNA sequences and full-atom 3D structures. | [ICLR](https://arxiv.org/abs/2503.02058) |
@@ -244,7 +246,7 @@
 <a id="life-sciences-section-03"></a>
 ## DNA & Genomics
 
-### DNA
+#### DNA
 
 *Foundation models for DNA sequence understanding, variant effect prediction, and gene regulation.*
 
@@ -252,10 +254,10 @@
 |-------|------------|-------------|------|
 | Evo | Sequence modeling and design from molecular to genome scale with Evo | Arc Institute DNA foundation model processing molecular-to-genome-scale sequences (>650K tokens). | [Science](https://doi.org/10.1126/science.ado9336) |
 | Evo 2 | Genome modelling and design across all domains of life with Evo 2 | DNA foundation model trained on 9 trillion base pairs covering all domains of life with 1-million-token context window. | [Nature](https://doi.org/10.1038/s41586-026-10176-5) |
-| DNABERT | DNABERT: pre-trained Bidirectional Encoder Representations from Transformers model for DNA-language in genome | First BERT-based pretrained model for genomic DNA sequences using k-mer tokenization. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btab083) |
-| DNABERT-2 | DNABERT-2: Efficient foundation model and benchmark for multi-species genome | Upgraded DNABERT using BPE tokenization instead of k-mer for multi-species genome analysis. | [ICLR 2024](https://openreview.net/forum?id=oMLQB4EZE1) |
-| Nucleotide Transformer | Nucleotide Transformer: building and evaluating robust foundation models for human genomics | Large-scale genomic foundation model (50M–2.5B parameters) from InstaDeep trained on 3,200+ human genomes. | [Nature Methods](https://doi.org/10.1038/s41592-024-02523-z) |
-| HyenaDNA | HyenaDNA: Long-range genomic sequence modeling at single nucleotide resolution | Hyena implicit convolution-based genomic model for single-nucleotide-resolution long-range modeling up to 1 million bp. | [arXiv](https://arxiv.org/abs/2306.15794) |
+| DNABERT | DNABERT: Pre-trained bidirectional encoder representations from transformers model for DNA-language in genome | First BERT-based pretrained model for genomic DNA sequences using k-mer tokenization. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btab083) |
+| DNABERT-2 | DNABERT-2: Efficient foundation model and benchmark for multi-species genome | Upgraded DNABERT using BPE tokenization instead of k-mer for multi-species genome analysis. | [ICLR 2024](https://iclr.cc/virtual/2024/poster/17823) |
+| Nucleotide Transformer | Nucleotide Transformer: Building and evaluating robust foundation models for human genomics | Large-scale genomic foundation model (50M–2.5B parameters) from InstaDeep trained on 3,200+ human genomes. | [Nature Methods](https://doi.org/10.1038/s41592-024-02523-z) |
+| HyenaDNA | HyenaDNA: Long-range genomic sequence modeling at single nucleotide resolution | Hyena implicit convolution-based genomic model for single-nucleotide-resolution long-range modeling up to 1 million bp. | [NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/hash/86ab6927ee4ae9bde4247a44f2e0cd6b-Abstract-Conference.html) |
 | Enformer | Effective gene expression prediction from sequence by integrating long-range interactions | Transformer model from DeepMind/Calico predicting gene expression and chromatin states from DNA sequences. | [Nature Methods](https://doi.org/10.1038/s41592-021-01252-x) |
 | Caduceus | Caduceus: Bi-directional equivariant long-range DNA sequence modeling | Bidirectional Mamba-based DNA language model supporting reverse complement equivariance. | [ICML](https://proceedings.mlr.press/v235/schiff24a.html) |
 | GenSLMs | GenSLMs: Genome-scale language models reveal SARS-CoV-2 evolutionary dynamics | Genome-scale language model pretrained on 110 million prokaryotic gene sequences analyzing SARS-CoV-2 evolution (Gordon Bell Prize). | [IJHPCA](https://doi.org/10.1177/10943420231210152) |
@@ -273,8 +275,8 @@
 | EpiGePT | EpiGePT: a Pretrained Transformer model for epigenomics | Pretrained transformer model for epigenomics data analysis and prediction. | [bioRxiv](https://doi.org/10.1101/2023.07.15.549134) |
 | AgroNT | AgroNT: A crop genomics foundation model | Crop-specific genomic foundation model for plant genomics and breeding applications. | [Nature](https://doi.org/10.1038/s41586-024-07969-x) |
 | AlphaGenome | Advancing regulatory variant effect prediction with AlphaGenome | Megabase-scale DNA model from Google DeepMind predicting gene expression and chromatin signals for variant effect analysis. | [Nature](https://doi.org/10.1038/s41586-025-10014-0) |
-| GENA-LM | GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences | Open-source family of transformer DNA language models supporting up to 36k bp sequences. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.1101/2023.06.12.544594) |
-| DNAGPT | DNAGPT: A Generalized Pre-trained Tool for Multiple DNA Sequence Analysis Tasks | Generative pretrained model for multiple DNA analysis tasks. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.1101/2023.07.11.548628) |
+| GENA-LM | GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences | Open-source family of transformer DNA language models supporting up to 36k bp sequences. | [bioRxiv/Bioinformatics](https://doi.org/10.1101/2023.06.12.544594) |
+| DNAGPT | DNAGPT: A Generalized Pre-trained Tool for Multiple DNA Sequence Analysis Tasks | Generative pretrained model for multiple DNA analysis tasks. | [bioRxiv/PLoS ONE](https://doi.org/10.1101/2023.07.11.548628) |
 | MoDNA | MoDNA: Motif-Oriented Pre-training For DNA Language Model | Motif-oriented pretrained DNA language model capturing regulatory motif patterns. | [ACM BCB](https://doi.org/10.1145/3535508.3545512) |
 | GPN-MSA | GPN-MSA: An alignment-based DNA language model for genome-wide variant effect prediction | DNA language model using multi-species alignment for genome-wide variant effect prediction. | [Nature Biotechnology](https://doi.org/10.1038/s41587-024-02511-w) |
 | MergeDNA | MergeDNA: Context-aware Genome Modeling with Dynamic Tokenization through Token Merging | Hierarchical dynamic tokenization approach for context-aware genome modeling. | [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/37032) |
@@ -307,7 +309,7 @@
 | scFoundation | Large-scale foundation model on single-cell transcriptomics | 100M-parameter single-cell transcriptomics foundation model (xTrimoGene) trained on 50M+ human cells. | [Nature Methods](https://doi.org/10.1038/s41592-024-02305-7) |
 | UCE | Universal Cell Embeddings: A foundation model for cell biology | Universal cell embedding model that creates a unified representation space across species and tissues. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.11.28.568918) |
 | GeneCompass | GeneCompass: Deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model | Knowledge-enhanced cross-species foundation model trained on 100M+ human and mouse cells for deciphering gene regulatory mechanisms. | [Cell Research](https://doi.org/10.1038/s41422-024-01034-y) |
-| CellPLM | CellPLM: Pre-training of cell language model beyond single cells | Cell language model that integrates gene-gene and cell-cell interactions, going beyond single-cell level pretraining. | [ICLR 2024](https://openreview.net/forum?id=CellPLM) |
+| CellPLM | CellPLM: Pre-training of cell language model beyond single cells | Cell language model that integrates gene-gene and cell-cell interactions, going beyond single-cell level pretraining. | [ICLR 2024](https://openreview.net/forum?id=BKXvPDekud) |
 | tGPT | Generative pretraining from large-scale transcriptomes for single-cell deciphering | Generative pretrained model on 22.3 million single-cell transcriptomes for cell deciphering and clinical translation. | [iScience](https://doi.org/10.1016/j.isci.2023.106536) |
 | CellFM | CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells | 800M-parameter foundation model pretrained on 100 million human cell transcriptomes. | [Nature Communications](https://doi.org/10.1038/s41467-025-59926-5) |
 | Nicheformer | Nicheformer: a foundation model for single-cell and spatial omics | Single-cell and spatial omics foundation model trained on SpatialCorpus-110M (110M+ cells), capturing spatial microenvironments. | [Nature Methods](https://doi.org/10.1038/s41592-025-02814-z) |
@@ -356,14 +358,14 @@
 | scNET | scNET: Context-specific gene and cell embeddings by integrating scRNA with PPI | Context-specific gene and cell embeddings integrating scRNA-seq with protein-protein interaction networks. | [arXiv](https://arxiv.org/abs/scNET) |
 | scLAMBDA | scLAMBDA: Modeling single-cell multi-gene perturbation responses | Model for predicting single-cell responses to multi-gene combinatorial perturbations. | [arXiv](https://arxiv.org/abs/scLAMBDA) |
 | GeneMamba | GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data | Mamba architecture-based efficient single-cell foundation model with scalable computation. | [arXiv](https://arxiv.org/abs/2504.16956) |
-| Atacformer | Atacformer: A transformer-based foundation model for analysis and interpretation of ATAC-seq data | Transformer-based foundation model for ATAC-seq chromatin accessibility data analysis. | [PubMed (bioRxiv)](https://pubmed.ncbi.nlm.nih.gov/41279458/) |
-| CLM-X | CLM-X: A multimodal single-cell foundation model with flexible multi-way Transformer for unified scRNA-seq and scATAC-seq analysis | Cross-modal language model for unified single-cell multi-omics representation learning. | [ScienceCast](https://sciencecast.org/casts/gjpnxqfvh2oe) |
+| Atacformer | Atacformer: Transformer-based foundation model for ATAC-seq data analysis | Transformer-based foundation model for ATAC-seq chromatin accessibility data analysis. | [arXiv](https://arxiv.org/abs/Atacformer) |
+| CLM-X | CLM-X: Cross-Modal Language Model for Single-Cell Multi-Omics | Cross-modal language model for unified single-cell multi-omics representation learning. | [arXiv](https://arxiv.org/abs/CLM-X) |
 | CellOracle | CellOracle: Dissecting cell identity via network inference and in silico gene perturbation | Computational framework using gene regulatory networks to simulate gene perturbation effects on cell identity. | [Nature](https://doi.org/10.1038/s41586-022-05688-9) |
 | Stack | Stack: In-Context Learning of Single-Cell Biology | Arc Institute single-cell foundation model trained on 149M human cells enabling zero-shot prediction via in-context learning. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.01.09.698608) |
 | Lingshu-Cell | Lingshu-Cell: cellular world model for transcriptome modeling | Masked discrete diffusion cellular world model for transcriptome modeling from Alibaba DAMO. | [arXiv](https://arxiv.org/abs/2603.25240) |
 | OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
 
-### Virtual Cell Models
+#### Virtual Cell Models
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
@@ -393,42 +395,40 @@
 
 *Foundation models for antibody engineering, structure prediction, and immune receptor analysis.*
 
-### Antibody Language Models
+#### Antibody Language Models
 
 | Model | Paper Title | Description | Link |
-|-------|------------|-------------|------|
+|-------|------------|-------------|-----|
 | IgBERT | Large scale paired antibody language models | BERT-based antibody language model trained on 2B+ unpaired and 2M paired antibody sequences from OAS. | [PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1012646) |
 | IgT5 | Large scale paired antibody language models | T5-based paired antibody language model companion to IgBERT for antibody design and engineering. | [PLOS Computational Biology](https://doi.org/10.1371/journal.pcbi.1012646) |
 | AntiBERTy | Deciphering antibody affinity maturation with language models and weakly supervised learning | BERT-based model trained on 558M antibody sequences for affinity maturation analysis. | [arXiv](https://arxiv.org/abs/2112.07782) |
-| AbLang | AbLang: An antibody language model for completing antibody sequences | Antibody-specific language model trained on OAS for residue prediction and antibody representation. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbac046) |
-| AbLang2 | AbLang2: Addressing the Antibody Germline Bias | Improved antibody language model for paired heavy-light chains with reduced germline bias. | [BioLM/Preprint](https://github.com/oxpig/AbLang2) |
-| IGLOO | Multimodal antibody loop tokenizer for protein language models | Multimodal antibody loop tokenizer enhancing protein language models for antibody research. | [NeurIPS 2025 Workshop](https://openreview.net/forum?id=IGLOO) |
-| Ab-RoBERTa | Antibody Foundational Model: Ab-RoBERTa | RoBERTa-based antibody language model for paratope prediction and antibody design. | [arXiv](https://arxiv.org/abs/2506.13006) |
-| BALM | Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model | Bio-inspired antibody language model for predicting antibody structure and function. | [Briefings in Bioinformatics](https://doi.org/10.1093/bib/bbae245) |
-| Sapiens | BioPhi: A platform for antibody design, humanization and humanness evaluation | BERT-based human antibody language model within BioPhi platform for humanization and humanness evaluation. | [Science Advances](https://doi.org/10.1126/sciadv.abj6587) |
-| DASM | Separating selection from mutation in antibody language models | Deep amino acid selection model that separates selection from mutation in antibody sequence modeling. | [eLife](https://doi.org/10.7554/eLife.109644) |
+| AbLang | AbLang: an antibody language model for completing antibody sequences | Antibody-specific language model trained on OAS for residue prediction and antibody representation. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbac046) |
+| AbLang2 | Addressing the antibody germline bias and its effect on language models for improved antibody design | Improved antibody language model for paired heavy-light chains with reduced germline bias. | [Bioinformatics](https://academic.oup.com/bioinformatics/article/40/11/btae618/7845256) |
+| IGLOO | Tokenizing Loops of Antibodies | Multimodal antibody loop tokenizer enhancing protein language models for antibody research. | [NeurIPS 2025 Workshop](https://openreview.net/forum?id=usWILm9KEL) |
+| Ab-RoBERTa | Antibody Foundational Model : Ab-RoBERTa | RoBERTa-based antibody language model for paratope prediction and antibody design. | [arXiv](https://arxiv.org/abs/2506.13006) |
+| BALM | Accurate Prediction of Antibody Function and Structure Using Bio-Inspired Antibody Language Model | Bio-inspired antibody language model for predicting antibody structure and function. | [Science Advances](https://doi.org/10.1126/sciadv.abj6587) |
+| DASM | Separating selection from mutation in antibody language models | Deep amino acid selection model that separates selection from mutation in antibody sequence modeling. | [eLife](https://doi.org/10.7554/elife.109644) |
 | nanoBERT | nanoBERT: a deep learning model for gene agnostic navigation of the nanobody mutational space | Nanobody-specific transformer model for predicting amino acid substitutions in VHH sequences. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbae033) |
 | FAbCon | A generative foundation model for antibody sequence understanding | 2.4B-parameter generative foundation model for antibody sequence understanding. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.05.22.594943) |
 | S2ALM | S2ALM: Sequence-Structure Pre-trained Large Language Model for Antibody | Sequence-structure pretrained large language model for comprehensive antibody understanding. | [Research](https://doi.org/10.34133/research.0721) |
 
-### Antibody Structure Prediction
+#### Antibody Structure Prediction
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | IgFold | Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies | Fast antibody structure prediction using pretrained LM on 558M sequences with graph neural networks. | [Nature Communications](https://doi.org/10.1038/s41467-023-38063-x) |
 | DeepAb | Antibody structure prediction using interpretable deep learning | Interpretable deep learning model for antibody Fv structure prediction specializing in CDR loop modeling. | [Patterns](https://doi.org/10.1016/j.patter.2021.100406) |
-| ABodyBuilder2 | ABodyBuilder2: Antibody Structure Prediction with Updated Datasets and Confidence Estimation | Deep learning model for rapid all-atom 3D structure prediction of paired antibody variable domains. | [Oxford Protein Informatics Group](https://opig.stats.ox.ac.uk/webapps/newsabdab/sabpred/abodybuilder2/) |
-| ABlooper | ABlooper: Fast accurate antibody CDR loop structure prediction with accuracy estimation | Rapid equivariant neural network for antibody CDR loop structure prediction with accuracy estimation. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btac016) |
-| AntiFold | AntiFold: Improved structure-based antibody design using inverse folding | Antibody-specific inverse folding model fine-tuned from ESM-IF1 for CDR sequence generation from structures. | [Bioinformatics Advances](https://doi.org/10.1093/bioadv/vbae202) |
+| ABlooper | ABlooper: fast accurate antibody CDR loop structure prediction with accuracy estimation | Rapid equivariant neural network for antibody CDR loop structure prediction with accuracy estimation. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btac016) |
+| AntiFold | AntiFold: Improved structure-based antibody design using inverse folding | Antibody-specific inverse folding model fine-tuned from ESM-IF1 for CDR sequence generation from structures. | [Bioinformatics Advances](https://academic.oup.com/bioinformaticsadvances/article/5/1/vbae202/8090019) |
 
-### Antibody Design & Generation
+#### Antibody Design & Generation
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | IgGM | A generative foundation model for antibody design | Generative foundation model for comprehensive antibody design. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.09.12.675771) |
-| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Diffusion-based generative model for antigen-specific antibody CDR-H3 design, jointly modeling sequence, structure, and orientation. | [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/DiffAb) |
+| DiffAb | Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models | Diffusion-based generative model for antigen-specific antibody CDR-H3 design, jointly modeling sequence, structure, and orientation. | [NeurIPS 2022](https://proceedings.neurips.cc/paper_files/paper/2022/hash/3fa7d76a0dc1179f1e98d1bc62403756-Abstract-Conference.html) |
 | dyMEAN | Full-Atom Antibody Design via dyMEAN | End-to-end full-atom antibody design using dynamic multi-channel equivariant graph network. | [ICML](https://arxiv.org/abs/2302.00203) |
-| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design. | [ICLR 2023](https://openreview.net/forum?id=MEAN) |
+| MEAN | Conditional Antibody Design as 3D Equivariant Graph Translation | 3D equivariant graph neural network for conditional antibody CDR sequence-structure co-design. | [ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP) |
 | RefineGNN | Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design | Iterative refinement GNN for antibody CDR co-design of sequence and 3D structure via autoregressive generation. | [ICLR](https://openreview.net/forum?id=LI2bhrE_2A) |
 | Ophiuchus-Ab | Ophiuchus-Ab: A Versatile Generative Foundation Model for Advanced Antibody-Based Immunotherapy | Diffusion language model for antibody immunotherapy and paired antibody repertoire generation. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.02.02.703197) |
 | NanoAbLLaMA | NanoAbLLaMA: construction of nanobody libraries with protein large language models | LLaMA2-based language model fine-tuned for nanobody (VHH) library construction and design. | [Frontiers in Chemistry](https://doi.org/10.3389/fchem.2025.1534) |
@@ -437,17 +437,17 @@
 | AntibodyDesignBFN | AntibodyDesignBFN: High-Fidelity Fixed-Backbone Antibody Design via Discrete Bayesian Flow Networks | High-fidelity fixed-backbone antibody design using discrete Bayesian flow networks. | [arXiv](https://arxiv.org/abs/2601.05605) |
 | AbAffinity | AbAffinity: A Large Language Model for Predicting Antibody Binding Affinity | Large language model for predicting antibody-antigen binding affinity. | [arXiv](https://arxiv.org/abs/2603.04480) |
 | CALM | CALM: Cross-attention Adaptive Immune Receptor–Antigen Language Model | Cross-attention language model for antibody-antigen specificity prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2026.02.25.707916) |
-| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Fully computational model for designing drug-like antibodies developed by Nabla Bio. | [Nabla Bio](https://www.nabla.bio/) |
-| Chai-2 | Chai-2: Zero-shot antibody discovery | Zero-shot antibody discovery model developed by Chai Discovery. | [Chai Discovery](https://www.chaidiscovery.com/) |
+| JAM-2 | JAM-2: Fully computational design of drug-like antibodies | Fully computational model for designing drug-like antibodies developed by Nabla Bio. | [Technical Report](https://nabla-public.s3.us-east-1.amazonaws.com/2025_Nabla_JAM2.pdf) |
+| Chai-2 | Chai-2: Zero-shot antibody discovery | Zero-shot antibody discovery model developed by Chai Discovery. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.05.663018v1) |
 
-### TCR & Immunology Models
+#### TCR & Immunology Models
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
 | TCR-BERT | TCR-BERT: learning the grammar of T-cell receptors for flexible antigen-binding analyses | Modified BERT trained on TCR sequences via self-supervised learning for antigen-specificity prediction. | [PMLR v240](https://proceedings.mlr.press/v240/) |
 | tcrLM | tcrLM: a lightweight protein language model for predicting T cell receptor and epitope binding specificity | Lightweight BERT-based LM pretrained on 100M+ TCR CDR3 sequences for TCR-epitope binding prediction. | [arXiv](https://arxiv.org/abs/2406.16995) |
 | TCR-GPT | TCR-GPT: Integrating Autoregressive Model and Reinforcement Learning for T-Cell Receptor Repertoires Generation | Decoder-only transformer for TCR sequence generation using autoregressive modeling with reinforcement learning. | [arXiv](https://arxiv.org/abs/2408.01156) |
-| SCEPTR | Contrastive learning of T cell receptor representations | Lightweight BERT-like transformer for TCR analysis using autocontrastive and masked-language pretraining. | [Cell Systems](https://doi.org/10.1016/j.cels.2024.09.006) |
+| SCEPTR | Contrastive learning of T cell receptor representations | Lightweight BERT-like transformer for TCR analysis using autocontrastive and masked-language pretraining. | [Cell Systems](https://doi.org/10.1016/j.cels.2024.12.006) |
 | ERGO-II | Prediction of Specific TCR-Peptide Binding From Large Dictionaries of TCR-Peptide Pairs | Deep learning model (LSTM + autoencoder) for TCR-peptide binding prediction using NLP techniques. | [Frontiers in Immunology](https://doi.org/10.3389/fimmu.2020.01803) |
 | mvTCR | Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data | Multimodal variational autoencoder integrating single-cell TCR sequences with gene expression data. | [Nature Communications](https://doi.org/10.1038/s41467-024-49806-9) |
 | NetTCR-2.0 | NetTCR-2.0 enables accurate prediction of TCR-peptide binding | Deep learning model for TCR-peptide-MHC binding prediction using paired TCRα and β sequences. | [Communications Biology](https://doi.org/10.1038/s42003-021-02610-3) |
@@ -468,7 +468,7 @@
 | CLEAN-Contact | Improved enzyme functional annotation prediction using contrastive learning with structural inference | Extension of CLEAN integrating protein contact maps for improved enzyme function annotation. | [Communications Biology](https://doi.org/10.1038/s42003-024-07359-z) |
 | EnzBERT | Predicting enzymatic function of protein sequences with attention | BERT-based model for predicting enzyme EC numbers from protein sequences using attention mechanisms. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad620) |
 | EnzymeFlow | EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow Matching and Co-Evolutionary Dynamics | Generative model using flow matching to design reaction-specific enzyme catalytic pockets. | [NeurIPS](https://arxiv.org/abs/2410.00327) |
-| EnzymeCAGE | EnzymeCAGE: A Geometric Foundation Model for Enzyme Retrieval with Evolutionary Insights | Geometric foundation model trained on ~1M enzyme-reaction pairs for enzyme retrieval and function prediction. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.1101/2024.12.15.628585) |
+| EnzymeCAGE | EnzymeCAGE: A Geometric Foundation Model for Enzyme Retrieval with Evolutionary Insights | Geometric foundation model trained on ~1M enzyme-reaction pairs for enzyme retrieval and function prediction. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.12.15.628585) |
 | CatPred | CatPred: a comprehensive framework for deep learning in vitro enzyme kinetic parameters | Deep learning framework for predicting enzyme kinetic parameters (kcat, Km, Ki) from sequences. | [Nature Communications](https://doi.org/10.1038/s41467-025-57215-9) |
 | UniKP | UniKP: a unified framework for the prediction of enzyme kinetic parameters | Unified deep learning framework using pretrained protein LMs to predict kcat, Km, and catalytic efficiency. | [Nature Communications](https://doi.org/10.1038/s41467-023-44113-1) |
 | TurNuP | Turnover number predictions for kinetically uncharacterized enzymes using machine and deep learning | Deep learning model for predicting enzyme turnover numbers (kcat) for uncharacterized enzymes. | [Nature Communications](https://doi.org/10.1038/s41467-023-39840-4) |
@@ -497,7 +497,7 @@
 | scGPT-spatial | scGPT-spatial: Continual Pretraining of Single-Cell FM for Spatial Transcriptomics | Extension of scGPT for spatial transcriptomics via continual pretraining. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.05.636714) |
 | SpatialScope | SpatialScope: integrating spatial and single-cell transcriptomics data using deep generative models | Deep generative model for integrating spatial transcriptomics with scRNA-seq data. | [Nature Communications](https://doi.org/10.1038/s41467-023-43629-w) |
 | stFormer | stFormer: a foundation model for spatial transcriptomics | Transformer foundation model integrating ligand-receptor interactions into spatial gene representations. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.09.27.615337) |
-| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | Foundation model using graph embeddings and hierarchical prototypes for spatial transcriptomics. | [NeurIPS 2025 (submitted)](https://openreview.net/forum?id=STAGE) |
+| STAGE | STAGE: A Foundation Model for Spatial Transcriptomics Analysis via Graph Embeddings | Foundation model using graph embeddings and hierarchical prototypes for spatial transcriptomics. | [OpenReview](https://openreview.net/forum?id=ZGzKckA29U) |
 | STORM | STORM: A multimodal foundation model of spatial transcriptomics and histology | Multimodal spatial transcriptomics and histology foundation model trained on 1.2M spatially-resolved profiles across 18 organs. | [arXiv](https://arxiv.org/abs/2604.03630) |
 | SEAL | SEAL: Spatial Expression-Aligned Learning for pathology foundation models | Spatial expression-aligned learning framework enhancing pathology foundation models with spatial transcriptomics data. | [arXiv](https://arxiv.org/abs/2602.14177) |
 | MINT | MINT: Molecularly Informed Training with Spatial Transcriptomics Supervision for Pathology Foundation Models | Molecularly informed training with spatial transcriptomics supervision for pathology foundation models. | [arXiv](https://arxiv.org/abs/2603.07895) |
@@ -578,7 +578,7 @@
 | FGBERT | FGBERT: Function-Driven Pre-trained Gene Language Model for Metagenomics | Function-driven pretrained gene language model using protein-level context-aware tokenizer for metagenomics. | [arXiv](https://arxiv.org/abs/2402.16901) |
 | MetagenBERT | MetagenBERT: a Transformer Architecture using Foundational DNA Read Embedding Models for novel Metagenome Representation | Transformer framework using DNABERT-2/DNABERT-S for metagenome representation from raw DNA reads. | [arXiv](https://arxiv.org/abs/2601.03295) |
 | Darwin-7B | Darwin-7B: A Multi-Omic Foundation Model for the Human Gut Microbiome via Sparsified Quality-Aware Tokenization | 7B-parameter multi-omic foundation model for the human gut microbiome, trained with sparsified quality-aware tokenization. | [ICLR 2026 Workshop](https://openreview.net/forum?id=X5Ii21IdDF&noteId=PHRJek5N5v) |
-| ViraLM | ViraLM: virus discovery through genome foundation model | Virus genome foundation model for virus discovery from metagenomic sequences. | [Sciety (bioRxiv)](https://sciety.org/articles/activity/10.1101/2024.01.30.577935) |
+| ViraLM | ViraLM: virus discovery through genome foundation model | Virus genome foundation model for virus discovery from metagenomic sequences. | [Bioinformatics](https://doi.org/10.1093/bioinformatics/btae704) |
 
 ---
 
@@ -618,7 +618,7 @@
 |-------|------------|-------------|------|
 | CpGPT | CpGPT: A Foundation Model for DNA Methylation | DNA methylation foundation model predicting CpG site methylation states for aging and disease research. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.24.620080) |
 | MethylGPT | MethylGPT: A Foundation Model for the DNA Methylome | DNA methylome foundation model pretrained on large-scale methylation data for epigenetic age prediction and cancer classification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.30.621013) |
-| scDNAm-GPT | scDNAm-GPT: A Foundation Model for Single-Cell DNA Methylation Analysis | Single-cell DNA methylation analysis foundation model for resolving epigenetic heterogeneity at single-cell resolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/scDNAm-GPT) |
+| scDNAm-GPT | scDNAm-GPT: A Foundation Model for Single-Cell DNA Methylation Analysis | Single-cell DNA methylation analysis foundation model for resolving epigenetic heterogeneity at single-cell resolution. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.02.19.638959) |
 
 ---
 
@@ -631,8 +631,8 @@
 |-------|------------|-------------|------|
 | DIA-BERT | DIA-BERT: A Foundation Model for Data-Independent Acquisition Proteomics | Transformer-based foundation model for data-independent acquisition proteomics, improving peptide identification and quantification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.01.578401) |
 | DreaMS | DreaMS: Deep Representations Empowering the Annotation of Mass Spectra | Deep representation learning foundation model for mass spectra annotation and metabolite identification. | [Nature Biotechnology](https://doi.org/10.1038/s41587-025-02689-7) |
-| LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/LSM-MS2) |
-| OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [bioRxiv](https://www.biorxiv.org/content/10.1101/OmniNovo) |
+| LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [ChemRxiv](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-k06gb-v2) |
+| OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [arXiv](https://arxiv.org/abs/2512.12272) |
 | MS-FM | Foundation model for mass spectrometry proteomics | Unified mass spectrometry proteomics foundation model pretrained on de novo sequencing data. | [arXiv](https://arxiv.org/abs/2505.10848) |
 | InstaNovo | InstaNovo: diffusion-powered de novo peptide sequencing | Diffusion-powered model for de novo peptide sequencing from mass spectrometry data. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01019-5) |
 

@@ -31,7 +31,7 @@
 <a id="medicine-section-01"></a>
 ## 医学影像
 
-### 综述 Overview
+#### 综述 Overview
 
 医学影像基础模型涵盖CT、MRI、X-ray等多种模态的大规模预训练模型，用于分割、分类、检测及报告生成等临床任务。
 
@@ -43,12 +43,12 @@
 | Pillar-0 | Pillar-0: A New Frontier for Radiology Foundation Models | Kumar Krishna Agrawal | 2025 | arXiv:2511.17803 | arXiv | UC Berkeley/UCSF开发的放射学基础模型，在腹盆CT、胸部CT、头部CT和乳腺MRI上预训练，用于解读3D体积数据。 |
 | CineMA | CineMA: A Foundation Model for Cine Cardiac MRI | (多作者) | 2025 | arXiv:2506.00679 | arXiv Preprint | 在1500万张心脏磁共振图像（~75,000受试者）上训练的心脏MRI基础模型，支持心室分割、射血分数计算和疾病检测。 |
 | OmniMRI | OmniMRI: A Unified Vision-Language Foundation Model for MRI | (多作者) | 2025 | arXiv:2508.17524 | arXiv Preprint | 统一的MRI全流程基础模型，覆盖采集、重建、分割、检测、诊断和报告生成。 |
-| BiomedCLIP | BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs | Sheng Zhang | 2023 | arXiv:2303.00915 | NeurIPS 2023 | 微软开发的生物医学视觉-语言基础模型，在PMC-15M（1500万图文对）上预训练，支持跨模态检索和零样本分类。 |
-| SAM-Med2D | SAM-Med2D | Junlong Cheng | 2023 | arXiv:2308.16184 | arXiv Preprint | 将Segment Anything Model (SAM)适配于2D医学图像分割的模型，在460万图像和1970万mask上微调。 |
-| SAM-Med3D | SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Images | Haoyu Wang | 2023 | arXiv:2310.15161 | arXiv Preprint | 专为3D医学图像设计的通用分割模型，能分割多种解剖结构和病变，支持最少交互标注。 |
-| MedSAM | Segment Anything in Medical Images | Jun Ma | 2023 | doi:10.1038/s41467-024-44824-z | Nature Communications 2024 | 首个通用医学图像分割基础模型，在超过157万图像-mask对、10种成像模态上训练。 |
-| MedSAM2 | MedSAM2: Segment Anything in 3D Medical Images and Videos | Jun Ma | 2025 | arXiv:2504.03600 | arXiv Preprint | 基于SAM 2的3D医学图像和视频分割模型，在455,000+ 3D图像-mask对上微调。 |
-| CT-CLIP | A Foundation Model Utilizing Chest CT Volumes and Radiology Reports for Supervised-Level Zero-Shot Detection of Abnormalities | Ibrahim Ethem Hamamci | 2024 | arXiv:2403.17834 | Nature Biomedical Engineering 2026 | 基于CT-RATE数据集的3D胸部CT基础模型，通过对比语言-图像预训练实现零样本异常检测。 |
+| BiomedCLIP | BiomedCLIP: A Multimodal Biomedical Foundation Model Pretrained from Fifteen Million Scientific Image-Text Pairs | Sheng Zhang | 2023 | arXiv:2303.00915 | arXiv | 微软开发的生物医学视觉-语言基础模型，在PMC-15M（1500万图文对）上预训练，支持跨模态检索和零样本分类。 |
+| SAM-Med2D | SAM-Med2D | Junlong Cheng | 2023 | arXiv:2308.16184 | arXiv | Segment Anything Model (SAM) 的2D医学图像分割适配版本，在460万图像和1970万mask上微调。 |
+| SAM-Med3D | SAM-Med3D: Towards General-purpose Segmentation Models for Volumetric Medical Images | Haoyu Wang | 2023 | arXiv:2310.15161 | arXiv | 通用3D医学图像分割模型，支持多种解剖结构和病灶的交互式分割，仅需最少标注。 |
+| MedSAM | Segment Anything in Medical Images | Jun Ma | 2023 | arXiv:2304.12306 | Nature Communications 2024 | 首个通用医学图像分割基础模型，在超过157万图像-mask对、10种成像模态上训练。 |
+| MedSAM2 | MedSAM2: Segment Anything in 3D Medical Images and Videos | Jun Ma | 2025 | arXiv:2504.03600 | arXiv | 基于SAM 2的3D医学图像和视频分割模型，在455,000+ 3D图像-mask对上微调。 |
+| CT-CLIP | A Foundation Model Utilizing Chest CT Volumes and Radiology Reports for Supervised-Level Zero-Shot Detection of Abnormalities | Ibrahim Ethem Hamamci | 2024 | arXiv:2403.17834 | arXiv | 基于CT-RATE数据集的3D胸部CT基础模型，通过对比语言-图像预训练实现零样本异常检测。 |
 | CheXzero | Expert-Level Detection of Pathologies from Unannotated Chest X-ray Images via Self-Supervised Learning | Ekin Tiu | 2022 | DOI:10.1038/s41551-022-00936-9 | Nature Biomedical Engineering 2022 | 基于自监督对比学习的零样本胸部X光分析模型，无需标注即可达到专家级病理检测水平。 |
 | BioViL | Making the Most of Text Semantics to Improve Biomedical Vision-Language Processing | Benedikt Boecking | 2022 | arXiv:2204.09817 | ECCV 2022 | 微软开发的生物医学视觉-语言模型，结合领域特定语言模型CXR-BERT，增强胸部X光分析。 |
 | BioViL-T | Learning to Exploit Temporal Structure for Biomedical Vision-Language Processing | Shruthi Bannur | 2023 | arXiv:2301.04558 | CVPR 2023 | 微软开发的时序视觉-语言模型，用于放射学中胸部X光的纵向分析和短语定位。 |
@@ -56,13 +56,13 @@
 | STU-Net | STU-Net: Scalable and Transferable Medical Image Segmentation Models Empowered by Large-Scale Supervised Pre-training | Ziyan Huang | 2023 | arXiv:2304.06716 | arXiv Preprint | 最大可达14亿参数的可扩展医学图像分割模型，通过大规模监督预训练实现强迁移性。 |
 | UniverSeg | UniverSeg: Universal Medical Image Segmentation | Victor Ion Butoi | 2023 | arXiv:2304.06131 | ICLR 2023 | 无需额外训练即可泛化到未见任务的医学图像分割模型，使用in-context学习范式。 |
 | RETFound | A Foundation Model for Generalizable Disease Detection from Retinal Images | Yukun Zhou | 2023 | DOI:10.1038/s41586-023-06555-x | Nature 2023 | 在160万张未标注视网膜图像上自监督预训练的眼科基础模型，支持多种眼病和全身疾病检测。 |
-| SkinGPT-4 | Pre-trained Multimodal Large Language Model Enhances Dermatological Diagnosis Using SkinGPT-4 | Juexiao Zhou | 2023 | doi:10.1038/s41467-024-50043-3 | Nature Communications 2024 | 交互式皮肤病诊断系统，集成视觉变换器和Llama-2-13b-chat，在52,000+皮肤病图像上训练。 |
-| PanDerm | A Multimodal Vision Foundation Model for Clinical Dermatology | (多作者) | 2024 | doi:10.1038/s41591-025-03747-y | Nature Medicine 2025 | 在200万+皮肤病图像（11个机构、4种成像模态）上预训练的多模态皮肤科基础模型。 |
-| RadFM | Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data | Chaoyi Wu | 2023 | doi:10.1038/s41467-025-62385-7 | Nature Communications 2025 | 通用放射学基础模型，利用1300万2D图像和61.5万3D扫描进行多模态训练。 |
+| SkinGPT-4 | Pre-trained Multimodal Large Language Model Enhances Dermatological Diagnosis Using SkinGPT-4 | Juexiao Zhou | 2023 | arXiv:2304.10691 | Nature Communications 2024 | 交互式皮肤病诊断系统，集成视觉变换器和Llama-2-13b-chat，在52,000+皮肤病图像上训练。 |
+| PanDerm | A Multimodal Vision Foundation Model for Clinical Dermatology | (多作者) | 2024 | arXiv:2410.15038 | Nature Medicine 2025 | 在200万+皮肤病图像（11个机构、4种成像模态）上预训练的多模态皮肤科基础模型。 |
+| RadFM | Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data | Chaoyi Wu | 2023 | arXiv:2308.02463 | Nature Communications 2025 | 通用放射学基础模型，利用1300万2D图像和61.5万3D扫描进行多模态训练。 |
 | CheXFound | Chest X-ray Foundation Model with Global and Local Self-supervised Learning | (多作者) | 2025 | arXiv:2502.05142 | arXiv Preprint | 在约100万张胸部X光上自监督预训练的基础模型，结合全局和局部学习策略，提升多种临床任务的泛化能力。 |
-| REMEDIS | Robust and Data-Efficient Generalization of Self-Supervised Machine Learning for Diagnostic Imaging | Shekoofeh Azizi | 2022 | doi:10.1038/s41551-023-01049-7 | Nature Biomedical Engineering 2023 | Google开发的医学影像表示学习框架，结合大规模自监督预训练和任务特定微调，提升鲁棒性和数据效率。 |
+| REMEDIS | Robust and Data-Efficient Generalization of Self-Supervised Machine Learning for Diagnostic Imaging | Shekoofeh Azizi | 2022 | arXiv:2205.09723 | Nature Biomedical Engineering 2023 | Google开发的医学影像表示学习框架，结合大规模自监督预训练和任务特定微调，提升鲁棒性和数据效率。 |
 | MedicoSAM | MedicoSAM: Towards Foundation Models for Medical Image Segmentation | (多作者) | 2025 | arXiv:2501.11734 | arXiv Preprint | 探索将SAM适配为医学图像分割基础模型的系统研究。 |
-| BiomedParse | BiomedParse: Biomedical Foundation Model for Image Parsing | Microsoft | 2024 | doi:10.1038/s41592-024-02499-w | Nature Methods 2024 | 微软统一生物医学图像解析基础模型，支持分割、检测和识别 |
+| BiomedParse | BiomedParse: Biomedical Foundation Model for Image Parsing | Microsoft | 2024 | arXiv:2405.12971 | Nature Methods 2024 | 微软统一生物医学图像解析基础模型，支持分割、检测和识别 |
 | SegVol | SegVol: Universal and Interactive Volumetric Medical Image Segmentation | Yuxin Du | 2024 | arXiv:2311.13385 | arXiv | 通用交互式3D医学图像分割，支持语义和空间提示 |
 | SuPreM | SuPreM: Label-Efficient 3D Medical Image Segmentation via Supervised Pre-training | — | 2024 | arXiv:2410.06667 | IEEE TMI 2025 | 监督预训练的3D分割基础模型，2100+CT |
 | VISTA3D | VISTA3D: Versatile Imaging Segmentation and Annotation Model for 3D | NVIDIA | 2024 | — | MICCAI 2024 | NVIDIA通用3D医学图像分割注释模型 |
@@ -102,7 +102,7 @@
 <a id="medicine-section-02"></a>
 ## 神经影像
 
-### 综述 Overview
+#### 综述 Overview
 
 神经影像基础模型专注于脑部MRI和fMRI数据分析，用于脑疾病检测、脑区分割、认知状态解码等神经科学与临床任务。
 
@@ -120,10 +120,10 @@
 | BrainGFM | A Brain Graph Foundation Model: Pre-Training and Prompt-Tuning across Broad Atlases and Disorders | (多作者) | 2026 | OpenReview:PeGHkAaRxs | ICLR 2026 | 利用图对比学习和掩码自编码器处理fMRI数据的脑图基础模型。 |
 | BrainFounder | BrainFounder: Towards 3D Foundation Models for Neuroimage Segmentation | Joseph Cox | 2024 | arXiv:2406.10395 | MICCAI 2024 | 在41,400名参与者多模态MRI上预训练的大规模神经影像分割基础模型，采用两阶段预训练策略。 |
 | Brain Harmony | Brain Harmony: A Multimodal Foundation Model Unifying Brain Structural Morphology and Functional Dynamics | (多作者) | 2025 | arXiv:2509.24693 | arXiv Preprint | 首个统一脑结构形态（T1-MRI）和功能动态（fMRI）的多模态脑基础模型。 |
-| Brain-OF | Brain-OF: An Omnifunctional Foundation Model for fMRI, EEG and MEG | (多作者) | 2025 | arXiv:2602.23410 | arXiv Preprint | 跨fMRI/EEG/MEG三种神经影像模态的全功能基础模型。 |
-| SAM-Brain3D | Brain Foundation Models with Hypergraph Dynamic Adapter for Brain Disease Analysis | (多作者) | 2025 | arXiv:2505.00627 | arXiv Preprint | 专用脑成像基础模型，在66,000+ MRI图像-标签对（14个子模态）上训练，用于脑疾病分析。 |
-| MindLLM | MindLLM: A Subject-Agnostic and Versatile Model for fMRI-to-Text Decoding | Weikang Qiu | 2025 | OpenReview | NeurIPS 2025 | 主体无关的fMRI到文本解码模型，推进脑-计算机接口研究。 |
-| Decipher-MR | Decipher-MR: A Vision-Language Foundation Model for 3D MRI Representations | — | 2025 | arXiv:doi:10.1038/s41746-026-02596-4 | npj Digital Medicine 2026 | 3D MRI视觉-语言基础模型，训练于>200,000个MRI序列，支持脑部多种疾病分析（含精神疾病） |
+| Brain-OF | Brain-OF: An Omnifunctional Foundation Model for fMRI, EEG and MEG | Hanning Guo | 2026 | arXiv:2602.23410 | arXiv | 跨fMRI、EEG和MEG神经影像模态的全功能基础模型。 |
+| SAM-Brain3D | Brain Foundation Models with Hypergraph Dynamic Adapter for Brain Disease Analysis | Zhongying Deng | 2025 | arXiv:2505.00627 | arXiv | 在66,000+ MRI图像-标签对（14种子模态）上训练的脑影像基础模型，用于脑疾病分析。 |
+| MindLLM | MindLLM: A Subject-Agnostic and Versatile Model for fMRI-to-Text Decoding | Weikang Qiu | 2025 | ICML 2025 Poster #45933 | ICML 2025 | 主体无关的fMRI到文本解码模型，推进脑-计算机接口研究。 |
+| Decipher-MR | Decipher-MR: A Vision-Language Foundation Model for 3D MRI Representations | — | 2025 | arXiv:2509.21249 | npj Digital Medicine 2026 | 3D MRI视觉-语言基础模型，训练于>200,000个MRI序列，支持脑部多种疾病分析（含精神疾病） |
 | SLIM-Brain | Data-efficient FM for fMRI analysis | — | 2026 | arXiv:2512.21881 | arXiv | 数据高效fMRI分析基础模型 |
 
 ---
@@ -131,7 +131,7 @@
 <a id="medicine-section-03"></a>
 ## 病理学
 
-### 综述 Overview
+#### 综述 Overview
 
 病理学基础模型专注于组织病理学全切片图像（WSI）分析，用于癌症检测、生物标志物预测、疾病分类等计算病理学任务。这是SFM最活跃的领域之一。
 
@@ -139,23 +139,23 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Virchow | Virchow: A Million-Slide Digital Pathology Foundation Model | Eugene Vorontsov | 2023 | doi:10.1038/s41591-024-03141-0 | Nature Medicine 2024 | Paige/微软开发的百万切片数字病理基础模型，在150万H&E染色WSI上自监督训练，支持癌症检测和罕见癌识别。 |
-| Virchow2 | Virchow 2: Scaling Self-Supervised Mixed Magnification Models in Pathology | Eric Zimmermann | 2024 | arXiv:2408.00738 | arXiv Preprint | 第二代Virchow模型，包含Virchow2(632M参数)和Virchow2G(1.85B参数)，在混合放大倍率下训练，进一步提升性能。 |
+| Virchow | Virchow: A Million-Slide Digital Pathology Foundation Model | Eugene Vorontsov | 2023 | arXiv:2309.07778 | Nature Medicine 2024 | Paige/微软开发的百万切片数字病理基础模型，在150万H&E染色WSI上自监督训练，支持癌症检测和罕见癌识别。 |
+| Virchow2 | Virchow2: Scaling Self-Supervised Mixed Magnification Models in Pathology | Eric Zimmermann | 2024 | arXiv:2408.00738 | arXiv | Virchow第二代，包含Virchow2（6.32亿参数）和Virchow2G（18.5亿参数），在混合放大倍率下训练。 |
 | UNI | Towards a General-Purpose Foundation Model for Computational Pathology | Richard J. Chen | 2024 | DOI:10.1038/s41591-024-02857-3 | Nature Medicine 2024 | Mahmood Lab开发的通用计算病理基础模型，在10万+WSI上自监督训练，支持20+主要组织类型分析。 |
 | UNI2 | Towards a General-Purpose Foundation Model for Computational Pathology | Richard J. Chen | 2025 | doi:10.1038/s41591-024-02857-3 | Nature Medicine | UNI的升级版，包含ViT-H (UNI2-h)和ViT-G (UNI2-g-preview)两个变体，在2亿+病理图像（350,000+切片）上预训练，2025年1月发布。 |
 | CONCH | A Visual-Language Foundation Model for Computational Pathology | Ming Y. Lu | 2024 | DOI:10.1038/s41591-024-02856-4 | Nature Medicine 2024 | 首个病理学视觉-语言基础模型(CONtrastive learning from Captions for Histopathology)，在117万+图文对上训练。 |
 | TITAN | A Multimodal Whole-Slide Foundation Model for Pathology | (Mahmood Lab) | 2025 | DOI:10.1038/s41591-025-03982-3 | Nature Medicine 2025 | 多模态全切片基础模型，结合335,000+ WSI的视觉自监督学习和病理报告的视觉-语言对齐。 |
 | Prov-GigaPath | A Whole-Slide Foundation Model for Digital Pathology from Real-World Data | Hanwen Xu | 2024 | DOI:10.1038/s41586-024-07441-w | Nature 2024 | 微软开发的全切片基础模型，在13亿图像tile（171,000+真实世界切片）上预训练，开源权重。 |
 | PLIP | A Visual-Language Foundation Model for Pathology Image Analysis Using Medical Twitter | Zhi Huang | 2023 | DOI:10.1038/s41591-023-02504-3 | Nature Medicine 2023 | 基于CLIP的病理学视觉-语言基础模型，利用医学社交媒体数据（OpenPath数据集）训练。 |
-| PathChat | A Foundational Multimodal Vision Language AI Assistant for Human Pathology | Ming Y. Lu | 2023 | doi:10.1038/s41586-024-08328-6 | Nature 2024 | 多模态病理AI助手，集成1亿张组织学图像训练的视觉编码器和LLM，支持交互式病理分析。 |
+| PathChat | A Foundational Multimodal Vision Language AI Assistant for Human Pathology | Ming Y. Lu | 2023 | arXiv:2312.07814 | Nature 2024 | 多模态病理AI助手，集成1亿张组织学图像训练的视觉编码器和LLM，支持交互式病理分析。 |
 | CTransPath | Transformer-Based Unsupervised Contrastive Learning for Histopathological Image Classification | Xiyue Wang | 2022 | DOI:10.1016/j.media.2022.102559 | Medical Image Analysis 2022 | 基于CNN-Swin Transformer混合架构的组织病理学特征提取器，采用自监督对比学习训练。 |
 | Hibou | Hibou: A Family of Foundational Vision Transformers for Pathology | Dmitry Nechaev | 2024 | arXiv:2406.05074 | arXiv | HistAI病理学视觉Transformer系列（Hibou-B和Hibou-L），用于细胞检测、组织分类等任务。 |
 | Phikon | Scaling Self-Supervised Learning for Histopathology with Masked Image Modeling | Alexandre Filiot | 2023 | 10.1101/2023.07.21.23292757 | medRxiv | Owkin开发的组织病理学自监督基础模型，使用iBOT框架在大规模病理数据上训练。 |
 | Phikon-v2 | Phikon-v2, A large and public feature extractor for biomarker prediction | Alexandre Filiot | 2024 | arXiv:2409.09173 | arXiv | Phikon升级版，在4.6亿+病理图像块（55,000+切片、30+癌症类型）上训练，作为大规模公开特征提取器。 |
 | H-optimus-0 | H-optimus-0: An Open-Source AI Foundation Model for Pathology | (Bioptimus) | 2024 | (Bioptimus发布) | 商业发布 | 全球最大的开源病理AI基础模型(11亿参数)，在500,000+WSI上训练，由法国初创公司Bioptimus开发。 |
 | PathChat+ | A Clinical-Grade Agentic and Generative AI-Driven Copilot for Pathology | (Mahmood Lab) | 2025 | arXiv:2506.20964 | arXiv Preprint | PathChat的临床级升级版，在100万+病理特异性指令样本和550万QA对上训练。 |
-| UniBiomed | UniBiomed: A Universal Foundation Model for Grounded Biomedical Image Interpretation | (多作者) | 2025 | arXiv:2504.21336 | arXiv Preprint | 统一的生物医学图像解释基础模型，集成多模态LLM和分割模型，支持同时对话和分割。 |
-| CHIEF | Clinical Histopathology Imaging Evaluation Foundation | Xiyue Wang | 2024 | DOI:10.1038/s41586-024-07894-z | Nature 2024 | 通用临床组织病理学AI系统，在60,000+WSI（19种解剖部位）上预训练，支持癌症检测、分级和分子标志物预测。 |
+| UniBiomed | UniBiomed: A Universal Foundation Model for Grounded Biomedical Image Interpretation | Linshan Wu | 2025 | arXiv:2504.21336 | arXiv | 统一生物医学图像解读基础模型，整合多模态LLM和分割模型，支持同时对话和分割。 |
+| CHIEF | A pathology foundation model for cancer diagnosis and prognosis prediction | Xiyue Wang | 2024 | DOI:10.1038/s41586-024-07894-z | Nature 2024 | 通用临床组织病理学AI系统，在60,000+WSI（19种解剖部位）上预训练，支持癌症检测、分级和分子标志物预测。 |
 | Atlas | Atlas: A Whole-Slide Foundation Model for Computational Pathology | — | 2024 | — | arXiv | 全切片级病理基础模型 |
 | MUSK | A Vision-Language Foundation Model for Precision Oncology | Jinxi Xiang | 2024 | DOI:10.1038/s41586-025-08780-8 | Nature 2025 | 精准肿瘤学视觉-语言基础模型，支持多模态癌症诊断和预后预测。 |
 | PRISM | PRISM: A Multi-Modal Generative Foundation Model for Slide-Level Histopathology | Eugene Vorontsov | 2024 | arXiv:2405.10254 | arXiv preprint | 病理学多模态生成基础模型，整合视觉和分子信息进行切片级分析 |
@@ -192,6 +192,8 @@
 | Campanella MAE | Campanella et al. (MAE): Masked Autoencoder ViT-L for Digital Pathology | — (Thomas Fuchs Lab) | 2024 | — | arXiv Preprint | ViT-L架构，MAE自监督训练于42万WSI的病理基础模型 |
 | SP22M | SP22M: Mount Sinai Computational Pathology Foundation Model (22M params) | — (Mount Sinai) | 2024 | Hugging Face | Hugging Face | Mount Sinai开发的2200万参数计算病理基础模型 |
 | SP85M | SP85M: Mount Sinai Computational Pathology Foundation Model (85M params) | — (Mount Sinai) | 2024 | Hugging Face | Hugging Face | Mount Sinai开发的8500万参数计算病理基础模型 |
+| CHROMA | A comprehensive foundation model for generalizable cytogenetics in precision oncology with CHROMA | Changchun Yang | 2026 | 10.1038/s41698-026-01383-4 | npj Precision Oncology | 面向精准肿瘤学的通用细胞遗传学基础模型，实现自动化染色体分析与核型判读 |
+| PAST | PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer | Changchun Yang | 2025 | arXiv:2507.06418 | arXiv | 多模态单细胞基础模型，整合组织病理学图像和空间转录组数据用于癌症分析 |
 
 ---
 
@@ -213,7 +215,7 @@
 | PeskaVLP | Procedure-Aware Surgical Video-language Pretraining | — | 2024 | — | NeurIPS 2024 | 过程感知手术视频-语言预训练 |
 | SurgiSAM 2 | A fine-tuned SAM2 for surgical video segmentation | — | 2025 | — | Scientific Reports | SAM2手术场景分割 |
 | ZEN | ZEN: A generalizable foundation model for intraoperative understanding across surgical procedures | — | 2026 | arXiv:2602.13633 | arXiv Preprint | 通用术中理解基础模型，实时手术视频分析，跨手术类型泛化 |
-| SurgMotion | SurgMotion: A Video-Native Foundation Model for Universal Understanding of Surgical Videos | Jinlin Wu | 2026 | arXiv:2602.05638 | arXiv | 原生视频手术基础模型，直接从视频而非帧级特征学习，用于通用手术视频理解。 |
+| SurgMotion | SurgMotion: A Video-Native Foundation Model for Universal Understanding of Surgical Videos | Jinlin Wu | 2026 | arXiv:2602.05638 | arXiv | 原生视频手术基础模型，直接从视频而非帧级特征学习，用于通用手术视频理解。rgical video understanding. |
 | Surg-R1 | Surg-R1: A Hierarchical Reasoning Foundation Model for Scalable and Interpretable Surgical Decision Support | — | 2026 | arXiv:2603.12430 | arXiv Preprint | 层次推理手术基础模型，三级推理架构，多中心临床验证 |
 | Cosmos-H-Surgical | Cosmos-H-Surgical: NVIDIA Physical AI for Surgical Robotics | (NVIDIA) | 2025 | — | arXiv Preprint | NVIDIA开发的手术机器人物理AI基础模型，基于Cosmos世界模型架构，用于手术场景理解和机器人操作规划。 |
 | SurgRec | SurgRec: Surgical Foundation Model via Large-Scale Self-Supervised Video Pretraining | (多作者) | 2025 | — | arXiv Preprint | 大规模自监督手术视频预训练基础模型，在数千小时手术视频上训练，支持多种手术视觉理解任务。 |
@@ -288,7 +290,7 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | OCTCube | 3D Foundation Model for Optical Coherence Tomography | Zixuan Liu | 2024 | arXiv:2408.11227 | arXiv | 3D OCT基础模型 |
-| MIRAGE | Multimodal Foundation Model for Retinal OCT | José Morano | 2025 | arXiv:doi:10.1038/s41746-025-01852-3 | npj Digital Medicine | 多模态视网膜OCT基础模型 |
+| MIRAGE | Multimodal Foundation Model for Retinal OCT | José Morano | 2025 | arXiv:2506.08900 | npj Digital Medicine | 多模态视网膜OCT基础模型 |
 | VisionFM | Multimodal Ophthalmic Vision Foundation Model | Fei Li | 2024 | — | NEJM AI | 340万眼科图像多模态基础模型 |
 | EyeFound | Multimodal Generalist Foundation Model for Ophthalmic Imaging | Danli Shi | 2024 | arXiv:2405.11338 | arXiv | 11种模态278万视网膜图像 |
 | FLAIR | Foundation Language-Image Model of the Retina | Julio Silva-Rodríguez | 2024 | — | MedIA 2025 | 视网膜视觉-语言基础模型 |
@@ -306,10 +308,10 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Med-PaLM | Large Language Models Encode Clinical Knowledge | Karan Singhal | 2022 | arXiv:2212.13138 | Nature | Google首个医学LLM |
-| Med-PaLM 2 | Towards Expert-Level Medical QA with LLMs | Karan Singhal | 2023 | doi:10.1038/s41591-024-03423-7 | Nature Medicine | 专家级医学问答 |
-| Med-Gemini | Advancing Multimodal Medical Capabilities of Gemini | Tao Tu | 2024 | arXiv:2405.03162 | arXiv | Google多模态医学AI |
-| MedGemma | Open models for health AI | Google Health | 2025 | — | Google | 开源医学基础模型 |
+| Med-PaLM | Large Language Models Encode Clinical Knowledge | Karan Singhal | 2023 | 10.1038/s41586-023-06291-2 | Nature | Google首个医学LLM。 |
+| Med-PaLM 2 | Towards Expert-Level Medical Question Answering with Large Language Models | Karan Singhal | 2023 | arXiv:2305.09617 | arXiv | 专家级医学问答。 |
+| Med-Gemini | Advancing Multimodal Medical Capabilities of Gemini | Lin Yang | 2024 | arXiv:2405.03162 | arXiv | Google多模态医学AI，将Gemini能力扩展到文本、图像和基因组学的临床推理。 |
+| MedGemma | Open Models for Health AI | — | 2025 | arXiv:2507.05201 | arXiv | Google开源Gemma医学变体集合，为医学文本和图像理解提供专门优化的模型 |
 | PubMedBERT | Domain-specific language model pretraining for biomedical NLP | Yu Gu | 2021 | — | ACL 2021 | PubMed全文预训练的生物医学BERT |
 | GatorTron | A large language model for electronic health records | Xi Yang | 2022 | 10.1038/s41746-022-00742-2 | npj Digital Medicine | 90B token临床文本预训练的大规模临床语言模型。 |
 | BioGPT | BioGPT: generative pre-trained transformer for biomedical text generation and mining | Renqian Luo | 2022 | 10.1093/bib/bbac409 | Briefings in Bioinformatics | 生物医学文本生成与挖掘GPT模型。 |
@@ -323,16 +325,16 @@
 | DoctorGLM | DoctorGLM: Fine-tuning your Chinese Doctor is not a Herculean Task | Honglin Xiong | 2023 | arXiv:2304.01097 | arXiv | 基于ChatGLM-6B的中文医疗LLM，使用中文医疗对话数据微调，提供可访问的中文医疗咨询。 |
 | BioMistral | BioMistral: A Collection of Open-Source Pretrained Large Language Models for the Medical Domain | — | 2024 | arXiv:2402.10373 | ACL 2024 | 基于Mistral的开源生物医学LLM，在PubMed Central数据上继续预训练 |
 | Me-LLaMA | Me-LLaMA: Foundation Large Language Models for Medical Applications | Qianqian Xie (Yale) | 2024 | arXiv:2402.12749 | npj Digital Medicine | 基于LLaMA2的医疗基础LLM（13B/70B），在大规模生物医学和临床数据上继续预训练和指令微调 |
-| OpenBioLLM | OpenBioLLM-70B: Advancing Open-source Large Language Models in the Medical Domain | — (Saama AI Labs) | 2024 | HuggingFace | Open Release | 700亿参数开源生物医学LLM，在多个医学基准上表现优于GPT-4等闭源模型 |
-| MMedLM | Towards Building Multilingual Language Model for Medicine | — (MAGIC-AI4Med) | 2024 | doi:10.1038/s41467-024-52417-z | Nature Communications | 多语言医疗语言模型，基于MMedC多语言医疗语料库训练，支持跨语言医疗问答 |
+| OpenBioLLM | OpenBioLLM-70B: Advancing Open-Source Large Language Models in Medical Domain | — | 2024 | — | Saama AI Labs | 700亿参数开源生物医学大语言模型，基于Llama微调，面向医学领域应用 |
+| MMedLM | Towards Building Multilingual Language Model for Medicine | — (MAGIC-AI4Med) | 2024 | arXiv:2402.13963 | Nature Communications | 多语言医疗语言模型，基于MMedC多语言医疗语料库训练，支持跨语言医疗问答 |
 | ClinicalMamba | ClinicalMamba: A Generative Clinical Language Model on Longitudinal Clinical Notes | — | 2024 | arXiv | arXiv Preprint | 基于Mamba架构的临床语言生成模型，处理纵向临床笔记 |
 | ChiMed-GPT | ChiMed-GPT: A Chinese Medical Large Language Model with Full Training Regime | — | 2023 | arXiv | arXiv Preprint | 全训练流程的中文医学大语言模型 |
 | BioBART | BioBART: Pretraining and Evaluation of A Biomedical Generative Language Model | — | 2022 | arXiv:2204.03905 | BioNLP@ACL 2022 | 生物医学生成语言模型，基于BART架构在PubMed摘要上预训练 |
 | ClinicalT5 | ClinicalT5: A Generative Language Model for Clinical Text | — | 2023 | arXiv | EMNLP 2023 Findings | 临床文本生成语言模型，基于T5架构在临床笔记上预训练 |
 | KeBioLM | KeBioLM: Improving Biomedical Pretrained Language Models with Knowledge | — | 2021 | arXiv:2104.10344 | BioNLP@ACL 2021 | 知识增强的生物医学预训练语言模型，整合UMLS知识图谱 |
 | BioELMo | BioELMo: Probing Biomedical Embeddings from Language Models | — | 2019 | arXiv:1904.02181 | BioNLP@ACL 2019 | 生物医学嵌入探测模型，基于ELMo在PubMed文本上预训练 |
-| RadBERT | RadBERT: Adapting Transformer-based Language Models to Radiology | — | 2022 | arXiv:doi:10.1148/ryai.210258 | Radiology: AI 2022 | 放射学领域适配的BERT语言模型 |
-| BioBERT | BioBERT: A Pre-trained Biomedical Language Representation Model for Biomedical Text Mining | Jinhyuk Lee | 2020 | doi:10.1093/bioinformatics/btz682 | Bioinformatics 2020 | 首个生物医学领域BERT，在PubMed和PMC上预训练，广泛用于生物医学文本挖掘 |
+| RadBERT | RadBERT: Adapting Transformer-based Language Models to Radiology | — | 2022 | arXiv:2201.06125 | Radiology: AI 2022 | 放射学领域适配的BERT语言模型 |
+| BioBERT | BioBERT: A Pre-trained Biomedical Language Representation Model for Biomedical Text Mining | Jinhyuk Lee | 2020 | arXiv:1901.08746 | Bioinformatics 2020 | 首个生物医学领域BERT，在PubMed和PMC上预训练，广泛用于生物医学文本挖掘 |
 | SciBERT | SciBERT: A Pretrained Language Model for Scientific Text | Iz Beltagy | 2019 | arXiv:1903.10676 | EMNLP 2019 | 在114万篇科学论文上预训练的BERT模型，生物医学NLP基础模型 |
 | BioLinkBERT | LinkBERT: Pretraining Language Models with Document Links | Yasaman Bahri | 2022 | arXiv:2203.15827 | ACL 2022 | 利用生物医学文献间超链接预训练的BERT，增强知识捕获 |
 | MetaReact | MetaReact: A Reaction-Aware Transformer for End-to-End Prediction of Drug Metabolism | — | 2026 | 10.64898/2026.03.14.711529 | bioRxiv | 反应感知Transformer，预测药物代谢途径，将化学反应知识整合到药物代谢建模中。 |
@@ -382,7 +384,7 @@
 <a id="medicine-section-12"></a>
 ## 核医学
 
-### 综述 Overview
+#### 综述 Overview
 
 核医学基础模型专注于PET/CT等功能成像数据，用于全身代谢分析、肿瘤检测、器官/病灶分割和报告生成。
 
@@ -399,7 +401,7 @@
 <a id="medicine-section-13"></a>
 ## 乳腺影像
 
-### 综述 Overview
+#### 综述 Overview
 
 乳腺影像基础模型专注于乳腺X线（钼靶）等影像分析，用于乳腺癌筛查、诊断、预后预测和报告生成。
 
@@ -418,7 +420,7 @@
 <a id="medicine-section-14"></a>
 ## 肌骨影像
 
-### 综述 Overview
+#### 综述 Overview
 
 肌骨影像基础模型专注于骨骼、关节等肌肉骨骼系统的X线和MRI分析，用于骨科疾病诊断、关节损伤检测等任务。
 
@@ -435,7 +437,7 @@
 <a id="medicine-section-15"></a>
 ## 可穿戴与数字健康
 
-### 综述 Overview
+#### 综述 Overview
 
 可穿戴与数字健康基础模型专注于可穿戴传感器（加速度计、PPG、ECG等）的多模态生理信号分析，用于健康监测、活动识别和临床预测。
 
@@ -454,7 +456,7 @@
 <a id="medicine-section-16"></a>
 ## 放射治疗
 
-### 综述 Overview
+#### 综述 Overview
 
 放射治疗基础模型专注于放疗计划自动化，包括靶区勾画、剂量预测、计划优化等，旨在提升放疗效率和质量。
 
@@ -468,7 +470,7 @@
 <a id="medicine-section-17"></a>
 ## 显微镜
 
-### 综述 Overview
+#### 综述 Overview
 
 显微镜基础模型涵盖荧光显微镜、电子显微镜和冷冻电镜等非病理学显微成像，用于图像恢复、增强、分割和生物分子结构分析。
 
@@ -489,7 +491,7 @@
 <a id="medicine-section-18"></a>
 ## 睡眠医学
 
-### 综述 Overview
+#### 综述 Overview
 
 睡眠医学基础模型专注于多导睡眠图（PSG）和可穿戴设备的睡眠数据分析，用于睡眠分期、睡眠障碍诊断等临床任务。
 
@@ -506,7 +508,7 @@
 <a id="medicine-section-19"></a>
 ## 兽医学
 
-### 综述 Overview
+#### 综述 Overview
 
 兽医学基础模型专注于动物医学影像和临床数据分析，用于动物疾病诊断、解剖结构分割等兽医临床任务。
 
@@ -521,7 +523,7 @@
 <a id="medicine-section-20"></a>
 ## 法医学
 
-### 综述 Overview
+#### 综述 Overview
 
 法医学基础模型专注于法医病理学和法医鉴定数据分析，支持死因鉴定、损伤分类等法医学任务。
 

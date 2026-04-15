@@ -54,14 +54,13 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Prithvi-EO-2.0 | Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications | Daniela Szwarcman | 2024 | 2412.02732 | arXiv preprint | NASA/IBM联合开发的多时态地球观测基础模型，在420万全球时序样本上训练，支持Landsat和Sentinel-2 |
-| SpectralGPT | SpectralGPT: Spectral Remote Sensing Foundation Model | Danfeng Hong | 2023 | doi:10.1109/tpami.2024.3362475 | IEEE TPAMI (2024) | 首个光谱遥感基础模型，采用3D生成式预训练Transformer，专为多光谱/高光谱卫星影像设计 |
-| SatMAE | SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery | Yezhen Cong | 2022 | 2207.08051 | NeurIPS 2022 | 针对时序和多光谱卫星影像的掩码自编码器预训练框架 |
+| Prithvi-EO-2.0 | Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications | Daniela Szwarcman | 2024 | arXiv:2412.02732 | arXiv | NASA/IBM多时相地球观测基础模型，在420万全球时间序列样本上训练，支持Landsat和Sentinel-2。ting Landsat and Sentinel-2. |
+| SpectralGPT | SpectralGPT: Spectral Remote Sensing Foundation Model | Danfeng Hong | 2023 | 2311.07113 | IEEE TPAMI (2024) | 首个光谱遥感基础模型，采用3D生成式预训练Transformer，专为多光谱/高光谱卫星影像设计 |
+| SatMAE | SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery | Yezhen Cong | 2022 | NeurIPS 2022 proceedings | NeurIPS 2022 | 针对时序和多光谱卫星影像的掩码自编码器预训练框架 |
 | SeaMo | SeaMo: A Multi-Seasonal and Multimodal Remote Sensing Foundation Model | Xuyang Li | 2024 | 2412.19237 | arXiv preprint | 多季节多模态遥感基础模型，融合光学、SAR和气象数据 |
 | TerraMind | TerraMind: Large-Scale Generative Multimodality for Earth Observation | Johannes Jakubik | 2025 | ICCV 2025 proceedings | ICCV 2025 | IBM/ESA/DLR联合开发的大规模多模态地球观测生成基础模型，在5000亿token上训练 |
 | RingMo | RingMo: A Remote Sensing Foundation Model with Masked Image Modeling | Xian Sun | 2022 | DOI:10.1109/TGRS.2022.3194732 | IEEE TGRS (2023) | 中国科学院开发的遥感基础模型，使用掩码图像建模进行大规模预训练 |
 | SatCLIP | SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery | Konstantin Klemmer | 2023 | 2311.17179 | AAAI 2025 | 微软开发的全球通用地理位置编码器，使用Sentinel-2对比学习生成位置嵌入 |
-| Clay Foundation Model | Clay: An Open Source AI Model for Earth | Bruno Sánchez-Andrade Nuño | 2024 | — | 开源项目 | 开源地球观测基础模型，基于掩码自编码器架构，支持Sentinel-1/2和DEM |
 | SkySense | SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery | Xin Guo | 2023 | 2312.10115 | CVPR 2024 | 大规模多模态遥感基础模型，在2150万时序光学+SAR数据集上预训练 |
 | Scale-MAE | Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning | Colorado J. Reed | 2022 | 2212.14532 | ICCV 2023 | 尺度感知的掩码自编码器，为多尺度地理空间表征学习显式建模不同空间分辨率关系 |
 | DOFA | Neural Plasticity-Inspired Multimodal Foundation Model for Earth Observation | Zhitong Xiong | 2024 | 2403.15356 | arXiv preprint | 受神经可塑性启发的多模态EO基础模型，使用动态波长自适应超网络处理多种传感器数据 |
@@ -82,13 +81,15 @@
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
 | OceanGPT | OceanGPT: A Large Language Model for Ocean Science Tasks | Zhen Bi | 2024 | DOI:10.18653/v1/2024.acl-long.184 | ACL 2024 | 浙江大学开发的海洋科学专用大语言模型，基于DoInstruct框架生成海洋领域指令数据 |
-| XiHe | XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting | Xiang Wang | 2024 | arXiv:2402.02995 | arXiv | 数据驱动全球海洋涡旋分辨预报模型，1/12°分辨率，在25年再分析数据上训练 |
+| XiHe | XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting | Xiang Wang | 2024 | arXiv:2402.02995 | arXiv | 数据驱动全球海洋涡旋分辨预报模型，1/12°分辨率，在25年再分析数据上训练。 |
 | WV-Net | WV-Net: A Foundation Model for SAR WV-mode Satellite Imagery Trained Using Contrastive Self-supervised Learning | Yannik Glaser | 2025 | — | 期刊论文 | 首个基于SAR海洋卫星影像的基础模型，使用自监督对比学习在合成孔径雷达数据上训练 |
 | GLONET | GLONET: Mercator's End-to-End Neural Forecasting System | — | 2024 | 2412.05454 | arXiv preprint | Mercator Ocean开发的端到端神经网络全球海洋预报系统，基于GLORYS12再分析数据训练 |
 | WenHai | Forecasting the Eddying Ocean with a Deep Neural Network | — | 2025 | DOI:10.1038/s41467-025-57389-2 | Nature Communications (2025) | 深度神经网络海洋预报系统，擅长中尺度涡旋动力学预测 |
 | FuXi-Ocean | FuXi-Ocean: A Global Ocean Forecasting System with Sub-Daily Resolution | — | 2025 | — | NeurIPS 2025 | 数据驱动全球海洋预报系统，6小时时间分辨率，1/12°空间分辨率，深度达1500米 |
 | ORCA-DL | Data-driven Global Ocean Modeling for Seasonal to Decadal Prediction | — | 2025 | — | 期刊论文 | 数据驱动全球海洋模型，支持从季节到年代际尺度的三维海洋预测 |
 | FuXi-ONS | ML-based ensemble forecasting for global ocean | — | 2026 | arXiv:2603.19591 | arXiv | ML集合全球海洋预报(5-365天) |
+| PhaseNet | PhaseNet: A Deep-Neural-Network-Based Seismic Arrival Time Picking Method | Weiqiang Zhu | 2019 | 10.1093/gji/ggy423 | Geophysical Journal International | 最广泛使用的地震到时拾取深度学习模型之一，支持P波和S波到时自动识别 |
+| EQTransformer | EQTransformer: An Attentive Deep-Learning Model for Simultaneous Earthquake Detection and Phase Picking | S. Mostafa Mousavi | 2020 | 10.1038/s41467-020-17591-w | Nature Communications | 基于注意力机制的地震检测与震相拾取深度学习模型，已成为地震学标准工具 |
 
 ---
 
@@ -97,9 +98,9 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| SeisT | SeisT: A Foundational Deep Learning Model for Earthquake Monitoring Tasks | Sen Li | 2023 | doi:10.1109/tgrs.2024.3371503 | IEEE TGRS (2024) | 基于Transformer的地震监测基础模型，支持多种地震任务（检测、震相拾取、震级估计等） |
-| SeisLM | SeisLM: A Foundation Model for Seismic Waveforms | — | 2024 | 2410.15765 | arXiv preprint | 大规模自监督地震波形基础模型，通过对比学习在海量开源地震数据上预训练 |
-| SeisMoLLM | SeisMoLLM: Advancing Seismic Monitoring via Cross-modal Transfer with Pre-trained Large Language Model | — | 2025 | 2502.19960 | arXiv preprint | 基于大语言模型跨模态迁移的地震监测基础模型，借鉴GPT-2架构 |
+| SeisT | SeisT: A Foundational Deep Learning Model for Earthquake Monitoring Tasks | Sen Li | 2023 | 2310.01037 | IEEE TGRS (2024) | 基于Transformer的地震监测基础模型，支持多种地震任务（检测、震相拾取、震级估计等） |
+| SeisLM | SeisLM: a Foundation Model for Seismic Waveforms | Tianlin Liu | 2024 | arXiv:2410.15765 | arXiv | 大规模自监督地震波形基础模型，通过对比学习在海量开源地震数据上预训练。rce seismic data. |
+| SeisMoLLM | SeisMoLLM: Advancing Seismic Monitoring via Cross-modal Transfer with Pre-trained Large Language Model | Xinghao Wang | 2025 | arXiv:2502.19960 | arXiv | 地震监测基础模型，利用GPT-2架构的跨模态迁移进行地震分析。 |
 | SeismicXM | SeismicXM: A Cross-Task Foundation Model for Single-Station Seismic Waveform Processing | — | 2026 | DOI:10.1785/0220250290 | SRL (2026) | 中国地震局开发的跨任务地震波形处理基础模型，支持单台站多种处理任务 |
 | U-Trans | U-Trans: A Foundation Model for Seismic Waveform Representation and Enhanced Downstream Earthquake Tasks | — | 2026 | DOI:10.1038/s41598-026-41454-x | Scientific Reports (2026) | U-Net编码器-解码器架构的地震波形表征基础模型，在200万+三分量波形上训练 |
 | PhaseNet+ | PhaseNet+: Towards End-to-End Earthquake Monitoring Using a Multitask Deep Learning Model | Weiqiang Zhu | 2024 | 2506.06939 | arXiv preprint | PhaseNet的多任务扩展版本，实现端到端地震监测 |
@@ -154,7 +155,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| K2 | K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization | Cheng Deng | 2024 | 10.1145/3616855.3635772 | WSDM 2024 / ACM | 首个基于LLaMA的70亿参数地球科学LLM，在地球科学文献上继续预训练和指令微调 |
+| K2 | K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization | Cheng Deng | 2024 | 10.1145/3616855.3635772 | WSDM 2024 / ACM | 首个基于LLaMA的70亿参数地球科学LLM，在地球科学文献上继续预训练和指令微调。literature. |
 | JiuZhou | JiuZhou: open foundation language models and effective pre-training framework for geoscience | Zhou Chen | 2025 | 10.1080/17538947.2025.2449708 | International Journal of Digital Earth | 清华大学提出的地球科学开放基础语言模型及高效预训练框架，支持中英文地学知识问答与推理。 |
 | GeoGPT | GeoGPT: An assistant for understanding and processing geospatial tasks | Yifan Zhang | 2024 | 10.1016/j.jag.2024.103976 | International Journal of Applied Earth Observation and Geoinformation | 面向地理空间任务理解与处理的助手模型，结合GIS工具调用能力完成地理空间分析与推理。 |
 | GeoGalactica | GeoGalactica: A Scientific LLM for Geoscience | — | 2024 | arXiv:2401.00434 | arXiv | 300亿参数地球科学大语言模型，基于Galactica架构在地学语料上预训练 |
@@ -199,7 +200,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| ORBIT-2 | ORBIT-2: A Foundation Model for Climate Downscaling | — | 2025 | — | SC 2025 | 气候降尺度基础模型，在超级计算环境中训练，实现高效气候降尺度推理 |
+| ORBIT-2 | ORBIT-2: A Foundation Model for Climate Downscaling | — | 2025 | — | ORNL | 气候降尺度基础模型，在超级计算环境中训练，实现高效气候降尺度推理 |
 
 ---
 

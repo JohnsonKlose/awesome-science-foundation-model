@@ -1,6 +1,6 @@
 # Agriculture & Ecology
 
-<p align="right"><strong>Language:</strong> English | <a href="agriculture-ecology_zh.md">中文</a></p>
+<p align="right"><strong>Language:</strong> English | <a href="agriculture-ecology_zh.md">Chinese</a></p>
 
 > Crop science, plant phenotyping, remote sensing for agriculture, biodiversity, wildlife, and related agriculture and ecology foundation models.
 > [Index](../README.md)
@@ -17,7 +17,7 @@
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | A multimodal AI model integrating visual and text data for precise plant disease detection and crop health assessment. | [Scholar XJTLU](https://scholar.xjtlu.edu.cn/en/publications/agrigpt-a-strong-plant-disease-detection-model-via-visual-instruct) |
+| AgriGPT | AgriGPT: A Strong Plant Disease Detection Model via Visual Instruction Tuning | A multimodal AI model integrating visual and text data for precise plant disease detection and crop health assessment. | [Springer](https://doi.org/10.1007/978-981-96-9921-6_20) |
 | AgroGPT | AgroGPT: Efficient Agricultural Vision-Language Model with Expert Tuning | An agriculture-specific vision-language model trained via expert tuning on 70,000 images from the AgroInstruct dataset for crop disease dialogue. | [WACV](https://doi.org/10.1109/WACV61041.2025.00555) |
 | IPM-AgriGPT | IPM-AgriGPT: A Large Language Model for Pest and Disease Management with a G-EA Framework | A large language model for integrated pest and disease management using agricultural context reasoning via the G-EA framework. | [Mathematics](https://doi.org/10.3390/math13040566) |
 | AgriGPT-Omni | AgriGPT-Omni: A Unified Speech-Vision-Text Framework for Multilingual Agricultural Intelligence | A unified speech-vision-text multilingual agricultural AI framework by Zhejiang University. | [arXiv](https://arxiv.org/abs/2512.10624) |

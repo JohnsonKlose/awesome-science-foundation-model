@@ -23,21 +23,21 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| MoLFormer | Large-Scale Chemical Language Representations Capture Molecular Structure and Properties | Jerret Ross | 2022 | doi:10.1038/s42256-022-00580-7 | Nature Machine Intelligence | 基于Transformer的大规模化学语言模型，在11亿SMILES上预训练，使用线性注意力和旋转位置编码学习分子表示，用于属性预测。 |
-| GP-MoLFormer | GP-MoLFormer: A Foundation Model For Molecular Generation | Jerret Ross | 2024 | arXiv:doi:10.1039/d5dd00122f | Digital Discovery (RSC) | 基于Transformer的大规模分子生成基础模型，在11亿SMILES上训练的4680万参数decoder模型，用于分子生成任务。 |
+| MoLFormer | Large-scale chemical language representations capture molecular structure and properties | Jerret Ross | 2022 | 10.1038/s42256-022-00580-7 | Nature Machine Intelligence | 基于Transformer的化学语言模型，在11亿SMILES上使用线性注意力和旋转位置编码预训练，用于分子属性预测. |
+| GP-MoLFormer | GP-MoLFormer: A Foundation Model For Molecular Generation | Jerret Ross | 2024 | arXiv:2405.04912 | Digital Discovery (RSC) | 基于Transformer的大规模分子生成基础模型，在11亿SMILES上训练的4680万参数decoder模型，用于分子生成任务。 |
 | ChemBERTa | ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction | Seyone Chithrananda | 2020 | arXiv:2010.09885 | NeurIPS ML4Molecules Workshop | 基于RoBERTa架构的化学语言模型，在1000万PubChem SMILES上预训练，用于分子属性预测。 |
 | ChemBERTa-2 | ChemBERTa-2: Towards Chemical Foundation Models | Walid Ahmad | 2022 | arXiv:2209.01712 | arXiv preprint | ChemBERTa的进化版本，在7700万PubChem SMILES上训练，优化了预训练方法（含多任务回归），探索化学基础模型方向。 |
-| ChemFM | ChemFM as a Scaling Law Guided Foundation Model Pre-trained on Informative Chemicals | - | 2024 | arXiv:doi:10.1038/s42004-025-01793-8 | Communications Chemistry | 30亿参数化学基础模型，在UniChem的1.78亿分子上使用自监督因果语言建模训练，遵循缩放定律指导。 |
-| ChemDFM | Developing ChemDFM as a Large Language Foundation Model for Chemistry | - | 2024 | arXiv:doi:10.1016/j.xcrp.2025.102523 | NeurIPS 2024 | 基于LLaMa-13B的化学领域大语言模型，在340亿token化学文献上训练，270万指令对微调。 |
+| ChemFM | ChemFM as a Scaling Law Guided Foundation Model Pre-trained on Informative Chemicals | - | 2024 | arXiv:2410.21422 | Communications Chemistry | 30亿参数化学基础模型，在UniChem的1.78亿分子上使用自监督因果语言建模训练，遵循缩放定律指导。 |
+| ChemDFM | Developing ChemDFM as a Large Language Foundation Model for Chemistry | - | 2024 | arXiv:2401.14818 | NeurIPS 2024 | 基于LLaMa-13B的化学领域大语言模型，在340亿token化学文献上训练，270万指令对微调。 |
 | Uni-Mol | Uni-Mol: A Universal 3D Molecular Representation Learning Framework | Gengmo Zhou | 2022 | arXiv:2204.07599 | ICLR 2023 | 通用3D分子表示学习框架，直接利用分子三维结构信息进行预训练，在分子属性预测等任务达到SOTA。 |
 | Uni-Mol2 | Uni-Mol2: Exploring Molecular Pretraining Model at Scale | Xiaohong Ji | 2024 | arXiv:2406.14969 | NeurIPS 2024 | 最大3D分子基础模型（11亿参数），双轨Transformer架构整合原子、图和3D几何特征，在8.84亿分子上训练。 |
 | MolBERT | MolBERT: Molecular Representation Learning with Language Models and Domain-Relevant Auxiliary Tasks | Fabian Simm | 2020 | arXiv:2011.13230 | arXiv preprint | 基于BERT的分子表示学习模型（BenevolentAI），使用SMILES表示并结合自监督任务生成有意义的分子嵌入。 |
 | GROVER | Self-Supervised Graph Transformer on Large-Scale Molecular Data | Yu Rong | 2020 | arXiv:2007.02835 | NeurIPS 2020 | 自监督图Transformer模型，在大规模分子数据上预训练（Tencent AI Lab），融合GNN消息传递与Transformer注意力。 |
-| GEM | Geometry-enhanced molecular representation learning for property prediction | Xiaomin Fang | 2022 | 10.1038/s42256-021-00438-4 | Nature Machine Intelligence | 几何增强分子表示学习框架，利用3D空间结构信息提升属性预测 |
+| GEM | Geometry-enhanced molecular representation learning for property prediction | Xiaomin Fang | 2022 | 10.1038/s42256-021-00438-4 | Nature Machine Intelligence | 几何增强分子表示学习框架，利用3D空间结构信息提升属性预测d property prediction. |
 | Graphormer | Do Transformers Really Perform Bad for Graph Representation? | Chengxuan Ying | 2021 | arXiv:2106.05234 | NeurIPS 2021 | 微软的图Transformer框架，在OGB-LSC分子任务中获得第一名，引入空间编码和边编码用于图结构建模。 |
-| MoleculeSTM | Multi-modal molecule structure–text model for text-based retrieval and editing | Shengchao Liu | 2023 | 10.1038/s42256-023-00759-6 | Nature Machine Intelligence | 多模态模型，联合学习分子结构和文本描述，支持文本驱动的分子检索和编辑 |
+| MoleculeSTM | Multi-modal molecule structure–text model for text-based retrieval and editing | Shengchao Liu | 2023 | 10.1038/s42256-023-00759-6 | Nature Machine Intelligence | 多模态模型，联合学习分子结构和文本描述，支持文本驱动的分子检索和编辑iting. |
 | 3D-MoLM | Towards 3D Molecule-Text Interpretation in Language Models | Sihang Li | 2024 | arXiv:2401.13923 | ICLR 2024 | 将3D分子编码器与语言模型集成的开创性框架，通过3D分子-文本投影器实现LLM的3D分子理解能力。 |
-| MolE | MolE: a foundation model for molecular graphs using disentangled attention | Oscar Méndez-Lucio | 2024 | 10.1038/s41467-024-53751-y | Nature Communications | Recursion开发的分子图基础模型，使用解耦注意力Transformer，两阶段自监督预训练于约8.42亿分子 |
+| MolE | MolE: a foundation model for molecular graphs using disentangled attention | Oscar Méndez-Lucio | 2024 | 10.1038/s41467-024-53751-y | Nature Communications | Recursion开发的分子图基础模型，使用解耦注意力Transformer，两阶段自监督预训练于约8.42亿分子。 |
 | MiniMol | MiniMol: A Parameter-Efficient Foundation Model for Molecular Learning | Kerstin Kläser | 2024 | arXiv:2404.14986 | ICML 2024 | 参数高效的分子学习基础模型（仅1000万参数），在600万分子的3300+多样化生物活性数据上预训练。 |
 | SMILES-Mamba | SMILES-Mamba: Chemical Mamba Foundation Models for Drug ADMET Prediction | - | 2024 | arXiv:2408.05696 | NeurIPS 2024 Workshop | 基于Mamba架构的化学基础模型，两阶段训练（自监督预训练+监督微调）用于药物ADMET预测。 |
 | SMI-TED | SMI-TED: Large-Scale Foundation Model for Materials and Chemistry | - | 2025 | IBM Research | ICLR 2025 Workshop | IBM开发的大规模SMILES编码器-解码器基础模型，在PubChem 9100万SMILES上自监督训练，用于化学和材料科学。 |
@@ -48,8 +48,8 @@
 | Omni-Mol | Exploring Universal Convergent Space for Omni-Molecular Tasks | Chengxin Hu | 2025 | arXiv:2502.01074 | NeurIPS 2025 | 统一语言模型，在通用收敛空间中实现任意模态分子任务。 |
 | TamGen | TamGen: Drug Design with Target-Aware Molecule Generation through a Chemical Language Model | Microsoft/GHDDI | 2024 | doi:10.1038/s41467-024-53632-4 | Nature Communications | GPT风格化学语言模型，用于靶标感知的分子生成和药物设计 |
 | MoleculeGPT | MoleculeGPT: Instruction Following LLMs for Molecular Property Prediction | — | 2024 | arXiv:2306.09048 | NeurIPS 2024 Workshop | 通过分子指令数据微调的LLM，用于自然语言驱动的分子属性预测 |
-| SAFE-GPT | SAFE: A Molecular-Centric Foundation Model with SAFE Representation | — | 2024 | 10.1039/D4DD00019F | Digital Discovery | 使用顺序连接片段嵌入(SAFE)分子表示的基础模型，用于生成化学 |
-| DrugGPT | DrugGPT: A GPT-based Strategy for Designing Potential Ligands Targeting Specific Proteins | Yuesen Li | 2023 | 10.1101/2023.06.29.543848 | bioRxiv | 基于GPT的药物设计模型，生成靶向特定蛋白结合口袋的类药分子 |
+| SAFE-GPT | SAFE: A Molecular-Centric Foundation Model with SAFE Representation | — | 2024 | 10.1039/D4DD00019F | Digital Discovery | 使用顺序连接片段嵌入(SAFE)分子表示的基础模型，用于生成化学mistry. |
+| DrugGPT | DrugGPT: A GPT-based Strategy for Designing Potential Ligands Targeting Specific Proteins | Yuesen Li | 2023 | 10.1101/2023.06.29.543848 | bioRxiv | 基于GPT的药物设计模型，生成靶向特定蛋白结合口袋的类药分子。 |
 | MultiPUFFIN | Multimodal domain-constrained foundation model | — | 2026 | arXiv:2603.00857 | arXiv | 多模态域约束基础模型，整合SMILES、分子图和3D几何 |
 | FragCLM | Foundation chemical language model for fragment-based drug discovery | — | 2025 | arXiv:2509.19586 | arXiv | 基于片段的药物发现化学语言基础模型 |
 
@@ -64,10 +64,10 @@
 | T5Chem | Unified Deep Learning Model for Multitask Reaction Predictions with Explanation | Jieyu Lu | 2022 | doi:10.1021/acs.jcim.1c01467 | Journal of Chemical Information and Modeling | 基于T5的统一Transformer模型，支持多任务化学反应预测（正向预测、逆合成、产率预测等）。 |
 | Llamole | Multimodal Large Language Models for Inverse Molecular Design with Retrosynthetic Planning | Gang Liu | 2024 | arXiv:2410.04223 | NeurIPS 2024 | 多模态大语言模型，集成图扩散Transformer和GNN，支持逆向分子设计和逆合成路线规划。 |
 | RetroSynFormer | Retrosynformer: Planning Multi-step Chemical Synthesis Routes via a Decision Transformer | Emma Granqvist | 2025 | doi:10.1039/D5DD00153F | Digital Discovery (RSC) | 基于决策Transformer的多步逆合成规划模型，将逆合成建模为序列预测问题。 |
-| SynLlama | SynLlama: Generating Synthesizable Molecules and Their Analogs with Large Language Models | - | 2025 | arXiv:doi:10.1021/acscentsci.5c01285 | arXiv preprint | 基于Meta Llama3微调的大语言模型，用于生成可合成分子及完整合成路线。 |
+| SynLlama | SynLlama: Generating Synthesizable Molecules and Their Analogs with Large Language Models | Kunyang Sun | 2025 | arXiv:2503.12602 | arXiv | 基于Meta Llama 3微调的LLM，生成可合成分子及完整合成路线。 |
 | SynFormer | Generative Artificial Intelligence for Navigating Synthesizable Chemical Space | Wenhao Gao | 2024 | arXiv:2410.03494 | PNAS 2025 | 生成模型框架，专注于可合成化学空间的探索，生成分子时同时保证其可合成性。 |
-| ReactionT5 | ReactionT5: a pre-trained transformer model for accurate chemical reaction prediction with limited data | Tatsuya Sagawa | 2025 | 10.1186/s13321-025-01075-4 | Journal of Cheminformatics | 基于T5的预训练Transformer，在Open Reaction Database上预训练，在有限数据下表现优异 |
-| DeepRetro | DeepRetro discovers retrosynthetic pathways through iterative large language model reasoning | Shreyas Vinaya Sathyanarayana | 2026 | 10.1038/s41598-026-38821-z | Scientific Reports | 结合LLM推理、反应模板和专家反馈的先进逆合成框架，用于迭代路径发现 |
+| ReactionT5 | ReactionT5: a pre-trained transformer model for accurate chemical reaction prediction with limited data | Tatsuya Sagawa | 2025 | 10.1186/s13321-025-01075-4 | Journal of Cheminformatics | 基于T5的预训练Transformer，在Open Reaction Database上预训练，在有限数据下表现优异。 |
+| DeepRetro | DeepRetro discovers retrosynthetic pathways through iterative large language model reasoning | Shreyas Vinaya Sathyanarayana | 2026 | 10.1038/s41598-026-38821-z | Scientific Reports | 结合LLM推理、反应模板和专家反馈的先进逆合成框架，用于迭代路径发现 discovery. |
 | RXNGraphormer | A unified pre-trained deep learning framework for cross-task reaction performance prediction | Li-Cheng Xu | 2025 | doi:10.1038/s42256-025-01098-4 | Nature Machine Intelligence | 统一预训练反应图Transformer，整合GNN和Transformer学习键形成/断裂机制 |
 | RSGPT | RSGPT: a generative transformer for retrosynthesis planning pre-trained on ten billion datapoints | Yafeng Deng | 2025 | doi:10.1038/s41467-025-62308-6 | Nature Communications | 在100亿数据点上预训练的逆合成规划生成Transformer |
 | Chem-R | Chemical Reasoning Model | — | 2025 | arXiv:2510.16880 | NeurIPS 2025 | 化学推理模型，模拟化学家深思过程 |
@@ -120,7 +120,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| FART | A chemical language model for molecular taste prediction | Yoel Zimmermann | 2025 | 10.1038/s41538-025-00474-z | npj Science of Food | 从SMILES表示预测分子味觉属性的化学语言模型 |
+| FART | A chemical language model for molecular taste prediction | Yoel Zimmermann | 2025 | 10.1038/s41538-025-00474-z | npj Science of Food | 从SMILES表示预测分子味觉属性的化学语言模型。 |
 
 <a id="chemistry-section-08"></a>
 ## 电化学
