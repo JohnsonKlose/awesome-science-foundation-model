@@ -181,7 +181,6 @@
 | SP22M | SP22M: Mount Sinai Computational Pathology Foundation Model (22M params) | Mount Sinai 22M-parameter computational pathology foundation model. | [Hugging Face](https://huggingface.co/MountSinaiCompPath/SP22M) |
 | SP85M | SP85M: Mount Sinai Computational Pathology Foundation Model (85M params) | Mount Sinai 85M-parameter computational pathology foundation model. | [Hugging Face](https://huggingface.co/MountSinaiCompPath/SP85M) |
 | CHROMA | A comprehensive foundation model for generalizable cytogenetics in precision oncology with CHROMA | Comprehensive cytogenetics foundation model for automated chromosome analysis and karyotyping in precision oncology. | [npj Precision Oncology](https://doi.org/10.1038/s41698-026-01383-4) |
-| PAST | PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer | Multimodal single-cell foundation model integrating histopathology images and spatial transcriptomics data for cancer analysis. | [arXiv](https://arxiv.org/abs/2507.06418) |
 
 ---
 <a id="medicine-section-04"></a>

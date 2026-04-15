@@ -515,6 +515,7 @@
 | BrainBeacon | BrainBeacon: A Cross-Species Foundation Model for Single-cell Spatial Transcriptomics of Brain | Cross-species brain spatial transcriptomics foundation model integrating multi-species data for digital twin brain. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.07.08.663729) |
 | SToFM | SToFM: A multi-scale foundation model for spatial transcriptomics | Multi-scale spatial transcriptomics foundation model integrating macroscopic tissue morphology and microscopic cellular environments. | [ICML 2025](https://proceedings.mlr.press/v235/) |
 | OmniCell | OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics | Unified foundation model for both single-cell and spatial transcriptomics analysis. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.12.29.696804) |
+| PAST | PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer | Multimodal single-cell foundation model integrating histopathology images and spatial transcriptomics data for cancer analysis. | [arXiv](https://arxiv.org/abs/2507.06418) |
 
 ---
 

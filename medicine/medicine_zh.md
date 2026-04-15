@@ -193,7 +193,6 @@
 | SP22M | SP22M: Mount Sinai Computational Pathology Foundation Model (22M params) | — (Mount Sinai) | 2024 | Hugging Face | Hugging Face | Mount Sinai开发的2200万参数计算病理基础模型 |
 | SP85M | SP85M: Mount Sinai Computational Pathology Foundation Model (85M params) | — (Mount Sinai) | 2024 | Hugging Face | Hugging Face | Mount Sinai开发的8500万参数计算病理基础模型 |
 | CHROMA | A comprehensive foundation model for generalizable cytogenetics in precision oncology with CHROMA | Changchun Yang | 2026 | 10.1038/s41698-026-01383-4 | npj Precision Oncology | 面向精准肿瘤学的通用细胞遗传学基础模型，实现自动化染色体分析与核型判读 |
-| PAST | PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer | Changchun Yang | 2025 | arXiv:2507.06418 | arXiv | 多模态单细胞基础模型，整合组织病理学图像和空间转录组数据用于癌症分析 |
 
 ---
 
