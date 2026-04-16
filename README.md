@@ -20,26 +20,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](life-sciences/life-sciences_en.md) | [Chinese](life-sciences/life-sciences_zh.md)
 
-### Contents
-- [Protein](#life-sciences-section-01)
-- [RNA](#life-sciences-section-02)
-- [DNA & Genomics](#life-sciences-section-03)
-- [Single-Cell Biology](#life-sciences-section-04)
-- [Multi-Scale Biology](#life-sciences-section-05)
-- [Antibody & Immunology](#life-sciences-section-06)
-- [Enzyme Engineering](#life-sciences-section-07)
-- [Spatial Transcriptomics](#life-sciences-section-08)
-- [Glycan](#life-sciences-section-09)
-- [Metabolomics](#life-sciences-section-10)
-- [Cryo-EM](#life-sciences-section-11)
-- [Metagenomics & Microbiome](#life-sciences-section-12)
-- [Phylogenetics & Evolution](#life-sciences-section-13)
-- [Multi-Omics Integration](#life-sciences-section-14)
-- [Epigenomics](#life-sciences-section-15)
-- [Mass Spectrometry](#life-sciences-section-16)
-- [Neuroscience](#life-sciences-section-17)
-- [Synthetic Biology](#life-sciences-section-18)
-
 <a id="life-sciences-section-01"></a>
 ### Protein
 
@@ -677,16 +657,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](chemistry/chemistry_en.md) | [Chinese](chemistry/chemistry_zh.md)
 
-### Contents
-- [Small Molecules](#chemistry-section-01)
-- [Reactions & Retrosynthesis](#chemistry-section-02)
-- [Protein-Ligand Interactions](#chemistry-section-03)
-- [3D Equivariant Molecular Representations](#chemistry-section-04)
-- [Molecular Generation & Diffusion](#chemistry-section-05)
-- [Spectroscopy & Analytical Chemistry](#chemistry-section-06)
-- [Food Science](#chemistry-section-07)
-- [Electrochemistry](#chemistry-section-08)
-
 <a id="chemistry-section-01"></a>
 ### Small Molecules
 
@@ -830,19 +800,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 ## Materials Science
 
 > [English](materials-science/materials-science_en.md) | [Chinese](materials-science/materials-science_zh.md)
-
-### Contents
-- [Atomistic Force Fields](#materials-science-section-01)
-- [Crystal & Materials Property](#materials-science-section-02)
-- [Universal Atomic Models](#materials-science-section-03)
-- [Crystal Structure Generation & Inverse Design](#materials-science-section-04)
-- [Catalyst & Surface Models](#materials-science-section-05)
-- [Electronic Structure Prediction](#materials-science-section-06)
-- [Polymer & Soft Matter](#materials-science-section-07)
-- [Battery & Energy Materials](#materials-science-section-08)
-- [Foundational GNN Architectures](#materials-science-section-09)
-- [Metamaterials](#materials-science-section-10)
-- [Superconductors](#materials-science-section-11)
 
 <a id="materials-science-section-01"></a>
 ### Atomistic Force Fields
@@ -1028,19 +985,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](physics/physics_en.md) | [Chinese](physics/physics_zh.md)
 
-### Contents
-- [Particle Physics](#physics-section-01)
-- [Fluid Dynamics & PDE Solving](#physics-section-02)
-- [General Physics Simulation](#physics-section-03)
-- [World Models](#physics-section-04)
-- [Quantum Physics & Many-Body Systems](#physics-section-05)
-- [Plasma Physics & Fusion](#physics-section-06)
-- [Optics & Photonics](#physics-section-07)
-- [Structure-Preserving & Geometric Physics ML](#physics-section-08)
-- [Quantum Chemistry & Electronic Structure](#physics-section-09)
-- [Combustion Simulation](#physics-section-10)
-- [Nuclear Engineering](#physics-section-11)
-
 <a id="physics-section-01"></a>
 ### Particle Physics
 *Foundation models and deep learning architectures for jet tagging, particle tracking, and collider event analysis.*
@@ -1216,21 +1160,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 ## Earth Sciences
 
 > [English](earth-sciences/earth-sciences_en.md) | [Chinese](earth-sciences/earth-sciences_zh.md)
-
-### Contents
-- [Weather & Climate](#earth-sciences-section-01)
-- [Remote Sensing](#earth-sciences-section-02)
-- [Oceanography](#earth-sciences-section-03)
-- [Seismology](#earth-sciences-section-04)
-- [Hydrology](#earth-sciences-section-05)
-- [Wildfire Prediction](#earth-sciences-section-06)
-- [Air Quality](#earth-sciences-section-07)
-- [Cryosphere](#earth-sciences-section-08)
-- [Geoscience Language Models](#earth-sciences-section-09)
-- [Subsurface & Exploration Geophysics](#earth-sciences-section-10)
-- [SAR-Specific Models](#earth-sciences-section-11)
-- [Land Use](#earth-sciences-section-12)
-- [Climate Downscaling](#earth-sciences-section-13)
 
 <a id="earth-sciences-section-01"></a>
 ### Weather & Climate
@@ -1429,16 +1358,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](astronomy/astronomy_en.md) | [Chinese](astronomy/astronomy_zh.md)
 
-### Contents
-- [Multimodal Astronomy](#astronomy-section-01)
-- [Gravitational Wave Science](#astronomy-section-02)
-- [Radio Astronomy](#astronomy-section-03)
-- [Exoplanet Detection](#astronomy-section-04)
-- [Cosmological Simulations](#astronomy-section-05)
-- [CMB Analysis](#astronomy-section-06)
-- [Survey Classifiers](#astronomy-section-07)
-- [Planetary Science](#astronomy-section-08)
-
 <a id="astronomy-section-01"></a>
 ### Multimodal Astronomy
 
@@ -1550,28 +1469,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 ## Medicine & Biomedicine
 
 > [English](medicine/medicine_en.md) | [Chinese](medicine/medicine_zh.md)
-
-### Contents
-- [Medical Imaging](#medicine-section-01)
-- [Neuroimaging](#medicine-section-02)
-- [Pathology](#medicine-section-03)
-- [Endoscopy & Surgery](#medicine-section-04)
-- [Ultrasound](#medicine-section-05)
-- [ECG & Physiological Signals](#medicine-section-06)
-- [Dental Imaging](#medicine-section-07)
-- [Ophthalmology](#medicine-section-08)
-- [Medical NLP](#medicine-section-09)
-- [Medical Multimodal](#medicine-section-10)
-- [Electronic Health Records](#medicine-section-11)
-- [Nuclear Medicine](#medicine-section-12)
-- [Mammography](#medicine-section-13)
-- [Musculoskeletal Imaging](#medicine-section-14)
-- [Wearable & Digital Health](#medicine-section-15)
-- [Radiation Therapy](#medicine-section-16)
-- [Microscopy](#medicine-section-17)
-- [Sleep Medicine](#medicine-section-18)
-- [Veterinary Medicine](#medicine-section-19)
-- [Forensic Science](#medicine-section-20)
 
 <a id="medicine-section-01"></a>
 ### Medical Imaging
@@ -2040,11 +1937,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](mathematics/mathematics_en.md) | [Chinese](mathematics/mathematics_zh.md)
 
-### Contents
-- [Theorem Proving](#mathematics-section-01)
-- [Scientific Multimodal Reasoning](#mathematics-section-02)
-- [Mathematical Reasoning LLMs](#mathematics-section-03)
-
 <a id="mathematics-section-01"></a>
 ### Theorem Proving
 *Foundation models for formal mathematical reasoning, combining LLMs with proof assistants such as Lean for automated theorem proving and mathematical competition problem solving.*
@@ -2102,11 +1994,6 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 ## Agriculture & Ecology
 
 > [English](agriculture-ecology/agriculture-ecology_en.md) | [Chinese](agriculture-ecology/agriculture-ecology_zh.md)
-
-### Contents
-- [Agricultural AI Foundation Models](#agriculture-ecology-section-01)
-- [Ecology & Biodiversity AI Foundation Models](#agriculture-ecology-section-02)
-- [Related Remote Sensing Foundation Models](#agriculture-ecology-section-03)
 
 <a id="agriculture-ecology-section-01"></a>
 ### Agricultural AI Foundation Models
