@@ -1,5 +1,9 @@
 # Science Foundation Models
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 <p align="right"><strong>Language:</strong> English | <a href="README.zh.md">Chinese</a></p>
 
 A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next wave of scientific breakthroughs — **1,000+ models** across nine domains, from protein design to weather prediction. Cross-disciplinary models are listed wherever they apply.

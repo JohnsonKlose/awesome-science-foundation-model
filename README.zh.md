@@ -1,5 +1,9 @@
 # 科学基础模型目录
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 <p align="right"><strong>Language:</strong> <a href="README.md">English</a> | 中文</p>
 
 一份全面的中英双语指南，收录驱动下一轮科学突破的 **1,000+ 基础模型**——横跨九大学科领域，从蛋白质设计到天气预测。跨学科模型在所有相关领域均有收录。
