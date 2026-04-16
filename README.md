@@ -1,28 +1,11 @@
-# Science Foundation Models
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+# Awesome Science Foundation Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="right"><strong>Language:</strong> English | <a href="README.zh.md">Chinese</a></p>
 
 A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next wave of scientific breakthroughs — **1,000+ models** across nine domains, from protein design to weather prediction. Cross-disciplinary models are listed wherever they apply.
 
-## Browse by Domain
+## Contents
 
-| Domain | Folder | English | Chinese |
-|--------|--------|---------|---------|
-| Life Sciences | `life-sciences/` | [English](life-sciences/life-sciences_en.md) | [Chinese](life-sciences/life-sciences_zh.md) |
-| Chemistry | `chemistry/` | [English](chemistry/chemistry_en.md) | [Chinese](chemistry/chemistry_zh.md) |
-| Materials Science | `materials-science/` | [English](materials-science/materials-science_en.md) | [Chinese](materials-science/materials-science_zh.md) |
-| Physics | `physics/` | [English](physics/physics_en.md) | [Chinese](physics/physics_zh.md) |
-| Earth Sciences | `earth-sciences/` | [English](earth-sciences/earth-sciences_en.md) | [Chinese](earth-sciences/earth-sciences_zh.md) |
-| Astronomy | `astronomy/` | [English](astronomy/astronomy_en.md) | [Chinese](astronomy/astronomy_zh.md) |
-| Medicine & Biomedicine | `medicine/` | [English](medicine/medicine_en.md) | [Chinese](medicine/medicine_zh.md) |
-| Mathematics & Scientific Reasoning | `mathematics/` | [English](mathematics/mathematics_en.md) | [Chinese](mathematics/mathematics_zh.md) |
-| Agriculture & Ecology | `agriculture-ecology/` | [English](agriculture-ecology/agriculture-ecology_en.md) | [Chinese](agriculture-ecology/agriculture-ecology_zh.md) |
-
-## Domains
 - [Life Sciences](#life-sciences)
 - [Chemistry](#chemistry)
 - [Materials Science](#materials-science)
@@ -37,7 +20,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](life-sciences/life-sciences_en.md) | [Chinese](life-sciences/life-sciences_zh.md)
 
-### Table of Contents
+### Contents
 - [Protein](#life-sciences-section-01)
 - [RNA](#life-sciences-section-02)
 - [DNA & Genomics](#life-sciences-section-03)
@@ -694,7 +677,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](chemistry/chemistry_en.md) | [Chinese](chemistry/chemistry_zh.md)
 
-### Table of Contents
+### Contents
 - [Small Molecules](#chemistry-section-01)
 - [Reactions & Retrosynthesis](#chemistry-section-02)
 - [Protein-Ligand Interactions](#chemistry-section-03)
@@ -848,7 +831,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](materials-science/materials-science_en.md) | [Chinese](materials-science/materials-science_zh.md)
 
-### Table of Contents
+### Contents
 - [Atomistic Force Fields](#materials-science-section-01)
 - [Crystal & Materials Property](#materials-science-section-02)
 - [Universal Atomic Models](#materials-science-section-03)
@@ -1045,7 +1028,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](physics/physics_en.md) | [Chinese](physics/physics_zh.md)
 
-### Table of Contents
+### Contents
 - [Particle Physics](#physics-section-01)
 - [Fluid Dynamics & PDE Solving](#physics-section-02)
 - [General Physics Simulation](#physics-section-03)
@@ -1234,7 +1217,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](earth-sciences/earth-sciences_en.md) | [Chinese](earth-sciences/earth-sciences_zh.md)
 
-### Table of Contents
+### Contents
 - [Weather & Climate](#earth-sciences-section-01)
 - [Remote Sensing](#earth-sciences-section-02)
 - [Oceanography](#earth-sciences-section-03)
@@ -1446,7 +1429,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](astronomy/astronomy_en.md) | [Chinese](astronomy/astronomy_zh.md)
 
-### Table of Contents
+### Contents
 - [Multimodal Astronomy](#astronomy-section-01)
 - [Gravitational Wave Science](#astronomy-section-02)
 - [Radio Astronomy](#astronomy-section-03)
@@ -1568,7 +1551,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](medicine/medicine_en.md) | [Chinese](medicine/medicine_zh.md)
 
-### Table of Contents
+### Contents
 - [Medical Imaging](#medicine-section-01)
 - [Neuroimaging](#medicine-section-02)
 - [Pathology](#medicine-section-03)
@@ -2057,7 +2040,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](mathematics/mathematics_en.md) | [Chinese](mathematics/mathematics_zh.md)
 
-### Table of Contents
+### Contents
 - [Theorem Proving](#mathematics-section-01)
 - [Scientific Multimodal Reasoning](#mathematics-section-02)
 - [Mathematical Reasoning LLMs](#mathematics-section-03)
@@ -2120,7 +2103,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 > [English](agriculture-ecology/agriculture-ecology_en.md) | [Chinese](agriculture-ecology/agriculture-ecology_zh.md)
 
-### Table of Contents
+### Contents
 - [Agricultural AI Foundation Models](#agriculture-ecology-section-01)
 - [Ecology & Biodiversity AI Foundation Models](#agriculture-ecology-section-02)
 - [Related Remote Sensing Foundation Models](#agriculture-ecology-section-03)

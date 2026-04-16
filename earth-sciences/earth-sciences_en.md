@@ -6,7 +6,7 @@
 > [Index](../README.md)
 > Curation note: pure datasets, benchmarks, challenges, libraries, and product-only release pages are excluded; a few adjacent precursor models remain where scientific FM boundaries are still unsettled.
 
-## Table of Contents
+## Contents
 - [Weather & Climate](#earth-sciences-section-01)
 - [Remote Sensing](#earth-sciences-section-02)
 - [Oceanography](#earth-sciences-section-03)

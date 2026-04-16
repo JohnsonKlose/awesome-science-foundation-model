@@ -6,7 +6,7 @@
 > [Index](../README.md)
 > Curation note: pure datasets, benchmarks, challenges, libraries, and product-only release pages are excluded; a few adjacent precursor models remain where scientific FM boundaries are still unsettled.
 
-## Table of Contents
+## Contents
 - [Small Molecules](#chemistry-section-01)
 - [Reactions & Retrosynthesis](#chemistry-section-02)
 - [Protein-Ligand Interactions](#chemistry-section-03)

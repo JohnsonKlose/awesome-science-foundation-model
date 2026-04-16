@@ -6,7 +6,7 @@
 > [Index](../README.md)
 > Curation note: pure datasets, benchmarks, challenges, libraries, and product-only release pages are excluded; a few adjacent precursor models remain where scientific FM boundaries are still unsettled.
 
-## Table of Contents
+## Contents
 - [Particle Physics](#physics-section-01)
 - [Fluid Dynamics & PDE Solving](#physics-section-02)
 - [General Physics Simulation](#physics-section-03)

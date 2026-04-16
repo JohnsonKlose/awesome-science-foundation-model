@@ -1,28 +1,11 @@
-# 科学基础模型目录
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+# Awesome 科学基础模型 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <p align="right"><strong>Language:</strong> <a href="README.md">English</a> | 中文</p>
 
 一份全面的中英双语指南，收录驱动下一轮科学突破的 **1,000+ 基础模型**——横跨九大学科领域，从蛋白质设计到天气预测。跨学科模型在所有相关领域均有收录。
 
-## 按领域浏览
+## 目录
 
-| 领域 | 文件夹 | 英文 | 中文 |
-|------|--------|------|------|
-| 生命科学 | `life-sciences/` | [英文](life-sciences/life-sciences_en.md) | [中文](life-sciences/life-sciences_zh.md) |
-| 化学 | `chemistry/` | [英文](chemistry/chemistry_en.md) | [中文](chemistry/chemistry_zh.md) |
-| 材料科学 | `materials-science/` | [英文](materials-science/materials-science_en.md) | [中文](materials-science/materials-science_zh.md) |
-| 物理学 | `physics/` | [英文](physics/physics_en.md) | [中文](physics/physics_zh.md) |
-| 地球科学 | `earth-sciences/` | [英文](earth-sciences/earth-sciences_en.md) | [中文](earth-sciences/earth-sciences_zh.md) |
-| 天文学 | `astronomy/` | [英文](astronomy/astronomy_en.md) | [中文](astronomy/astronomy_zh.md) |
-| 医学与生物医学 | `medicine/` | [英文](medicine/medicine_en.md) | [中文](medicine/medicine_zh.md) |
-| 数学与科学推理 | `mathematics/` | [英文](mathematics/mathematics_en.md) | [中文](mathematics/mathematics_zh.md) |
-| 农业与生态 | `agriculture-ecology/` | [英文](agriculture-ecology/agriculture-ecology_en.md) | [中文](agriculture-ecology/agriculture-ecology_zh.md) |
-
-## 领域
 - [生命科学](#生命科学)
 - [化学](#化学)
 - [材料科学](#材料科学)

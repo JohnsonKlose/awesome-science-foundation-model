@@ -6,7 +6,7 @@
 > [Index](../README.md)
 > Curation note: pure datasets, benchmarks, challenges, libraries, and product-only release pages are excluded; a few adjacent precursor models remain where scientific FM boundaries are still unsettled.
 
-## Table of Contents
+## Contents
 - [Multimodal Astronomy](#astronomy-section-01)
 - [Gravitational Wave Science](#astronomy-section-02)
 - [Radio Astronomy](#astronomy-section-03)

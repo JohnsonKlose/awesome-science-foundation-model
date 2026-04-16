@@ -6,7 +6,7 @@
 > [Index](../README.md)
 > Curation note: pure datasets, benchmarks, challenges, libraries, and product-only release pages are excluded; a few adjacent precursor models remain where scientific FM boundaries are still unsettled.
 
-## Table of Contents
+## Contents
 - [Medical Imaging](#medicine-section-01)
 - [Neuroimaging](#medicine-section-02)
 - [Pathology](#medicine-section-03)

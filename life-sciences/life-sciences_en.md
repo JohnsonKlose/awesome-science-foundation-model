@@ -6,7 +6,7 @@
 > [Index](../README.md)
 > Curation note: pure datasets, benchmarks, challenges, libraries, and product-only release pages are excluded; a few adjacent precursor models remain where scientific FM boundaries are still unsettled.
 
-## Table of Contents
+## Contents
 - [Protein](#life-sciences-section-01)
 - [RNA](#life-sciences-section-02)
 - [DNA & Genomics](#life-sciences-section-03)
