@@ -1731,6 +1731,7 @@
 | TinyMyo | Tiny Foundation Model for EMG | — | 2025 | arXiv:2512.15729 | arXiv | 轻量级EMG边缘基础模型 |
 | ECG-MoE | ECG-MoE: Mixture-of-Expert Electrocardiogram Foundation Model | Yuhao Xu | 2026 | arXiv:2603.04589 | arXiv | 混合专家ECG基础模型，同时捕获周期性和形态特征以增强心脏诊断。 |
 | LAMAE | LAMAE: Foundation Model for Cardiac Time Series via Masked Latent Attention | — | 2026 | arXiv:2603.26475 | arXiv Preprint | 心脏时间序列基础模型，利用ECG结构先验的潜隐注意力掩码自编码器 |
+| CSFM | Cardiac health assessment across scenarios and devices using a multimodal foundation model pretrained on data from 1.7 million individuals | Xiao Gu | 2026 | doi:10.1038/s42256-026-01180-5 | Nat. Mach. Intell. | 多模态心脏感知基础模型，基于170万个体的ECG/PPG信号和临床文本预训练，支持诊断、生命体征测量和临床结局预测。 |
 | ECG-Soup | ECG-Soup: Harnessing Multi-Layer Synergy for ECG Foundation Models | Phu X. Nguyen | 2025 | arXiv:2509.00102 | arXiv | 利用多层Transformer协同的ECG基础模型，改善心脏信号表征。 |
 | BIOT | BIOT: Biosignal Transformer for Cross-data Learning in the Wild | — | 2024 | NeurIPS 2024 | NeurIPS 2024 | 跨数据集生物信号Transformer，统一处理EEG/ECG/EMG等多种生理信号 |
 | LaBraM | LaBraM: Large Brain Model for Learning Generic Representations with Tremendous EEG Data | — | 2024 | ICLR 2024 | ICLR 2024 | 大规模脑电模型，在海量EEG数据上预训练的通用EEG表征学习基础模型 |
