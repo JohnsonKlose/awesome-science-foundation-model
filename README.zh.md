@@ -1656,6 +1656,7 @@
 | VISTA-PATH | VISTA-PATH: An interactive foundation model for pathology image segmentation and quantitative analysis | — | 2026 | arXiv:2601.16451 | arXiv Preprint | 交互式病理图像分割与定量分析基础模型，增强临床相关性和准确性 |
 | CARE | CARE: A Molecular-Guided Foundation Model with Adaptive Region Modeling for WSI Analysis | — | 2026 | arXiv:2602.21637 | arXiv Preprint | 分子引导的自适应区域建模全切片图像分析基础模型 |
 | BRIGHT | BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology | Xiaojing Guo | 2026 | arXiv:2603.03030 | arXiv | 协作式通才-专家乳腺癌理基础模型。 |
+| GigaTIME | Multimodal AI generates virtual population for tumor microenvironment modeling | Jeya Maria Jose Valanarasu | 2026 | doi:10.1016/j.cell.2025.11.016 | Cell | 多模态AI框架，从H&E切片生成虚拟多重免疫荧光图像，基于4000万配对细胞和21种蛋白训练，覆盖14000+患者、24种癌型的群体规模肿瘤免疫微环境建模。 |
 | GenBio-PathFM | GenBio-PathFM: A State-of-the-Art Foundation Model for Histopathology | Saarthak Kapse | 2026 | 10.64898/2026.03.17.712534 | bioRxiv | 11亿参数的SOTA组织病理学基础模型，完全基于公开数据训练。 |
 | Atlas 2 | State-of-the-art pathology FM trained on 5.5M WSIs | Aignostics/Mayo | 2026 | arXiv:2601.05148 | arXiv | 550万全切片训练的病理学基础模型 |
 | LongViT | LongViT: Long-Context Vision Transformer for Pathology | — | 2024 | arXiv:2403.14576 | arXiv Preprint | 长上下文视觉Transformer，直接处理超大尺寸病理全切片图像 |
