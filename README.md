@@ -285,9 +285,9 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 | OmniReg-GPT | OmniReg-GPT: A Generative Pre-trained Model for Universal Gene Regulation Prediction | Generative pretrained model for universal gene regulation prediction across species and tissues. | [Nature Communications](https://www.nature.com/articles/s41467-025-65066-7) |
 | BOTANIC-0 | BOTANIC-0: A Plant Genomic Foundation Model | Family of plant genomic foundation models (100M–1B parameters) pretrained on 1,600+ curated plant genomes. | [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.02.23.706817v1) |
 | Species-aware DNA LM | Species-aware DNA Language Modeling | DNA language model incorporating species-specific information during pretraining. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.01.26.525670v1) |
-| Genos | Genos: A Large Human-Centric Genomic Foundation Model | Large-scale (up to 10B parameters) human-centric genomic foundation model with MoE-Transformer architecture from BGI. | [ICG-20 Conference](https://github.com/BGI-HangzhouAI/Genos) |
+| Genos | Genos: A Large Human-Centric Genomic Foundation Model | Large-scale (up to 10B parameters) human-centric genomic foundation model with MoE-Transformer architecture from BGI. | [GigaScience](https://doi.org/10.1093/gigascience/giaf132) |
 | GENERator | GENERator: A Long-Context Generative Genomic Foundation Model | Long-context generative genomic foundation model pretrained on 386 billion nucleotides with 98k context length. | [arXiv](https://arxiv.org/abs/2502.07272) |
-| BioReason | BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model | First deep integration of DNA foundation models (Nucleotide Transformer/Evo2) with LLMs for multi-step biological reasoning; raises KEGG disease pathway prediction from 86% to 98% with interpretable reasoning traces. | [arXiv](https://arxiv.org/abs/2505.23579) |
+| BioReason | BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model | First deep integration of DNA foundation models (Nucleotide Transformer/Evo2) with LLMs for multi-step biological reasoning; raises KEGG disease pathway prediction from 86% to 98% with interpretable reasoning traces. | [NeurIPS 2025](https://neurips.cc/virtual/2025/poster/116227) |
 
 ---
 <a id="life-sciences-section-04"></a>
