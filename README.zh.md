@@ -2168,3 +2168,25 @@
 ---
 
 > **总计 / Total: 27 models** — 农业AI: 11 | 生态与生物多样性: 14 | 相关遥感: 2
+
+## 联系方式
+
+- **邮箱：** jiaoyifeng@sais.org.cn / lijiyang@sais.org.cn
+- **GitHub Issues：** [提交 Issue](https://github.com/JohnsonKlose/awesome-science-foundation-model/issues)
+
+如果你有学术合作意向、模型推荐，或希望参与项目维护，欢迎通过邮箱或 GitHub Issue 联系我们。
+
+## 引用
+
+如果这份资源对你的研究或学习有帮助，请引用：
+
+```bibtex
+@misc{awesome-science-foundation-model,
+  author       = {Yifeng Jiao and Jiyang Li},
+  title        = {Awesome Science Foundation Models: A Comprehensive Catalog of 1,000+ Scientific Foundation Models},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/JohnsonKlose/awesome-science-foundation-model}},
+  note         = {Accessed: 2026}
+}
+```

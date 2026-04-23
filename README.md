@@ -2060,3 +2060,26 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 |-------|------------|-------------|------|
 | SkySense++ | SkySense++: A Semantic-Enhanced Multi-Modal Remote Sensing Foundation Model for Earth Observation | A semantic-enhanced multimodal remote sensing foundation model trained on 27 million remote sensing samples supporting agricultural mapping and diverse earth observation tasks. | [Nature Machine Intelligence](https://doi.org/10.1038/s42256-025-01078-8) |
 | SkySense V2 | SkySense V2: A Unified Foundation Model for Multi-modal Remote Sensing | A unified multimodal remote sensing foundation model with a single Transformer backbone processing multiple remote sensing modalities. | [ICCV](https://arxiv.org/abs/2507.13812) |
+
+
+## Contact
+
+- **Email:** jiaoyifeng@sais.org.cn / lijiyang@sais.org.cn
+- **GitHub Issues:** [Open an issue](https://github.com/JohnsonKlose/awesome-science-foundation-model/issues)
+
+For academic collaboration, model recommendations, or project maintenance, feel free to reach out.
+
+## Citation
+
+If you find this resource useful, please cite it as:
+
+```bibtex
+@misc{awesome-science-foundation-model,
+  author       = {Yifeng Jiao and Jiyang Li},
+  title        = {Awesome Science Foundation Models: A Comprehensive Catalog of 1,000+ Scientific Foundation Models},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/JohnsonKlose/awesome-science-foundation-model}},
+  note         = {Accessed: 2026}
+}
+```
