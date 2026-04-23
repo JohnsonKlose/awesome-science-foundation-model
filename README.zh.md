@@ -1,20 +1,30 @@
-# Awesome 科学基础模型 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-<p align="right"><strong>Language:</strong> <a href="README.md">English</a> | 中文</p>
+# Awesome 科学基础模型
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/JohnsonKlose/awesome-science-foundation-model?style=social)](https://github.com/JohnsonKlose/awesome-science-foundation-model)
+[![Last Commit](https://img.shields.io/github/last-commit/JohnsonKlose/awesome-science-foundation-model)](https://github.com/JohnsonKlose/awesome-science-foundation-model/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JohnsonKlose/awesome-science-foundation-model/pulls)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 一份全面的中英双语指南，收录驱动下一轮科学突破的 **1,000+ 基础模型**——横跨九大学科领域，从蛋白质设计到天气预测。跨学科模型在所有相关领域均有收录。
 
+**Language:** [English](README.md) | 中文
+
+</div>
+
 ## 目录
 
-- [生命科学](#生命科学)
-- [化学](#化学)
-- [材料科学](#材料科学)
-- [物理学](#物理学)
-- [地球科学](#地球科学)
-- [天文学](#天文学)
-- [医学与生物医学](#医学与生物医学)
-- [数学与科学推理](#数学与科学推理)
-- [农业与生态](#农业与生态)
+- 🧬 [生命科学](#生命科学)
+- ⚗️ [化学](#化学)
+- 🔬 [材料科学](#材料科学)
+- ⚛️ [物理学](#物理学)
+- 🌍 [地球科学](#地球科学)
+- 🔭 [天文学](#天文学)
+- 🩺 [医学与生物医学](#医学与生物医学)
+- 📐 [数学与科学推理](#数学与科学推理)
+- 🌱 [农业与生态](#农业与生态)
 
 ## 生命科学
 

@@ -1,20 +1,30 @@
-# Awesome Science Foundation Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-<p align="right"><strong>Language:</strong> English | <a href="README.zh.md">Chinese</a></p>
+# Awesome Science Foundation Models
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/JohnsonKlose/awesome-science-foundation-model?style=social)](https://github.com/JohnsonKlose/awesome-science-foundation-model)
+[![Last Commit](https://img.shields.io/github/last-commit/JohnsonKlose/awesome-science-foundation-model)](https://github.com/JohnsonKlose/awesome-science-foundation-model/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/JohnsonKlose/awesome-science-foundation-model/pulls)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next wave of scientific breakthroughs — **1,000+ models** across nine domains, from protein design to weather prediction. Cross-disciplinary models are listed wherever they apply.
 
+**Language:** English | [Chinese](README.zh.md)
+
+</div>
+
 ## Contents
 
-- [Life Sciences](#life-sciences)
-- [Chemistry](#chemistry)
-- [Materials Science](#materials-science)
-- [Physics](#physics)
-- [Earth Sciences](#earth-sciences)
-- [Astronomy](#astronomy)
-- [Medicine & Biomedicine](#medicine--biomedicine)
-- [Mathematics & Scientific Reasoning](#mathematics--scientific-reasoning)
-- [Agriculture & Ecology](#agriculture--ecology)
+- 🧬 [Life Sciences](#life-sciences)
+- ⚗️ [Chemistry](#chemistry)
+- 🔬 [Materials Science](#materials-science)
+- ⚛️ [Physics](#physics)
+- 🌍 [Earth Sciences](#earth-sciences)
+- 🔭 [Astronomy](#astronomy)
+- 🩺 [Medicine & Biomedicine](#medicine--biomedicine)
+- 📐 [Mathematics & Scientific Reasoning](#mathematics--scientific-reasoning)
+- 🌱 [Agriculture & Ecology](#agriculture--ecology)
 
 ## Life Sciences
 
