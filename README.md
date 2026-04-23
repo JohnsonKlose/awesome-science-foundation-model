@@ -2068,18 +2068,3 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 - **GitHub Issues:** [Open an issue](https://github.com/JohnsonKlose/awesome-science-foundation-model/issues)
 
 For academic collaboration, model recommendations, or project maintenance, feel free to reach out.
-
-## Citation
-
-If you find this resource useful, please cite it as:
-
-```bibtex
-@misc{awesome-science-foundation-model,
-  author       = {Yifeng Jiao and Jiyang Li},
-  title        = {Awesome Science Foundation Models: A Comprehensive Catalog of 1,000+ Scientific Foundation Models},
-  year         = {2025},
-  publisher    = {GitHub},
-  howpublished = {\url{https://github.com/JohnsonKlose/awesome-science-foundation-model}},
-  note         = {Accessed: 2026}
-}
-```
