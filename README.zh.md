@@ -77,7 +77,7 @@
 | ProSST | ProSST: Protein language modeling with quantized structure and disentangled attention | — | 2024 | doi:10.52202/079017-1126 | NeurIPS 2024 | 结合氨基酸序列与量化3D结构信息的蛋白质语言模型 |
 | InstructPLM | InstructPLM: Aligning protein language models to follow protein design instructions | — | 2024 | arXiv:2510.03370 | arXiv | 通过指令微调ESM2，在蛋白质设计任务上超越ESM3 |
 | UniRep | Unified rational protein engineering with sequence-based deep representation learning | Alley et al. | 2019 | doi:10.1038/s41592-019-0598-1 | Nature Methods | 基于RNN的蛋白质语言模型，用于统一表征学习和理性蛋白质工程。 |
-| MSA Transformer | MSA Transformer | Rao et al. | 2021 | doi:10.1101/2021.02.12.430858 | ICML 2021 | 在多序列比对上运行的Transformer模型，用于改进蛋白质建模。 |
+| MSA Transformer | MSA Transformer | Rao et al. | 2021 | proceedings.mlr.press/v139/rao21a.html | ICML 2021 | 在多序列比对上运行的Transformer模型，用于改进蛋白质建模。 |
 | EVE | Disease variant prediction with deep generative models of evolutionary data | Jonathan Frazer | 2021 | 10.1038/s41586-021-04043-8 | Nature | 进化变分自编码器，从蛋白质家族数据预测致病遗传变异。 |
 | Tranception | Protein fitness prediction with autoregressive transformers and inference-time retrieval | Notin et al. | 2022 | arXiv:2205.13760 | ICML 2022 | 带检索时比对上下文的自回归语言模型，用于蛋白质适应性预测。 |
 | RITA | RITA: a Study on Scaling Up Generative Protein Sequence Models | Hesslow et al. | 2022 | arXiv:2205.05789 | Preprint | 自回归蛋白质生成模型的缩放研究，参数量达12亿。 |
@@ -322,6 +322,7 @@
 | Nicheformer | Nicheformer: a foundation model for single-cell and spatial omics | Alejandro Tejada-Lapuerta | 2025 | 10.1038/s41592-025-02814-z | Nature Methods | 单细胞和空间组学基础模型，在SpatialCorpus-110M（1.1亿+细胞）上训练，捕获空间微环境。 |
 | scMulan | scMulan: A multitask generative pre-trained language model for single-cell analysis | Haiyang Bian | 2024 | RECOMB 2024 | RECOMB 2024 | 多任务生成式预训练单细胞语言模型，将细胞编码为结构化"c-句子" |
 | Cell2Sentence | Cell2Sentence: Teaching large language models the language of biology | Daniel Levine | 2024 | ICML 2024 | ICML 2024 | 将基因表达数据转化为自然语言句子，使LLM(如GPT-2)适应单细胞转录组学 |
+| C2S-Scale | Scaling large language models for next-generation single-cell analysis | Rizvi et al. | 2025 | doi:10.1101/2025.04.14.648850 | bioRxiv | 扩展Cell2Sentence框架，使用更大模型和更广泛数据提升单细胞RNA-seq分析能力 |
 | GET | GET: A foundation model of transcription across human cell types | Xi Fu | 2025 | 10.1038/s41586-024-08391-z | Nature | 通用表达Transformer，从染色质可及性和序列预测213种人类细胞类型基因表达 |
 | GenePT | GenePT: A simple but effective foundation model for genes and cells built from ChatGPT | Yiqun Chen | 2024 | — | bioRxiv | 利用ChatGPT嵌入构建的简单高效基因和细胞基础模型 |
 | LangCell | LangCell: Language-cell pre-training for cell identity understanding | Suyuan Zhao | 2024 | arXiv:2405.06708 | arXiv | 自然语言与单细胞转录组联合预训练，增强细胞身份理解 |
