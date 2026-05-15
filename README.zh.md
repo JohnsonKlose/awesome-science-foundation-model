@@ -596,7 +596,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| Phyla | Phyla: Towards a Foundation Model for Phylogenetic Inference | Andrew Shen | 2025 | bioRxiv:2025.01.17.633626 | bioRxiv Preprint | 首个系统发育推断基础模型，使用混合状态空间Transformer和树损失函数 |
+| Phyla | Evolutionary Reasoning Does Not Arise in Standard Usage of Protein Language Models | Yasha Ektefaie, Andrew Shen | 2025 | bioRxiv:2025.01.17.633626v3 | bioRxiv Preprint | 系统发育推断基础模型 Phyla（同一 preprint v1 提出），使用混合状态空间 Transformer 和树损失函数 |
 | PhyloGPN | A Phylogenetic Approach to Genomic Language Modeling | — | 2024/2025 | arXiv:2503.03773 | arXiv | 基于系统发育树的基因组语言模型，利用多物种全基因组比对和进化模型 |
 
 ---

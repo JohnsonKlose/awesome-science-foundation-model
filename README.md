@@ -597,7 +597,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| Phyla | Phyla: Towards a Foundation Model for Phylogenetic Inference | First phylogenetic inference foundation model using hybrid state-space transformer with tree loss function. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.01.17.633626) |
+| Phyla | Evolutionary Reasoning Does Not Arise in Standard Usage of Protein Language Models | Phylogenetic inference foundation model (Phyla, originally proposed in v1 of the same preprint) using hybrid state-space transformer with tree loss function. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.01.17.633626v3) |
 | PhyloGPN | A Phylogenetic Approach to Genomic Language Modeling | Phylogenetic tree-based genomic language model using multi-species whole-genome alignments and evolutionary models. | [Lecture Notes in Computer Science](https://arxiv.org/abs/2503.03773) |
 
 ---
