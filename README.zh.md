@@ -638,7 +638,7 @@
 
 | 模型名称 | 论文标题 | 第一作者 | 年份 | ArXiv/DOI | 发表venue | 简述 |
 |---------|---------|---------|------|-----------|----------|------|
-| DIA-BERT | DIA-BERT: A Foundation Model for Data-Independent Acquisition Proteomics | (多作者) | 2024 | arXiv:2403.17860 | arXiv | 基于Transformer的DIA蛋白质组学基础模型，改善肽段鉴定和定量。 |
+| DIA-BERT | DIA-BERT: pre-trained end-to-end transformer models for enhanced DIA proteomics data analysis | Zhiwei Liu et al. | 2025 | 10.1038/s41467-025-58866-4 | Nature Communications | 基于Transformer的DIA蛋白质组学基础模型，改善肽段鉴定和定量。 |
 | DreaMS | DreaMS: Deep Representations Empowering the Annotation of Mass Spectra | (多作者) | 2024 | 10.1038/s41587-025-02689-7 | Nature Biotechnology | 深度表示学习基础模型，用于质谱注释和代谢物鉴定。 |
 | LSM-MS2 | LSM-MS2: A Foundation Model Bridging Spectral Identification and Biological Interpretation | (多作者) | 2025 | arXiv:2510.26715 | arXiv | 大规模串联质谱基础模型，在数百万MS2谱图上预训练，用于化合物鉴定。 |
 | OmniNovo | Accurate de novo sequencing of the modified proteome with OmniNovo | (多作者) | 2025 | arXiv:2512.12272 | arXiv | 通用基础模型，直接从质谱数据进行从头肽段测序。 |

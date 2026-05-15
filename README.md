@@ -637,7 +637,7 @@ A comprehensive, bilingual (EN/ZH) guide to foundation models driving the next w
 
 | Model | Paper Title | Description | Link |
 |-------|------------|-------------|------|
-| DIA-BERT | DIA-BERT: A Foundation Model for Data-Independent Acquisition Proteomics | Transformer-based foundation model for data-independent acquisition proteomics, improving peptide identification and quantification. | [bioRxiv](https://www.biorxiv.org/content/10.1101/2024.02.01.578401) |
+| DIA-BERT | DIA-BERT: pre-trained end-to-end transformer models for enhanced DIA proteomics data analysis | Transformer-based foundation model for data-independent acquisition proteomics, improving peptide identification and quantification. | [Nature Communications](https://doi.org/10.1038/s41467-025-58866-4) |
 | DreaMS | DreaMS: Deep Representations Empowering the Annotation of Mass Spectra | Deep representation learning foundation model for mass spectra annotation and metabolite identification. | [Nature Biotechnology](https://doi.org/10.1038/s41587-025-02689-7) |
 | LSM-MS2 | LSM-MS2: Large-Scale Mass Spectrometry Foundation Model | Large-scale tandem mass spectrometry foundation model pretrained on millions of MS2 spectra for compound identification. | [ChemRxiv](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2024-k06gb-v2) |
 | OmniNovo | OmniNovo: A Universal Foundation Model for De Novo Peptide Sequencing | Universal foundation model for de novo peptide sequencing directly from mass spectrometry data. | [arXiv](https://arxiv.org/abs/2512.12272) |
