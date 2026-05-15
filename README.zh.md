@@ -96,7 +96,7 @@
 | MULAN | MULAN: multimodal protein language model for sequence and structure encoding | Daria Frolova | 2024 | 10.1093/bioadv/vbaf117 | Bioinformatics Advances | 多模态蛋白质编码器，联合建模序列和结构信息。 |
 | ProteinSage | ProteinSage: From implicit learning to explicit structural constraints for efficient protein language modeling | Lingdong Shen | 2026 | 10.64898/2026.03.17.712034 | bioRxiv | 蛋白质语言模型，结合隐式学习和显式结构约束以提升效率。 |
 | OneProt | OneProt: Towards Multi-Modal Protein Foundation Models | Klemens Flöge | 2024 | arXiv:2411.04863 | arXiv | 多模态蛋白质基础模型，整合结构、序列、文本和结合位点数据。 |
-| ECNet | ECNet: Evolutionary context-integrated neural network for protein engineering | — | 2022 | 10.1038/s41467-022-29076-z | Nature Communications | 整合进化上下文的深度学习框架，用于蛋白质工程和适应性预测。 |
+| ECNet | ECNet is an evolutionary context-integrated deep learning framework for protein engineering | Yunan Luo | 2021 | 10.1038/s41467-021-25976-8 | Nature Communications | 整合进化上下文的深度学习框架，用于蛋白质工程和适应性预测。 |
 | PoET-2 | Understanding protein function with a multimodal retrieval-augmented foundation model | (OpenProtein.AI) | 2025 | arXiv:2508.04724 | arXiv | 下一代检索增强多模态蛋白质家族模型，相比PoET改善适应性预测。 |
 | FlexRibbon | FlexRibbon: Foundation Model for Flexible Protein Representation | — | 2025 | — | Preprint | 灵活蛋白质表示基础模型，支持多种蛋白质分析和设计下游任务。 |
 | ProteinAligner | ProteinAligner: Cross-Modal Alignment for Protein Sequence and Structure | — | 2025 | — | Preprint | 蛋白质序列-结构跨模态对齐基础模型，增强蛋白质理解和功能预测。 |
@@ -279,7 +279,7 @@
 | ChromBPNet | ChromBPNet: bias factorized, base-resolution deep learning models of chromatin accessibility reveal cis-regulatory sequence syntax, transcription factor footprints and regulatory variants | Pampari et al. | 2025 | 10.1101/2024.12.25.630221 | bioRxiv | 碱基分辨率深度学习模型，通过偏差因子分解预测染色质可及性。 |
 | scBasset | scBasset: sequence-based modeling of single-cell ATAC-seq using convolutional neural networks | Han Yuan | 2022 | 10.1038/s41592-022-01562-8 | Nature Methods | CNN模型，从DNA序列建模单细胞ATAC-seq染色质可及性。 |
 | EpiGePT | EpiGePT: a Pretrained Transformer model for epigenomics | Zijing Gao | 2023 | 10.1101/2023.07.15.549134 | bioRxiv | 用于表观基因组数据分析和预测的预训练Transformer模型。 |
-| AgroNT | AgroNT: A crop genomics foundation model | Mendoza-Revilla et al. | 2024 | 10.1038/s41586-024-07969-x | Nature | 作物特异性基因组基础模型，用于植物基因组学和育种应用。 |
+| AgroNT | A foundational large language model for edible plant genomes | Mendoza-Revilla et al. | 2024 | 10.1038/s42003-024-06465-2 | Communications Biology | 作物特异性基因组基础模型，用于植物基因组学和育种应用。 |
 | AlphaGenome | Advancing regulatory variant effect prediction with AlphaGenome | Žiga Avsec | 2026 | 10.1038/s41586-025-10014-0 | Nature | Google DeepMind的兆碱基尺度DNA模型，预测基因表达和染色质信号用于变异效应分析。 |
 | GENA-LM | GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences | Veniamin Fishman | 2023 | 10.1101/2023.06.12.544594 | bioRxiv | 开源Transformer DNA语言模型家族，支持最长36k bp序列。 |
 | DNAGPT | DNAGPT: A Generalized Pre-trained Tool for Multiple DNA Sequence Analysis Tasks | Daoan Zhang | 2023 | 10.1101/2023.07.11.548628 | bioRxiv | 用于多种DNA分析任务的生成式预训练模型。 |
@@ -338,7 +338,7 @@
 | totalVI | Joint probabilistic modeling of single-cell multi-omic data with totalVI | Gayoso et al. | 2021 | doi:10.1038/s41592-020-01050-x | Nature Methods | 用于同时分析RNA和蛋白质单细胞数据的联合概率模型。 |
 | scPoli | Population-level integration of single-cell datasets enables multi-scale analysis | De Donno et al. | 2023 | doi:10.1038/s41592-023-02035-2 | Nature Methods | 群体级单细胞数据集整合，实现多尺度生物学分析。 |
 | scHyena | scHyena: Foundation Model for Full-Length Single-Cell RNA-Seq Analysis in Brain | Gyutaek Oh | 2023 | arXiv:2310.02713 | arXiv | 基于Hyena架构的基础模型，用于脑组织全长度scRNA-seq分析。 |
-| TOSICA | TOSICA: Transfer of Omics Single-Cell Analysis | — | 2023 | 10.1038/s41467-023-44066-5 | Nature Communications | 跨数据集和模态的单细胞组学分析迁移学习框架。 |
+| TOSICA | Transformer for one stop interpretable cell type annotation | Jiawei Chen | 2023 | 10.1038/s41467-023-35923-4 | Nature Communications | 跨数据集和模态的单细胞组学分析迁移学习框架。 |
 | xTrimoGene | xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data | — | 2023 | OpenReview:gdwcoBCMVi | NeurIPS 2023 | 使用非对称编码器-解码器架构的高效可扩展scRNA-seq表征学习器。 |
 | CancerFoundation | A single-cell RNA sequencing foundation model to decipher drug resistance in cancer | — | 2024 | doi:10.1101/2024.11.01.621087 | bioRxiv | 用于解析药物耐药机制的癌症特异性scRNA-seq基础模型。 |
 | Cell-GraphCompass | Cell-GraphCompass: modeling single cells with graph structure foundation model | Chen Fang | 2025 | 10.1093/nsr/nwaf255 | National Science Review | 图结构基础模型，使用基于图的细胞表示进行单细胞分析。 |
@@ -1550,7 +1550,7 @@
 | MedicoSAM | MedicoSAM: Towards Foundation Models for Medical Image Segmentation | (多作者) | 2025 | arXiv:2501.11734 | arXiv Preprint | 探索将SAM适配为医学图像分割基础模型的系统研究。 |
 | BiomedParse | BiomedParse: Biomedical Foundation Model for Image Parsing | Microsoft | 2024 | arXiv:2405.12971 | Nature Methods 2024 | 微软统一生物医学图像解析基础模型，支持分割、检测和识别 |
 | SegVol | SegVol: Universal and Interactive Volumetric Medical Image Segmentation | Yuxin Du | 2024 | arXiv:2311.13385 | arXiv | 通用交互式3D医学图像分割，支持语义和空间提示 |
-| SuPreM | SuPreM: Label-Efficient 3D Medical Image Segmentation via Supervised Pre-training | — | 2024 | arXiv:2410.06667 | IEEE TMI 2025 | 监督预训练的3D分割基础模型，2100+CT |
+| SuPreM | Towards Foundation Models and Few-Shot Parameter-Efficient Fine-Tuning for Volumetric Organ Segmentation | Wenxuan Li et al. | 2023 | arXiv:2303.17051 | arXiv | 监督预训练的3D分割基础模型，2100+CT |
 | VISTA3D | VISTA3D: Versatile Imaging Segmentation and Annotation Model for 3D | NVIDIA | 2024 | — | MICCAI 2024 | NVIDIA通用3D医学图像分割注释模型 |
 | CT-FM | CT Foundation Model for Body Composition Analysis | — | 2024 | — | arXiv | CT身体成分分析基础模型 |
 | LCTfound | Learning CT Foundation Representations | — | 2025 | — | arXiv | CT基础表征学习 |
@@ -1564,8 +1564,8 @@
 | Merlin | Merlin: A Vision Language Foundation Model for 3D Computed Tomography | Louis Blankemeier | 2024 | arXiv:2406.06512 | arXiv | 3D CT视觉-语言基础模型，15,000+ CT |
 | ELIXR | ELIXR: Towards a General-Purpose X-Ray Artificial Intelligence System Through Alignment of Large Language Models and Radiology Vision Encoders | Google | 2023 | arXiv:2308.01317 | Google Research / arXiv | Google大语言模型对齐放射学视觉编码器 |
 | CXR-LLaVA | CXR-LLaVA: Multimodal Large Language Model for Interpreting Chest X-ray | — | 2024 | — | arXiv | 胸部X光解读多模态大语言模型 |
-| 3DINO | 3DINO: Self-supervised 3D Anatomical Representation Learning | — | 2025 | — | arXiv | 3D解剖自监督表征学习 |
-| DeepMedix-R1 | DeepMedix-R1: Reasoning-Based Medical Imaging Foundation Model | — | 2025 | — | arXiv | 推理增强医学影像基础模型 |
+| 3DINO | A generalizable 3D framework and model for self-supervised learning in medical imaging | Tony Xu et al. | 2025 | arXiv:2501.11755 | arXiv | 3D解剖自监督表征学习 |
+| DeepMedix-R1 | A Foundation Model for Chest X-ray Interpretation with Grounded Reasoning via Online Reinforcement Learning | DeepReasoning Team | 2025 | — | GitHub | 推理增强医学影像基础模型 |
 | MedImageInsight | MedImageInsight: An Open-Source Embedding Model for General Domain Medical Imaging | Noel C. F. Codella | 2024 | arXiv:2410.06542 | arXiv | 微软开源医学影像嵌入基础模型，覆盖14种成像模态，支持多种下游任务。 |
 | Curia | Curia: A Multi-Modal Foundation Model for Radiology | Corentin Dancette | 2025 | arXiv:2509.06830 | arXiv | 大规模放射学多模态基础模型，在150,000 CT/MRI检查（130TB数据）上训练，支持报告生成和图像理解。 |
 | Medical SAM3 | Medical SAM3: A Foundation Model for Universal Prompt-Driven Medical Image Segmentation | Chongcong Jiang | 2026 | arXiv:2601.10880 | arXiv | 基于SAM3的通用提示驱动医学图像分割基础模型，同时支持2D和3D医学数据。 |
@@ -1638,28 +1638,28 @@
 | Hibou | Hibou: A Family of Foundational Vision Transformers for Pathology | Dmitry Nechaev | 2024 | arXiv:2406.05074 | arXiv | HistAI病理学视觉Transformer系列（Hibou-B和Hibou-L），用于细胞检测、组织分类等任务。 |
 | Phikon | Scaling Self-Supervised Learning for Histopathology with Masked Image Modeling | Alexandre Filiot | 2023 | 10.1101/2023.07.21.23292757 | medRxiv | Owkin开发的组织病理学自监督基础模型，使用iBOT框架在大规模病理数据上训练。 |
 | Phikon-v2 | Phikon-v2, A large and public feature extractor for biomarker prediction | Alexandre Filiot | 2024 | arXiv:2409.09173 | arXiv | Phikon升级版，在4.6亿+病理图像块（55,000+切片、30+癌症类型）上训练，作为大规模公开特征提取器。 |
-| H-optimus-0 | H-optimus-0: An Open-Source AI Foundation Model for Pathology | (Bioptimus) | 2024 | (Bioptimus发布) | 商业发布 | 全球最大的开源病理AI基础模型(11亿参数)，在500,000+WSI上训练，由法国初创公司Bioptimus开发。 |
+| H-optimus-0 | H-optimus-0: An Open-Source AI Foundation Model for Pathology | Bioptimus | 2024 | github.com/bioptimus/releases | GitHub | 全球最大的开源病理AI基础模型(11亿参数)，在500,000+WSI上训练，由法国初创公司Bioptimus开发。 |
 | PathChat+ | A Clinical-Grade Agentic and Generative AI-Driven Copilot for Pathology | (Mahmood Lab) | 2025 | arXiv:2506.20964 | arXiv Preprint | PathChat的临床级升级版，在100万+病理特异性指令样本和550万QA对上训练。 |
 | UniBiomed | UniBiomed: A Universal Foundation Model for Grounded Biomedical Image Interpretation | Linshan Wu | 2025 | arXiv:2504.21336 | arXiv | 统一生物医学图像解读基础模型，整合多模态LLM和分割模型，支持同时对话和分割。 |
 | CHIEF | A pathology foundation model for cancer diagnosis and prognosis prediction | Xiyue Wang | 2024 | DOI:10.1038/s41586-024-07894-z | Nature 2024 | 通用临床组织病理学AI系统，在60,000+WSI（19种解剖部位）上预训练，支持癌症检测、分级和分子标志物预测。 |
-| Atlas | Atlas: A Whole-Slide Foundation Model for Computational Pathology | — | 2024 | — | arXiv | 全切片级病理基础模型 |
+| Atlas | Atlas: A Novel Pathology Foundation Model by Mayo Clinic, Charité, and Aignostics | Aignostics et al. | 2025 | arXiv:2501.05409 | arXiv | 全切片级病理基础模型 |
 | MUSK | A Vision-Language Foundation Model for Precision Oncology | Jinxi Xiang | 2024 | DOI:10.1038/s41586-025-08780-8 | Nature 2025 | 精准肿瘤学视觉-语言基础模型，支持多模态癌症诊断和预后预测。 |
 | PRISM | PRISM: A Multi-Modal Generative Foundation Model for Slide-Level Histopathology | Eugene Vorontsov | 2024 | arXiv:2405.10254 | arXiv preprint | 病理学多模态生成基础模型，整合视觉和分子信息进行切片级分析 |
 | PRISM2 | PRISM2: Unlocking Multi-Modal General Pathology AI with Clinical Dialogue | Eugene Vorontsov | 2025 | arXiv:2506.13063 | arXiv preprint | 多模态切片级基础模型，训练于70万诊断标本-报告对（230万WSI、1400万QA对），实现临床对话式通用病理AI |
-| PathOrchestra | PathOrchestra: A Comprehensive Foundation Model for Computational Pathology | — | 2025 | arXiv:2503.00203 | arXiv | 全面的计算病理基础模型，覆盖多种病理任务 |
+| PathOrchestra | PathOrchestra: a comprehensive foundation model for computational pathology | Fang Yan et al. | 2025 | 10.1038/s41746-025-02027-w | npj Digital Medicine | 全面的计算病理基础模型，覆盖多种病理任务 |
 | kaiko.ai | Towards Training Large-Scale Pathology Foundation Models | — | 2024 | — | arXiv | 大规模病理基础模型训练，提供多尺度ViT变体 |
-| RudolfV | A Foundation Model Connecting Pathology Images and Genomic Sequences | — | 2024 | arXiv:2401.09027 | arXiv | 连接病理图像和基因组序列的基础模型 |
+| RudolfV | RudolfV: A Foundation Model by Pathologists for Pathologists | Aignostics et al. | 2024 | arXiv:2401.04079 | arXiv | 由病理学家为病理学家打造的病理学基础模型 |
 | BEPH | A foundation model for generalizable cancer diagnosis and survival prediction from histopathological images | Zhaochang Yang | 2025 | doi:10.1038/s41467-025-57587-y | Nature Communications | 可泛化的癌症诊断与生存预测病理基础模型 |
-| GPFM | A Generalizable Pathology Foundation Model | — | 2024 | arXiv:2407.18807 | arXiv | 通用病理基础模型，在19万+WSI上训练 |
+| GPFM | Towards A Generalizable Pathology Foundation Model via Unified Knowledge Distillation | Jiabo Ma et al. | 2024 | arXiv:2407.18449 | arXiv | 通用病理基础模型，在19万+WSI上训练 |
 | mSTAR | Multi-Scale Tissue-Aware Representation | — | 2024 | arXiv:2407.15362 | arXiv | 多尺度组织感知表征学习 |
 | HIPT | Hierarchical Image Pyramid Transformer for Whole-Slide Image Analysis | Richard J. Chen | 2022 | arXiv:2206.02647 | CVPR 2022 | 分层图像金字塔Transformer，用于WSI的自监督学习 |
 | RetCCL | Retention-based Contrastive Learning for Histopathology | Xiyue Wang | 2022 | DOI:10.1016/j.media.2022.102645 | Medical Image Analysis 2023 | 基于保留的对比学习病理特征提取器 |
-| PathoDuet | Foundation Models for Pathological Image Analysis via Self-Supervised Learning | — | 2023 | arXiv:2312.09849 | arXiv | 双尺度自监督病理基础模型 |
+| PathoDuet | PathoDuet: Foundation Models for Pathological Slide Analysis of H&E and IHC Stains | Shengyi Hua et al. | 2023 | arXiv:2312.09894 | arXiv | 双尺度自监督病理基础模型 |
 | PLUTO | Pathology-Universal Transformer | — | 2023 | — | arXiv | 通用病理学Transformer |
 | COBRA | Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning | Tim Lenz | 2025 | doi:10.1109/cvpr52734.2025.02869 | CVPR 2025 | 无监督基础模型无关的切片级表征学习 |
 | THREADS | Molecular-driven Foundation Model for Oncologic Pathology | Anurag Vaidya | 2025 | arXiv:2501.16652 | arXiv Preprint | 分子驱动的肿瘤病理基础模型，47K+ H&E切片配对基因组/转录组多模态预训练 |
-| MADELEINE | Multimodal ADaptive LEarning with INtegrated Embeddings | — | 2024 | — | arXiv | 多模态自适应病理学习 |
-| Lunit-DINO | Benchmarking Self-Supervised Learning on Diverse Pathology Datasets | — | 2024 | — | arXiv | Lunit基于DINOv2的大规模病理预训练 |
+| MADELEINE | Multistain Pretraining for Slide Representation Learning in Pathology | Guillaume Jaume et al. | 2024 | arXiv:2408.02859 | arXiv | 多染色预训练病理切片表示学习 |
+| Lunit-DINO | Benchmarking Self-Supervised Learning on Diverse Pathology Datasets | Mingu Kang et al. (Lunit) | 2022 | arXiv:2212.04690 | arXiv | Lunit基于DINOv2的大规模病理预训练 |
 | Quilt-LLaVA | Visual Instruction Tuning for Histopathology | — | 2024 | arXiv:2312.04746 | arXiv | 病理学视觉指令微调多模态模型 |
 | Path Foundation | Developing and Validating a Foundation Model for Pathology | — | 2024 | Google HADF | Google HADF | Google开发的病理基础模型，Health AI Developer Foundations (HADF) 项目一部分 |
 | CONCH 1.5 | A Multimodal Whole-Slide Foundation Model for Pathology | — | 2025 | doi:10.1038/s41591-025-03982-3 | Nature Medicine | CONCH升级版，增强视觉-语言对齐，作为TITAN的视觉-语言骨干 |
@@ -1672,8 +1672,8 @@
 | GigaTIME | Multimodal AI generates virtual population for tumor microenvironment modeling | Jeya Maria Jose Valanarasu | 2026 | doi:10.1016/j.cell.2025.11.016 | Cell | 多模态AI框架，从H&E切片生成虚拟多重免疫荧光图像，基于4000万配对细胞和21种蛋白训练，覆盖14000+患者、24种癌型的群体规模肿瘤免疫微环境建模。 |
 | GenBio-PathFM | GenBio-PathFM: A State-of-the-Art Foundation Model for Histopathology | Saarthak Kapse | 2026 | 10.64898/2026.03.17.712534 | bioRxiv | 11亿参数的SOTA组织病理学基础模型，完全基于公开数据训练。 |
 | Atlas 2 | State-of-the-art pathology FM trained on 5.5M WSIs | Aignostics/Mayo | 2026 | arXiv:2601.05148 | arXiv | 550万全切片训练的病理学基础模型 |
-| LongViT | LongViT: Long-Context Vision Transformer for Pathology | — | 2024 | arXiv:2403.14576 | arXiv Preprint | 长上下文视觉Transformer，直接处理超大尺寸病理全切片图像 |
-| Pixel-Mamba | Pixel-Mamba: Efficient Mamba-Based Foundation Model for Computational Pathology | — | 2025 | arXiv | arXiv Preprint | 基于Mamba架构的高效计算病理基础模型，像素级处理 |
+| LongViT | When an Image is Worth 1,024 x 1,024 Words: A Case Study in Computational Pathology | Wenhui Wang et al. | 2023 | arXiv:2312.03558 | arXiv Preprint | 长上下文视觉Transformer，直接处理超大尺寸病理全切片图像 |
+| Pixel-Mamba | From Pixels to Gigapixels: Bridging Local Inductive Bias and Long-Range Dependencies for Whole Slide Imaging | Zhongwei Qiu et al. | 2024 | arXiv:2412.16711 | arXiv Preprint | 基于Mamba架构的高效计算病理基础模型，像素级处理 |
 | Virchow 2G | Virchow 2G: Scaling Self-Supervised Models to 1.9B Parameters for Pathology | — (Paige/Microsoft) | 2024 | arXiv:2408.00738 | arXiv Preprint | ViT-G架构1.9B参数病理基础模型，在310万WSI上训练（Virchow2系列最大版本） |
 | Campanella DINO | Campanella et al. (DINO): Self-Supervised ViT-S for Digital Pathology | — (Thomas Fuchs Lab) | 2024 | — | arXiv Preprint | ViT-S架构，DINOv1自监督训练于42万WSI的病理基础模型 |
 | Campanella MAE | Campanella et al. (MAE): Masked Autoencoder ViT-L for Digital Pathology | — (Thomas Fuchs Lab) | 2024 | — | arXiv Preprint | ViT-L架构，MAE自监督训练于42万WSI的病理基础模型 |
